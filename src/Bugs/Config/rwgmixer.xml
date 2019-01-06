@@ -1,0 +1,3 @@
+<config>
+  <setattribute xpath="/rwgmixer/prefab_rules/prefab_rule[@name='townGroup']/prefab[@rule='detailFillerGroup' and @prop='0.05']" name="prob">0.05</setattribute>
+</config>

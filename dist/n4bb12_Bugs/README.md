@@ -1,0 +1,1 @@
+- Fixes typos in XML files
