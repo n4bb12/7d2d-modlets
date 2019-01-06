@@ -1,0 +1,1 @@
+- Decreased the jump range by 33%, fat zombies cannot jump as far

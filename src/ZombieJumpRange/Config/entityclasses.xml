@@ -1,0 +1,13 @@
+<config>
+  <set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/property[@name='JumpMaxDistance' and @value='12']/@value">8</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSpider']/property[@name='JumpMaxDistance' and @value='8']/@value">5.33</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='JumpMaxDistance' and @value='4.8']/@value">3.2</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='JumpMaxDistance' and @value='3.3']/@value">2.2</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='JumpMaxDistance' and @value='0']/@value">1.1</set>
+  <append xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']">
+    <property name="JumpMaxDistance" value="1.1"/>
+  </append>
+  <append xpath="/entity_classes/entity_class[@name='zombieFemaleFat']">
+    <property name="JumpMaxDistance" value="1.1"/>
+  </append>
+</config>
