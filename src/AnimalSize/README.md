@@ -1,0 +1,6 @@
+- Increased stag size by 50%
+- Increased doe size by 25%
+- Decreased wolf size by 10%
+- Decreased dire wolf size by 20%
+- Decreased zombie bear size by 30%
+- Decreased bear size by 40%
