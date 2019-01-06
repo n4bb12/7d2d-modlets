@@ -1,0 +1,1 @@
+- Decreased the volume of suppressed gun fire perceived by zombies by 87.5% (equivalent of 160db --> 130db)
