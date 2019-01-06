@@ -1,0 +1,25 @@
+<config>
+  <!-- bones -->
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceFemur' and @count='10']/@count">16</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceFemur' and @count='5']/@count">8</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceFemur' and @count='3']/@count">5</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceFemur' and @count='2']/@count">3</set>
+  <!-- leather -->
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='2']/@count">2</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='4']/@count">3</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='6']/@count">3</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='7']/@count">4</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='9']/@count">5</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='10']/@count">5</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='12']/@count">6</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='15']/@count">8</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceLeather' and @count='70']/@count">35</set>
+  <!-- meat -->
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='foodRawMeat' and @count='10']/@count">2</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='foodRawMeat' and @count='20']/@count">4</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='foodRawMeat' and @count='25']/@count">5</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='foodRawMeat' and @count='30']/@count">6</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='foodRawMeat' and @count='35']/@count">7</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='foodRawMeat' and @count='50']/@count">10</set>
+  <set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='foodRawMeat' and @count='100']/@count">50</set>
+</config>
