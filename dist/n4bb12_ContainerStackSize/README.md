@@ -1,0 +1,3 @@
+- Capped stack sizes at 5000
+- Decreased stack size of Steak and Potato Meal from 500 to 50
+- Decreased stack size of Fish Tacos 500 to 50

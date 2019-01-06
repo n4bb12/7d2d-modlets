@@ -1,0 +1,9 @@
+<config>
+  <!-- cap at 5000 -->
+  <set xpath="/items/item/property[@name='Stacknumber' and @value='30000']/@value">5000</set>
+  <set xpath="/items/item/property[@name='Stacknumber' and @value='20000']/@value">5000</set>
+  <set xpath="/items/item/property[@name='Stacknumber' and @value='6000']/@value">5000</set>
+  <!-- food -->
+  <set xpath="/items/item[@name='foodSteakAndPotato']/property[@name='Stacknumber' and @value='500']/@value">50</set>
+  <set xpath="/items/item[@name='foodFishTacos']/property[@name='Stacknumber' and @value='500']/@value">50</set>
+</config>
