@@ -1,0 +1,7 @@
+- Increased drop chance for Magnum 44 by a lot
+- Increased drop chance for Crossbow by a lot
+- Decreased drop chance for Hunting Rifle by a little
+- Decreased drop chance for Shotgun by a little
+- Decreased drop chance for Pistol
+- Decreased drop chance for Compound Bow by a lot
+- Overall firearms are found less frequently
