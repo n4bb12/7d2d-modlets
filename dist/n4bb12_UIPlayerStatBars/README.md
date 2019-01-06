@@ -1,0 +1,1 @@
+- Adds Food, Water, Temperature and XP bars to the bottom left
