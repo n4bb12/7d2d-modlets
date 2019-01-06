@@ -1,0 +1,1 @@
+- Increased XP for harvesting resources by 50%
