@@ -1,0 +1,11 @@
+<config>
+  <remove xpath='/recipes/recipe[@name="resourcePaint"]'/>
+  <append xpath="/recipes">
+    <recipe name="resourcePaint" count="50" craft_area="chemistryStation">
+      <ingredient name="resourceCropChrysanthemumPlant" count="4"/>
+      <ingredient name="resourceCropCottonPlant" count="4"/>
+      <ingredient name="resourceCropGoldenrodPlant" count="4"/>
+      <ingredient name="bucketEmpty" count="1"/>
+    </recipe>
+  </append>
+</config>
