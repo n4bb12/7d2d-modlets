@@ -1,0 +1,35 @@
+<config>
+  <append xpath="/recipes">
+    <recipe name="modDyeRed" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceCropChrysanthemumPlant" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeGreen" craft_area="chemistryStation" count="1">
+      <ingredient name="foodCropYuccaFruit" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBlack" craft_area="chemistryStation" count="1">
+      <ingredient name="vehicleWheels" count="1"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBlue" craft_area="chemistryStation" count="1">
+      <ingredient name="foodCropBlueberries" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBrown" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceClayLump" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyePink" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceCropChrysanthemumPlant" count="4"/>
+      <ingredient name="medicalAloeCream" count="1"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+  </append>
+</config>
