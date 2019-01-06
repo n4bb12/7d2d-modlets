@@ -1,0 +1,2 @@
+- Decreased required XP per level by 20%
+- Decreased required XP per level increase by 33%
