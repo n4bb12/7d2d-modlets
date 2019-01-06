@@ -1,0 +1,6 @@
+- Increased the amount of animals spawned by a lot
+- Animals are more active at night
+- Rebalanced the amount of zombies spawned
+- Decreased the number of vultures by 50%
+- Removed vultures from snow biome
+- Zombies are more active at day
