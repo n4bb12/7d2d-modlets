@@ -1,0 +1,3 @@
+<config>
+  <set xpath="/quests/quest[@id='quest_BasicSurvival8']/reward[@type='SkillPoints' and @value='4']/@value">5</set>
+</config>
