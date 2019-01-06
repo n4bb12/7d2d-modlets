@@ -1,0 +1,4 @@
+<config>
+  <set xpath="/items/item[@name='meleeToolChainsaw']/effect_group/passive_effect[@name='EntityDamage' and @value='5']/@value">20</set>
+  <set xpath="/items/item[@name='meleeToolAuger']/effect_group/passive_effect[@name='EntityDamage' and @value='3.5']/@value">14</set>
+</config>
