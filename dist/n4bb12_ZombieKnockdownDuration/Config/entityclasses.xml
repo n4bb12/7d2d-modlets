@@ -1,0 +1,4 @@
+<config>
+  <set xpath="/entity_classes/entity_class/property[@name='KnockdownProneStunDuration' and @value='0.5,1.8']/@value">0.5,5</set>
+  <set xpath="/entity_classes/entity_class/property[@name='KnockdownKneelStunDuration' and @value='0.5,1.8']/@value">0.5,5</set>
+</config>

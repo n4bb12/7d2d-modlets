@@ -1,0 +1,1 @@
+- Increased potential knockdown duration to between 0.5 and 5 seconds - makes the behaviour more random
