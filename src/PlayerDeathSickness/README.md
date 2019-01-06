@@ -1,0 +1,1 @@
+- Decreased sickness duration by 50% to 15 minutes
