@@ -1,0 +1,1 @@
+- Decreased stamina loss from running, jumping and swimming by 20%
