@@ -1,6 +1,6 @@
 {
   "name": "@n4bb12/7dtd-balance",
-  "version": "1.0.0",
+  "version": "17.b240.0",
   "private": true,
   "description": "Balance changes for 7 Days to Die",
   "keywords": [
@@ -14,5 +14,16 @@
   "repository": "github:n4bb12/7dtd-balance",
   "license": "ISC",
   "author": "Abraham Schilling",
+  "scripts": {
+    "build": "node build",
+    "copy": "node copy",
+    "update": "yarn build && yarn copy",
+    "watch": "nodemon --watch src --watch build.js --ext xml,md,js --exec yarn update"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "node-notifier": "^5.3.0",
+    "nodemon": "^1.18.9"
+  },
   "$schema": "http://json.schemastore.org/package"
 }
