@@ -1,0 +1,18 @@
+{
+  "name": "@n4bb12/7dtd-balance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Balance changes for 7 Days to Die",
+  "keywords": [
+    "7 days to die",
+    "balance",
+    "mod",
+    "modlet"
+  ],
+  "homepage": "https://github.com/n4bb12/7dtd-balance/blob/master/README.md",
+  "bugs": "https://github.com/n4bb12/7dtd-balance/issues",
+  "repository": "github:n4bb12/7dtd-balance",
+  "license": "ISC",
+  "author": "Abraham Schilling",
+  "$schema": "http://json.schemastore.org/package"
+}
