@@ -18,7 +18,7 @@
     "build": "node build",
     "copy": "node copy",
     "update": "yarn build && yarn copy",
-    "watch": "nodemon --watch src --watch build.js --ext xml,md,js --exec yarn update"
+    "watch": "nodemon --watch src/**/* --watch *.js --ext xml,md,js --exec yarn update"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
