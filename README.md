@@ -8,10 +8,10 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/n4bb12/7dtd-balance/master/LICENSE">
-    <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/7dtd-balance?icon=github">
+  <a href="https://raw.githubusercontent.com/n4bb12/7d2d-balance/master/LICENSE">
+    <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/7d2d-balance?icon=github">
   </a>
-  <a href="https://github.com/n4bb12/7dtd-balance/issues/new/choose">
+  <a href="https://github.com/n4bb12/7d2d-balance/issues/new/choose">
     <img alt="Issues" src="https://flat.badgen.net/badge/github/create issue/pink?icon=github">
   </a>
 </p>

@@ -8,6 +8,15 @@
   Re-balancing the game to make it more fun
 </p>
 
+<p align="center">
+  <a href="https://raw.githubusercontent.com/n4bb12/7d2d-balance/master/LICENSE">
+    <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/7d2d-balance?icon=github">
+  </a>
+  <a href="https://github.com/n4bb12/7d2d-balance/issues/new/choose">
+    <img alt="Issues" src="https://flat.badgen.net/badge/github/create issue/pink?icon=github">
+  </a>
+</p>
+
 ## Usage
 
 Copy individual folders to your 7 Days to Die `Mods` folder.
