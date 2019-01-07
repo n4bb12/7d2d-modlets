@@ -11,14 +11,14 @@ json.gamestages.spawner.find(s => s._name === "WanderingHorde").gamestage.forEac
       gamestages.push({
         stage: gs._stage,
         group,
-        num: +s._num,
+        num: s._num,
       })
     }
   })
 })
 
 const result = gamestages
-  .map(gs => `<set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="${gs.stage}"]/spawn[@group="${gs.group}" and @num="${gs.num}"]/@num'>${gs.num * factor}</set>`)
+  .map(gs => `<set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="${gs.stage}"]/spawn[@group="${gs.group}" and @num="${gs.num}"]/@num'>${+gs.num * factor}</set>`)
   .join("\n")
 
-console.log(result)
+console.log(`<config>${result}</config>`)
