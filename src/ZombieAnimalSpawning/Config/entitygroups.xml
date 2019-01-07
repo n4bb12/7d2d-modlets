@@ -1,5 +1,5 @@
 <config>
-  <append xpath="/entitygroups">
+  <append xpath='/entitygroups'>
     <!-- Add friendly animals to wasteland -->
     <entitygroup name="FriendlyAnimalsWasteland">
       <entity name="invisibleAnimal" prob="0.01"/>
@@ -12,19 +12,19 @@
     </entitygroup>
   </append>
   <!-- Increase animal spawn probability -->
-  <set xpath="/entitygroups/entitygroup/entity[@name='invisibleAnimalEnemy']/@prob">1</set>
-  <set xpath="/entitygroups/entitygroup/entity[@name='invisibleAnimal']/@prob">0.01</set>
+  <set xpath='/entitygroups/entitygroup/entity[@name="invisibleAnimalEnemy"]/@prob'>1</set>
+  <set xpath='/entitygroups/entitygroup/entity[@name="invisibleAnimal"]/@prob'>0.01</set>
   <!-- Reduce vulture spawn probability -->
-  <set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/entity[@name='animalZombieVulture' and @prob='0.6']/@prob">0.3</set>
-  <set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNightNoBears']/entity[@name='animalZombieVulture' and @prob='0.6']/@prob">0.3</set>
-  <set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2']/entity[@name='animalZombieVulture' and @prob='0.6']/@prob">0.3</set>
-  <setattribute xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/entity[@name='animalZombieVulture']" name="prob">0.5</setattribute>
-  <setattribute xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/entity[@name='animalZombieVulture']" name="prob">0.5</setattribute>
-  <setattribute xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']/entity[@name='animalZombieVulture']" name="prob">0.5</setattribute>
-  <setattribute xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/entity[@name='animalZombieVulture']" name="prob">0.5</setattribute>
-  <set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/entity[@name='animalZombieVultureRadiated' and @prob='0.4']/@prob">0.2</set>
-  <set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNightNoBears']/entity[@name='animalZombieVultureRadiated' and @prob='0.4']/@prob">0.2</set>
-  <set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2']/entity[@name='animalZombieVultureRadiated' and @prob='0.4']/@prob">0.2</set>
+  <set xpath='/entitygroups/entitygroup[@name="ZombiesWastelandNight"]/entity[@name="animalZombieVulture" and @prob="0.6"]/@prob'>0.3</set>
+  <set xpath='/entitygroups/entitygroup[@name="ZombiesWastelandNightNoBears"]/entity[@name="animalZombieVulture" and @prob="0.6"]/@prob'>0.3</set>
+  <set xpath='/entitygroups/entitygroup[@name="ZombiesWastelandNight2"]/entity[@name="animalZombieVulture" and @prob="0.6"]/@prob'>0.3</set>
+  <setattribute xpath='/entitygroups/entitygroup[@name="EnemyAnimalsDesert"]/entity[@name="animalZombieVulture"]' name='prob'>0.5</setattribute>
+  <setattribute xpath='/entitygroups/entitygroup[@name="EnemyAnimalsBurntForest"]/entity[@name="animalZombieVulture"]' name='prob'>0.5</setattribute>
+  <setattribute xpath='/entitygroups/entitygroup[@name="EnemyAnimalsPlains"]/entity[@name="animalZombieVulture"]' name='prob'>0.5</setattribute>
+  <setattribute xpath='/entitygroups/entitygroup[@name="EnemyAnimalsWasteland"]/entity[@name="animalZombieVulture"]' name='prob'>0.5</setattribute>
+  <set xpath='/entitygroups/entitygroup[@name="ZombiesWastelandNight"]/entity[@name="animalZombieVultureRadiated" and @prob="0.4"]/@prob'>0.2</set>
+  <set xpath='/entitygroups/entitygroup[@name="ZombiesWastelandNightNoBears"]/entity[@name="animalZombieVultureRadiated" and @prob="0.4"]/@prob'>0.2</set>
+  <set xpath='/entitygroups/entitygroup[@name="ZombiesWastelandNight2"]/entity[@name="animalZombieVultureRadiated" and @prob="0.4"]/@prob'>0.2</set>
   <!-- Remove vultures from snow biome -->
-  <remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/entity[@name='animalZombieVulture']"/>
+  <remove xpath='/entitygroups/entitygroup[@name="EnemyAnimalsSnow"]/entity[@name="animalZombieVulture"]'/>
 </config>

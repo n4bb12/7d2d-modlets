@@ -1,5 +1,5 @@
 <config>
-  <append xpath="/item_modifiers">
+  <append xpath='/item_modifiers'>
     <item_modifier name="modDyeYellow" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
       <property name="DescriptionKey" value="modDyeGroupDesc"/>
       <property name="Stacknumber" value="1"/>

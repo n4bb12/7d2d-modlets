@@ -1,6 +1,6 @@
 <config>
   <!-- Crafted Storage Chest -->
-  <set xpath="/lootcontainers/lootcontainer[@id='1' and @size='8,9']/@size">9,9</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="1" and @size="8,9"]/@size'>9,9</set>
   <!-- 4x4 Truck -->
-  <set xpath="/lootcontainers/lootcontainer[@id='79' and @size='9,7']/@size">9,9</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="79" and @size="9,7"]/@size'>9,9</set>
 </config>

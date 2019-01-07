@@ -1,14 +1,14 @@
 <config>
-  <append xpath="/blocks/block[@name='cntCar03SedanDamage0']">
+  <append xpath='/blocks/block[@name="cntCar03SedanDamage0"]'>
     <drop event="Harvest" name="vehicleWheels" count="1" prob="0.1" tag="salvageHarvest"/>
   </append>
-  <append xpath="/blocks/block[@name='cntCar03SedanDamage1']">
+  <append xpath='/blocks/block[@name="cntCar03SedanDamage1"]'>
     <drop event="Harvest" name="vehicleWheels" count="1" prob="0.1" tag="salvageHarvest"/>
   </append>
-  <append xpath="/blocks/block[@name='cntCar03SedanDamage2']">
+  <append xpath='/blocks/block[@name="cntCar03SedanDamage2"]'>
     <drop event="Harvest" name="vehicleWheels" count="1" prob="0.1" tag="salvageHarvest"/>
   </append>
-  <append xpath="/blocks/block[@name='tire']">
+  <append xpath='/blocks/block[@name="tire"]'>
     <drop event="Destroy" name="vehicleWheels" count="1" prob="0.1" tag="salvageHarvest"/>
   </append>
 </config>

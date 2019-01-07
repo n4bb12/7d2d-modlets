@@ -7,7 +7,7 @@
   <remove xpath='/spawning/biome[@name="wasteland"]'/>
   <remove xpath='/spawning/biome[@name="burnt_forest"]'/>
   <remove xpath='/spawning/biome[@name="snow"]'/>
-  <append xpath="/spawning">
+  <append xpath='/spawning'>
     <biome name="city">
       <spawn entitygroup="ZombiesAll"                 time="Day"   maxcount="20" respawndelay="2"/>
       <spawn entitygroup="ZombieDogGroup"             time="Day"   maxcount="2" respawndelay="2"/>

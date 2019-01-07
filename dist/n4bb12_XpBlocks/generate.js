@@ -12,7 +12,7 @@ json.materials.material.forEach(m => {
 })
 const result = Object.keys(materials)
   .sort((a, b) => +a - +b)
-  .map(value => `<set xpath="/materials/material/property[@name='Experience' and @value='${value}']/@value">${(value * factor).toFixed(2)}</set>`)
+  .map(value => `<set xpath='/materials/material/property[@name="Experience" and @value="${value}"]/@value'>${(value * factor).toFixed(2)}</set>`)
   .join("\n")
 
 console.log(result)

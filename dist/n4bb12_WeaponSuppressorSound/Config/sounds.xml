@@ -1,17 +1,17 @@
 <config>
   <!-- Zombies hear suppressed gun fire 87.5% less loud -->
   <!-- standing -->
-  <set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/NoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/NoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/NoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/NoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/NoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/NoiseScale[@value='1']/@value">0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="pistol_s_fire"]/NoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="pump_shotgun_s_fire"]/NoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="ak47_s_fire"]/NoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="mp5_s_fire"]/NoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="sniperrifle_s_fire"]/NoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="hunting_rifle_s_fire"]/NoiseScale[@value="1"]/@value'>0.125</set>
   <!-- crouching -->
-  <set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/CrouchNoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/CrouchNoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/CrouchNoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/CrouchNoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/CrouchNoiseScale[@value='1']/@value">0.125</set>
-  <set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/CrouchNoiseScale[@value='1']/@value">0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="pistol_s_fire"]/CrouchNoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="pump_shotgun_s_fire"]/CrouchNoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="ak47_s_fire"]/CrouchNoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="mp5_s_fire"]/CrouchNoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="sniperrifle_s_fire"]/CrouchNoiseScale[@value="1"]/@value'>0.125</set>
+  <set xpath='/Sounds/SoundDataNode[@name="hunting_rifle_s_fire"]/CrouchNoiseScale[@value="1"]/@value'>0.125</set>
 </config>

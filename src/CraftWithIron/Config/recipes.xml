@@ -6,7 +6,7 @@
   <remove xpath='/recipes/recipe[@name="rebarFrameRamp"]'/>
   <remove xpath='/recipes/recipe[@name="resourceArrowHeadIron"]'/>
   <remove xpath='/recipes/recipe[@name="resourceArrowHeadSteelAP"]'/>
-  <append xpath="/recipes">
+  <append xpath='/recipes'>
     <!-- Bucket -->
     <recipe name="bucketEmpty" count="1">
       <ingredient name="resourceForgedIron" count="5"/>

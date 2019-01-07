@@ -1,9 +1,9 @@
 <config>
   <!-- loot groups -->
-  <remove xpath="/lootcontainers/lootgroup[@name='weaponsBasicGuns+ammo']"/>
-  <remove xpath="/lootcontainers/lootgroup[@name='toiletLoot']"/>
-  <remove xpath="/lootcontainers/lootgroup[@name='backpacks']"/>
-  <insertBefore xpath="/lootcontainers/lootgroup[@name='weaponTestLoot']">
+  <remove xpath='/lootcontainers/lootgroup[@name="weaponsBasicGuns+ammo"]'/>
+  <remove xpath='/lootcontainers/lootgroup[@name="toiletLoot"]'/>
+  <remove xpath='/lootcontainers/lootgroup[@name="backpacks"]'/>
+  <insertBefore xpath='/lootcontainers/lootgroup[@name="weaponTestLoot"]'>
     <lootgroup name="weaponsBasicGuns+ammo">
       <item group="weaponsMagnum+ammo" prob="0.8"/>
       <item group="weaponsHuntingRifle+ammo" prob="0.4"/>
@@ -26,63 +26,63 @@
     </lootgroup>
   </insertBefore>
   <!-- night stand, dressers, wooden desk -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='6']/item[@group='weaponsPistol+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='6']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="6"]/item[@group="weaponsPistol+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="6"]'>
     <item group="weaponsMagnum+ammo" prob="0.8"/>
     <item group="weaponsPistol+ammo" prob="0.4"/>
   </append>
   <!-- metal desk -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='24']/item[@group='weaponsPistol+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='24']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="24"]/item[@group="weaponsPistol+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="24"]'>
     <item group="weaponsMagnum+ammo" prob="0.8"/>
     <item group="weaponsPistol+ammo" prob="0.4"/>
   </append>
   <!-- tree stump -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='35']/item[@group='weaponsBasicGuns+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='35']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="35"]/item[@group="weaponsBasicGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="35"]'>
     <item group="weaponsMagnum+ammo" prob="0.8"/>
     <item group="weaponsPistol+ammo" prob="0.4"/>
   </append>
   <!-- lockers -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='43']/item[@group='weaponsShotgun+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='43']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="43"]/item[@group="weaponsShotgun+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="43"]'>
     <item group="weaponsHuntingRifle+ammo" prob="0.04"/>
     <item group="weaponsShotgun+ammo" prob="0.04"/>
     <item name="gunCompoundBow" prob="0.02"/>
     <item name="gunCrossbow" prob="0.01"/>
   </append>
   <!-- purse -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='48']/item[@group='weaponsPistol+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='48']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="48"]/item[@group="weaponsPistol+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="48"]'>
     <item group="weaponsMagnum+ammo" prob="0.2"/>
     <item group="weaponsPistol+ammo" prob="0.1"/>
   </append>
   <!-- regular zombies -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='70']/item[@group='weaponsPistol+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='70']/item[@group='weaponsShotgun+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='70']/item[@group='weaponsHuntingRifle+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='70']/item[@group='weaponsMagnum+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='70']/item[@group='weaponsMilitaryGuns+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='70']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsPistol+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsShotgun+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsHuntingRifle+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsMagnum+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsMilitaryGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="70"]'>
     <item group="weaponsBasicGuns+ammo" loot_prob_template="probTemplate1.0"/>
     <item group="weaponsMilitaryGuns+ammo" loot_prob_template="probTemplate0.5"/>
   </append>
   <!-- strong zombies -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='71']/item[@group='weaponsPistol+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='71']/item[@group='weaponsShotgun+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='71']/item[@group='weaponsHuntingRifle+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='71']/item[@group='weaponsMagnum+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='70']/item[@group='weaponsMilitaryGuns+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='71']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsPistol+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsShotgun+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsHuntingRifle+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsMagnum+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsMilitaryGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="71"]'>
     <item group="weaponsBasicGuns+ammo" loot_prob_template="probTemplate0.5"/>
     <item group="weaponsMilitaryGuns+ammo" loot_prob_template="probTemplate1.0"/>
   </append>
   <!-- bandit -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='74']/item[@group='weaponsPistol+ammo']"/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="74"]/item[@group="weaponsPistol+ammo"]'/>
   <!-- small weapons bag -->
-  <remove xpath="/lootcontainers/lootcontainer[@id='100']/item[@group='weaponsPistol+ammo']"/>
-  <remove xpath="/lootcontainers/lootcontainer[@id='100']/item[@group='weaponsMagnum+ammo']"/>
-  <append xpath="/lootcontainers/lootcontainer[@id='100']">
+  <remove xpath='/lootcontainers/lootcontainer[@id="100"]/item[@group="weaponsPistol+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="100"]/item[@group="weaponsMagnum+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="100"]'>
     <item group="weaponsMagnum+ammo" loot_prob_template="probTemplate1.0"/>
     <item group="weaponsPistol+ammo" loot_prob_template="probTemplate0.75"/>
   </append>

@@ -1,5 +1,5 @@
 <config>
-  <append xpath="/recipes">
+  <append xpath='/recipes'>
     <!-- Convert bolts to arrows -->
     <recipe name="ammoArrowStone" count="1">
       <ingredient name="ammoCrossbowBoltStone" count="1"/>

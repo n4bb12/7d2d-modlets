@@ -1,11 +1,11 @@
 <config>
   <!-- delete vanilla xp bar -->
-  <remove xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='2']"/>
-  <remove xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='3']"/>
-  <remove xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='4']"/>
-  <remove xpath="/windows/window[@name='HUDLeftStatBars']"/>
+  <remove xpath='/windows/window[@name="windowToolbelt"]/rect/sprite[@depth="2"]'/>
+  <remove xpath='/windows/window[@name="windowToolbelt"]/rect/sprite[@depth="3"]'/>
+  <remove xpath='/windows/window[@name="windowToolbelt"]/rect/sprite[@depth="4"]'/>
+  <remove xpath='/windows/window[@name="HUDLeftStatBars"]'/>
   <!-- new bars -->
-  <append xpath="/windows">
+  <append xpath='/windows'>
     <window name="HUDLeftStatBars">
       <rect name="hud" pos="10,329" rows="7" cols="1" width="200" side="right">
         <rect width="200" height="43" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}" pos="0,0">

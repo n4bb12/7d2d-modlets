@@ -1,26 +1,26 @@
 <config>
   <!-- Stag -->
-  <append xpath="/entity_classes/entity_class[@name='animalStag']">
+  <append xpath='/entity_classes/entity_class[@name="animalStag"]'>
     <property name="SizeScale" value="1.5"/>
   </append>
   <!-- Doe -->
-  <append xpath="/entity_classes/entity_class[@name='animalDoe']">
+  <append xpath='/entity_classes/entity_class[@name="animalDoe"]'>
     <property name="SizeScale" value="1.25"/>
   </append>
   <!-- Wolf -->
-  <append xpath="/entity_classes/entity_class[@name='animalWolf']">
+  <append xpath='/entity_classes/entity_class[@name="animalWolf"]'>
     <property name="SizeScale" value="0.9"/>
   </append>
   <!-- Dire Wolf -->
-  <append xpath="/entity_classes/entity_class[@name='animalDireWolf']">
+  <append xpath='/entity_classes/entity_class[@name="animalDireWolf"]'>
     <property name="SizeScale" value="0.8"/>
   </append>
   <!-- Zombie Bear -->
-  <append xpath="/entity_classes/entity_class[@name='animalZombieBear']">
+  <append xpath='/entity_classes/entity_class[@name="animalZombieBear"]'>
     <property name="SizeScale" value="0.7"/>
   </append>
   <!-- Bear -->
-  <append xpath="/entity_classes/entity_class[@name='animalBear']">
+  <append xpath='/entity_classes/entity_class[@name="animalBear"]'>
     <property name="SizeScale" value="0.6"/>
   </append>
 </config>

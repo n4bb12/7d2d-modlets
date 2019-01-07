@@ -1,4 +1,4 @@
 <config>
-  <set xpath="/controls/count_control_input/panel[@controller='TextInput' and @character_limit='3']/@character_limit">4</set>
-  <set xpath="/controls/count_control_input/panel[@controller='TextInput' and @width='30']/@width">40</set>
+  <set xpath='/controls/count_control_input/panel[@controller="TextInput" and @character_limit="3"]/@character_limit'>4</set>
+  <set xpath='/controls/count_control_input/panel[@controller="TextInput" and @width="30"]/@width'>40</set>
 </config>
