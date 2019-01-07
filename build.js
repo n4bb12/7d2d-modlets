@@ -1,4 +1,4 @@
-const { ensureDirSync, readFileSync, readdirSync, writeFileSync, copySync } = require("fs-extra")
+const { ensureDirSync, readFileSync, readdirSync, removeSync, writeFileSync, copySync } = require("fs-extra")
 
 const version = require("./package.json").version
 const descriptions = [`
@@ -18,7 +18,7 @@ Copy individual folders to your 7 Days to Die \`Mods\` folder.
 ## Modlets
 `]
 
-readdirSync("dist")
+removeSync("dist")
 readdirSync("src").map(name => {
   const srcDir = "src/" + name
   const distDir = "dist/n4bb12_" + name
