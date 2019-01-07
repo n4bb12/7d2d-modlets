@@ -89,6 +89,11 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 - Increased the amount of harvested bones by 60%
 
 
+#### LootCars
+
+- Remove ammo from car loot tables
+
+
 #### LootDoorknobs
 
 - Destroying doors with a knob yields a brass doorknob
