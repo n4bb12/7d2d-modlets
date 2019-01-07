@@ -1,7 +1,8 @@
 <config>
-  <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT' and @tags='running' and @value='1.5']/@value">1.2</set>
-  <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT' and @tags='swimming' and @value='.75']/@value">.6</set>
-  <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT' and @tags='crouching,walking' and @value='.3']/@value">.24</set>
-  <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss' and @tags='jumping' and @value='20']/@value">16</set>
-  <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss' and @tags='swimming' and @value='40']/@value">32</set>
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="StaminaChangeOT" and @value="10"]/@value'>10</set>
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="StaminaChangeOT" and @tags="running" and @value="1.5"]/@value'>1.2</set>
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="StaminaChangeOT" and @tags="swimming" and @value=".75"]/@value'>.6</set>
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="StaminaChangeOT" and @tags="crouching,walking" and @value=".3"]/@value'>.24</set>
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="StaminaLoss" and @tags="jumping" and @value="20"]/@value'>16</set>
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="StaminaLoss" and @tags="swimming" and @value="40"]/@value'>32</set>
 </config>
