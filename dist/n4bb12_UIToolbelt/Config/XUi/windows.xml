@@ -1,0 +1,17 @@
+<config>
+  <set xpath='/windows/window[@name="windowToolbelt"]/@height'>98</set>
+  <set xpath='/windows/window[@name="windowToolbelt"]/@pos'>-313, 98</set>
+  <setattribute xpath='/windows/window[@name="windowToolbelt"]' name="height">78</setattribute>
+  <append xpath='/windows/window[@name="windowToolbelt"]'>
+    <grid pos="3, -78" rows="1" cols="8" cell_width="75" cell_height="75" repeat_content="false">
+      <label width="75" height="20" text="1" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+      <label width="75" height="20" text="2" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+      <label width="75" height="20" text="3" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+      <label width="75" height="20" text="4" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+      <label width="75" height="20" text="5" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+      <label width="75" height="20" text="6" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+      <label width="75" height="20" text="7" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+      <label width="75" height="20" text="8" font_size="18" color="[white_quarter_alpha]" effect="outline" justify="center" />
+    </grid>
+  </append>
+</config>
