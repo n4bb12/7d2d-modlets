@@ -1,5 +1,4 @@
-// http://convertjson.com/xml-to-json.htm
-
+const json = require(process.cwd() + "/config/gamestages")
 const factor = 5
 const gamestages = []
 

@@ -1,23 +1,254 @@
 <config>
-  <set xpath='/materials/material/property[@name="Experience" and @value="0"]/@value'>0.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value=".5"]/@value'>1.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value=".7"]/@value'>1.40</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value=".75"]/@value'>1.50</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value=".8"]/@value'>1.60</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="1"]/@value'>2.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="1.0"]/@value'>2.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="2"]/@value'>4.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="2.0"]/@value'>4.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="3"]/@value'>6.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="3.0"]/@value'>6.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="4.0"]/@value'>8.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="4.5"]/@value'>9.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="5"]/@value'>10.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="5.0"]/@value'>10.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="10"]/@value'>20.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="20.0"]/@value'>40.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="30"]/@value'>60.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="50"]/@value'>100.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="50.0"]/@value'>100.00</set>
-  <set xpath='/materials/material/property[@name="Experience" and @value="80"]/@value'>160.00</set>
+  <!-- barbedFence -->
+  <set xpath='/materials/material[@id="MbarbedFence"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- toolBellows -->
+  <set xpath='/materials/material[@id="MtoolBellows"]/property[@name="Experience" and @value="50"]/@value'>100</set>
+  <!-- trapSpikesWood -->
+  <set xpath='/materials/material[@id="MtrapSpikesWood"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- trapSpikesIron -->
+  <set xpath='/materials/material[@id="MtrapSpikesIron"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- organic -->
+  <set xpath='/materials/material[@id="Morganic"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- dirt -->
+  <set xpath='/materials/material[@id="Mdirt"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- forestGround -->
+  <set xpath='/materials/material[@id="MforestGround"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- farmland -->
+  <set xpath='/materials/material[@id="Mfarmland"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- fertilizedFarmland -->
+  <set xpath='/materials/material[@id="MfertilizedFarmland"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- plants -->
+  <set xpath='/materials/material[@id="Mplants"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- leaves -->
+  <set xpath='/materials/material[@id="Mleaves"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- mushrooms -->
+  <set xpath='/materials/material[@id="Mmushrooms"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- cactus -->
+  <set xpath='/materials/material[@id="Mcactus"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- corn -->
+  <set xpath='/materials/material[@id="Mcorn"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- tallgrass -->
+  <set xpath='/materials/material[@id="Mtallgrass"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- bridge_asphalt -->
+  <set xpath='/materials/material[@id="Mbridge_asphalt"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- bridge_metal -->
+  <set xpath='/materials/material[@id="Mbridge_metal"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- bridge_concrete -->
+  <set xpath='/materials/material[@id="Mbridge_concrete"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- bridge_wood -->
+  <set xpath='/materials/material[@id="Mbridge_wood"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- gravel -->
+  <set xpath='/materials/material[@id="Mgravel"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- rubble -->
+  <set xpath='/materials/material[@id="Mrubble"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- stone -->
+  <set xpath='/materials/material[@id="Mstone"]/property[@name="Experience" and @value="1.0"]/@value'>2</set>
+  <!-- concrete -->
+  <set xpath='/materials/material[@id="Mconcrete"]/property[@name="Experience" and @value="2"]/@value'>4</set>
+  <!-- rConcrete -->
+  <set xpath='/materials/material[@id="MrConcrete"]/property[@name="Experience" and @value="2"]/@value'>4</set>
+  <!-- bedrock -->
+  <set xpath='/materials/material[@id="Mbedrock"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- coal -->
+  <set xpath='/materials/material[@id="Mcoal"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- brick -->
+  <set xpath='/materials/material[@id="Mbrick"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- stone_scrap -->
+  <set xpath='/materials/material[@id="Mstone_scrap"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- iron_scrap -->
+  <set xpath='/materials/material[@id="Miron_scrap"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- brass_scrap -->
+  <set xpath='/materials/material[@id="Mbrass_scrap"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- lead_scrap -->
+  <set xpath='/materials/material[@id="Mlead_scrap"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- metal_weak -->
+  <set xpath='/materials/material[@id="Mmetal_weak"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- metal_frame -->
+  <set xpath='/materials/material[@id="Mmetal_frame"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- metal_rebar -->
+  <set xpath='/materials/material[@id="Mmetal_rebar"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- metal_thin -->
+  <set xpath='/materials/material[@id="Mmetal_thin"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- metal -->
+  <set xpath='/materials/material[@id="Mmetal"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- metal_medium -->
+  <set xpath='/materials/material[@id="Mmetal_medium"]/property[@name="Experience" and @value=".5"]/@value'>1</set>
+  <!-- metal_hard -->
+  <set xpath='/materials/material[@id="Mmetal_hard"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- metalCatwalk -->
+  <set xpath='/materials/material[@id="MmetalCatwalk"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- iron -->
+  <set xpath='/materials/material[@id="Miron"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- steel -->
+  <set xpath='/materials/material[@id="Msteel"]/property[@name="Experience" and @value="3"]/@value'>6</set>
+  <!-- stainlessSteel -->
+  <set xpath='/materials/material[@id="MstainlessSteel"]/property[@name="Experience" and @value="3"]/@value'>6</set>
+  <!-- Dynamite -->
+  <set xpath='/materials/material[@id="MDynamite"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- LandMine -->
+  <set xpath='/materials/material[@id="MLandMine"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- FuelBarrel -->
+  <set xpath='/materials/material[@id="MFuelBarrel"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- DesertGround -->
+  <set xpath='/materials/material[@id="MDesertGround"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- sand -->
+  <set xpath='/materials/material[@id="Msand"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- sandstone -->
+  <set xpath='/materials/material[@id="Msandstone"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- hay -->
+  <set xpath='/materials/material[@id="Mhay"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- paper -->
+  <set xpath='/materials/material[@id="Mpaper"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- trash -->
+  <set xpath='/materials/material[@id="Mtrash"]/property[@name="Experience" and @value="0"]/@value'>0</set>
+  <!-- leather -->
+  <set xpath='/materials/material[@id="Mleather"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- wood -->
+  <set xpath='/materials/material[@id="Mwood"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- wood_regular -->
+  <set xpath='/materials/material[@id="Mwood_regular"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- wood_weak -->
+  <set xpath='/materials/material[@id="Mwood_weak"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- wood_ladders -->
+  <set xpath='/materials/material[@id="Mwood_ladders"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- woodReinforced -->
+  <set xpath='/materials/material[@id="MwoodReinforced"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- woodMetal -->
+  <set xpath='/materials/material[@id="MwoodMetal"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- woodCatwalk -->
+  <set xpath='/materials/material[@id="MwoodCatwalk"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- treeWoodSmall -->
+  <set xpath='/materials/material[@id="MtreeWoodSmall"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- treeWoodMedium -->
+  <set xpath='/materials/material[@id="MtreeWoodMedium"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- treeWoodLarge -->
+  <set xpath='/materials/material[@id="MtreeWoodLarge"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- treeWoodFull -->
+  <set xpath='/materials/material[@id="MtreeWoodFull"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- barbedWire -->
+  <set xpath='/materials/material[@id="MbarbedWire"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- clothStable -->
+  <set xpath='/materials/material[@id="MclothStable"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- glass -->
+  <set xpath='/materials/material[@id="Mglass"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- glassBulletproof -->
+  <set xpath='/materials/material[@id="MglassBulletproof"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- snow -->
+  <set xpath='/materials/material[@id="Msnow"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- web -->
+  <set xpath='/materials/material[@id="Mweb"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- CardboardLoot -->
+  <set xpath='/materials/material[@id="MCardboardLoot"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- furniture -->
+  <set xpath='/materials/material[@id="Mfurniture"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- lead -->
+  <set xpath='/materials/material[@id="Mlead"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- brass -->
+  <set xpath='/materials/material[@id="Mbrass"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- droppedBackpack -->
+  <set xpath='/materials/material[@id="MdroppedBackpack"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- boulder -->
+  <set xpath='/materials/material[@id="Mboulder"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- cobblestone -->
+  <set xpath='/materials/material[@id="Mcobblestone"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- metalNoGlue -->
+  <set xpath='/materials/material[@id="MmetalNoGlue"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- stoneNoGlue -->
+  <set xpath='/materials/material[@id="MstoneNoGlue"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- plastics -->
+  <set xpath='/materials/material[@id="Mplastics"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- electricParts -->
+  <set xpath='/materials/material[@id="MelectricParts"]/property[@name="Experience" and @value="2"]/@value'>4</set>
+  <!-- electronicParts -->
+  <set xpath='/materials/material[@id="MelectronicParts"]/property[@name="Experience" and @value="3.0"]/@value'>6</set>
+  <!-- mechanicalParts -->
+  <set xpath='/materials/material[@id="MmechanicalParts"]/property[@name="Experience" and @value="3.0"]/@value'>6</set>
+  <!-- RockSmall -->
+  <set xpath='/materials/material[@id="MresourceRockSmall"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- SnowBall -->
+  <set xpath='/materials/material[@id="MresourceSnowBall"]/property[@name="Experience" and @value=".7"]/@value'>1</set>
+  <!-- Acid -->
+  <set xpath='/materials/material[@id="MresourceAcid"]/property[@name="Experience" and @value="20.0"]/@value'>40</set>
+  <!-- YuccaFibers -->
+  <set xpath='/materials/material[@id="MresourceYuccaFibers"]/property[@name="Experience" and @value=".5"]/@value'>1</set>
+  <!-- Wood -->
+  <set xpath='/materials/material[@id="MresourceWood"]/property[@name="Experience" and @value=".75"]/@value'>2</set>
+  <!-- ClayLump -->
+  <set xpath='/materials/material[@id="MresourceClayLump"]/property[@name="Experience" and @value=".8"]/@value'>2</set>
+  <!-- CrushedSand -->
+  <set xpath='/materials/material[@id="MresourceCrushedSand"]/property[@name="Experience" and @value=".7"]/@value'>1</set>
+  <!-- IronFragment -->
+  <set xpath='/materials/material[@id="MresourceIronFragment"]/property[@name="Experience" and @value="4.5"]/@value'>9</set>
+  <!-- ScrapIron -->
+  <set xpath='/materials/material[@id="MresourceScrapIron"]/property[@name="Experience" and @value=".8"]/@value'>2</set>
+  <!-- ForgedIron -->
+  <set xpath='/materials/material[@id="MresourceForgedIron"]/property[@name="Experience" and @value="5"]/@value'>10</set>
+  <!-- MetalPipe -->
+  <set xpath='/materials/material[@id="MresourceMetalPipe"]/property[@name="Experience" and @value="5"]/@value'>10</set>
+  <!-- ForgedSteel -->
+  <set xpath='/materials/material[@id="MresourceForgedSteel"]/property[@name="Experience" and @value="10"]/@value'>20</set>
+  <!-- ScrapPolymers -->
+  <set xpath='/materials/material[@id="MresourceScrapPolymers"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- OilShale -->
+  <set xpath='/materials/material[@id="MresourceOilShale"]/property[@name="Experience" and @value="3.0"]/@value'>6</set>
+  <!-- Femur -->
+  <set xpath='/materials/material[@id="MresourceFemur"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- Leather -->
+  <set xpath='/materials/material[@id="MresourceLeather"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- foodRawMeat -->
+  <set xpath='/materials/material[@id="MfoodRawMeat"]/property[@name="Experience" and @value="1.0"]/@value'>2</set>
+  <!-- AnimalFat -->
+  <set xpath='/materials/material[@id="MresourceAnimalFat"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- Tallow -->
+  <set xpath='/materials/material[@id="MresourceTallow"]/property[@name="Experience" and @value="1.0"]/@value'>2</set>
+  <!-- TestosteroneExtract -->
+  <set xpath='/materials/material[@id="MresourceTestosteroneExtract"]/property[@name="Experience" and @value="20.0"]/@value'>40</set>
+  <!-- Crop -->
+  <set xpath='/materials/material[@id="MresourceCrop"]/property[@name="Experience" and @value="5.0"]/@value'>10</set>
+  <!-- ScrapBrassSmall -->
+  <set xpath='/materials/material[@id="MresourceScrapBrassSmall"]/property[@name="Experience" and @value="1"]/@value'>2</set>
+  <!-- ScrapBrassMedium -->
+  <set xpath='/materials/material[@id="MresourceScrapBrassMedium"]/property[@name="Experience" and @value="30"]/@value'>60</set>
+  <!-- ScrapBrassLarge -->
+  <set xpath='/materials/material[@id="MresourceScrapBrassLarge"]/property[@name="Experience" and @value="50"]/@value'>100</set>
+  <!-- ScrapLeadSmall -->
+  <set xpath='/materials/material[@id="MresourceScrapLeadSmall"]/property[@name="Experience" and @value="3"]/@value'>6</set>
+  <!-- ScrapLeadMedium -->
+  <set xpath='/materials/material[@id="MresourceScrapLeadMedium"]/property[@name="Experience" and @value="30"]/@value'>60</set>
+  <!-- ScrapLeadLarge -->
+  <set xpath='/materials/material[@id="MresourceScrapLeadLarge"]/property[@name="Experience" and @value="50"]/@value'>100</set>
+  <!-- Cobblestones -->
+  <set xpath='/materials/material[@id="MresourceCobblestones"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- Cement -->
+  <set xpath='/materials/material[@id="MresourceCement"]/property[@name="Experience" and @value="1.0"]/@value'>2</set>
+  <!-- ConcreteMix -->
+  <set xpath='/materials/material[@id="MresourceConcreteMix"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- Cloth -->
+  <set xpath='/materials/material[@id="MresourceCloth"]/property[@name="Experience" and @value="1.0"]/@value'>2</set>
+  <!-- militaryFiber -->
+  <set xpath='/materials/material[@id="MmilitaryFiber"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- Paper -->
+  <set xpath='/materials/material[@id="MresourcePaper"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- BrokenGlass -->
+  <set xpath='/materials/material[@id="MresourceBrokenGlass"]/property[@name="Experience" and @value="1.0"]/@value'>2</set>
+  <!-- Feather -->
+  <set xpath='/materials/material[@id="MresourceFeather"]/property[@name="Experience" and @value="2.0"]/@value'>4</set>
+  <!-- Coal -->
+  <set xpath='/materials/material[@id="MresourceCoal"]/property[@name="Experience" and @value="3.0"]/@value'>6</set>
+  <!-- Oil -->
+  <set xpath='/materials/material[@id="MresourceOil"]/property[@name="Experience" and @value="5.0"]/@value'>10</set>
+  <!-- Hubcap -->
+  <set xpath='/materials/material[@id="MresourceHubcap"]/property[@name="Experience" and @value="4.0"]/@value'>8</set>
+  <!-- SilverNugget -->
+  <set xpath='/materials/material[@id="MresourceSilverNugget"]/property[@name="Experience" and @value="80"]/@value'>160</set>
+  <!-- smallEngine -->
+  <set xpath='/materials/material[@id="MsmallEngine"]/property[@name="Experience" and @value="50.0"]/@value'>100</set>
+  <!-- casinoCoin -->
+  <set xpath='/materials/material[@id="McasinoCoin"]/property[@name="Experience" and @value=".5"]/@value'>1</set>
+  <!-- oldCash -->
+  <set xpath='/materials/material[@id="MoldCash"]/property[@name="Experience" and @value="1.0"]/@value'>2</set>
+  <!-- toolBeaker -->
+  <set xpath='/materials/material[@id="MtoolBeaker"]/property[@name="Experience" and @value="50"]/@value'>100</set>
+  <!-- cloth -->
+  <set xpath='/materials/material[@id="Mcloth"]/property[@name="Experience" and @value="1"]/@value'>2</set>
 </config>
