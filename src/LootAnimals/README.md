@@ -1,3 +1,2 @@
-- Decreased the amount of harvested meat by 80% (to balance reduced meat cost)
-- Decreased the amount of harvested leather by 50%
-- Increased the amount of harvested bones by 60%
+- Bases the amount of raw meat, leather, animal fat, bones and feathers on the amount of XP earned
+- Generally the amount of raw meat is lowered to match the food overhaul mod
