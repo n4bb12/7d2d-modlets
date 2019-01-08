@@ -1,0 +1,1 @@
+- Get more useful things from airdrops
