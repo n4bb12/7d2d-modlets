@@ -1,0 +1,1 @@
+- Increases stone, iron, coal, nitrate powder and lead harvested from boulders, rocks and ore
