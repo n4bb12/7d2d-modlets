@@ -1,0 +1,1 @@
+- Birds nests get destroyed when looted
