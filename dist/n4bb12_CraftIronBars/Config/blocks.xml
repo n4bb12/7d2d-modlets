@@ -1,0 +1,5 @@
+<config>
+  <set xpath='/blocks/block[@name="ironBarsCentered"]/drop[@event="Harvest" and @name="resourceScrapIron"]/@count'>16</set>
+  <set xpath='/blocks/block[@name="ironBarsCentered"]/property[@class="RepairItems"]/property[@name="resourceForgedIron"]/@value'>5</set>
+  <set xpath='/blocks/block[@name="woodBarsCentered"]/property[@class="UpgradeBlock"]/property[@name="ItemCount"]/@value'>5</set>
+</config>

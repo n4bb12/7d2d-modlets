@@ -1,0 +1,1 @@
+- Iron bars are overly expensive, reduces the price by 50%
