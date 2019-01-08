@@ -1,2 +1,1 @@
-- Increased storage chest size from 72 to 81
-- Increased 4x4 truck chest size from 63 to 81
+- Overhauls all storage sizes to make them more homogenous and more realistic
