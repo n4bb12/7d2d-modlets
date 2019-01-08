@@ -1,0 +1,7 @@
+<config>
+  <set xpath='/progression/perks/perk[@name="perkPackMule"]/effect_group/passive_effect[@level="1" and @value="4"]/@value'>4</set>
+  <set xpath='/progression/perks/perk[@name="perkPackMule"]/effect_group/passive_effect[@level="2" and @value="9"]/@value'>5</set>
+  <set xpath='/progression/perks/perk[@name="perkPackMule"]/effect_group/passive_effect[@level="3" and @value="15"]/@value'>6</set>
+  <set xpath='/progression/perks/perk[@name="perkPackMule"]/effect_group/passive_effect[@level="4" and @value="21"]/@value'>7</set>
+  <set xpath='/progression/perks/perk[@name="perkPackMule"]/effect_group/passive_effect[@level="5" and @value="27"]/@value'>8</set>
+</config>

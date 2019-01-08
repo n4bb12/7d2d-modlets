@@ -1,0 +1,6 @@
+<config>
+  <!-- total slots -->
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="BagSize"][@value="45"]/@value'>50</set>
+  <!-- encumberance-free slots -->
+  <set xpath='/entity_classes/entity_class[@name="playerMale"]/effect_group/passive_effect[@name="CarryCapacity"][@value="18"]/@value'>20</set>
+</config>
