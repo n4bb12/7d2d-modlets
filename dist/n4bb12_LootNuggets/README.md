@@ -1,0 +1,1 @@
+- Adds a small chance to harvest nuggets and diamonds from rock, boulders, ore and oil shale
