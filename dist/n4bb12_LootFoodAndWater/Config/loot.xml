@@ -1,0 +1,24 @@
+<config>
+  <!-- stove/oven -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="5"]/item[@name="drinkJarEmpty"]'/>
+  <!-- frozen or refridgerated food, spoiled food -->
+  <append xpath='/lootcontainers/lootcontainer[@id="20"]'>
+    <item group="medicine" prob="0.05"/>
+    <item group="rottenFood" count="1,2"/>
+    <item name="foodEgg" count="1,10"/>
+  </append>
+  <!-- microwave oven loot -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="21"]/item[@name="drinkJarEmpty"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="21"]/item[@name="drinkJarBoiledWater"]'/>
+  <!-- Supply Crate General, the normal airdrop -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="34"]/item[@group="cannedfood"]'/>
+  <!-- suitcase / luggage -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="36"]/item[@group="cannedfood"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="36"]/item[@name="drinkJarBoiledWater"]'/>
+  <!-- frozen or refridgerated food, spoiled food (Helper) -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="47"]/item[@name="drinkJarBoiledWater"]'/>
+  <!-- EntityLootContainerStrong, rare random drop off strong zombies -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="cannedfood"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@name="drinkJarBeer"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@name="drinkJarBoiledWater"]'/>
+</config>

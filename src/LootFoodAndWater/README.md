@@ -1,0 +1,3 @@
+- Reduces the amount of bottled water and canned food found in loot containers and zombies
+- Find rotten food in refridgerators
+- Find eggs in refridgerators
