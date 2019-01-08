@@ -9,6 +9,6 @@
     <drop event="Harvest" name="vehicleWheels" count="1" prob="0.1" tag="salvageHarvest"/>
   </append>
   <append xpath='/blocks/block[@name="tire"]'>
-    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.1" tag="salvageHarvest"/>
+    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.25" tag="salvageHarvest"/>
   </append>
 </config>
