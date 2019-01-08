@@ -1,1 +1,1 @@
-- Decreased speed penalty when encumbered by 25%
+- Decreases speed penalty when encumbered by 25%

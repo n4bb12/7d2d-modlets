@@ -25,12 +25,12 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### AnimalSize
 
-- Increased stag size by 50%
-- Increased doe size by 25%
-- Decreased wolf size by 10%
-- Decreased dire wolf size by 20%
-- Decreased zombie bear size by 30%
-- Decreased bear size by 40%
+- Increases stag size by 50%
+- Increases doe size by 25%
+- Decreases wolf size by 10%
+- Decreases dire wolf size by 20%
+- Decreases zombie bear size by 30%
+- Decreases bear size by 40%
 
 
 #### Bugs
@@ -40,20 +40,19 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### ContainerLifetime
 
-- Increased the duration of zombie bags by 300% to 15 minutes
+- Increases the duration of zombie bags by 300% to 15 minutes
 
 
 #### ContainerSize
 
-- Increased storage chest size from 72 to 81
-- Increased 4x4 truck chest size from 63 to 81
+- Overhauls all storage sizes to make them more homogenous and more realistic
 
 
 #### ContainerStackSize
 
 - Capped stack sizes at 5000
-- Decreased stack size of Steak and Potato Meal from 500 to 50
-- Decreased stack size of Fish Tacos 500 to 50
+- Decreases stack size of Steak and Potato Meal from 500 to 50
+- Decreases stack size of Fish Tacos 500 to 50
 
 
 #### Craft4Digits
@@ -76,6 +75,11 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 - Overahult all crafting of foods, drinks, medicine and drugs
 
 
+#### CraftIronBars
+
+- Iron bars are overly expensive, reduces the price by 50%
+
+
 #### CraftPaint
 
 - Paint now requires an empty bucket and 4 flowers each
@@ -91,16 +95,35 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 - Don't use this mod, I'm using it for unfinished stuff.
 
 
+#### LootAirDrop
+
+- Get more useful things from airdrops
+
+
+#### LootAmmo
+
+- Removes ammo from containers where it makes no sense
+
+
 #### LootAnimals
 
-- Decreased the amount of harvested meat by 80% (to balance reduced meat cost)
-- Decreased the amount of harvested leather by 50%
-- Increased the amount of harvested bones by 60%
+- Bases the amount of raw meat, leather, animal fat, bones and feathers on the amount of XP earned
+- Generally the amount of raw meat is lowered to match the food overhaul mod
 
 
-#### LootCars
+#### LootBirdsNest
 
-- Remove ammo from car loot tables
+- Reduced the amount of feahters found in bird nests by 66%
+
+
+#### LootChemistryStation
+
+- Adds a chance to loot burning barrel, beaker and cooking pot when harvesting a chemistry station
+
+
+#### LootDestroyBirdsNest
+
+- Birds nests get destroyed when looted
 
 
 #### LootDoorknobs
@@ -110,28 +133,57 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### LootDummyContainers
 
-- Decreased the chance for non-lootable, opened containers from 33% to 25%
+- Decreases the chance for non-lootable, opened containers from 33% to 25%
 
 
-#### LootFeathers
+#### LootFeathersAndEggsFromTrees
 
-- Reduced the amount of feahters found in bird nests by 66%
+- Adds a chance to loot feathers and eggs from trees, depending on the size of the tree
+
+
+#### LootFoodAndWater
+
+- Reduces the amount of bottled water and canned food found in loot containers and zombies
+- Find rotten food in refridgerators
+- Find eggs in refridgerators
 
 
 #### LootGuns
 
-- Increased drop chance for Magnum 44 by a lot
-- Increased drop chance for Crossbow by a lot
-- Decreased drop chance for Hunting Rifle by a little
-- Decreased drop chance for Shotgun by a little
-- Decreased drop chance for Pistol
-- Decreased drop chance for Compound Bow by a lot
+- Increases drop chance for Magnum 44
+- Increases drop chance for Crossbow
+- Increases drop chance for Machete
+- Decreases drop chance for Hunting Rifle
+- Decreases drop chance for Shotgun
+- Decreases drop chance for Pistol
+- Decreases drop chance for Compound Bow
 - Overall firearms are found less frequently
+
+
+#### LootJunk
+
+- Remove lead and brass from junk
+- Remove things from junk that are generally not trashed
+
+
+#### LootNuggets
+
+- Adds a small chance to harvest nuggets and diamonds from rock, boulders, ore and oil shale
+
+
+#### LootRock
+
+- Increases stone, iron, coal, nitrate powder and lead harvested from boulders, rocks and ore
 
 
 #### LootTires
 
 - Harvesting cars and tires now has a 10% chance to yield a tire
+
+
+#### LootTrees
+
+- Increases wood harvested from trees by 100%
 
 
 #### NoHoliday
@@ -141,27 +193,27 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### PlayerDeathSickness
 
-- Decreased sickness duration by 50% to 15 minutes
+- Decreases sickness duration by 50% to 15 minutes
 
 
 #### PlayerEncumberance
 
-- Decreased speed penalty when encumbered by 25%
+- Decreases speed penalty when encumbered by 25%
 
 
 #### PlayerStamina
 
-- Decreased stamina loss from running, jumping and swimming by 20%
+- Decreases stamina loss from running, jumping and swimming by 20%
 
 
 #### QuestBasicSurvival
 
-- Increased perk reward for survival basics from 4 to 5
+- Increases perk reward for survival basics from 4 to 5
 
 
 #### ToolEntityDamage
 
-- Auger and Chainsaw entity damage increased by 400%
+- Auger and Chainsaw entity damage Increases by 400%
 
 
 #### ToolPowerSwingSound
@@ -180,8 +232,8 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### TradePricing
 
-- Increased the reward for selling items to 50% of the normal price
-- Decreased the price for buying items to 150% of the normal price
+- Increases the reward for selling items to 50% of the normal price
+- Decreases the price for buying items to 150% of the normal price
 
 
 #### TradeVehicles
@@ -189,9 +241,35 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 - Vehicles can be sold at the trader
 
 
+#### UIBackpackSize
+
+- Increases the backpack size from 45 to 50
+
+
+#### UICompass
+
+- Adds map temperature, elevation and wind to the compass
+
+
+#### UICraftingQueue
+
+- Adds an additional crafting slot to fill up UI space
+- Properly aligns the crafting queue with other windows
+
+
 #### UIPlayerStatBars
 
-- Adds Food, Water, Temperature and XP bars to the bottom left
+- Adds food, water, temperature and XP bars to the bottom-left stat bars
+
+
+#### UIScale
+
+- Scales the UI down a little
+
+
+#### UIToolbelt
+
+- Adds numbers to the toolbelt
 
 
 #### VehicleSpeed
@@ -210,48 +288,48 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### WeaponHeadshotDamage
 
-- Increased headshot damage with bullets, arrows and bolts by 100%
+- Increases headshot damage with bullets, arrows and bolts by 100%
 
 
 #### WeaponSuppressorSound
 
-- Decreased the volume of suppressed gun fire perceived by zombies by 87.5% (equivalent of 160db --> 130db)
+- Decreases the volume of suppressed gun fire perceived by zombies by 87.5% (equivalent of 160db --> 130db)
 
 
 #### XpBlocks
 
-- Increased XP for harvesting resources by 50%
+- Increases XP for harvesting resources by 50%
 
 
 #### XpProgression
 
-- Decreased required XP per level by 20%
-- Decreased required XP per level increase by 33%
+- Decreases required XP per level by 20%
+- Decreases required XP per level increase by 33%
 
 
 #### ZombieAnimalSpawning
 
-- Increased the amount of animals spawned by a lot
+- Increases the amount of animals spawned by a lot
 - Animals are more active at night
 - Rebalanced the amount of zombies spawned
-- Decreased the number of vultures by 50%
+- Decreases the number of vultures by 50%
 - Removed vultures from snow biome
 - Zombies are more active at day
 
 
 #### ZombieBagDrop
 
-- Increased chance to drop a loot bag from 2%/3%/3% (normal/feral/radiated zombies) to 5%/10%/25%
+- Increases chance to drop a loot bag from 2%/3%/3% (normal/feral/radiated zombies) to 5%/10%/25%
 
 
 #### ZombieJumpRange
 
-- Decreased the jump range by 33%, fat zombies cannot jump as far
+- Decreases the jump range by 33%, fat zombies cannot jump as far
 
 
 #### ZombieKnockdownDuration
 
-- Increased potential knockdown duration to between 0.5 and 5 seconds - makes the behaviour more random
+- Increases potential knockdown duration to between 0.5 and 5 seconds - makes the behaviour more random
 
 
 #### ZombieWanderingHordeSize
