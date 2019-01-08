@@ -1,6 +1,0 @@
-<config>
-  <!-- birds nest-->
-  <set xpath='/lootcontainers/lootcontainer[@id="25"]/item[@name="resourceFeather" and @count="4,8"]/@count'>1,3</set>
-  <!-- cntCollapsedWorkbench -->
-  <set xpath='/lootcontainers/lootcontainer[@id="92"]/item[@name="resourceFeather" and @count="4,12"]/@count'>1,3</set>
-</config>
