@@ -1,0 +1,10 @@
+<config>
+  <!-- kitchen sink, cupboards (lower), cleaning chemicals, plates, silverware, pots and pans -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="8"]/item[@group="ammo"]'/>
+  <!-- misc storage, cardboard boxes-->
+  <remove xpath='/lootcontainers/lootcontainer[@id="15"]/item[@group="ammo"]'/>
+  <!-- cars-->
+  <remove xpath='/lootcontainers/lootcontainer[@id="19"]/item[@group="ammo"]'/>
+  <!-- garage stuff, tools, etc -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="22"]/item[@group="ammo"]'/>
+</config>

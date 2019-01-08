@@ -1,3 +1,0 @@
-<config>
-  <remove xpath='/lootcontainers/lootcontainer[@id="19"]/item[@group="ammo"]'/>
-</config>

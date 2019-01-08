@@ -1,1 +1,0 @@
-- Remove ammo from car loot tables

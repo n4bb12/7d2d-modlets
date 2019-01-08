@@ -1,0 +1,1 @@
+- Removes ammo from containers where it makes no sense
