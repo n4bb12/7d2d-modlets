@@ -1,5 +1,4 @@
 *.json
 *.log
-./config
 node_modules
 NOTES.md
