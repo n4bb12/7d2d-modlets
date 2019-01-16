@@ -18,6 +18,7 @@
     "build": "ts-node scripts/build",
     "clean": "ts-node scripts/clean",
     "copy": "ts-node scripts/copy",
+    "items": "ts-node scripts/items",
     "json": "ts-node scripts/json",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "trader": "ts-node scripts/trader",
