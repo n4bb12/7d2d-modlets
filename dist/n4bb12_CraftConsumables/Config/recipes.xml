@@ -18,6 +18,24 @@
   <remove xpath='/recipes/recipe[@name="foodShamChowder"]'/>
   <remove xpath='/recipes/recipe[@name="foodSteakAndPotato"]'/>
   <remove xpath='/recipes/recipe[@name="foodVegetableStew"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkCanBoiledWater"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkCanBoiledWater"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarBeer"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarBoiledWater"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarBoiledWater"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarCoffee"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarEmpty"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarGoldenRodTea"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarGrainAlcohol"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarGrainAlcohol"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarGrandpasAwesomeSauce"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarGrandpasLearningElixir"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarGrandpasMoonshine"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarRedTea"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarRiverWater"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarSnowberryJuice"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkJarYuccaJuice"]'/>
+  <remove xpath='/recipes/recipe[@name="drinkYuccaJuiceSmoothie"]'/>
   <remove xpath='/recipes/recipe[@name="drugAntibiotics"]'/>
   <remove xpath='/recipes/recipe[@name="drugAntibiotics"]'/>
   <remove xpath='/recipes/recipe[@name="drugFortBites"]'/>
@@ -150,7 +168,7 @@
       <ingredient name="unit_clay" count="1"/>
     </recipe>
     <recipe name="drinkJarGoldenRodTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
-      <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+      <ingredient name="resourceCropGoldenrodPlant" count="2"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
     </recipe>
     <recipe name="drinkJarGrainAlcohol" count="1" craft_area="campfire" craft_tool="toolBeaker" tags="learnable">
@@ -180,7 +198,7 @@
       <ingredient name="resourceAcid" count="1"/>
     </recipe>
     <recipe name="drinkJarRedTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
-      <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+      <ingredient name="resourceCropChrysanthemumPlant" count="2"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
     </recipe>
     <recipe name="drinkJarRiverWater" count="1" craft_area="campfire">
@@ -193,7 +211,7 @@
       <ingredient name="drinkJarBoiledWater" count="1"/>
     </recipe>
     <recipe name="drinkJarYuccaJuice" count="1">
-      <ingredient name="foodCropYuccaFruit" count="2"/>
+      <ingredient name="foodCropYuccaFruit" count="3"/>
       <ingredient name="drinkJarBoiledWater" count="1"/>
     </recipe>
     <recipe name="drinkYuccaJuiceSmoothie" count="1" tags="learnable">
@@ -257,6 +275,7 @@
       <ingredient name="medicalAloeCream" count="1"/>
     </recipe>
     <recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+      <ingredient name="resourceScrapPolymers" count="4"/>
       <ingredient name="medicalFirstAidBandage" count="2"/>
       <ingredient name="medicalBloodBag" count="1"/>
       <ingredient name="drinkJarGrainAlcohol" count="1"/>
