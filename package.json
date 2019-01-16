@@ -20,6 +20,7 @@
     "copy": "ts-node scripts/copy",
     "json": "ts-node scripts/json",
     "lint": "tslint -p tsconfig.json -c tslint.json",
+    "trader": "ts-node scripts/trader",
     "update": "yarn build && yarn copy",
     "watch": "yarn clean && nodemon --watch src/**/* --ext xml,md --exec yarn update"
   },
