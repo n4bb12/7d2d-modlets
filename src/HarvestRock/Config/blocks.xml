@@ -1,0 +1,35 @@
+<config>
+  <!-- boulder -->
+  <set xpath='/blocks/block[@name="rockResource"]/drop[@name="resourceRockSmall"                         and @count="22"]/@count'>30</set>
+  <set xpath='/blocks/block[@name="rockResource"]/drop[@name="resourceIronFragment"                      and @count="9"]/@count'>20</set>
+  <set xpath='/blocks/block[@name="rockResource"]/drop[@name="resourceCoal"                              and @count="8"]/@count'>10</set>
+  <set xpath='/blocks/block[@name="rockResource"]/drop[@name="resourcePotassiumNitratePowder"            and @count="8"]/@count'>10</set>
+  <set xpath='/blocks/block[@name="rockResource"]/drop[@name="resourceScrapLead"                         and @count="8"]/@count'>10</set>
+  <!-- stone block -->
+  <set xpath='/blocks/block[@name="terrStone"]/drop[@name="resourceRockSmall"                            and @count="44"]/@count'>120</set>
+  <set xpath='/blocks/block[@name="terrStone"]/drop[@name="resourceIronFragment"                         and @count="4"]/@count'>20</set>
+  <!-- iron ore -->
+  <set xpath='/blocks/block[@name="terrOreIron"]/drop[@name="resourceIronFragment"                       and @count="49"]/@count'>60</set>
+  <set xpath='/blocks/block[@name="terrOreIron"]/drop[@name="resourceRockSmall"                          and @count="16"]/@count'>30</set>
+  <!-- lead ore -->
+  <set xpath='/blocks/block[@name="terrOreLead"]/drop[@name="resourceScrapLead"                          and @count="33"]/@count'>40</set>
+  <set xpath='/blocks/block[@name="terrOreLead"]/drop[@name="resourceRockSmall"                          and @count="16"]/@count'>30</set>
+  <!--coal ore -->
+  <set xpath='/blocks/block[@name="terrOreCoal"]/drop[@name="resourceCoal"                               and @count="33"]/@count'>40</set>
+  <set xpath='/blocks/block[@name="terrOreCoal"]/drop[@name="resourceRockSmall"                          and @count="16"]/@count'>30</set>
+  <!-- nitrate ore -->
+  <set xpath='/blocks/block[@name="terrOrePotassiumNitrate"]/drop[@name="resourcePotassiumNitratePowder" and @count="33"]/@count'>40</set>
+  <set xpath='/blocks/block[@name="terrOrePotassiumNitrate"]/drop[@name="resourceRockSmall"              and @count="16"]/@count'>30</set>
+  <!--oil shale -->
+  <set xpath='/blocks/block[@name="terrOreOilDeposit"]/drop[@name="resourceOilShale"                     and @count="33"]/@count'>40</set>
+  <set xpath='/blocks/block[@name="terrOreOilDeposit"]/drop[@name="resourceRockSmall"                    and @count="16"]/@count'>30</set>
+  <!-- silver ore -->
+  <set xpath='/blocks/block[@name="terrOreSilver"]/drop[@name="resourceSilverNugget"                     and @count="3,8"]/@count'>4,20</set>
+  <set xpath='/blocks/block[@name="terrOreSilver"]/drop[@name="resourceRockSmall"                        and @count="27"]/@count'>60</set>
+  <!-- gold ore -->
+  <set xpath='/blocks/block[@name="terrOreGold"]/drop[@name="resourceGoldNugget"                         and @count="2,6"]/@count'>2,10</set>
+  <set xpath='/blocks/block[@name="terrOreGold"]/drop[@name="resourceRockSmall"                          and @count="27"]/@count'>60</set>
+  <!-- diamond ore -->
+  <set xpath='/blocks/block[@name="terrOreDiamond"]/drop[@name="resourceRawDiamond"                      and @count="2,4"]/@count'>1,5</set>
+  <set xpath='/blocks/block[@name="terrOreDiamond"]/drop[@name="resourceRockSmall"                       and @count="27"]/@count'>60</set>
+</config>
