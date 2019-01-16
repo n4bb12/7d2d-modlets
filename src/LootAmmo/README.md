@@ -1,1 +1,1 @@
-- Removes ammo from containers where it makes no sense
+- Removes ammo from kitchen sinks, cupboards, cars, garage stuff, tools
