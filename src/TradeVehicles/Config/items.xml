@@ -1,8 +1,0 @@
-<config>
-  <set xpath='/items/item[starts-with(@name,"vehicle") and contains(@name,"Placeable")]/property[@name="SellableToTrader" and @value="false"]/@value'>true</set>
-  <set xpath='/items/item[@name="vehicleBicyclePlaceable"]/property[@name="EconomicValue" and @value="800"]/@value'>800</set>
-  <set xpath='/items/item[@name="vehicleMinibikePlaceable"]/property[@name="EconomicValue" and @value="6000"]/@value'>6000</set>
-  <set xpath='/items/item[@name="vehicleMotorcyclePlaceable"]/property[@name="EconomicValue" and @value="10000"]/@value'>10000</set>
-  <set xpath='/items/item[@name="vehicle4x4TruckPlaceable"]/property[@name="EconomicValue" and @value="30000"]/@value'>30000</set>
-  <set xpath='/items/item[@name="vehicleGyrocopterPlaceable"]/property[@name="EconomicValue" and @value="50000"]/@value'>50000</set>
-</config>
