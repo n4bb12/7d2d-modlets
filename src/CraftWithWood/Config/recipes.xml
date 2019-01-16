@@ -1,0 +1,8 @@
+<config>
+  <set xpath='/recipes/recipe[@name="wineBarrel"     ]/ingredient[@name="resourceWood" and @count="6" ]/@count'>15</set>
+  <set xpath='/recipes/recipe[@name="wineBarrelSet"  ]/ingredient[@name="resourceWood" and @count="12"]/@count'>45</set>
+  <set xpath='/recipes/recipe[@name="wineBarrelPlain"]/ingredient[@name="resourceWood" and @count="6" ]/@count'>15</set>
+  <set xpath='/recipes/recipe[@name="wineBarrel"     ]/ingredient[@name="resourceNail" and @count="5" ]/@count'>60</set>
+  <set xpath='/recipes/recipe[@name="wineBarrelSet"  ]/ingredient[@name="resourceNail" and @count="10"]/@count'>180</set>
+  <set xpath='/recipes/recipe[@name="wineBarrelPlain"]/ingredient[@name="resourceNail" and @count="5" ]/@count'>60</set>
+</config>

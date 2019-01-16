@@ -1,0 +1,2 @@
+- Increases the cost for a wine barrel from 6 to 15 wood and from 5 to 60 nails
+- Increases the cost for a wine barrel set from 12 to 45 wood and from 10 to 180 nails
