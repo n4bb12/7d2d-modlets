@@ -1,0 +1,4 @@
+<config>
+  <remove xpath='/lootcontainers/lootgroup[@name="sportingGoods"]/item[@name="toolCookingPot"]'/>
+  <remove xpath='/lootcontainers/lootgroup[@name="sportingGoods"]/item[@name="toolCookingGrill"]'/>
+</config>
