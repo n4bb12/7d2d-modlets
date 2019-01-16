@@ -1,7 +1,0 @@
-<config>
-  <set xpath='/entity_classes/entity_class[@name="DroppedLootContainer"]/property[@name="TimeStayAfterDeath" and @value="60"]/@value'>60</set>
-  <set xpath='/entity_classes/entity_class[@name="EntityLootContainerRegular"]/property[@name="TimeStayAfterDeath" and @value="300"]/@value'>900</set>
-  <set xpath='/entity_classes/entity_class[@name="EntityLootContainerStrong"]/property[@name="TimeStayAfterDeath" and @value="300"]/@value'>900</set>
-  <set xpath='/entity_classes/entity_class[@name="EntityLootContainerBoss"]/property[@name="TimeStayAfterDeath" and @value="300"]/@value'>900</set>
-  <set xpath='/entity_classes/entity_class[@name="EntityLootContainerBandit"]/property[@name="TimeStayAfterDeath" and @value="300"]/@value'>900</set>
-</config>

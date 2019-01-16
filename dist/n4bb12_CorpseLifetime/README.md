@@ -1,0 +1,1 @@
+- Increases the duration of corpses and dropped loot bags from 5 to 15 minutes
