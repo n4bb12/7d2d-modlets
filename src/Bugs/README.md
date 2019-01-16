@@ -1,1 +1,3 @@
-- Fixes typos in XML files
+- Fixes obvious errors in XML files
+- Adds missing texts for MegaCrush
+- Adds missing texts for RandomGenPreviewer
