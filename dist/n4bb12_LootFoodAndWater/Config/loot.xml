@@ -1,11 +1,18 @@
 <config>
   <!-- stove/oven -->
   <remove xpath='/lootcontainers/lootcontainer[@id="5"]/item[@name="drinkJarEmpty"]'/>
+  <!-- kitchen sink, cupboards -->
+  <append xpath='/lootcontainers/lootcontainer[@id="8"]'>
+    <item group="cannedfood" count="1,2"/>
+  </append>
+  <!-- misc storage, cardboard boxes -->
+  <append xpath='/lootcontainers/lootcontainer[@id="15"]'>
+    <item group="cannedfood" count="1,2"/>
+  </append>
   <!-- frozen or refridgerated food, spoiled food -->
   <append xpath='/lootcontainers/lootcontainer[@id="20"]'>
     <item group="medicine" prob="0.05"/>
     <item group="rottenFood" count="1,2"/>
-    <item name="foodEgg" count="1,10"/>
   </append>
   <!-- microwave oven loot -->
   <remove xpath='/lootcontainers/lootcontainer[@id="21"]/item[@name="drinkJarEmpty"]'/>

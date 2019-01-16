@@ -1,3 +1,4 @@
-- Reduces the amount of bottled water and canned food found in loot containers and zombies
-- Find rotten food in refridgerators
-- Find eggs in refridgerators
+- Reduces the amount of bottled water and canned food found in zombies and unrelated containers
+- Adds the amount of canned food found in the kitchen
+- Adds canned food to cardboard boxes
+- Adds rotten food to the refridgerator
