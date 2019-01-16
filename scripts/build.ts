@@ -1,10 +1,19 @@
-const { ensureDirSync, readFileSync, readdirSync, removeSync, writeFileSync, copySync } = require("fs-extra")
-const notifier = require("node-notifier")
-const glob = require("glob")
+import {
+  copySync,
+  ensureDirSync,
+  readdirSync,
+  readFileSync,
+  readJsonSync,
+  removeSync,
+  statSync,
+  writeFileSync,
+} from "fs-extra"
+import glob from "glob"
+import notifier from "node-notifier"
 
-try {
-  const version = require("./package.json").version
-  const descriptions = [`
+const pkg = readJsonSync("package.json")
+
+const readmeHeader = `
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/6136865/29045114-9ae8e510-7bc2-11e7-8487-19552001aafd.png" height="48">
   7 Days to Die – Balance Modlets
@@ -28,39 +37,51 @@ try {
 Copy individual folders to your 7 Days to Die \`Mods\` folder.
 
 ## Modlets
-`]
+`
 
-  removeSync("dist")
-  readdirSync("src").map(name => {
-    const srcDir = "src/" + name
-    const distDir = "dist/n4bb12_" + name
-
-    ensureDirSync(distDir)
-    copySync(srcDir, distDir)
-
-    const modInfo = `<?xml version="1.0" encoding="UTF-8" ?>
+function renderModInfo(name) {
+  return `<?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
     <Name value="n4bb12_${name}"/>
     <Description value="See a full list of changes in the README"/>
     <Author value="n4bb12"/>
-    <Version value="${version}"/>
+    <Version value="${pkg.version}"/>
   </ModInfo>
 </xml>
 `
-    writeFileSync(distDir + "/ModInfo.xml", modInfo, "utf8")
+}
 
-    const changes = readFileSync(srcDir + "/README.md", "utf8")
-    descriptions.push("#### " + name)
-    descriptions.push("")
-    descriptions.push(changes)
-    descriptions.push("")
-  })
+try {
+  const descriptions = [readmeHeader]
+
+  removeSync("dist")
+
+  readdirSync("src")
+    .filter(name => {
+      return statSync("src/" + name).isDirectory()
+    })
+    .map(name => {
+      const srcDir = "src/" + name
+      const distDir = "dist/n4bb12_" + name
+
+      ensureDirSync(distDir)
+      copySync(srcDir, distDir)
+
+      const modInfo = renderModInfo(name)
+      writeFileSync(distDir + "/ModInfo.xml", modInfo, "utf8")
+
+      const changes = readFileSync(srcDir + "/README.md", "utf8")
+      descriptions.push("#### " + name)
+      descriptions.push("")
+      descriptions.push(changes)
+      descriptions.push("")
+    })
 
   const readme = descriptions.join("\n")
   writeFileSync("dist/README.md", readme, "utf8")
 
-  const unwantedFiles = glob.sync("dist/**/*.{js,json}")
+  const unwantedFiles = glob.sync("dist/**/*.{ts,js,json}")
   unwantedFiles.forEach(file => removeSync(file))
 
 } catch (error) {

@@ -15,17 +15,24 @@
   "license": "ISC",
   "author": "Abraham Schilling",
   "scripts": {
-    "build": "node build",
-    "clean": "node clean",
-    "copy": "node copy",
+    "build": "ts-node scripts/build",
+    "clean": "ts-node scripts/clean",
+    "copy": "ts-node scripts/copy",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
     "update": "yarn build && yarn copy",
     "watch": "yarn clean && nodemon --watch src/**/* --ext xml,md --exec yarn update"
   },
   "devDependencies": {
+    "@n4bb12/config-tslint": "^1.4.1",
+    "@types/fs-extra": "^5.0.4",
+    "@types/lodash": "^4.14.119",
     "fs-extra": "^7.0.1",
     "glob": "^7.1.3",
     "node-notifier": "^5.3.0",
     "nodemon": "^1.18.9"
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
   },
   "$schema": "http://json.schemastore.org/package"
 }

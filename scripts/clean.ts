@@ -1,10 +1,12 @@
-const { readdirSync, removeSync } = require("fs-extra")
-const notifier = require("node-notifier")
+import { readdirSync, removeSync } from "fs-extra"
+import notifier from "node-notifier"
+
+const paths = {
+  game: "D:/Spiele/SteamLibrary/steamapps/common/7 Days To Die",
+  mods: "",
+}
 
 try {
-  const paths = {
-    game: "D:/Spiele/SteamLibrary/steamapps/common/7 Days To Die",
-  }
   paths.mods = paths.game + "/Mods"
 
   readdirSync(paths.mods)
