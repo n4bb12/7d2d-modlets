@@ -5,7 +5,6 @@
       <item group="books"/>
       <item group="cannedfood"/>
       <item group="clothes"/>
-      <item group="empty"/>
       <item group="questChallenge" prob="0.1"/>
       <item group="rottenFood"/>
       <item group="treasureMaps" prob="0.1"/>

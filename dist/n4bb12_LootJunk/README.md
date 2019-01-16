@@ -1,2 +1,2 @@
-- Remove lead and brass from junk
-- Remove things from junk that are generally not trashed
+- Remove lead and brass items from junk
+- Remove from junk things that are generally not junked
