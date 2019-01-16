@@ -1,1 +1,2 @@
-- Overhauls all storage sizes to make them more homogenous and more realistic
+- Updates all container sizes to make them more homogenous
+- Some container sizes are increased to make them relatively consistent

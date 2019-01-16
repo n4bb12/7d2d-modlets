@@ -4,7 +4,7 @@
   <set xpath='/lootcontainers/lootcontainer[@id="3" and @size="8,9"]/@size'>8,8</set>
   <set xpath='/lootcontainers/lootcontainer[@id="4" and @size="5,10"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="5" and @size="4,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="6" and @size="4,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="6" and @size="4,3"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="7" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="8" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="9" and @size="5,3"]/@size'>6,2</set>
@@ -32,7 +32,7 @@
   <set xpath='/lootcontainers/lootcontainer[@id="40" and @size="8,4"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="41" and @size="8,9"]/@size'>8,8</set>
   <set xpath='/lootcontainers/lootcontainer[@id="42" and @size="8,8"]/@size'>8,8</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="43" and @size="4,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="43" and @size="4,3"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="44" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="45" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="46" and @size="6,4"]/@size'>6,4</set>
@@ -95,4 +95,10 @@
   <set xpath='/lootcontainers/lootcontainer[@id="108" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="109" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="110" and @size="5,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="111" and @size="5,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="112" and @size="5,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="113" and @size="5,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="114" and @size="5,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="115" and @size="5,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="116" and @size="5,3"]/@size'>6,2</set>
 </config>
