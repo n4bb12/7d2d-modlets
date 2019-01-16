@@ -1,0 +1,8 @@
+<config>
+  <append xpath='/items/item[@name="smallEngine"]'>
+    <effect_group>
+      <passive_effect name="ModSlots" operation="base_set" value="0"/>
+      <passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
+    </effect_group>
+  </append>
+</config>
