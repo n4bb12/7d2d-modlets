@@ -44,6 +44,11 @@
   <append xpath='/lootcontainers/lootcontainer[@id="6"]'>
     <item group="weaponsBasicSmall+ammo" prob="0.5"/>
   </append>
+<!-- safes, weapon caches rare good loot -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="11"]/item[@group="weaponsBasicGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="11"]'>
+    <item group="weaponsBasicSmall+ammo" prob="1.5"/>
+  </append>
   <!-- metal desk -->
   <remove xpath='/lootcontainers/lootcontainer[@id="24"]/item[@group="weaponsPistol+ammo"]'/>
   <append xpath='/lootcontainers/lootcontainer[@id="24"]'>
@@ -96,4 +101,3 @@
     <item group="weaponsBasicLarge+ammo" prob="0.5"/>
   </append>
 </config>
-

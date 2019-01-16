@@ -1,8 +1,5 @@
-- Increases drop chance for Magnum 44
-- Increases drop chance for Crossbow
-- Increases drop chance for Machete
-- Decreases drop chance for Hunting Rifle
-- Decreases drop chance for Shotgun
-- Decreases drop chance for Pistol
-- Decreases drop chance for Compound Bow
-- Overall firearms are found less frequently
+- Decreases drop chance for Pistol in favour of moreMagnum 44s
+- Increases drop chance for Crossbow and Machete which were previously extremely rare
+- Decreases drop chance for Compound Bow which drops found way to frequently
+- Decreases drop chance for Hunting Rifle and Shotgun as they drop to frequently for such strong weapons
+- Firearms are found less frequently in general
