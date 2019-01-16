@@ -5,7 +5,7 @@
       <ingredient name="resourceCropChrysanthemumPlant" count="4"/>
       <ingredient name="resourceCropCottonPlant" count="4"/>
       <ingredient name="resourceCropGoldenrodPlant" count="4"/>
-      <ingredient name="bucketEmpty" count="1"/>
+      <ingredient name="bucketRiverWater" count="1"/>
     </recipe>
   </append>
 </config>
