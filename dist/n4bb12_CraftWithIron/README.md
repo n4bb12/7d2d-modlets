@@ -1,1 +1,1 @@
-- Re-balanced some iron recipes
+- Reduces the price for crafting iron bars by 50%

@@ -1,6 +1,0 @@
-<config>
-  <set xpath='/recipes/recipe[@name="ironBars"]/ingredient[@name="unit_iron" and @count="100"]/@count'>50</set>
-  <set xpath='/recipes/recipe[@name="ironBars"]/ingredient[@name="unit_clay" and @count="20"]/@count'>10</set>
-  <set xpath='/recipes/recipe[@name="ironBarsCentered"]/ingredient[@name="unit_iron" and @count="100"]/@count'>50</set>
-  <set xpath='/recipes/recipe[@name="ironBarsCentered"]/ingredient[@name="unit_clay" and @count="20"]/@count'>10</set>
-</config>

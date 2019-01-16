@@ -1,41 +1,6 @@
 <config>
-  <remove xpath='/recipes/recipe[@name="bucketEmpty"]'/>
-  <remove xpath='/recipes/recipe[@name="rebarFrameBlock"]'/>
-  <remove xpath='/recipes/recipe[@name="rebarFrameCNRInside"]'/>
-  <remove xpath='/recipes/recipe[@name="rebarFramePillar100"]'/>
-  <remove xpath='/recipes/recipe[@name="rebarFrameRamp"]'/>
-  <remove xpath='/recipes/recipe[@name="resourceArrowHeadIron"]'/>
-  <remove xpath='/recipes/recipe[@name="resourceArrowHeadSteelAP"]'/>
-  <append xpath='/recipes'>
-    <!-- Bucket -->
-    <recipe name="bucketEmpty" count="1">
-      <ingredient name="resourceForgedIron" count="5"/>
-    </recipe>
-    <!-- Rebar Frames -->
-    <recipe name="rebarFrameBlock" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-      <ingredient name="unit_iron" count="5"/>
-      <ingredient name="unit_clay" count="1"/>
-    </recipe>
-    <recipe name="rebarFrameCNRInside" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-      <ingredient name="unit_iron" count="25"/>
-      <ingredient name="unit_clay" count="1"/>
-    </recipe>
-    <recipe name="rebarFramePillar100" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-      <ingredient name="unit_iron" count="25"/>
-      <ingredient name="unit_clay" count="1"/>
-    </recipe>
-    <recipe name="rebarFrameRamp" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-      <ingredient name="unit_iron" count="25"/>
-      <ingredient name="unit_clay" count="1"/>
-    </recipe>
-    <!-- Arrow Heads -->
-    <recipe name="resourceArrowHeadIron" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-      <ingredient name="unit_iron" count="2"/>
-      <ingredient name="unit_clay" count="1"/>
-    </recipe>
-    <recipe name="resourceArrowHeadSteelAP" count="1" craft_area="forge" craft_tool="toolAndDieSet" material_based="true" tags="learnable">
-      <ingredient name="unit_iron" count="4"/>
-      <ingredient name="unit_clay" count="1"/>
-    </recipe>
-  </append>
+  <set xpath='/recipes/recipe[@name="ironBars"        ]/ingredient[@name="unit_iron" and @count="100"]/@count'>50</set>
+  <set xpath='/recipes/recipe[@name="ironBars"        ]/ingredient[@name="unit_clay" and @count="20"]/@count'>10</set>
+  <set xpath='/recipes/recipe[@name="ironBarsCentered"]/ingredient[@name="unit_iron" and @count="100"]/@count'>50</set>
+  <set xpath='/recipes/recipe[@name="ironBarsCentered"]/ingredient[@name="unit_clay" and @count="20"]/@count'>10</set>
 </config>
