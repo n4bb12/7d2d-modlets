@@ -1,5 +1,5 @@
 <config>
   <set xpath='/traders[@buy_markup="2"]/@buy_markup'>1.5</set>
-  <set xpath='/traders[@sell_markdown="0.1"]/@sell_markdown'>0.5</set>
+  <set xpath='/traders[@sell_markdown="0.2"]/@sell_markdown'>0.25</set>
   <set xpath='/traders[@quality_mod="0.4,8"]/@quality_mod'>1,6</set>
 </config>
