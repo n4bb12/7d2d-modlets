@@ -1,1 +1,0 @@
-- Increases perk reward for survival basics from 4 to 5
