@@ -1,1 +1,0 @@
-- Reduced the amount of feahters found in bird nests by 66%

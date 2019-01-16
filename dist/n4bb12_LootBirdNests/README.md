@@ -1,0 +1,1 @@
+- Reduces the amount of feahters found in bird nests
