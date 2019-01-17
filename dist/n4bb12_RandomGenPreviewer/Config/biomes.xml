@@ -1,0 +1,13 @@
+<config>
+  <set xpath='/worldgeneration/biomes/biome[@name="wasteland"      and @biomemapcolor="#ffa800"]/@biomemapcolor'>#604020</set>
+  <set xpath='/worldgeneration/biomes/biome[@name="pine_forest"    and @biomemapcolor="#004000"]/@biomemapcolor'>#004000</set>
+  <set xpath='/worldgeneration/biomes/biome[@name="burnt_forest"   and @biomemapcolor="#ba00ff"]/@biomemapcolor'>#202020</set>
+  <set xpath='/worldgeneration/biomes/biome[@name="snow"           and @biomemapcolor="#FFFFFF"]/@biomemapcolor'>#FFFFFF</set>
+  <set xpath='/worldgeneration/biomes/biome[@name="desert"         and @biomemapcolor="#FFE477"]/@biomemapcolor'>#FFC080</set>
+  <set xpath='/worldgeneration/biomes/biome[@name="water"          and @biomemapcolor="#0063ff"]/@biomemapcolor'>#0080FF</set>
+  <!-- <set xpath='/worldgeneration/biomes/biome[@name="onlyWater"      and @biomemapcolor="#0064ff"]/@biomemapcolor'>#0064FF</set> -->
+  <!-- <set xpath='/worldgeneration/biomes/biome[@name="underwater"     and @biomemapcolor="#001234"]/@biomemapcolor'>#001234</set> -->
+  <!-- <set xpath='/worldgeneration/biomes/biome[@name="city"           and @biomemapcolor="#808080"]/@biomemapcolor'>#808080</set> -->
+  <!-- <set xpath='/worldgeneration/biomes/biome[@name="city_wasteland" and @biomemapcolor="#c0c0c0"]/@biomemapcolor'>#C0C0C0</set> -->
+  <!-- <set xpath='/worldgeneration/biomes/biome[@name="wasteland_hub"  and @biomemapcolor="#a0a0a0"]/@biomemapcolor'>#A0A0A0</set> -->
+</config>
