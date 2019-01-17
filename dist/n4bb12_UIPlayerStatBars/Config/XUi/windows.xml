@@ -18,6 +18,8 @@
           <sprite depth="5" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="32,32" pos="8,-6" foregroundlayer="true"></sprite>
           <sprite depth="8" name="border" color="0,0,0,255" height="43" type="sliced" fillcenter="false"></sprite>
         </rect>
+        <!-- <label depth="3" pos="15,-3" width="290" font_size="26" text="{playerfood}%" justify="right" color="[selectedColor]" /> -->
+        <!-- <label depth="3" pos="15,-3" width="290" font_size="26" text="{playermodifiedcurrentfood}/{playerfoodmax}" justify="right" color="[selectedColor]" /> -->
         <rect width="200" height="43" pos="0,-46" controller="PlayerStatsWindow" visible="{statvisible}">
           <filledsprite depth="5" name="BarContent" color="52,174,86" width="200" type="filled" fill="{playerfoodfill}"></filledsprite>
           <label depth="7" name="TextContent" pos="0,-8" font_size="28" color="[white]" justify="center" pivot="topleft" text="{playerfood}%" height="30"></label>
@@ -26,8 +28,10 @@
           <sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_fork" size="32,32" pos="8,-6" foregroundlayer="true"></sprite>
           <sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"></sprite>
         </rect>
+        <!-- <label depth="3" pos="15,-3" width="290" font_size="26" text="{playerwater}%" justify="right" color="[selectedColor]" /> -->
+        <!-- <label depth="3" pos="15,-3" width="290" font_size="26" text="{playermodifiedcurrentwater}/{playerwatermax}" justify="right" color="[selectedColor]" /> -->
         <rect width="200" height="43" pos="0,-92" controller="PlayerStatsWindow" visible="{statvisible}">
-          <filledsprite depth="5" name="BarContent" color="52,137,167" width="200" type="filled" fill="{playerwaterfill}"></filledsprite>
+          <!-- <filledsprite depth="5" name="BarContent" color="52,137,167" width="200" type="filled" fill="{playerwaterfill}"></filledsprite> -->
           <label depth="7" name="TextContent" pos="0,-8" font_size="28" color="[white]" justify="center" pivot="topleft" text="{playerwater}%" height="30"></label>
           <sprite depth="1" name="border" color="0,0,0,128" type="sliced"></sprite>
           <sprite depth="2" name="background" color="0,0,0,140" type="sliced"></sprite>
