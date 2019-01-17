@@ -1,0 +1,1 @@
+- Replaces the generic zombie loot tables with individual zombie-related ones
