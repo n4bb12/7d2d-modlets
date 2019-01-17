@@ -1,18 +1,18 @@
 import { readJsonSync, writeFileSync } from "fs-extra"
 
-const json = readJsonSync("json/sounds.json")
+const nodes = readJsonSync("json/sounds.json").Sounds.SoundDataNode
 const factor = 1 / 3
 
-const result = json.Sounds.SoundDataNode
-  .map((sound, index) => {
-    if (sound._name.endsWith("_s_fire")) {
-      const name = sound._name
-      const normalNoise = json.Sounds.SoundDataNode[index - 1].Noise
-      const id = normalNoise._ID
-      const range = Math.round(+normalNoise._range * factor * 100) / 100
-      const volume = Math.round(+normalNoise._volume * factor * 100) / 100
-      const heatStrength = normalNoise._heat_map_strength
-      const heatTime = normalNoise._heat_map_time
+const result = nodes
+  .map(suppressed => {
+    if (suppressed._name.endsWith("_s_fire")) {
+      const name = suppressed._name
+      const normal = nodes.find(node => node._name.toLowerCase() === suppressed._name.toLowerCase().replace(/_s_/, "_"))
+      const id = normal.Noise._ID
+      const range = Math.round(+normal.Noise._range * factor)
+      const volume = Math.round(+normal.Noise._volume * factor)
+      const heatStrength = normal.Noise._heat_map_strength || 0.05
+      const heatTime = normal.Noise._heat_map_time || 60
 
       return `  <remove xpath='/Sounds/SoundDataNode[@name="${name}"]/Noise'/>
   <append xpath='/Sounds/SoundDataNode[@name="${name}"]'>

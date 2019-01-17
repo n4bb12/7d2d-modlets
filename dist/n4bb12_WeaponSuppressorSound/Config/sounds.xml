@@ -9,15 +9,15 @@
   </append>
   <remove xpath='/Sounds/SoundDataNode[@name="mp5_s_fire"]/Noise'/>
   <append xpath='/Sounds/SoundDataNode[@name="mp5_s_fire"]'>
-    <Noise ID="5" range="20" volume="50" time="2" heat_map_strength="0.3" heat_map_time="120"/>
+    <Noise ID="2" range="2" volume="23" time="2" heat_map_strength="0.05" heat_map_time="60"/>
   </append>
   <remove xpath='/Sounds/SoundDataNode[@name="pistol_s_fire"]/Noise'/>
   <append xpath='/Sounds/SoundDataNode[@name="pistol_s_fire"]'>
-    <Noise ID="3" range="4.67" volume="40" time="2" heat_map_strength="0.05" heat_map_time="60"/>
+    <Noise ID="3" range="5" volume="40" time="2" heat_map_strength="0.05" heat_map_time="60"/>
   </append>
   <remove xpath='/Sounds/SoundDataNode[@name="pump_shotgun_s_fire"]/Noise'/>
   <append xpath='/Sounds/SoundDataNode[@name="pump_shotgun_s_fire"]'>
-    <Noise ID="5" range="20" volume="66.67" time="2" heat_map_strength="0.3" heat_map_time="120"/>
+    <Noise ID="5" range="20" volume="67" time="2" heat_map_strength="0.3" heat_map_time="120"/>
   </append>
   <remove xpath='/Sounds/SoundDataNode[@name="sniperrifle_s_fire"]/Noise'/>
   <append xpath='/Sounds/SoundDataNode[@name="sniperrifle_s_fire"]'>
