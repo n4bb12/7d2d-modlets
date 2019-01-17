@@ -1,0 +1,13 @@
+<config>
+  <!-- additional hands to allow range customization -->
+  <set xpath='/entity_classes/entity_class[@name="animalBoar"         ]/property[@name="HandItem"]/@value'>meleeHandAnimalBoar</set>
+  <set xpath='/entity_classes/entity_class[@name="animalDireWolf"     ]/property[@name="HandItem"]/@value'>meleeHandAnimalDireWolf</set>
+  <set xpath='/entity_classes/entity_class[@name="animalSnake"        ]/property[@name="HandItem"]/@value'>meleeHandAnimalSnake</set>
+  <set xpath='/entity_classes/entity_class[@name="animalWolf"         ]/property[@name="HandItem"]/@value'>meleeHandAnimalWolf</set>
+  <set xpath='/entity_classes/entity_class[@name="animalZombieBear"   ]/property[@name="HandItem"]/@value'>meleeHandAnimalZombieBear</set>
+  <set xpath='/entity_classes/entity_class[@name="animalZombieDog"    ]/property[@name="HandItem"]/@value'>meleeHandAnimalZombieDog</set>
+  <set xpath='/entity_classes/entity_class[@name="animalZombieVulture"]/property[@name="HandItem"]/@value'>meleeHandAnimalZombieVulture</set>
+  <set xpath='/entity_classes/entity_class[@name="zombieFatCop"       ]/property[@name="HandItem"]/@value'>meleeHandFatHawaiian</set>
+  <set xpath='/entity_classes/entity_class[@name="zombieFatHawaiian"  ]/property[@name="HandItem"]/@value'>meleeHandZombieCop</set>
+  <set xpath='/entity_classes/entity_class[@name="zombieFemaleFat"    ]/property[@name="HandItem"]/@value'>meleeHandFemaleFat</set>
+</config>
