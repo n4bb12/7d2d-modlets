@@ -1,2 +1,2 @@
 - Bases the amount of raw meat, leather, animal fat, bones and feathers on the amount of XP earned
-- Generally the amount of raw meat is lowered to match the food overhaul mod
+- Generally the amount of raw meat is lowered to match the CraftConsumables mod
