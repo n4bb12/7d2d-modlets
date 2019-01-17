@@ -59,7 +59,17 @@ try {
 
   readdirSync("src")
     .filter(name => {
-      return statSync("src/" + name).isDirectory()
+      const dir = "src/" + name
+      const isDirectory = statSync(dir).isDirectory()
+      if (!isDirectory) {
+        return false
+      }
+      const numFiles = readdirSync(dir).length
+      if (!numFiles) {
+        removeSync(dir)
+        return false
+      }
+      return true
     })
     .map(name => {
       const srcDir = "src/" + name
