@@ -1,1 +1,0 @@
-- Harvesting cars and tires now has a 10% chance to yield a tire

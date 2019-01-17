@@ -1,9 +1,0 @@
-<config>
-  <append xpath='/recipes'>
-    <recipe name="modDyeYellow" craft_area="chemistryStation" count="1">
-      <ingredient name="resourceCropGoldenrodPlant" count="8"/>
-      <ingredient name="foodEgg" count="1"/>
-      <ingredient name="drinkJarRiverWater" count="1"/>
-    </recipe>
-  </append>
-</config>
