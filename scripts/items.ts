@@ -64,7 +64,7 @@ const all = uniq([
 
 function save(name, list) {
   const cleanList = uniq(list).filter(identity).sort()
-  writeFileSync(`stats/${name}.md`, cleanList.join("\n") + "\n", "utf8")
+  writeFileSync(`stats/${name}.txt`, cleanList.join("\n") + "\n", "utf8")
 }
 
 save("items", all)

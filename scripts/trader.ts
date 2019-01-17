@@ -55,4 +55,4 @@ const list = uniqBy(all, "name")
   .map(item => `${item.name.padEnd(60)}${item.value.padStart(5)}`)
   .join("\n") + "\n"
 
-writeFileSync(`stats/economic-value.md`, list, "utf8")
+writeFileSync(`stats/economic-value.txt`, list, "utf8")

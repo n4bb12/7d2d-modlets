@@ -9,4 +9,4 @@ const zombies = readJsonSync("json/entityclasses.json")
   .map(name => name.substr("zombie".length))
   .sort()
 
-writeFileSync("stats/zombies.md", zombies.join("\n") + "\n", "utf8")
+writeFileSync("stats/zombies.txt", zombies.join("\n") + "\n", "utf8")

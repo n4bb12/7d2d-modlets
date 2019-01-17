@@ -33,4 +33,4 @@ const legend = [
   "VOLUME REDUCTION",
 ].join("") + "\n"
 
-writeFileSync("stats/suppressor.md", legend + results, "utf8")
+writeFileSync("stats/suppressor.txt", legend + results, "utf8")
