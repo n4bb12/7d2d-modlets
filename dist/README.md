@@ -35,29 +35,32 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### Bugs
 
-- Fixes typos in XML files
+- Fixes obvious errors in XML files
+- Adds missing texts for MegaCrush
+- Adds missing texts for RandomGenPreviewer
 
 
-#### ContainerLifetime
+#### ContainerDummies
 
-- Increases the duration of zombie bags by 300% to 15 minutes
+- Decreases the chance for non-lootable, opened containers from 33% to 10%
 
 
 #### ContainerSize
 
-- Overhauls all storage sizes to make them more homogenous and more realistic
+- Updates all container sizes to make them more homogenous
+- Some container sizes are increased to make them relatively consistent
 
 
-#### ContainerStackSize
+#### CorpseLifetime
 
-- Capped stack sizes at 5000
-- Decreases stack size of Steak and Potato Meal from 500 to 50
-- Decreases stack size of Fish Tacos 500 to 50
+- Increases the duration of corpses and dropped loot bags from 5 to 15 minutes
 
 
-#### Craft4Digits
+#### CraftBladeTrap
 
-- Makes crafting 4-digit amounts possible
+- Increases the cost of blade trap from 10 to 100 forged iron
+- Removes steel from blade trap
+- Adds a wheel and 8 mechanical parts to blade trap
 
 
 #### CraftBoltsFromArrows
@@ -65,34 +68,142 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 - Allow converting between bolts and arrows
 
 
-#### CraftDye
+#### CraftConsumables
 
-- Dyes can be crafted
-
-
-#### CraftFoodDrugsOverhaul
-
-- Overahult all crafting of foods, drinks, medicine and drugs
+- Rebalances all recipes for foods, drinks, medicine, drugs
 
 
-#### CraftIronBars
+#### CraftEmptyCan
 
-- Iron bars are overly expensive, reduces the price by 50%
+- Allows you to craft empty cans in the forge
+
+
+#### CraftLight
+
+Mining Helmet:
+- Craftable also with the red version of the football helmet
+- Requires a headlight instead of a torch
+- Decreases the duct tape from 5 to 2
+- Decreases the electrical parts from 8 to 2
+- No longer needs scrap plastic
+
+Flashlight:
+- Requires a short iron pipe instead of forged iron
+- Decreases the electrical parts from 10 to 8
+- Decreases the duct tape from 4 to 2
+- Added 2 glue
+
+Helmet Light:
+- Requires a torch instead of a headlight
+- No longer needs forged steel
+- No longer needs scrap plastic
+
+Weapon Flashlight:
+- Requires a torch instead of a headlight
+- Added 2 duct tape instead of 2 glue
+- No longer needs electrical parts
+- No longer needs scrap plastic
+
+Spotlight:
+- Requires 20 forged iron instead of 50 scrap iron
+- Requires 4 Glue instead of 2 duct tape
 
 
 #### CraftPaint
 
-- Paint now requires an empty bucket and 4 flowers each
+- Changes the paint ingredients to require 4 flowers each instead of 1 and a bucket of water instead of a jar
+
+
+#### CraftSafe
+
+- Increases the number of ingredients and their amounts for crafting metal storages to make them more challenging
+
+
+#### CraftWithForgedIron
+
+- Decreases the cost of empty bucket from 7 to 4 forged iron
+- Increases the cost of burning barrel from 3 to 8 forged iron
+- Increases the cost of flashlight from 1 to 4 forged iron
+- Increases the cost of battery bank from 10 to 30 forged iron
+- Increases the cost of generator bank from 10 to 30 forged iron
+- Increases the cost of bycicle chassis from 5 to 15 forged iron
+- Increases the cost of minibike chassis from 10 to 40 forged iron
 
 
 #### CraftWithIron
 
-- Re-balanced some iron recipes
+- Reduces the price for crafting iron bars by 50%
 
 
-#### Experiments
+#### CraftWithWood
 
-- Don't use this mod, I'm using it for unfinished stuff.
+- Increases the cost for a wine barrel from 6 to 15 wood and from 5 to 60 nails
+- Increases the cost for a wine barrel set from 12 to 45 wood and from 10 to 180 nails
+
+
+#### DestroyBirdsNest
+
+- Birds nests get destroyed when looted
+
+
+#### Dye
+
+- Adds white, purple, yellow and orange dye
+- Adds recipes for all dyes
+- Improves the dye icons
+
+![](screenshot.png)
+
+
+#### EngineQuality
+
+- Adds the missing quality levels 1-6 to the engine
+
+
+#### HarvestAnimals
+
+- Bases the amount of raw meat, leather, animal fat, bones and feathers on the amount of XP earned
+- Generally the amount of raw meat is lowered to match the CraftConsumables mod
+
+
+#### HarvestBirdNestsInTrees
+
+- Adds a chance to loot feathers and eggs from trees, depending on the size of the tree
+
+
+#### HarvestChemistryStation
+
+- Adds a chance to loot burning barrel, beaker and cooking pot when harvesting a chemistry station
+
+
+#### HarvestDoors
+
+- Destroying doors with a knob yields a brass doorknob
+
+
+#### HarvestNuggets
+
+- Adds a tiny chance to harvest nuggets and diamonds from rock, boulders, ore and oil shale
+
+
+#### HarvestRock
+
+- Increases stone, iron, coal, nitrate powder, lead, silver, gold, diamond harvested from boulders, rocks, ore
+- Each aforementioned resource consumes a certain amount of slots, each block adds up to the same amount of 150 slots:
+  - small stone:     1 points
+  - iron fragment:   1.5 points
+  - coal:            3 points
+  - nitrate powder:  3 points
+  - lead:            3 points
+  - oil shale:       3 points
+  - silver:          7.5 points
+  - gold:            15 points
+  - diamond:         30 points
+
+
+#### HarvestTrees
+
+- Increases wood harvested from trees by 50%
 
 
 #### LootAirDrop
@@ -102,98 +213,60 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### LootAmmo
 
-- Removes ammo from containers where it makes no sense
+- Removes ammo from kitchen sinks, cupboards, cars, garage stuff, tools
 
 
-#### LootAnimals
+#### LootBirdNests
 
-- Bases the amount of raw meat, leather, animal fat, bones and feathers on the amount of XP earned
-- Generally the amount of raw meat is lowered to match the food overhaul mod
-
-
-#### LootBirdsNest
-
-- Reduced the amount of feahters found in bird nests by 66%
-
-
-#### LootChemistryStation
-
-- Adds a chance to loot burning barrel, beaker and cooking pot when harvesting a chemistry station
-
-
-#### LootDestroyBirdsNest
-
-- Birds nests get destroyed when looted
-
-
-#### LootDoorknobs
-
-- Destroying doors with a knob yields a brass doorknob
-
-
-#### LootDummyContainers
-
-- Decreases the chance for non-lootable, opened containers from 33% to 25%
-
-
-#### LootFeathersAndEggsFromTrees
-
-- Adds a chance to loot feathers and eggs from trees, depending on the size of the tree
+- Reduces the amount of feahters found in bird nests
 
 
 #### LootFoodAndWater
 
-- Reduces the amount of bottled water and canned food found in loot containers and zombies
-- Find rotten food in refridgerators
-- Find eggs in refridgerators
+- Reduces the amount of bottled water and canned food found in zombies and unrelated containers
+- Adds the amount of canned food found in the kitchen
+- Adds canned food to cardboard boxes
+- Adds rotten food to the refridgerator
 
 
 #### LootGuns
 
-- Increases drop chance for Magnum 44
-- Increases drop chance for Crossbow
-- Increases drop chance for Machete
-- Decreases drop chance for Hunting Rifle
-- Decreases drop chance for Shotgun
-- Decreases drop chance for Pistol
-- Decreases drop chance for Compound Bow
-- Overall firearms are found less frequently
+- Decreases drop chance for Pistol in favour of moreMagnum 44s
+- Increases drop chance for Crossbow and Machete which were previously extremely rare
+- Decreases drop chance for Compound Bow which drops found way to frequently
+- Decreases drop chance for Hunting Rifle and Shotgun as they drop to frequently for such strong weapons
+- Firearms are found less frequently in general
 
 
 #### LootJunk
 
-- Remove lead and brass from junk
-- Remove things from junk that are generally not trashed
+- Remove lead and brass items from junk
+- Remove from junk things that are generally not junked
 
 
-#### LootNuggets
+#### LootSportingGoods
 
-- Adds a small chance to harvest nuggets and diamonds from rock, boulders, ore and oil shale
-
-
-#### LootRock
-
-- Increases stone, iron, coal, nitrate powder and lead harvested from boulders, rocks and ore
+- Removes cooking tools from sporting goods
 
 
-#### LootTires
+#### LootWeaponMods
 
-- Harvesting cars and tires now has a 10% chance to yield a tire
+- Makes higher tier weapon mods rarer than lower tier ones
 
 
-#### LootTrees
+#### LootZombies
 
-- Increases wood harvested from trees by 100%
+- Replaces the generic zombie loot tables with individual zombie-related ones
 
 
 #### NoHoliday
 
-- Removed holiday items
+- Removes holiday items
 
 
 #### PlayerDeathSickness
 
-- Decreases sickness duration by 50% to 15 minutes
+- Decreases death sickness duration by 50% to now 15 minutes
 
 
 #### PlayerEncumberance
@@ -206,9 +279,32 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 - Decreases stamina loss from running, jumping and swimming by 20%
 
 
-#### QuestBasicSurvival
+#### QuestBasicSurvivalSkillPoints
 
-- Increases perk reward for survival basics from 4 to 5
+- Gain 5 instead of 4 skill points for completing the basic survival quest
+
+
+#### RandomGen
+
+- A better random map generator
+
+![](screenshot.png)
+
+
+#### RandomGenPreviewer
+
+- Improves the map legend colors
+
+![](screenshot.png)
+
+
+#### StackSize
+
+- Caps forge stacks at 50000
+- Caps all natural base resources at 1000
+- Caps regular material stacks 250
+- Caps dense materials at 125 or 50, based on their scrap value
+- Caps consumables at 25
 
 
 #### ToolEntityDamage
@@ -218,10 +314,10 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### ToolPowerSwingSound
 
-- Removed the annoying sound from power swings
+- Removes the annoying sound from power swings
 
 
-#### ToolUpgradeRepair
+#### ToolUpgrade+Repair
 
 - Changed upgrade/repair times to
   Stone Axe: upgrade: 2s, repair: 500/s
@@ -232,18 +328,8 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### TradePricing
 
-- Increases the reward for selling items to 50% of the normal price
+- Increases the reward for selling items to 25% of the normal price
 - Decreases the price for buying items to 150% of the normal price
-
-
-#### TradeVehicles
-
-- Vehicles can be sold at the trader
-
-
-#### UIBackpackSize
-
-- Increases the backpack size from 45 to 50
 
 
 #### UICompass
@@ -255,6 +341,11 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 - Adds an additional crafting slot to fill up UI space
 - Properly aligns the crafting queue with other windows
+
+
+#### UIFourDigitCraftAmount
+
+- Makes crafting 4-digit amounts possible
 
 
 #### UIPlayerStatBars
@@ -293,38 +384,49 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### WeaponSuppressorSound
 
-- Decreases the volume of suppressed gun fire perceived by zombies by 87.5% (equivalent of 160db --> 130db)
+Decreases sound volume and sound range of suppressed gun fire by 67%.
+This is consistent with the the vanilla settings but does it for all weapons, not just for 3 out of 6.
 
 
-#### XpBlocks
+#### XPForBlocks
 
-- Increases XP for harvesting resources by 50%
-
-
-#### XpProgression
-
-- Decreases required XP per level by 20%
-- Decreases required XP per level increase by 33%
+- Decreases XP for harvesting trees, rock and other blocks by 25%
 
 
-#### ZombieAnimalSpawning
+#### XPForQuests
+
+- Increases quest XP to 500% the normal value
+
+
+#### XPForZombies
+
+- Sets consistent XP rates for feral (2x base zombie) and radiated (5x base zombie) zombies
+
+
+#### XPPlayerProgression
+
+- Decreases the increase of required XP per level by 33%
+
+
+#### Zombie+AnimalRange
+
+- Reduces zombie and animal range a bit to accomodate for potential server lag
+- Further adapts zombie and animal range for visualy equal range
+
+
+#### Zombie+AnimalSpawning
 
 - Increases the amount of animals spawned by a lot
 - Animals are more active at night
 - Rebalanced the amount of zombies spawned
 - Decreases the number of vultures by 50%
-- Removed vultures from snow biome
+- Removes vultures from snow biome
 - Zombies are more active at day
 
 
 #### ZombieBagDrop
 
 - Increases chance to drop a loot bag from 2%/3%/3% (normal/feral/radiated zombies) to 5%/10%/25%
-
-
-#### ZombieJumpRange
-
-- Decreases the jump range by 33%, fat zombies cannot jump as far
 
 
 #### ZombieKnockdownDuration
@@ -334,5 +436,6 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### ZombieWanderingHordeSize
 
-- Increases the size of wandering hordes to 5x the size, excluding animal hordes which are left unchanged
+- Increases the size of wandering hordes to 500% the normal value
+- Leaves animal horde sizes unchanged
 

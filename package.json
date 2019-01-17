@@ -30,6 +30,7 @@
     "@n4bb12/config-tslint": "^1.4.1",
     "@types/fs-extra": "^5.0.4",
     "@types/lodash": "^4.14.119",
+    "@types/node": "^10.12.18",
     "fast-xml-parser": "^3.12.12",
     "fs-extra": "^7.0.1",
     "glob": "^7.1.3",
