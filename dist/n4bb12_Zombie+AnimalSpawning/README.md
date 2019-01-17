@@ -2,5 +2,5 @@
 - Animals are more active at night
 - Rebalanced the amount of zombies spawned
 - Decreases the number of vultures by 50%
-- Removed vultures from snow biome
+- Removes vultures from snow biome
 - Zombies are more active at day
