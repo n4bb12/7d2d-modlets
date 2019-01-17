@@ -1,0 +1,3 @@
+- Increases the cost of blade trap from 10 to 100 forged iron
+- Removes steel from blade trap
+- Adds a wheel and 8 mechanical parts to blade trap
