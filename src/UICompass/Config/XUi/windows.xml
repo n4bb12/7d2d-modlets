@@ -4,22 +4,22 @@
     <rect size="480,30" pos="60,-55">
       <!-- Time -->
       <rect pos="0,0">
-        <sprite sprite="ui_game_symbol_clock" size="22,22" color="[white_quarter_alpha]" />
+        <sprite size="22,22" sprite="ui_game_symbol_clock" color="[white_quarter_alpha]" />
         <label pos="28,0" text="{day|always} / {time|always}" font_size="22" color="[white]" effect="outline" />
       </rect>
       <!-- Elevation -->
       <rect pos="116,0" controller="MapStats">
-        <sprite sprite="ui_game_symbol_climb" size="22,22" color="[white_quarter_alpha]" />
+        <sprite size="22,22" sprite="ui_game_symbol_climb" color="[white_quarter_alpha]" />
         <label pos="28,0" text="{mapelevation}[-] M" font_size="22" color="[white]" effect="outline" />
       </rect>
       <!-- Wind -->
       <rect pos="208,0" controller="MapStats">
-        <sprite sprite="ui_game_symbol_wind" size="22,22" color="[white_quarter_alpha]" />
+        <sprite size="22,22" sprite="ui_game_symbol_wind" color="[white_quarter_alpha]" />
         <label pos="28,0" text="{mapwind} MPH[-]" font_size="22" color="[white]" effect="outline" />
       </rect>
       <!-- Temperature -->
       <rect pos="300,0" controller="MapStats">
-        <sprite sprite="ui_game_symbol_temperature" size="22,22" color="[white_quarter_alpha]" />
+        <sprite size="22,22" sprite="ui_game_symbol_temperature" color="[white_quarter_alpha]" />
         <label pos="28,0" text="{maptemperature}[-]" font_size="22" color="[white]" effect="outline"/>
       </rect>
     </rect>
