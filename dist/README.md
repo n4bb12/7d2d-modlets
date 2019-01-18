@@ -348,9 +348,14 @@ Spotlight:
 - Makes crafting 4-digit amounts possible
 
 
+#### UIGamestage
+
+- Adds player kills, deaths and gamestage to the upper-left corner
+
+
 #### UIPlayerStatBars
 
-- Adds food, water, temperature and XP bars to the bottom-left stat bars
+- Adds food, water, temperature and XP bars to the lower-left stat bars
 
 
 #### UIScale
