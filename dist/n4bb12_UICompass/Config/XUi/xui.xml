@@ -1,6 +1,0 @@
-<config>
-  <remove xpath='/xui/ruleset[@name="default"]/window_group[@name="compass"]/window[@name="windowCompass"]'/>
-  <append xpath='/xui/ruleset[@name="default"]/window_group[@name="compass"]'>
-    <window name="n4bb12_windowCompass" />
-  </append>
-</config>

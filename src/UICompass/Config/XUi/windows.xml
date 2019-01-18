@@ -1,23 +1,27 @@
 <config>
-  <append xpath='/windows'>
-    <window name="n4bb12_windowCompass" style="compass.window" controller="CompassWindow">
-      <!-- Compass -->
-      <sprite style="compass.window.background.border"/>
-      <sprite style="compass.window.background"/>
-      <sprite style="compass.window.compass.background"/>
-      <texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" ></texture>
+  <remove xpath='/windows/window[@name="windowCompass"]/sprite[@sprite=""]'/>
+  <append xpath='/windows/window[@name="windowCompass"]'>
+    <rect size="480,30" pos="60,-55">
       <!-- Time -->
-      <sprite depth="2" pos="60,-55" name="Icon" sprite="ui_game_symbol_clock" size="22,22" color="[white_quarter_alpha]" />
-      <label depth="2" pos="330,-66" name="TextContent" font_size="22" color="[white]" pivot="center" text="{day|always} / {time|always}" height="30" effect="outline" upper_case="true" />
+      <rect pos="0,0">
+        <sprite sprite="ui_game_symbol_clock" size="22,22" color="[white_quarter_alpha]" />
+        <label pos="28,0" text="{day|always} / {time|always}" font_size="22" color="[white]" effect="outline" />
+      </rect>
       <!-- Elevation -->
-      <sprite depth="2" pos="175,-55" name="Icon" sprite="ui_game_symbol_climb" size="22,22" color="[white_quarter_alpha]" />
-      <label depth="2" pos="445,-66" name="TextContent" font_size="22" color="[white]" globalopacitymod="1.8" pivot="center" text="{mapelevation}[-] M" height="30" controller="MapStats" effect="outline" />
+      <rect pos="116,0" controller="MapStats">
+        <sprite sprite="ui_game_symbol_climb" size="22,22" color="[white_quarter_alpha]" />
+        <label pos="28,0" text="{mapelevation}[-] M" font_size="22" color="[white]" effect="outline" />
+      </rect>
       <!-- Wind -->
-      <sprite depth="2" pos="264,-55" name="Icon" sprite="ui_game_symbol_wind" size="22,22" color="[white_quarter_alpha]" />
-      <label depth="2" pos="534,-66" name="TextContent" font_size="22" color="[white]" globalopacitymod="1.8" pivot="center" text="{mapwind} MPH[-]" height="30" controller="MapStats" effect="outline" />
+      <rect pos="208,0" controller="MapStats">
+        <sprite sprite="ui_game_symbol_wind" size="22,22" color="[white_quarter_alpha]" />
+        <label pos="28,0" text="{mapwind} MPH[-]" font_size="22" color="[white]" effect="outline" />
+      </rect>
       <!-- Temperature -->
-      <sprite depth="2" pos="356,-55" name="Icon" sprite="ui_game_symbol_temperature" size="22,22" color="[white_quarter_alpha]" />
-      <label depth="2" pos="626,-66" name="TextContent" font_size="22" color="[white]" pivot="center" text="{maptemperature}[-]" height="30" controller="MapStats" effect="outline"/>
-    </window>
+      <rect pos="300,0" controller="MapStats">
+        <sprite sprite="ui_game_symbol_temperature" size="22,22" color="[white_quarter_alpha]" />
+        <label pos="28,0" text="{maptemperature}[-]" font_size="22" color="[white]" effect="outline"/>
+      </rect>
+    </rect>
   </append>
 </config>
