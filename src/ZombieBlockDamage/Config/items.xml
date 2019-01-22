@@ -1,0 +1,19 @@
+<config>
+  <set xpath='/items/item[@name="meleeHandAnimalZombieDog"              ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="14"      ]/@value'>8</set>
+  <set xpath='/items/item[@name="meleeHandMaster"                       ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="16"      ]/@value'>10</set>
+  <set xpath='/items/item[@name="meleeHandAnimalZombieDogFeral"         ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="28"      ]/@value'>16</set>
+  <set xpath='/items/item[@name="meleeHandZombie02Feral"                ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="32"      ]/@value'>20</set>
+  <set xpath='/items/item[@name="meleeHandZombieStripperFeral"          ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="32"      ]/@value'>16</set>
+  <set xpath='/items/item[@name="meleeHandZombieFootballPlayerFeral"    ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="32"      ]/@value'>20</set>
+  <set xpath='/items/item[@name="meleeHandZombieFeral"                  ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="32"      ]/@value'>20</set>
+  <set xpath='/items/item[@name="meleeHandZombieHazMatFeral"            ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="32"      ]/@value'>20</set>
+  <set xpath='/items/item[@name="meleeHandZombieStrong"                 ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="40"      ]/@value'>20</set>
+  <set xpath='/items/item[@name="meleeHandAnimalBear"                   ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="40"      ]/@value'>30</set>
+  <set xpath='/items/item[@name="meleeHandAnimalZombieBear"             ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="80"      ]/@value'>50</set>
+  <set xpath='/items/item[@name="meleeHandZombieStrongFeral"            ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="80"      ]/@value'>40</set>
+  <set xpath='/items/item[@name="meleeHandAnimalZombieBearFeral"        ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="120"     ]/@value'>70</set>
+  <set xpath='/items/item[@name="meleeHandZombieWorkerFeral"            ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="200"     ]/@value'>20</set>
+  <set xpath='/items/item[@name="meleeHandZombieCop"                    ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="200"     ]/@value'>20</set>
+  <set xpath='/items/item[@name="meleeHandZombieCopFeral"               ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="220"     ]/@value'>40</set>
+  <set xpath='/items/item[@name="meleeHandZombieBehemoth"               ]/property[@class="Action0"]/property[@name="DamageBlock" and @value="2000"    ]/@value'>500</set>
+</config>
