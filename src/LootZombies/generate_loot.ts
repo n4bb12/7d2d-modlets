@@ -1,14 +1,14 @@
 import { readFileSync, writeFileSync } from "fs-extra"
 import { uniq } from "lodash"
 
-import { rarity as itemRarities } from "../../stats/rarity"
+import { round } from "../../scripts/util"
 import { getStackSize } from "../../stats/stack"
 
 import { BAG_ID_OFFSET, BAG_SIZE, ITEMS_PER_BAG, LOOT_FREQUENCY_MULTIPLIER } from "./config"
 import { loot } from "./loot"
 import { Shared } from "./loot_shared"
 
-const economicValue = readFileSync("stats/economic-value.md", "utf8")
+const economicValue = readFileSync("stats/economic-value.txt", "utf8")
   .split("\n")
   .map(line => line.trim())
   .filter(line => line)
@@ -27,7 +27,7 @@ function renderItem(name) {
   const ec = economicValue[name]
   const frequency = LOOT_FREQUENCY_MULTIPLIER / (ec || Number.MAX_SAFE_INTEGER)
   const countPadded = ("\"1," + Math.round(stackSqrt) + "\"").replace(/"1,1"/, "\"1\"").padEnd(10)
-  const probPadded = ("\"" + Math.round(frequency * 1000000) / 1000000 + "\"").padEnd(10)
+  const probPadded = ("\"" + round(frequency) + "\"").padEnd(10)
 
   if (!ec) {
     missing.push(name)
@@ -69,10 +69,10 @@ const containers = Object.keys(loot)
   .map((name, index) => {
     const items = loot[name]
       .sort((a, b) => {
-        if (typeof itemRarities[a] === typeof itemRarities[b]) {
-          if (itemRarities[a] !== itemRarities[b]) {
-            return + itemRarities[b] - +itemRarities[a]
-          }
+        const aValue = economicValue[a]
+        const bValue = economicValue[b]
+        if (aValue !== typeof bValue) {
+          return aValue - bValue
         }
         return a.localeCompare(b)
       })

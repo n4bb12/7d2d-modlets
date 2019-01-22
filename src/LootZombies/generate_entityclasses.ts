@@ -26,7 +26,7 @@ function renderEntityAssignment(zombieName, containerName) {
   </append>`
 }
 
-const validZombies = readFileSync("stats/zombies.md", "utf8")
+const validZombies = readFileSync("stats/zombies.txt", "utf8")
   .trim()
   .split("\n")
   .reduce((map, id) => {

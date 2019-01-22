@@ -74,83 +74,83 @@
 
     <!-- Arlene -->
     <lootcontainer id="200" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="skirt"                                            count="1"        prob="0.25"    />
-      <item name="tankTop"                                          count="1"        prob="0.25"    />
-      <item name="toolCookingGrill"                                 count="1"        prob="0.384615"/>
-      <item name="toolCookingPot"                                   count="1"        prob="0.833333"/>
-      <item name="drinkCanEmpty"                                    count="1,5"      prob="2"       />
-      <item name="drinkJarEmpty"                                    count="1,5"      prob="1.666667"/>
-      <item name="foodCanBeef"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanCatfood"                                   count="1,5"      prob="0.5"     />
-      <item name="foodCanChicken"                                   count="1,5"      prob="0.166667"/>
-      <item name="foodCanChili"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanDogfood"                                   count="1,5"      prob="0.25"    />
-      <item name="foodCanHam"                                       count="1,5"      prob="0.166667"/>
-      <item name="foodCanLamb"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanMiso"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanPasta"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanPears"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanPeas"                                      count="1,5"      prob="0.5"     />
-      <item name="foodCanSalmon"                                    count="1,5"      prob="0.166667"/>
-      <item name="foodCanSoup"                                      count="1,5"      prob="0.25"    />
-      <item name="foodCanStock"                                     count="1,5"      prob="0.25"    />
-      <item name="foodCanTuna"                                      count="1,5"      prob="0.5"     />
       <item name="foodCornMeal"                                     count="1,16"     prob="2.5"     />
-      <item name="foodHoney"                                        count="1,5"      prob="0.125"   />
+      <item name="drinkCanEmpty"                                    count="1,5"      prob="2"       />
+      <item name="drinkJarEmpty"                                    count="1,5"      prob="1.67"    />
+      <item name="toolCookingPot"                                   count="1"        prob="0.83"    />
+      <item name="foodCanCatfood"                                   count="1,5"      prob="0.5"     />
+      <item name="foodCanTuna"                                      count="1,5"      prob="0.5"     />
+      <item name="foodCanPeas"                                      count="1,5"      prob="0.5"     />
+      <item name="toolCookingGrill"                                 count="1"        prob="0.38"    />
+      <item name="foodCanDogfood"                                   count="1,5"      prob="0.25"    />
+      <item name="foodCanStock"                                     count="1,5"      prob="0.25"    />
+      <item name="foodCanSoup"                                      count="1,5"      prob="0.25"    />
+      <item name="tankTop"                                          count="1"        prob="0.25"    />
+      <item name="skirt"                                            count="1"        prob="0.25"    />
+      <item name="foodCanPears"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanPasta"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanSalmon"                                    count="1,5"      prob="0.17"    />
+      <item name="foodCanLamb"                                      count="1,5"      prob="0.17"    />
+      <item name="foodCanHam"                                       count="1,5"      prob="0.17"    />
+      <item name="foodCanChili"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanChicken"                                   count="1,5"      prob="0.17"    />
+      <item name="foodCanBeef"                                      count="1,5"      prob="0.17"    />
+      <item name="foodCanMiso"                                      count="1,5"      prob="0.17"    />
+      <item name="foodHoney"                                        count="1,5"      prob="0.13"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Biker -->
     <lootcontainer id="201" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="tankTop"                                          count="1"        prob="0.25"    />
-      <item name="ammo44MagnumBullet"                               count="1,16"     prob="1"       />
-      <item name="ammoGasCan"                                       count="1,16"     prob="0.120482"/>
-      <item name="armorLeatherGloves"                               count="1"        prob="0.033333"/>
-      <item name="armorSwatHelmet"                                  count="1"        prob="0.01"    />
-      <item name="gun44Magnum"                                      count="1"        prob="0.014286"/>
-      <item name="meleeToolHuntingKnife"                            count="1"        prob="0.033333"/>
-      <item name="thrownAmmoMolotovCocktail"                        count="1,5"      prob="0.243902"/>
-      <item name="facialPiercings"                                  count="1"        prob="0.2"     />
-      <item name="gothBootsBlack"                                   count="1"        prob="0.033333"/>
-      <item name="gothicPants"                                      count="1"        prob="0.033333"/>
-      <item name="meleeClubIron"                                    count="1"        prob="0.028571"/>
       <item name="meleeClubWood"                                    count="1"        prob="2"       />
-      <item name="meleeToolMachete"                                 count="1"        prob="0.016667"/>
+      <item name="ammo44MagnumBullet"                               count="1,16"     prob="1"       />
+      <item name="tankTop"                                          count="1"        prob="0.25"    />
+      <item name="thrownAmmoMolotovCocktail"                        count="1,5"      prob="0.24"    />
+      <item name="facialPiercings"                                  count="1"        prob="0.2"     />
+      <item name="ammoGasCan"                                       count="1,16"     prob="0.12"    />
+      <item name="gothicPants"                                      count="1"        prob="0.033"   />
+      <item name="gothBootsBlack"                                   count="1"        prob="0.033"   />
+      <item name="meleeToolHuntingKnife"                            count="1"        prob="0.033"   />
+      <item name="armorLeatherGloves"                               count="1"        prob="0.033"   />
+      <item name="meleeClubIron"                                    count="1"        prob="0.029"   />
+      <item name="meleeToolMachete"                                 count="1"        prob="0.017"   />
+      <item name="gun44Magnum"                                      count="1"        prob="0.014"   />
+      <item name="armorSwatHelmet"                                  count="1"        prob="0.01"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Boe -->
     <lootcontainer id="202" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="tshirt"                                           count="1"        prob="0.25"    />
-      <item name="nerdGlasses"                                      count="1"        prob="0.01"    />
-      <item name="dressShoes"                                       count="1"        prob="0.05"    />
+      <item name="resourceNail"                                     count="1,16"     prob="1"       />
+      <item name="resourceMetalPipe"                                count="1,10"     prob="0.83"    />
+      <item name="resourceScrapPolymers"                            count="1,16"     prob="0.63"    />
+      <item name="resourceGlue"                                     count="1,16"     prob="0.5"     />
       <item name="resourceDuctTape"                                 count="1,10"     prob="0.4"     />
       <item name="resourceFishingWeight"                            count="1,16"     prob="0.4"     />
-      <item name="resourceGlue"                                     count="1,16"     prob="0.5"     />
-      <item name="resourceMetalPipe"                                count="1,10"     prob="0.833333"/>
-      <item name="resourceNail"                                     count="1,16"     prob="1"       />
+      <item name="tshirt"                                           count="1"        prob="0.25"    />
+      <item name="denimPants"                                       count="1"        prob="0.25"    />
       <item name="resourceOil"                                      count="1,10"     prob="0.1"     />
-      <item name="resourceScrapPolymers"                            count="1,16"     prob="0.625"   />
+      <item name="dressShoes"                                       count="1"        prob="0.05"    />
+      <item name="nerdGlasses"                                      count="1"        prob="0.01"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Burnt -->
     <lootcontainer id="203" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="tshirt"                                           count="1"        prob="0.25"    />
-      <item name="toolCookingPot"                                   count="1"        prob="0.833333"/>
-      <item name="mineAirFilter"                                    count="1"        prob="0.054945"/>
-      <item name="mineCandyTin"                                     count="1"        prob="0.103093"/>
-      <item name="mineCookingPot"                                   count="1"        prob="0.083333"/>
-      <item name="mineHubcap"                                       count="1"        prob="0.068493"/>
-      <item name="resourceAirFilter"                                count="1,10"     prob="0.666667"/>
       <item name="resourceCandyTin"                                 count="1,16"     prob="2"       />
-      <item name="resourceCoal"                                     count="1,32"     prob="1"       />
       <item name="resourceHubcap"                                   count="1,10"     prob="1"       />
+      <item name="resourceCoal"                                     count="1,32"     prob="1"       />
+      <item name="toolCookingPot"                                   count="1"        prob="0.83"    />
+      <item name="resourceAirFilter"                                count="1,10"     prob="0.67"    />
+      <item name="tshirt"                                           count="1"        prob="0.25"    />
+      <item name="denimPants"                                       count="1"        prob="0.25"    />
+      <item name="mineCandyTin"                                     count="1"        prob="0.1"     />
+      <item name="mineCookingPot"                                   count="1"        prob="0.083"   />
+      <item name="mineHubcap"                                       count="1"        prob="0.068"   />
+      <item name="mineAirFilter"                                    count="1"        prob="0.055"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
@@ -158,21 +158,25 @@
     <!-- BusinessMan -->
     <lootcontainer id="204" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
       <item name="casinoCoin"                                       count="1,71"     prob="2"       />
-      <item name="suitJacket"                                       count="1"        prob="0.02004" />
+      <item name="oldCash"                                          count="1,71"     prob="1.43"    />
       <item name="suitPants"                                        count="1"        prob="0.25"    />
-      <item name="resourceSilverNugget"                             count="1,7"      prob="0.04"    />
-      <item name="resourceGoldNugget"                               count="1,7"      prob="0.014286"/>
-      <item name="shades"                                           count="1"        prob="0.02"    />
-      <item name="resourceRawDiamond"                               count="1,7"      prob="0.006667"/>
       <item name="cigar"                                            count="1"        prob="0.2"     />
       <item name="dressShoes"                                       count="1"        prob="0.05"    />
-      <item name="oldCash"                                          count="1,71"     prob="1.428571"/>
+      <item name="resourceSilverNugget"                             count="1,7"      prob="0.04"    />
+      <item name="suitJacket"                                       count="1"        prob="0.02"    />
+      <item name="shades"                                           count="1"        prob="0.02"    />
+      <item name="resourceGoldNugget"                               count="1,7"      prob="0.014"   />
+      <item name="resourceRawDiamond"                               count="1,7"      prob="0.0067"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Cheerleader -->
     <lootcontainer id="205" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+      <item name="skirt"                                            count="1"        prob="0.25"    />
+      <item name="tankTop"                                          count="1"        prob="0.25"    />
+      <item name="hpRunningShoes"                                   count="1"        prob="0.05"    />
+      <item name="runningShoes"                                     count="1"        prob="0.05"    />
       <item name="qc_blitzdefense"                                  count="1,5"      prob="0.025"   />
       <item name="qc_buythefarm"                                    count="1,5"      prob="0.025"   />
       <item name="qc_cableguysnevermadeit"                          count="1,5"      prob="0.025"   />
@@ -181,7 +185,7 @@
       <item name="qc_dontfeedthebears"                              count="1,5"      prob="0.025"   />
       <item name="qc_drunkanddisorderly"                            count="1,5"      prob="0.025"   />
       <item name="qc_givemeaz"                                      count="1,5"      prob="0.025"   />
-      <item name="qc_imalumberjackandimokay"                        count="1,5"      prob="0.025"   />
+      <item name="qc_yournothingspecial"                            count="1,5"      prob="0.025"   />
       <item name="qc_itsbitsyspider"                                count="1,5"      prob="0.025"   />
       <item name="qc_killthewabbit"                                 count="1,5"      prob="0.025"   />
       <item name="qc_ladykiller"                                    count="1,5"      prob="0.025"   />
@@ -192,81 +196,77 @@
       <item name="qc_stagparty"                                     count="1,5"      prob="0.025"   />
       <item name="qc_starvingtourists"                              count="1,5"      prob="0.025"   />
       <item name="qc_thatlldopig"                                   count="1,5"      prob="0.025"   />
-      <item name="qc_yournothingspecial"                            count="1,5"      prob="0.025"   />
-      <item name="runningShoes"                                     count="1"        prob="0.05"    />
-      <item name="skirt"                                            count="1"        prob="0.25"    />
-      <item name="tankTop"                                          count="1"        prob="0.25"    />
-      <item name="hpRunningShoes"                                   count="1"        prob="0.05"    />
+      <item name="qc_imalumberjackandimokay"                        count="1,5"      prob="0.025"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Darlene -->
     <lootcontainer id="206" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="shirt"                                            count="1"        prob="0.25"    />
-      <item name="suitPants"                                        count="1"        prob="0.25"    />
-      <item name="toolCookingGrill"                                 count="1"        prob="0.384615"/>
-      <item name="toolCookingPot"                                   count="1"        prob="0.833333"/>
-      <item name="dressShoes"                                       count="1"        prob="0.05"    />
+      <item name="foodCornMeal"                                     count="1,16"     prob="2.5"     />
       <item name="drinkCanEmpty"                                    count="1,5"      prob="2"       />
-      <item name="drinkJarEmpty"                                    count="1,5"      prob="1.666667"/>
-      <item name="foodCanBeef"                                      count="1,5"      prob="0.166667"/>
+      <item name="drinkJarEmpty"                                    count="1,5"      prob="1.67"    />
+      <item name="toolCookingPot"                                   count="1"        prob="0.83"    />
       <item name="foodCanCatfood"                                   count="1,5"      prob="0.5"     />
-      <item name="foodCanChicken"                                   count="1,5"      prob="0.166667"/>
-      <item name="foodCanChili"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanDogfood"                                   count="1,5"      prob="0.25"    />
-      <item name="foodCanHam"                                       count="1,5"      prob="0.166667"/>
-      <item name="foodCanLamb"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanMiso"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanPasta"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanPears"                                     count="1,5"      prob="0.166667"/>
+      <item name="foodCanTuna"                                      count="1,5"      prob="0.5"     />
       <item name="foodCanPeas"                                      count="1,5"      prob="0.5"     />
-      <item name="foodCanSalmon"                                    count="1,5"      prob="0.166667"/>
+      <item name="toolCookingGrill"                                 count="1"        prob="0.38"    />
       <item name="foodCanSoup"                                      count="1,5"      prob="0.25"    />
       <item name="foodCanStock"                                     count="1,5"      prob="0.25"    />
-      <item name="foodCanTuna"                                      count="1,5"      prob="0.5"     />
-      <item name="foodCornMeal"                                     count="1,16"     prob="2.5"     />
-      <item name="foodHoney"                                        count="1,5"      prob="0.125"   />
+      <item name="suitPants"                                        count="1"        prob="0.25"    />
+      <item name="foodCanDogfood"                                   count="1,5"      prob="0.25"    />
+      <item name="shirt"                                            count="1"        prob="0.25"    />
+      <item name="foodCanPasta"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanPears"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanChicken"                                   count="1,5"      prob="0.17"    />
+      <item name="foodCanSalmon"                                    count="1,5"      prob="0.17"    />
+      <item name="foodCanChili"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanBeef"                                      count="1,5"      prob="0.17"    />
+      <item name="foodCanHam"                                       count="1,5"      prob="0.17"    />
+      <item name="foodCanLamb"                                      count="1,5"      prob="0.17"    />
+      <item name="foodCanMiso"                                      count="1,5"      prob="0.17"    />
+      <item name="foodHoney"                                        count="1,5"      prob="0.13"    />
+      <item name="dressShoes"                                       count="1"        prob="0.05"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Farmer -->
     <lootcontainer id="207" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="bucketEmpty"                                      count="1"        prob="0.119048"/>
-      <item name="sweatshirt"                                       count="1"        prob="0.166667"/>
-      <item name="treePlantedMountainPine1m"                        count="1"        prob="0.833333"/>
-      <item name="treePlantedWinterPine1m"                          count="1"        prob="0.833333"/>
-      <item name="plantedAloe1"                                     count="1"        prob="0.833333"/>
-      <item name="plantedBlueberry1"                                count="1"        prob="0.833333"/>
-      <item name="plantedChrysanthemum1"                            count="1"        prob="0.833333"/>
-      <item name="plantedCoffee1"                                   count="1"        prob="0.833333"/>
-      <item name="plantedCorn1"                                     count="1"        prob="0.833333"/>
-      <item name="plantedCotton1"                                   count="1"        prob="0.833333"/>
-      <item name="plantedGoldenrod1"                                count="1"        prob="0.833333"/>
-      <item name="plantedMushroom1"                                 count="1"        prob="0.833333"/>
-      <item name="plantedPotato1"                                   count="1"        prob="0.833333"/>
-      <item name="plantedYucca1"                                    count="1"        prob="0.833333"/>
-      <item name="meleeToolHoeIron"                                 count="1"        prob="0.05"    />
-      <item name="toolBellows"                                      count="1,10"     prob="0.024691"/>
-      <item name="cowboyBoots"                                      count="1"        prob="0.033333"/>
-      <item name="drinkJarBeer"                                     count="1,5"      prob="0.1"     />
+      <item name="plantedCoffee1"                                   count="1"        prob="0.83"    />
+      <item name="treePlantedWinterPine1m"                          count="1"        prob="0.83"    />
+      <item name="treePlantedMountainPine1m"                        count="1"        prob="0.83"    />
+      <item name="resourcePaint"                                    count="1,16"     prob="0.83"    />
+      <item name="plantedYucca1"                                    count="1"        prob="0.83"    />
+      <item name="plantedPotato1"                                   count="1"        prob="0.83"    />
+      <item name="plantedMushroom1"                                 count="1"        prob="0.83"    />
+      <item name="plantedAloe1"                                     count="1"        prob="0.83"    />
+      <item name="plantedBlueberry1"                                count="1"        prob="0.83"    />
+      <item name="plantedChrysanthemum1"                            count="1"        prob="0.83"    />
+      <item name="plantedGoldenrod1"                                count="1"        prob="0.83"    />
+      <item name="plantedCorn1"                                     count="1"        prob="0.83"    />
+      <item name="plantedCotton1"                                   count="1"        prob="0.83"    />
       <item name="meleeToolPaintTool"                               count="1"        prob="0.5"     />
       <item name="overalls"                                         count="1"        prob="0.25"    />
-      <item name="resourcePaint"                                    count="1,16"     prob="0.833333"/>
+      <item name="sweatshirt"                                       count="1"        prob="0.17"    />
+      <item name="bucketEmpty"                                      count="1"        prob="0.12"    />
+      <item name="drinkJarBeer"                                     count="1,5"      prob="0.1"     />
+      <item name="meleeToolHoeIron"                                 count="1"        prob="0.05"    />
+      <item name="cowboyBoots"                                      count="1"        prob="0.033"   />
+      <item name="toolBellows"                                      count="1,10"     prob="0.025"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- FatCop -->
     <lootcontainer id="208" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="suitJacket"                                       count="1"        prob="0.02004" />
+      <item name="ammoShotgunShell"                                 count="1,16"     prob="0.91"    />
       <item name="suitPants"                                        count="1"        prob="0.25"    />
       <item name="tshirt"                                           count="1"        prob="0.25"    />
-      <item name="ammoShotgunShell"                                 count="1,16"     prob="0.909091"/>
-      <item name="gunPumpShotgun"                                   count="1"        prob="0.016667"/>
       <item name="dressShoes"                                       count="1"        prob="0.05"    />
-      <item name="drinkCanMegaCrush"                                count="1,5"      prob="0.041667"/>
+      <item name="drinkCanMegaCrush"                                count="1,5"      prob="0.042"   />
+      <item name="suitJacket"                                       count="1"        prob="0.02"    />
+      <item name="gunPumpShotgun"                                   count="1"        prob="0.017"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
@@ -274,202 +274,202 @@
     <!-- FatHawaiian -->
     <lootcontainer id="209" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
       <item name="suitPants"                                        count="1"        prob="0.25"    />
-      <item name="shades"                                           count="1"        prob="0.02"    />
+      <item name="drinkJarGoldenRodTea"                             count="1,5"      prob="0.21"    />
+      <item name="drinkJarRedTea"                                   count="1,5"      prob="0.21"    />
       <item name="cigar"                                            count="1"        prob="0.2"     />
+      <item name="flannelShirt"                                     count="1"        prob="0.17"    />
+      <item name="drinkJarYuccaJuice"                               count="1,5"      prob="0.15"    />
+      <item name="drinkJarSnowberryJuice"                           count="1,5"      prob="0.11"    />
+      <item name="drinkYuccaJuiceSmoothie"                          count="1,5"      prob="0.064"   />
       <item name="dressShoes"                                       count="1"        prob="0.05"    />
-      <item name="drinkJarGoldenRodTea"                             count="1,5"      prob="0.208333"/>
-      <item name="drinkJarRedTea"                                   count="1,5"      prob="0.208333"/>
-      <item name="drinkJarSnowberryJuice"                           count="1,5"      prob="0.108696"/>
-      <item name="drinkJarYuccaJuice"                               count="1,5"      prob="0.147059"/>
-      <item name="drinkYuccaJuiceSmoothie"                          count="1,5"      prob="0.064103"/>
-      <item name="flannelShirt"                                     count="1"        prob="0.166667"/>
-      <item name="meleeToolMachete"                                 count="1"        prob="0.016667"/>
+      <item name="shades"                                           count="1"        prob="0.02"    />
+      <item name="meleeToolMachete"                                 count="1"        prob="0.017"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- FemaleFat -->
     <lootcontainer id="210" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="skirt"                                            count="1"        prob="0.25"    />
-      <item name="sweatshirt"                                       count="1"        prob="0.166667"/>
-      <item name="foodBakedPotato"                                  count="1,5"      prob="0.625"   />
-      <item name="foodBoiledMeat"                                   count="1,5"      prob="0.192308"/>
+      <item name="foodCornBread"                                    count="1,5"      prob="0.63"    />
+      <item name="foodBakedPotato"                                  count="1,5"      prob="0.63"    />
       <item name="foodCharredMeat"                                  count="1,5"      prob="0.5"     />
-      <item name="foodCornBread"                                    count="1,5"      prob="0.625"   />
       <item name="foodCornOnTheCob"                                 count="1,5"      prob="0.5"     />
+      <item name="foodGrilledMeat"                                  count="1,5"      prob="0.42"    />
       <item name="foodEggBoiled"                                    count="1,5"      prob="0.25"    />
-      <item name="foodGrilledMeat"                                  count="1,5"      prob="0.416667"/>
-      <item name="foodHoboStew"                                     count="1,5"      prob="0.074627"/>
-      <item name="foodShamChowder"                                  count="1,5"      prob="0.079365"/>
+      <item name="skirt"                                            count="1"        prob="0.25"    />
+      <item name="foodBoiledMeat"                                   count="1,5"      prob="0.19"    />
+      <item name="sweatshirt"                                       count="1"        prob="0.17"    />
+      <item name="foodShamChowder"                                  count="1,5"      prob="0.079"   />
+      <item name="foodHoboStew"                                     count="1,5"      prob="0.075"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- FootballPlayer -->
     <lootcontainer id="211" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="runningShoes"                                     count="1"        prob="0.05"    />
-      <item name="armorClothGloves"                                 count="1"        prob="0.133333"/>
-      <item name="armorClothPants"                                  count="1"        prob="0.133333"/>
-      <item name="armorFootballHelmetZU"                            count="1"        prob="0.025"   />
-      <item name="hpRunningShoes"                                   count="1"        prob="0.05"    />
-      <item name="jacketLetter"                                     count="1"        prob="0.028571"/>
       <item name="resourceScrapIron"                                count="1,32"     prob="1"       />
+      <item name="armorClothGloves"                                 count="1"        prob="0.13"    />
+      <item name="armorClothPants"                                  count="1"        prob="0.13"    />
+      <item name="hpRunningShoes"                                   count="1"        prob="0.05"    />
+      <item name="runningShoes"                                     count="1"        prob="0.05"    />
+      <item name="jacketLetter"                                     count="1"        prob="0.029"   />
+      <item name="armorFootballHelmetZU"                            count="1"        prob="0.025"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Joe -->
     <lootcontainer id="212" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="shirt"                                            count="1"        prob="0.25"    />
-      <item name="tshirt"                                           count="1"        prob="0.25"    />
-      <item name="wornBoots"                                        count="1"        prob="0.166667"/>
-      <item name="nerdGlasses"                                      count="1"        prob="0.01"    />
-      <item name="denimShortsPants"                                 count="1"        prob="0.25"    />
-      <item name="resourceDuctTape"                                 count="1,10"     prob="0.4"     />
-      <item name="resourceFishingWeight"                            count="1,16"     prob="0.4"     />
-      <item name="resourceGlue"                                     count="1,16"     prob="0.5"     />
-      <item name="resourceMetalPipe"                                count="1,10"     prob="0.833333"/>
       <item name="resourceNail"                                     count="1,16"     prob="1"       />
+      <item name="resourceMetalPipe"                                count="1,10"     prob="0.83"    />
+      <item name="resourceScrapPolymers"                            count="1,16"     prob="0.63"    />
+      <item name="resourceGlue"                                     count="1,16"     prob="0.5"     />
+      <item name="resourceFishingWeight"                            count="1,16"     prob="0.4"     />
+      <item name="resourceDuctTape"                                 count="1,10"     prob="0.4"     />
+      <item name="denimShortsPants"                                 count="1"        prob="0.25"    />
+      <item name="tshirt"                                           count="1"        prob="0.25"    />
+      <item name="shirt"                                            count="1"        prob="0.25"    />
+      <item name="wornBoots"                                        count="1"        prob="0.17"    />
       <item name="resourceOil"                                      count="1,10"     prob="0.1"     />
-      <item name="resourceScrapPolymers"                            count="1,16"     prob="0.625"   />
+      <item name="nerdGlasses"                                      count="1"        prob="0.01"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Lab -->
     <lootcontainer id="213" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+      <item name="medicalBloodBag"                                  count="1,10"     prob="2"       />
+      <item name="medicalBandage"                                   count="1,5"      prob="2"       />
+      <item name="medicalSplint"                                    count="1,5"      prob="1"       />
+      <item name="medicalFirstAidBandage"                           count="1,5"      prob="0.67"    />
       <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="runningShoes"                                     count="1"        prob="0.05"    />
       <item name="shirt"                                            count="1"        prob="0.25"    />
-      <item name="toolBeaker"                                       count="1"        prob="0.04"    />
-      <item name="drinkJarGrainAlcohol"                             count="1,5"      prob="0.208333"/>
-      <item name="drugAntibiotics"                                  count="1,5"      prob="0.041667"/>
+      <item name="drinkJarGrainAlcohol"                             count="1,5"      prob="0.21"    />
+      <item name="drugPainkillers"                                  count="1,5"      prob="0.13"    />
+      <item name="drugVitamins"                                     count="1,5"      prob="0.13"    />
+      <item name="medicalBloodDrawKit"                              count="1"        prob="0.067"   />
+      <item name="runningShoes"                                     count="1"        prob="0.05"    />
+      <item name="medicalFirstAidKit"                               count="1,5"      prob="0.05"    />
+      <item name="drugAntibiotics"                                  count="1,5"      prob="0.042"   />
       <item name="drugFortBites"                                    count="1,5"      prob="0.04"    />
-      <item name="drugPainkillers"                                  count="1,5"      prob="0.125"   />
+      <item name="toolBeaker"                                       count="1"        prob="0.04"    />
       <item name="drugRecog"                                        count="1,5"      prob="0.04"    />
       <item name="drugSteroids"                                     count="1,5"      prob="0.04"    />
       <item name="drugSteroids"                                     count="1,5"      prob="0.04"    />
-      <item name="drugVitamins"                                     count="1,5"      prob="0.125"   />
-      <item name="medicalBandage"                                   count="1,5"      prob="2"       />
-      <item name="medicalBloodBag"                                  count="1,10"     prob="2"       />
-      <item name="medicalBloodDrawKit"                              count="1"        prob="0.067114"/>
-      <item name="medicalFirstAidBandage"                           count="1,5"      prob="0.666667"/>
-      <item name="medicalFirstAidKit"                               count="1,5"      prob="0.05"    />
-      <item name="medicalSplint"                                    count="1,5"      prob="1"       />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- MaleHazmat -->
     <lootcontainer id="214" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="qt_claude"                                        count="1,5"      prob="0.00625" />
-      <item name="qt_jennifer"                                      count="1,5"      prob="0.00625" />
-      <item name="qt_nickole"                                       count="1,5"      prob="0.00625" />
-      <item name="qt_raphael"                                       count="1,5"      prob="0.00625" />
-      <item name="qt_sarah"                                         count="1,5"      prob="0.00625" />
-      <item name="qt_stephan"                                       count="1,5"      prob="0.00625" />
-      <item name="qt_taylor"                                        count="1,5"      prob="0.00625" />
+      <item name="drugPainkillers"                                  count="1,5"      prob="0.13"    />
+      <item name="drugVitamins"                                     count="1,5"      prob="0.13"    />
       <item name="hazmatBoots"                                      count="1"        prob="0.025"   />
-      <item name="hazmatGloves"                                     count="1"        prob="0.025"   />
       <item name="hazmatMask"                                       count="1"        prob="0.025"   />
       <item name="hazmatPants"                                      count="1"        prob="0.025"   />
       <item name="hazmatShirt"                                      count="1"        prob="0.025"   />
-      <item name="drugPainkillers"                                  count="1,5"      prob="0.125"   />
-      <item name="drugVitamins"                                     count="1,5"      prob="0.125"   />
+      <item name="hazmatGloves"                                     count="1"        prob="0.025"   />
+      <item name="qt_taylor"                                        count="1,5"      prob="0.0063"  />
+      <item name="qt_jennifer"                                      count="1,5"      prob="0.0063"  />
+      <item name="qt_nickole"                                       count="1,5"      prob="0.0063"  />
+      <item name="qt_raphael"                                       count="1,5"      prob="0.0063"  />
+      <item name="qt_sarah"                                         count="1,5"      prob="0.0063"  />
+      <item name="qt_stephan"                                       count="1,5"      prob="0.0063"  />
+      <item name="qt_claude"                                        count="1,5"      prob="0.0063"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Marlene -->
     <lootcontainer id="215" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="runningShoes"                                     count="1"        prob="0.05"    />
-      <item name="tankTop"                                          count="1"        prob="0.25"    />
-      <item name="toolCookingGrill"                                 count="1"        prob="0.384615"/>
-      <item name="toolCookingPot"                                   count="1"        prob="0.833333"/>
-      <item name="drinkCanEmpty"                                    count="1,5"      prob="2"       />
-      <item name="drinkJarEmpty"                                    count="1,5"      prob="1.666667"/>
-      <item name="foodCanBeef"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanCatfood"                                   count="1,5"      prob="0.5"     />
-      <item name="foodCanChicken"                                   count="1,5"      prob="0.166667"/>
-      <item name="foodCanChili"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanDogfood"                                   count="1,5"      prob="0.25"    />
-      <item name="foodCanHam"                                       count="1,5"      prob="0.166667"/>
-      <item name="foodCanLamb"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanMiso"                                      count="1,5"      prob="0.166667"/>
-      <item name="foodCanPasta"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanPears"                                     count="1,5"      prob="0.166667"/>
-      <item name="foodCanPeas"                                      count="1,5"      prob="0.5"     />
-      <item name="foodCanSalmon"                                    count="1,5"      prob="0.166667"/>
-      <item name="foodCanSoup"                                      count="1,5"      prob="0.25"    />
-      <item name="foodCanStock"                                     count="1,5"      prob="0.25"    />
-      <item name="foodCanTuna"                                      count="1,5"      prob="0.5"     />
       <item name="foodCornMeal"                                     count="1,16"     prob="2.5"     />
-      <item name="foodHoney"                                        count="1,5"      prob="0.125"   />
+      <item name="drinkCanEmpty"                                    count="1,5"      prob="2"       />
+      <item name="drinkJarEmpty"                                    count="1,5"      prob="1.67"    />
+      <item name="toolCookingPot"                                   count="1"        prob="0.83"    />
+      <item name="foodCanCatfood"                                   count="1,5"      prob="0.5"     />
+      <item name="foodCanTuna"                                      count="1,5"      prob="0.5"     />
+      <item name="foodCanPeas"                                      count="1,5"      prob="0.5"     />
+      <item name="toolCookingGrill"                                 count="1"        prob="0.38"    />
+      <item name="tankTop"                                          count="1"        prob="0.25"    />
+      <item name="foodCanDogfood"                                   count="1,5"      prob="0.25"    />
+      <item name="foodCanStock"                                     count="1,5"      prob="0.25"    />
+      <item name="foodCanSoup"                                      count="1,5"      prob="0.25"    />
+      <item name="denimPants"                                       count="1"        prob="0.25"    />
+      <item name="foodCanHam"                                       count="1,5"      prob="0.17"    />
+      <item name="foodCanPasta"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanBeef"                                      count="1,5"      prob="0.17"    />
+      <item name="foodCanSalmon"                                    count="1,5"      prob="0.17"    />
+      <item name="foodCanLamb"                                      count="1,5"      prob="0.17"    />
+      <item name="foodCanPears"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanChili"                                     count="1,5"      prob="0.17"    />
+      <item name="foodCanChicken"                                   count="1,5"      prob="0.17"    />
+      <item name="foodCanMiso"                                      count="1,5"      prob="0.17"    />
+      <item name="foodHoney"                                        count="1,5"      prob="0.13"    />
+      <item name="runningShoes"                                     count="1"        prob="0.05"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Moe -->
     <lootcontainer id="216" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="runningShoes"                                     count="1"        prob="0.05"    />
-      <item name="tankTop"                                          count="1"        prob="0.25"    />
-      <item name="nerdGlasses"                                      count="1"        prob="0.01"    />
-      <item name="denimShortsPants"                                 count="1"        prob="0.25"    />
+      <item name="resourceNail"                                     count="1,16"     prob="1"       />
+      <item name="resourceMetalPipe"                                count="1,10"     prob="0.83"    />
+      <item name="resourceScrapPolymers"                            count="1,16"     prob="0.63"    />
+      <item name="resourceGlue"                                     count="1,16"     prob="0.5"     />
       <item name="resourceDuctTape"                                 count="1,10"     prob="0.4"     />
       <item name="resourceFishingWeight"                            count="1,16"     prob="0.4"     />
-      <item name="resourceGlue"                                     count="1,16"     prob="0.5"     />
-      <item name="resourceMetalPipe"                                count="1,10"     prob="0.833333"/>
-      <item name="resourceNail"                                     count="1,16"     prob="1"       />
+      <item name="denimShortsPants"                                 count="1"        prob="0.25"    />
+      <item name="tankTop"                                          count="1"        prob="0.25"    />
       <item name="resourceOil"                                      count="1,10"     prob="0.1"     />
-      <item name="resourceScrapPolymers"                            count="1,16"     prob="0.625"   />
+      <item name="runningShoes"                                     count="1"        prob="0.05"    />
+      <item name="nerdGlasses"                                      count="1"        prob="0.01"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Nurse -->
     <lootcontainer id="217" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+      <item name="medicalBandage"                                   count="1,5"      prob="2"       />
+      <item name="medicalBloodBag"                                  count="1,10"     prob="2"       />
+      <item name="medicalSplint"                                    count="1,5"      prob="1"       />
+      <item name="medicalFirstAidBandage"                           count="1,5"      prob="0.67"    />
       <item name="skirt"                                            count="1"        prob="0.25"    />
       <item name="tankTop"                                          count="1"        prob="0.25"    />
-      <item name="toolBeaker"                                       count="1"        prob="0.04"    />
+      <item name="drinkJarGrainAlcohol"                             count="1,5"      prob="0.21"    />
+      <item name="drugVitamins"                                     count="1,5"      prob="0.13"    />
+      <item name="drugPainkillers"                                  count="1,5"      prob="0.13"    />
+      <item name="medicalBloodDrawKit"                              count="1"        prob="0.067"   />
+      <item name="medicalFirstAidKit"                               count="1,5"      prob="0.05"    />
       <item name="dressShoes"                                       count="1"        prob="0.05"    />
-      <item name="drinkJarGrainAlcohol"                             count="1,5"      prob="0.208333"/>
-      <item name="drugAntibiotics"                                  count="1,5"      prob="0.041667"/>
+      <item name="drugAntibiotics"                                  count="1,5"      prob="0.042"   />
       <item name="drugFortBites"                                    count="1,5"      prob="0.04"    />
-      <item name="drugPainkillers"                                  count="1,5"      prob="0.125"   />
+      <item name="toolBeaker"                                       count="1"        prob="0.04"    />
       <item name="drugRecog"                                        count="1,5"      prob="0.04"    />
       <item name="drugSteroids"                                     count="1,5"      prob="0.04"    />
       <item name="drugSteroids"                                     count="1,5"      prob="0.04"    />
-      <item name="drugVitamins"                                     count="1,5"      prob="0.125"   />
-      <item name="medicalBandage"                                   count="1,5"      prob="2"       />
-      <item name="medicalBloodBag"                                  count="1,10"     prob="2"       />
-      <item name="medicalBloodDrawKit"                              count="1"        prob="0.067114"/>
-      <item name="medicalFirstAidBandage"                           count="1,5"      prob="0.666667"/>
-      <item name="medicalFirstAidKit"                               count="1,5"      prob="0.05"    />
-      <item name="medicalSplint"                                    count="1,5"      prob="1"       />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- OldTimer -->
     <lootcontainer id="218" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="sweatshirt"                                       count="1"        prob="0.166667"/>
-      <item name="resourceBulletCasing"                             count="1,16"     prob="1"       />
-      <item name="ammo762mmBulletFMJ"                               count="1,16"     prob="0.909091"/>
-      <item name="gunHuntingRifle"                                  count="1"        prob="0.02"    />
-      <item name="meleeToolPickaxeIron"                             count="1"        prob="0.041667"/>
-      <item name="resourceSilverNugget"                             count="1,7"      prob="0.04"    />
-      <item name="meleeToolPickaxeSteel"                            count="1"        prob="0.010965"/>
-      <item name="resourceGoldNugget"                               count="1,7"      prob="0.014286"/>
-      <item name="thrownDynamite"                                   count="1,5"      prob="0.140845"/>
-      <item name="resourceRawDiamond"                               count="1,7"      prob="0.006667"/>
-      <item name="cowboyBoots"                                      count="1"        prob="0.033333"/>
-      <item name="cowboyHat"                                        count="1"        prob="0.045455"/>
-      <item name="leatherPoncho"                                    count="1"        prob="0.020833"/>
-      <item name="resourceBuckshot"                                 count="1,16"     prob="1"       />
-      <item name="resourceBulletTip"                                count="1,16"     prob="1"       />
       <item name="resourceGunPowder"                                count="1,16"     prob="1"       />
+      <item name="resourceBulletTip"                                count="1,16"     prob="1"       />
+      <item name="resourceBulletCasing"                             count="1,16"     prob="1"       />
+      <item name="resourceBuckshot"                                 count="1,16"     prob="1"       />
+      <item name="ammo762mmBulletFMJ"                               count="1,16"     prob="0.91"    />
+      <item name="denimPants"                                       count="1"        prob="0.25"    />
+      <item name="sweatshirt"                                       count="1"        prob="0.17"    />
+      <item name="thrownDynamite"                                   count="1,5"      prob="0.14"    />
+      <item name="cowboyHat"                                        count="1"        prob="0.045"   />
+      <item name="meleeToolPickaxeIron"                             count="1"        prob="0.042"   />
+      <item name="resourceSilverNugget"                             count="1,7"      prob="0.04"    />
+      <item name="cowboyBoots"                                      count="1"        prob="0.033"   />
+      <item name="leatherPoncho"                                    count="1"        prob="0.021"   />
+      <item name="gunHuntingRifle"                                  count="1"        prob="0.02"    />
+      <item name="resourceGoldNugget"                               count="1,7"      prob="0.014"   />
+      <item name="meleeToolPickaxeSteel"                            count="1"        prob="0.011"   />
+      <item name="resourceRawDiamond"                               count="1,7"      prob="0.0067"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
@@ -477,7 +477,7 @@
     <!-- Screamer -->
     <lootcontainer id="219" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
       <item name="skirt"                                            count="1"        prob="0.25"    />
-      <item name="sweatshirt"                                       count="1"        prob="0.166667"/>
+      <item name="sweatshirt"                                       count="1"        prob="0.17"    />
 
       <item group="zombieLootShared" />
     </lootcontainer>
@@ -485,158 +485,158 @@
     <!-- Skateboarder -->
     <lootcontainer id="220" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
       <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="hoodedSweatshirt"                                 count="1"        prob="0.166667"/>
-      <item name="wornBoots"                                        count="1"        prob="0.166667"/>
-      <item name="vehicleBicycleChassis"                            count="1,7"      prob="0.033445"/>
-      <item name="vehicleBicycleHandlebars"                         count="1,7"      prob="0.033445"/>
-      <item name="vehicleWheels"                                    count="1,7"      prob="0.033445"/>
+      <item name="wornBoots"                                        count="1"        prob="0.17"    />
+      <item name="hoodedSweatshirt"                                 count="1"        prob="0.17"    />
+      <item name="drugPainkillers"                                  count="1,5"      prob="0.13"    />
+      <item name="drugVitamins"                                     count="1,5"      prob="0.13"    />
       <item name="drinkJarBeer"                                     count="1,5"      prob="0.1"     />
       <item name="drugFortBites"                                    count="1,5"      prob="0.04"    />
-      <item name="drugPainkillers"                                  count="1,5"      prob="0.125"   />
-      <item name="drugRecog"                                        count="1,5"      prob="0.04"    />
       <item name="drugSteroids"                                     count="1,5"      prob="0.04"    />
-      <item name="drugVitamins"                                     count="1,5"      prob="0.125"   />
+      <item name="drugRecog"                                        count="1,5"      prob="0.04"    />
+      <item name="vehicleBicycleChassis"                            count="1,7"      prob="0.033"   />
+      <item name="vehicleBicycleHandlebars"                         count="1,7"      prob="0.033"   />
+      <item name="vehicleWheels"                                    count="1,7"      prob="0.033"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Snow -->
     <lootcontainer id="221" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+      <item name="resourceSnowBall"                                 count="1,32"     prob="2"       />
       <item name="denimPants"                                       count="1"        prob="0.25"    />
       <item name="skullCap"                                         count="1"        prob="0.25"    />
-      <item name="wornBoots"                                        count="1"        prob="0.166667"/>
+      <item name="flannelShirtRed"                                  count="1"        prob="0.17"    />
+      <item name="wornBoots"                                        count="1"        prob="0.17"    />
+      <item name="drinkJarCoffee"                                   count="1,5"      prob="0.1"     />
+      <item name="meleeToolFireaxeIron"                             count="1"        prob="0.042"   />
       <item name="hazmatGloves"                                     count="1"        prob="0.025"   />
-      <item name="meleeToolFireaxeIron"                             count="1"        prob="0.041667"/>
-      <item name="meleeToolFireaxeSteel"                            count="1"        prob="0.010965"/>
-      <item name="meleeToolChainsaw"                                count="1"        prob="0.003333"/>
-      <item name="drinkJarCoffee"                                   count="1,5"      prob="0.104167"/>
-      <item name="flannelShirtRed"                                  count="1"        prob="0.166667"/>
-      <item name="resourceSnowBall"                                 count="1,32"     prob="2"       />
+      <item name="meleeToolFireaxeSteel"                            count="1"        prob="0.011"   />
+      <item name="meleeToolChainsaw"                                count="1"        prob="0.0033"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Soldier -->
     <lootcontainer id="222" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="ammo762mmBulletFMJ"                               count="1,16"     prob="0.909091"/>
-      <item name="ammoRocketFrag"                                   count="1,5"      prob="0.04"    />
-      <item name="ammoRocketHE"                                     count="1,5"      prob="0.04"    />
-      <item name="armorMilitaryBoots"                               count="1"        prob="0.014286"/>
-      <item name="armorMilitaryGloves"                              count="1"        prob="0.014286"/>
-      <item name="armorMilitaryHelmet"                              count="1"        prob="0.014286"/>
-      <item name="armorMilitaryLegs"                                count="1"        prob="0.014286"/>
-      <item name="armorMilitaryVest"                                count="1"        prob="0.014286"/>
-      <item name="armyPants"                                        count="1"        prob="0.25"    />
+      <item name="ammo762mmBulletFMJ"                               count="1,16"     prob="0.91"    />
       <item name="armyShirt"                                        count="1"        prob="0.25"    />
-      <item name="gunMR10"                                          count="1"        prob="0.011111"/>
-      <item name="meleeToolHuntingKnife"                            count="1"        prob="0.033333"/>
+      <item name="armyPants"                                        count="1"        prob="0.25"    />
+      <item name="thrownAmmoPipeBomb"                               count="1,5"      prob="0.24"    />
+      <item name="ammoRocketHE"                                     count="1,5"      prob="0.04"    />
+      <item name="ammoRocketFrag"                                   count="1,5"      prob="0.04"    />
+      <item name="meleeToolHuntingKnife"                            count="1"        prob="0.033"   />
+      <item name="armorMilitaryGloves"                              count="1"        prob="0.014"   />
+      <item name="armorMilitaryVest"                                count="1"        prob="0.014"   />
+      <item name="armorMilitaryLegs"                                count="1"        prob="0.014"   />
+      <item name="armorMilitaryHelmet"                              count="1"        prob="0.014"   />
+      <item name="armorMilitaryBoots"                               count="1"        prob="0.014"   />
+      <item name="gunMR10"                                          count="1"        prob="0.011"   />
+      <item name="gunRocketLauncher"                                count="1"        prob="0.0056"  />
       <item name="nightvisionGoggles"                               count="1"        prob="0.005"   />
-      <item name="thrownAmmoPipeBomb"                               count="1,5"      prob="0.243902"/>
-      <item name="gunRocketLauncher"                                count="1"        prob="0.005556"/>
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Spider -->
     <lootcontainer id="223" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="tshirt"                                           count="1"        prob="0.25"    />
-      <item name="resourceAcid"                                     count="1,16"     prob="0.071429"/>
       <item name="resourceGlue"                                     count="1,16"     prob="0.5"     />
+      <item name="tshirt"                                           count="1"        prob="0.25"    />
+      <item name="denimPants"                                       count="1"        prob="0.25"    />
+      <item name="resourceAcid"                                     count="1,16"     prob="0.071"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Steve -->
     <lootcontainer id="224" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="meleeToolAuger"                                   count="1"        prob="0.003333"/>
       <item name="medicalPlasterCast"                               count="1,5"      prob="1"       />
       <item name="medicalSplint"                                    count="1,5"      prob="1"       />
+      <item name="denimPants"                                       count="1"        prob="0.25"    />
+      <item name="meleeToolAuger"                                   count="1"        prob="0.0033"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Stripper -->
     <lootcontainer id="225" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+      <item name="oldCash"                                          count="1,71"     prob="1.43"    />
+      <item name="oldCash"                                          count="1,71"     prob="1.43"    />
       <item name="facialPiercings"                                  count="1"        prob="0.2"     />
-      <item name="gothBootsBlack"                                   count="1"        prob="0.033333"/>
-      <item name="oldCash"                                          count="1,71"     prob="1.428571"/>
-      <item name="oldCash"                                          count="1,71"     prob="1.428571"/>
+      <item name="gothBootsBlack"                                   count="1"        prob="0.033"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- UtilityWorker -->
     <lootcontainer id="226" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+      <item name="resourceNail"                                     count="1,16"     prob="1"       />
+      <item name="resourcePaint"                                    count="1,16"     prob="0.83"    />
+      <item name="meleeToolPaintTool"                               count="1"        prob="0.5"     />
       <item name="denimPants"                                       count="1"        prob="0.25"    />
       <item name="shirt"                                            count="1"        prob="0.25"    />
-      <item name="wornBoots"                                        count="1"        prob="0.166667"/>
-      <item name="armorClothJacket"                                 count="1"        prob="0.133333"/>
+      <item name="wornBoots"                                        count="1"        prob="0.17"    />
+      <item name="thrownDynamite"                                   count="1,5"      prob="0.14"    />
+      <item name="armorClothJacket"                                 count="1"        prob="0.13"    />
+      <item name="resourceRepairKit"                                count="1,5"      prob="0.054"   />
       <item name="meleeToolClawHammer"                              count="1"        prob="0.05"    />
-      <item name="meleeToolWrench"                                  count="1"        prob="0.034722"/>
-      <item name="armorMiningHelmet"                                count="1"        prob="0.008333"/>
-      <item name="resourceRepairKit"                                count="1,5"      prob="0.053763"/>
-      <item name="solarCell"                                        count="1"        prob="0.0025"  />
-      <item name="thrownDynamite"                                   count="1,5"      prob="0.140845"/>
-      <item name="toolAndDieSet"                                    count="1"        prob="0.005"   />
+      <item name="meleeToolWrench"                                  count="1"        prob="0.035"   />
       <item name="gunToolNailgun"                                   count="1"        prob="0.01"    />
-      <item name="meleeToolPaintTool"                               count="1"        prob="0.5"     />
-      <item name="resourceNail"                                     count="1,16"     prob="1"       />
-      <item name="resourcePaint"                                    count="1,16"     prob="0.833333"/>
+      <item name="armorMiningHelmet"                                count="1"        prob="0.0083"  />
+      <item name="toolAndDieSet"                                    count="1"        prob="0.005"   />
+      <item name="solarCell"                                        count="1"        prob="0.0025"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Wight -->
     <lootcontainer id="227" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="ammoCrossbowBoltStone"                            count="1,16"     prob="0.909091"/>
+      <item name="ammoCrossbowBoltStone"                            count="1,16"     prob="0.91"    />
       <item name="ammoCrossbowBoltIron"                             count="1,16"     prob="0.4"     />
-      <item name="ammoCrossbowBoltSteelAP"                          count="1,16"     prob="0.175439"/>
-      <item name="gunCrossbow"                                      count="1"        prob="0.013333"/>
-      <item name="ammoCrossbowBoltExploding"                        count="1,16"     prob="0.125"   />
-      <item name="meleeToolMachete"                                 count="1"        prob="0.016667"/>
+      <item name="ammoCrossbowBoltSteelAP"                          count="1,16"     prob="0.18"    />
+      <item name="ammoCrossbowBoltExploding"                        count="1,16"     prob="0.13"    />
+      <item name="meleeToolMachete"                                 count="1"        prob="0.017"   />
+      <item name="gunCrossbow"                                      count="1"        prob="0.013"   />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- Yo -->
     <lootcontainer id="228" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-      <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="shirt"                                            count="1"        prob="0.25"    />
-      <item name="resourceBulletCasing"                             count="1,16"     prob="1"       />
-      <item name="ammo762mmBulletFMJ"                               count="1,16"     prob="0.909091"/>
-      <item name="gunHuntingRifle"                                  count="1"        prob="0.02"    />
-      <item name="meleeToolPickaxeIron"                             count="1"        prob="0.041667"/>
-      <item name="resourceSilverNugget"                             count="1,7"      prob="0.04"    />
-      <item name="meleeToolPickaxeSteel"                            count="1"        prob="0.010965"/>
-      <item name="resourceGoldNugget"                               count="1,7"      prob="0.014286"/>
-      <item name="thrownDynamite"                                   count="1,5"      prob="0.140845"/>
-      <item name="resourceRawDiamond"                               count="1,7"      prob="0.006667"/>
-      <item name="cowboyBoots"                                      count="1"        prob="0.033333"/>
       <item name="resourceBuckshot"                                 count="1,16"     prob="1"       />
-      <item name="resourceBulletTip"                                count="1,16"     prob="1"       />
       <item name="resourceGunPowder"                                count="1,16"     prob="1"       />
+      <item name="resourceBulletTip"                                count="1,16"     prob="1"       />
+      <item name="resourceBulletCasing"                             count="1,16"     prob="1"       />
+      <item name="ammo762mmBulletFMJ"                               count="1,16"     prob="0.91"    />
+      <item name="shirt"                                            count="1"        prob="0.25"    />
+      <item name="denimPants"                                       count="1"        prob="0.25"    />
+      <item name="thrownDynamite"                                   count="1,5"      prob="0.14"    />
+      <item name="meleeToolPickaxeIron"                             count="1"        prob="0.042"   />
+      <item name="resourceSilverNugget"                             count="1,7"      prob="0.04"    />
+      <item name="cowboyBoots"                                      count="1"        prob="0.033"   />
+      <item name="gunHuntingRifle"                                  count="1"        prob="0.02"    />
+      <item name="resourceGoldNugget"                               count="1,7"      prob="0.014"   />
+      <item name="meleeToolPickaxeSteel"                            count="1"        prob="0.011"   />
+      <item name="resourceRawDiamond"                               count="1,7"      prob="0.0067"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
 
     <!-- SteveCrawler -->
     <lootcontainer id="229" count="2,4" size="6,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+      <item name="plantedCotton1"                                   count="1"        prob="0.83"    />
+      <item name="treePlantedWinterPine1m"                          count="1"        prob="0.83"    />
+      <item name="plantedAloe1"                                     count="1"        prob="0.83"    />
+      <item name="plantedBlueberry1"                                count="1"        prob="0.83"    />
+      <item name="plantedChrysanthemum1"                            count="1"        prob="0.83"    />
+      <item name="plantedCoffee1"                                   count="1"        prob="0.83"    />
+      <item name="plantedCorn1"                                     count="1"        prob="0.83"    />
+      <item name="treePlantedMountainPine1m"                        count="1"        prob="0.83"    />
+      <item name="plantedGoldenrod1"                                count="1"        prob="0.83"    />
+      <item name="plantedMushroom1"                                 count="1"        prob="0.83"    />
+      <item name="plantedPotato1"                                   count="1"        prob="0.83"    />
+      <item name="plantedYucca1"                                    count="1"        prob="0.83"    />
       <item name="denimPants"                                       count="1"        prob="0.25"    />
-      <item name="treePlantedMountainPine1m"                        count="1"        prob="0.833333"/>
-      <item name="treePlantedWinterPine1m"                          count="1"        prob="0.833333"/>
-      <item name="plantedAloe1"                                     count="1"        prob="0.833333"/>
-      <item name="plantedBlueberry1"                                count="1"        prob="0.833333"/>
-      <item name="plantedChrysanthemum1"                            count="1"        prob="0.833333"/>
-      <item name="plantedCoffee1"                                   count="1"        prob="0.833333"/>
-      <item name="plantedCorn1"                                     count="1"        prob="0.833333"/>
-      <item name="plantedCotton1"                                   count="1"        prob="0.833333"/>
-      <item name="plantedGoldenrod1"                                count="1"        prob="0.833333"/>
-      <item name="plantedMushroom1"                                 count="1"        prob="0.833333"/>
-      <item name="plantedPotato1"                                   count="1"        prob="0.833333"/>
-      <item name="plantedYucca1"                                    count="1"        prob="0.833333"/>
-      <item name="meleeToolAuger"                                   count="1"        prob="0.003333"/>
+      <item name="meleeToolAuger"                                   count="1"        prob="0.0033"  />
 
       <item group="zombieLootShared" />
     </lootcontainer>
