@@ -78,6 +78,11 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 - Allows you to craft empty cans in the forge
 
 
+#### CraftJarFromBucket
+
+- Allows you to craft 45 filled jars directly from 1 filled bucket of water
+
+
 #### CraftLight
 
 Mining Helmet:
@@ -114,7 +119,7 @@ Spotlight:
 - Changes the paint ingredients to require 4 flowers each instead of 1 and a bucket of water instead of a jar
 
 
-#### CraftSafe
+#### CraftSecureStorages
 
 - Increases the number of ingredients and their amounts for crafting metal storages to make them more challenging
 
@@ -144,6 +149,16 @@ Spotlight:
 #### DestroyBirdsNest
 
 - Birds nests get destroyed when looted
+
+
+#### DestroyJunk
+
+- Junk bags get destroyed when looted
+
+
+#### DestroyPaintings
+
+- Get broken glass from destroying paintings
 
 
 #### Dye
@@ -264,6 +279,15 @@ Spotlight:
 - Removes holiday items
 
 
+#### PickStuffUp
+
+Allows you to pick up and scrap
+- paintings
+- curtains
+- blints
+- tires
+
+
 #### PlayerDeathSickness
 
 - Decreases death sickness duration by 50% to now 15 minutes
@@ -305,6 +329,16 @@ Spotlight:
 - Caps regular material stacks 250
 - Caps dense materials at 125 or 50, based on their scrap value
 - Caps consumables at 25
+
+
+#### StrongerSecureStorages
+
+Adjusts the hit points of safes and metal storages:
+- Lockers            300 -->  750
+- Green Drawer      2500 --> 1500
+- Desk Safe         2400 --> 3000
+- Wall Safe         2400 --> 3000
+- Gun Safe          2400 --> 6000
 
 
 #### ToolEntityDamage
@@ -432,6 +466,11 @@ This is consistent with the the vanilla settings but does it for all weapons, no
 #### ZombieBagDrop
 
 - Increases chance to drop a loot bag from 2%/3%/3% (normal/feral/radiated zombies) to 5%/10%/25%
+
+
+#### ZombieBlockDamage
+
+- Caps zombie block damage at their entity damage
 
 
 #### ZombieKnockdownDuration
