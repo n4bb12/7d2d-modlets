@@ -1,5 +1,7 @@
 import { readJsonSync, writeFileSync } from "fs-extra"
 
+import { array } from "../../scripts/util"
+
 interface Gamestage {
   stage: string
   group: string
@@ -11,11 +13,7 @@ const factor = 5
 const gamestages: Gamestage[] = []
 
 json.gamestages.spawner.find(s => s._name === "WanderingHorde").gamestage.forEach(gs => {
-  if (!Array.isArray(gs.spawn)) {
-    gs.spawn = [gs.spawn]
-  }
-
-  gs.spawn.forEach(s => {
+  array(gs.spawn).forEach(s => {
     const group = s._group
 
     if (!group.includes("Bear") && !group.includes("Dog") && !group.includes("Vulture") && !group.includes("Wolf")) {

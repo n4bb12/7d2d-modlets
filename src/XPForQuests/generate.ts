@@ -1,5 +1,7 @@
 import { readJsonSync, writeFileSync } from "fs-extra"
 
+import { array } from "../../scripts/util"
+
 interface Quest {
   id: string
   xp: number
@@ -10,17 +12,11 @@ const factor = 5
 const quests: Quest[] = []
 
 json.quests.quest.forEach(q => {
-  if (!q.reward) {
-    return
-  }
-  if (!Array.isArray(q.reward)) {
-    q.reward = [q.reward]
-  }
-  const xpNode = q.reward.find(r => r._type === "Exp")
+  const xpNode = array(q.reward).find(r => r._type === "Exp")
   if (xpNode) {
     quests.push({
       id: q._id,
-      xp: q.reward.find(r => r._type === "Exp")._value,
+      xp: xpNode._value,
     })
   }
 })

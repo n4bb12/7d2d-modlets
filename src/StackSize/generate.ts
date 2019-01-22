@@ -1,5 +1,6 @@
 import { readJsonSync, writeFileSync } from "fs-extra"
 
+import { array } from "../../scripts/util"
 import { getStackSize, stack } from "../../stats/stack"
 
 interface Item {
@@ -14,14 +15,11 @@ const items: Item[] = []
 
 export function getOldStackSize(name: string) {
   const item = json.items.item.find(entry => entry._name === name)
-  if (!Array.isArray(item.property)) {
-    item.property = [item.property].filter(Boolean)
-  }
-  const propStacknumber = item.property.find(p => p._name === "Stacknumber")
+  const propStacknumber = array(item.property).find(p => p._name === "Stacknumber")
   if (propStacknumber) {
     return +propStacknumber._value
   }
-  const propExtends = item.property.find(p => p._name === "Extends")
+  const propExtends = array(item.property).find(p => p._name === "Extends")
   if (propExtends) {
     return getStackSize(json.items.item.find(parent => parent._name === propExtends._value))
   }

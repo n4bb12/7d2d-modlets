@@ -1,5 +1,7 @@
 import { readJsonSync, writeFileSync } from "fs-extra"
 
+import { array } from "../../scripts/util"
+
 const json = readJsonSync("json/blocks.json")
 
 const changes = json
@@ -7,10 +9,7 @@ const changes = json
   .block
   .filter(block => block._name.startsWith("tree") && block.drop)
   .map(tree => {
-    if (!Array.isArray(tree.drop)) {
-      tree.drop = [tree.drop]
-    }
-    const wood = tree.drop.find(d => d._name === "resourceWood")
+    const wood = array(tree.drop).find(d => d._name === "resourceWood")
 
     if (wood && +wood._count > 0) {
       return {
