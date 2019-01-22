@@ -1,5 +1,7 @@
 import { readJsonSync } from "fs-extra"
 
+import { array } from "./../scripts/util"
+
 export const GEAR               = 1     // stuff that is worn
 export const SLOTFILLER         = 1     // stuff that goes into machines
 export const CONSUMABLE         = 25    // consumed when eaten, above +1
@@ -243,11 +245,8 @@ export function getStackSize(name: string) {
     return stack[name]
   }
   const item = json.items.item.find(entry => entry._name === name)
-  if (item && item.property) {
-    if (!Array.isArray(item.property)) {
-      item.property = [item.property].filter(Boolean)
-    }
-    const propExtends = item.property.find(p => p._name === "Extends")
+  if (item) {
+    const propExtends = array(item.property).find(p => p._name === "Extends")
     if (propExtends) {
       const parent = json.items.item.find(entry => entry._name === propExtends._value)
       return getStackSize(parent._name)

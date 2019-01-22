@@ -1,6 +1,8 @@
 import { readJsonSync, writeFileSync } from "fs-extra"
 import { identity, uniq } from "lodash"
 
+import { array} from "./util"
+
 const items = readJsonSync("json/items.json")
   .items
   .item
@@ -8,10 +10,7 @@ const items = readJsonSync("json/items.json")
     if (!item.property) {
       return true
     }
-    if (!Array.isArray(item.property)) {
-      item.property = [item.property]
-    }
-    return !item.property.find(p => p._name === "CreativeMode" && p._value === "None")
+    return !array(item.property).find(p => p._name === "CreativeMode" && p._value === "None")
   })
   .map(item => item._name)
   .filter(name => !name.includes("Admin"))
@@ -31,10 +30,7 @@ const pickup = readJsonSync("json/blocks.json")
   .block
   .filter(block => block.property)
   .filter(block => {
-    if (!Array.isArray(block.property)) {
-      block.property = [block.property]
-    }
-    return block.property.find(p => p._name === "CanPickup" && p._value === "true" && !p._param1)
+    return array(block.property).find(p => p._name === "CanPickup" && p._value === "true" && !p._param1)
   })
   .map(block => block._name)
 
@@ -45,10 +41,7 @@ readJsonSync("json/blocks.json")
   .block
   .filter(block => block.drop)
   .forEach(block => {
-    if (!Array.isArray(block.drop)) {
-      block.drop = [block.drop]
-    }
-    block.drop
+    array(block.drop)
       .filter(p => p._event === "Destroy")
       .map(drop => drop._name)
       .forEach(name => harvest.push(name))
