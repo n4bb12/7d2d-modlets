@@ -1,0 +1,5 @@
+<config>
+  <append xpath='/blocks/block[@name="paintingBen"]' >
+    <drop event="Destroy" name="resourceBrokenGlass" count="1,2"/>
+  </append>
+</config>
