@@ -1,47 +1,84 @@
 <config>
-  <set xpath='/lootcontainers/lootcontainer[@id="1" and @size="8,9"]/@size'>8,8</set>
+  <append xpath='/lootcontainers'>
+    <!-- smaller container for small wooden chests -->
+    <lootcontainer id="199" count="0" size="6,2" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+      <item name="cobweb" count="1,2"/>
+    </lootcontainer>
+
+    <!-- bigger container for full cupboards -->
+    <lootcontainer id="198" count="1,2" size="6,6" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="baseTemplate">
+      <item group="cupboard"/>
+    </lootcontainer>
+
+    <!-- bigger container for hardened chest -->
+    <lootcontainer id="197" count="2,6" size="8,6" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
+      <item group="weaponsBasicGuns+ammo" loot_prob_template="probTemplate0.5to1.0"/>
+      <item name="oldCash" count="10,450" prob="0.1"/>
+      <item group="ammo" count="3,5"/>
+      <item group="ammoSteel" count="1,2"/>
+      <item group="modAllT1" prob=".1"/>
+      <item group="modAllT2" prob=".1"/>
+      <item group="modAllT3" prob=".1"/>
+    </lootcontainer>
+
+    <!-- bigger container for full lockers -->
+    <lootcontainer id="196" count="1,2" size="6,4" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="baseTemplate">
+      <item group="clothes" prob="28"/>
+      <item group="hats" prob="10"/>
+      <item group="ammo" prob="0.02"/>
+      <item group="weaponsShotgun+ammo" prob="0.02"/>
+      <item group="books" count="1,2"/>
+      <item name="resourcePaper" count="1,2" prob="0.7"/>
+      <item name="oldCash" count="1,40" prob="0.3"/>
+      <item group="medicine" prob="0.05"/>
+      <item group="trophyGroup"/>
+      <item name="resourceGunPowder" count="1,5"/>
+    </lootcontainer>
+  </append>
+
+  <set xpath='/lootcontainers/lootcontainer[@id="1" and @size="8,9"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="2" and @size="7,10"]/@size'>8,10</set>
   <set xpath='/lootcontainers/lootcontainer[@id="3" and @size="8,9"]/@size'>8,8</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="4" and @size="5,10"]/@size'>6,6</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="5" and @size="4,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="6" and @size="4,3"]/@size'>6,4</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="4" and @size="5,10"]/@size'>8,6</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="5" and @size="4,3"]/@size'>6,4</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="6" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="7" and @size="5,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="8" and @size="4,3"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="8" and @size="4,3"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="9" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="10" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="11" and @size="5,4"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="12" and @size="5,4"]/@size'>8,8</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="12" and @size="5,4"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="13" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="14" and @size="4,2"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="15" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="16" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="17" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="18" and @size="6,4"]/@size'>6,4</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="19" and @size="7,4"]/@size'>8,8</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="19" and @size="7,4"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="20" and @size="6,4"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="21" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="22" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="24" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="25" and @size="4,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="34" and @size="8,4"]/@size'>8,8</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="34" and @size="8,4"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="35" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="36" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="37" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="38" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="39" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="40" and @size="8,4"]/@size'>6,4</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="41" and @size="8,9"]/@size'>8,8</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="42" and @size="8,8"]/@size'>8,8</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="41" and @size="8,9"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="42" and @size="8,8"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="43" and @size="4,3"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="44" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="45" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="46" and @size="6,4"]/@size'>6,4</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="47" and @size="6,4"]/@size'>6,4</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="47" and @size="6,4"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="48" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="49" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="50" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="51" and @size="5,4"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="52" and @size="5,4"]/@size'>6,2</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="52" and @size="5,4"]/@size'>6,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="53" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="54" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="55" and @size="5,4"]/@size'>6,2</set>
@@ -51,19 +88,19 @@
   <set xpath='/lootcontainers/lootcontainer[@id="59" and @size="5,4"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="60" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="61" and @size="8,9"]/@size'>8,8</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="62" and @size="8,6"]/@size'>6,6</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="62" and @size="8,6"]/@size'>8,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="63" and @size="8,4"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="64" and @size="8,4"]/@size'>6,4</set>
   <set xpath='/lootcontainers/lootcontainer[@id="65" and @size="5,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="66" and @size="8,4"]/@size'>6,4</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="66" and @size="8,4"]/@size'>8,8</set>
   <set xpath='/lootcontainers/lootcontainer[@id="67" and @size="5,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="68" and @size="5,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="69" and @size="5,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="70" and @size="5,10"]/@size'>6,6</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="71" and @size="5,10"]/@size'>6,6</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="69" and @size="5,3"]/@size'>6,6</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="70" and @size="5,10"]/@size'>8,6</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="71" and @size="5,10"]/@size'>8,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="72" and @size="5,3"]/@size'>6,2</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="73" and @size="5,10"]/@size'>6,6</set>
-  <set xpath='/lootcontainers/lootcontainer[@id="74" and @size="5,10"]/@size'>6,6</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="73" and @size="5,10"]/@size'>8,6</set>
+  <set xpath='/lootcontainers/lootcontainer[@id="74" and @size="5,10"]/@size'>8,6</set>
   <set xpath='/lootcontainers/lootcontainer[@id="75" and @size="4,3"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="76" and @size="9,1"]/@size'>6,2</set>
   <set xpath='/lootcontainers/lootcontainer[@id="77" and @size="9,3"]/@size'>6,4</set>
