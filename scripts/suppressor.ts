@@ -14,14 +14,6 @@ function values(sound, normal?) {
 
 const rows: any[] = []
 
-rows.push([
-  "SOUND NAME",
-  "SOUND RANGE",
-  "SOUND VOLUME",
-  "RANGE REDUCTION",
-  "VOLUME REDUCTION",
-])
-
 nodes
   .map(suppressed => {
     if (suppressed._name.endsWith("_s_fire")) {
@@ -40,14 +32,18 @@ nodes
     rows.push(values(suppressed, normal))
   })
 
-const table = rows.map(row => {
-  return ""
-    + row[0].padEnd(40)
-    + row[1].padEnd(20)
-    + row[2].padEnd(20)
-    + row[3].padEnd(20)
-    + row[4].padEnd(20)
+const table = `
+| Sound | Range | Volume | Range Reduction | Volume Reduction |
+| ----- | ----- | ------ | --------------- | ---------------- |
+${rows.map(row => {
+  return "| "
+    + row[0].padEnd(25) + "| "
+    + row[1].padEnd(10) + "| "
+    + row[2].padEnd(10) + "| "
+    + row[3].padEnd(10) + "| "
+    + row[4].padEnd(10) + "| "
       .trim()
-}).join("\n")
+}).join("\n")}
+`
 
-writeFileSync("stats/suppressor.txt", table + "\n", "utf8")
+writeFileSync("stats/suppressor.md", table, "utf8")
