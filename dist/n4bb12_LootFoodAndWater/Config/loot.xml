@@ -17,8 +17,6 @@
   <!-- microwave oven loot -->
   <remove xpath='/lootcontainers/lootcontainer[@id="21"]/item[@name="drinkJarEmpty"]'/>
   <remove xpath='/lootcontainers/lootcontainer[@id="21"]/item[@name="drinkJarBoiledWater"]'/>
-  <!-- Supply Crate General, the normal airdrop -->
-  <remove xpath='/lootcontainers/lootcontainer[@id="34"]/item[@group="cannedfood"]'/>
   <!-- suitcase / luggage -->
   <remove xpath='/lootcontainers/lootcontainer[@id="36"]/item[@group="cannedfood"]'/>
   <remove xpath='/lootcontainers/lootcontainer[@id="36"]/item[@name="drinkJarBoiledWater"]'/>
