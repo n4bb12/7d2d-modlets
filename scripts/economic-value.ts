@@ -24,6 +24,7 @@ function isSellable(allEntities, entity) {
 }
 
 const allItems = readJsonSync("json/items.json").items.item
+const allBlocks = readJsonSync("json/blocks.json").blocks.block
 
 const items = allItems
   .filter(item => item.property)
@@ -32,19 +33,19 @@ const items = allItems
     const value = getEconomicValue(allItems, item)
     const sellable = isSellable(allItems, item)
     if (value) {
-      return { name, value, sellable }
+      return { name, value, sellable, item: true }
     }
   })
   .filter(identity)
 
-const allBlocks = readJsonSync("json/blocks.json").blocks.block
-
 const blocks = allBlocks
   .filter(block => block.property)
   .map(block => {
+    const name = block._name
     const value = getEconomicValue(allBlocks, block)
+    const sellable = isSellable(allBlocks, block)
     if (value) {
-      return { name: block._name, value }
+      return { name, value, sellable, block: true }
     }
   })
   .filter(identity)
@@ -61,7 +62,8 @@ const all = uniqBy([...items, ...blocks], "name")
   })
 
 const onlySellable = all
-  .filter(item => item.sellable)
+  .filter(object => object.sellable)
+  .filter(object => object.item)
 
 function saveTable(entries, filename) {
   const table = entries

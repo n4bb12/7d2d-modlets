@@ -6,19 +6,19 @@
 | vehicleMotorcyclePlaceable                    |      10000 |   |
 | vehicleMinibikePlaceable                      |       6000 |   |
 | solarCell                                     |       4000 |   |
-| autoTurret                                    |       3000 |   |
-| autoTurretSteelCased                          |       3000 |   |
+| autoTurret                                    |       3000 | X |
+| autoTurretSteelCased                          |       3000 | X |
 | meleeToolAuger                                |       3000 | X |
 | meleeToolChainsaw                             |       3000 | X |
-| bed02                                         |       2600 |   |
-| shotgunTurret                                 |       2500 |   |
+| bed02                                         |       2600 | X |
+| shotgunTurret                                 |       2500 | X |
 | batterybankSchematic                          |       2000 | X |
-| cntVendingMachine                             |       2000 |   |
-| cntVendingMachine2                            |       2000 |   |
-| cntVendingMachine2Broken                      |       2000 |   |
-| cntVendingMachineTrader                       |       2000 |   |
+| cntVendingMachine                             |       2000 | X |
+| cntVendingMachine2                            |       2000 | X |
+| cntVendingMachine2Broken                      |       2000 | X |
+| cntVendingMachineTrader                       |       2000 | X |
 | nightvisionGoggles                            |       2000 | X |
-| solarbank                                     |       2000 |   |
+| solarbank                                     |       2000 | X |
 | toolAndDieSet                                 |       2000 | X |
 | gunRocketLauncher                             |       1800 | X |
 | q_basicSurvival                               |       1600 |   |
@@ -31,12 +31,12 @@
 | qt_taylor                                     |       1600 |   |
 | questMaster                                   |       1600 |   |
 | treasureQuestMaster                           |       1600 |   |
-| cementMixer                                   |       1544 |   |
-| tableSaw                                      |       1544 |   |
+| cementMixer                                   |       1544 | X |
+| tableSaw                                      |       1544 | X |
 | resourceRawDiamond                            |       1500 | X |
-| bed01                                         |       1330 |   |
-| gurneyBed                                     |       1330 |   |
-| hospitalBed                                   |       1330 |   |
+| bed01                                         |       1330 | X |
+| gurneyBed                                     |       1330 | X |
+| hospitalBed                                   |       1330 | X |
 | armorMiningHelmet                             |       1200 | X |
 | armorSwatHelmet                               |       1000 | X |
 | gunToolNailgun                                |       1000 | X |
@@ -48,8 +48,8 @@
 | gunAK47                                       |        900 | X |
 | gunCompoundBow                                |        900 | X |
 | gunMR10                                       |        900 | X |
-| shapedChargeBlockTest                         |        885 |   |
-| tnt                                           |        885 |   |
+| shapedChargeBlockTest                         |        885 | X |
+| tnt                                           |        885 | X |
 | armorSteelBoots                               |        800 | X |
 | armorSteelChest                               |        800 | X |
 | armorSteelGloves                              |        800 | X |
@@ -58,7 +58,7 @@
 | armorSteelMaster                              |        800 | X |
 | gasMask                                       |        800 | X |
 | vehicleBicyclePlaceable                       |        800 |   |
-| workbench                                     |        776 |   |
+| workbench                                     |        776 | X |
 | gunCrossbow                                   |        750 | X |
 | partsMaster                                   |        750 | X |
 | armorMilitaryBoots                            |        700 | X |
@@ -69,15 +69,15 @@
 | armorMilitaryVest                             |        700 | X |
 | gun44Magnum                                   |        700 | X |
 | resourceGoldNugget                            |        700 | X |
-| cntGunSafe                                    |        690 |   |
-| cntHardenedChestInsecure                      |        690 |   |
-| cntHardenedChestSecure                        |        690 |   |
+| cntGunSafe                                    |        690 | X |
+| cntHardenedChestInsecure                      |        690 | X |
+| cntHardenedChestSecure                        |        690 | X |
 | gunPumpShotgun                                |        600 | X |
 | meleeToolMachete                              |        600 | X |
 | toolForgeCrucible                             |        600 | X |
-| cntMetalDesk02Closed                          |        570 |   |
-| cntMetalDesk02Open                            |        570 |   |
-| pressureplateLong                             |        524 |   |
+| cntMetalDesk02Closed                          |        570 | X |
+| cntMetalDesk02Open                            |        570 | X |
+| pressureplateLong                             |        524 | X |
 | ammoArrowFlamingSchematic                     |        500 | X |
 | ammoCrossbowBoltExplodingSchematic            |        500 | X |
 | ammoGasCanSchematic                           |        500 | X |
@@ -95,7 +95,7 @@
 | drinkJarGrandpasAwesomeSauce                  |        500 | X |
 | drinkJarGrandpasMoonshine                     |        500 | X |
 | drugHerbalAntibioticsRecipeSchematic          |        500 | X |
-| generatorbank                                 |        500 |   |
+| generatorbank                                 |        500 | X |
 | goggles                                       |        500 | X |
 | gun44MagnumSchematic                          |        500 | X |
 | gunAK47Schematic                              |        500 | X |
@@ -215,7 +215,7 @@
 | modMeleeWeightedHeadSchematic                 |        500 | X |
 | modMeleeWoodSplitterSchematic                 |        500 | X |
 | modShotgunSawedOffBarrelSchematic             |        500 | X |
-| oilBarrel                                     |        500 |   |
+| oilBarrel                                     |        500 | X |
 | shades                                        |        500 | X |
 | shamwaySecretRecipeSchematic                  |        500 | X |
 | skillBookMaster                               |        500 | X |
@@ -225,22 +225,22 @@
 | pimpCoatAdmin                                 |        480 | X |
 | leatherDuster                                 |        475 | X |
 | leatherDusterBlack                            |        475 | X |
-| airConditioner                                |        450 |   |
-| airConditionVentFan                           |        450 |   |
-| airConditionVentFanDouble                     |        450 |   |
+| airConditioner                                |        450 | X |
+| airConditionVentFan                           |        450 | X |
+| airConditionVentFanDouble                     |        450 | X |
 | pufferCoat                                    |        450 | X |
-| bladeTrap                                     |        444 |   |
-| vaultDoor01                                   |        432 |   |
-| vaultDoor02                                   |        432 |   |
-| vaultHatch_v1                                 |        432 |   |
-| vaultHatch_v2                                 |        432 |   |
+| bladeTrap                                     |        444 | X |
+| vaultDoor01                                   |        432 | X |
+| vaultDoor02                                   |        432 | X |
+| vaultHatch_v1                                 |        432 | X |
+| vaultHatch_v2                                 |        432 | X |
 | toolBellows                                   |        405 | X |
 | armorFootballHelmet                           |        400 | X |
 | armorFootballHelmetZU                         |        400 | X |
 | armorScrapChestSchematic                      |        400 | X |
-| batterybank                                   |        400 |   |
+| batterybank                                   |        400 | X |
 | challengeQuestMaster                          |        400 |   |
-| cntGasPump                                    |        400 |   |
+| cntGasPump                                    |        400 | X |
 | gunSMG5                                       |        400 | X |
 | hazmatBoots                                   |        400 | X |
 | hazmatClothingMaster                          |        400 | X |
@@ -272,7 +272,7 @@
 | jacketWhite                                   |        350 | X |
 | meleeCandyCaneClub                            |        350 | X |
 | meleeClubIron                                 |        350 | X |
-| spotlightPlayer                               |        310 |   |
+| spotlightPlayer                               |        310 | X |
 | armorLeatherBoots                             |        300 | X |
 | armorLeatherChest                             |        300 | X |
 | armorLeatherChestSchematic                    |        300 | X |
@@ -280,24 +280,24 @@
 | armorLeatherHood                              |        300 | X |
 | armorLeatherMaster                            |        300 | X |
 | armorLeatherPants                             |        300 | X |
-| cntCoolerClosed                               |        300 |   |
-| cntCoolerOpen                                 |        300 |   |
-| cntDeskSafe                                   |        300 |   |
-| cntMicrowaveOvenVer1Closed                    |        300 |   |
-| cntMicrowaveOvenVer1Open                      |        300 |   |
-| cntWallSafe                                   |        300 |   |
-| cntWallSafeBrewery                            |        300 |   |
-| cntWallSafeShamway                            |        300 |   |
+| cntCoolerClosed                               |        300 | X |
+| cntCoolerOpen                                 |        300 | X |
+| cntDeskSafe                                   |        300 | X |
+| cntMicrowaveOvenVer1Closed                    |        300 | X |
+| cntMicrowaveOvenVer1Open                      |        300 | X |
+| cntWallSafe                                   |        300 | X |
+| cntWallSafeBrewery                            |        300 | X |
+| cntWallSafeShamway                            |        300 | X |
 | cowboyBoots                                   |        300 | X |
-| glassBulletproofBlock                         |        300 |   |
-| glassBulletproofCTRPlate                      |        300 |   |
-| glassBulletproofMaster                        |        300 |   |
-| glassBulletproofPlate                         |        300 |   |
-| glassBulletproofPlateCurved                   |        300 |   |
-| glassBulletproofRamp                          |        300 |   |
-| glassBulletproofRampSheet                     |        300 |   |
-| glassOpaqueBulletproofCTRPlate                |        300 |   |
-| glassOpaqueBulletproofPlate                   |        300 |   |
+| glassBulletproofBlock                         |        300 | X |
+| glassBulletproofCTRPlate                      |        300 | X |
+| glassBulletproofMaster                        |        300 | X |
+| glassBulletproofPlate                         |        300 | X |
+| glassBulletproofPlateCurved                   |        300 | X |
+| glassBulletproofRamp                          |        300 | X |
+| glassBulletproofRampSheet                     |        300 | X |
+| glassOpaqueBulletproofCTRPlate                |        300 | X |
+| glassOpaqueBulletproofPlate                   |        300 | X |
 | gothBootsBlack                                |        300 | X |
 | gothicPants                                   |        300 | X |
 | gunPistol                                     |        300 | X |
@@ -318,8 +318,8 @@
 | vehicleWheels                                 |        299 | X |
 | meleeToolWrench                               |        288 | X |
 | meleeToolWrenchAdmin                          |        288 | X |
-| cntMorticianDrawer                            |        284 |   |
-| morticianDrawer                               |        284 |   |
+| cntMorticianDrawer                            |        284 | X |
+| morticianDrawer                               |        284 | X |
 | ammoRocketFrag                                |        250 | X |
 | ammoRocketHE                                  |        250 | X |
 | armorScrapBoots                               |        250 | X |
@@ -328,8 +328,8 @@
 | armorScrapHelmet                              |        250 | X |
 | armorScrapLegs                                |        250 | X |
 | armorScrapMaster                              |        250 | X |
-| cntCashRegister                               |        250 |   |
-| cntMunitionsBox                               |        250 |   |
+| cntCashRegister                               |        250 | X |
+| cntMunitionsBox                               |        250 | X |
 | drugFortBites                                 |        250 | X |
 | drugRecog                                     |        250 | X |
 | drugSteroids                                  |        250 | X |
@@ -351,9 +351,9 @@
 | toolAnvil                                     |        240 | X |
 | gunBlunderbuss                                |        225 | X |
 | cowboyHat                                     |        220 | X |
-| dartTrap                                      |        220 |   |
-| flamethrowerTrap                              |        220 |   |
-| forge                                         |        214 |   |
+| dartTrap                                      |        220 | X |
+| flamethrowerTrap                              |        220 | X |
+| forge                                         |        214 | X |
 | beerSchematic                                 |        200 | X |
 | dressShoes                                    |        200 | X |
 | firstAidKitSchematic                          |        200 | X |
@@ -371,105 +371,105 @@
 | resourceRadiator                              |        200 | X |
 | runningShoes                                  |        200 | X |
 | unlockBookMaster                              |        200 | X |
-| cntFridgeStainlessSteel                       |        192 |   |
-| cntFridgeStainlessSteelVer2Open               |        192 |   |
-| cntRetroFridgeVer1Closed                      |        192 |   |
-| cntRetroFridgeVer2Open                        |        192 |   |
-| ceilingLight07                                |        191 |   |
+| cntFridgeStainlessSteel                       |        192 | X |
+| cntFridgeStainlessSteelVer2Open               |        192 | X |
+| cntRetroFridgeVer1Closed                      |        192 | X |
+| cntRetroFridgeVer2Open                        |        192 | X |
+| ceilingLight07                                |        191 | X |
 | resourceRepairKit                             |        186 | X |
-| mineAirFilter                                 |        182 |   |
-| industrialLight01                             |        175 |   |
-| satelliteDish                                 |        175 |   |
-| satelliteDishSmall                            |        175 |   |
-| furnaceDrawer                                 |        164 |   |
-| greenDrawer                                   |        164 |   |
-| steelArch                                     |        160 |   |
-| steelArrowSlitHalf                            |        160 |   |
-| steelBlock                                    |        160 |   |
-| steelCNRFull                                  |        160 |   |
-| steelCNRInside                                |        160 |   |
-| steelCNRRamp                                  |        160 |   |
-| steelCNRRampFiller                            |        160 |   |
-| steelCNRRound                                 |        160 |   |
-| steelCNRRoundTop                              |        160 |   |
-| steelCTRPlate                                 |        160 |   |
-| steelCTRpole                                  |        160 |   |
-| steelEighth                                   |        160 |   |
-| steelGableInvertedHalf                        |        160 |   |
-| steelGableInvertedQuarter                     |        160 |   |
-| steelGableInvertedSteep                       |        160 |   |
-| steelGableQuarter                             |        160 |   |
-| steelHalf                                     |        160 |   |
-| steelLogSpike6                                |        160 |   |
-| steelMaster                                   |        160 |   |
-| steelPillar100                                |        160 |   |
-| steelPillar100Cap                             |        160 |   |
-| steelPillar50                                 |        160 |   |
-| steelPlate                                    |        160 |   |
-| steelPlateOffset                              |        160 |   |
-| steelPole                                     |        160 |   |
-| steelPyramid                                  |        160 |   |
-| steelQuarter                                  |        160 |   |
-| steelQuarterCNR                               |        160 |   |
-| steelQuarterCNR3Way                           |        160 |   |
-| steelQuarterSCtr                              |        160 |   |
-| steelQuarterTeeSCtr                           |        160 |   |
-| steelRamp                                     |        160 |   |
-| steelStairs25                                 |        160 |   |
-| steelStairs25CornerCNR                        |        160 |   |
-| steelStairsFilledRailingLeft                  |        160 |   |
-| steelStairsFilledRailingRight                 |        160 |   |
-| steelSupport                                  |        160 |   |
-| steelWedge                                    |        160 |   |
-| steelWedgeCNRInsideBottom                     |        160 |   |
-| steelWedgeCNRInsideSteepBase                  |        160 |   |
-| steelWedgeCNRInsideSteepTop                   |        160 |   |
-| steelWedgeCNRInsideTop                        |        160 |   |
-| steelWedgeCNRSteepBase                        |        160 |   |
-| steelWedgeCNRSteepTop                         |        160 |   |
-| steelWedgeIncline                             |        160 |   |
-| steelWedgeStairs                              |        160 |   |
-| steelWedgeTip                                 |        160 |   |
-| steelWedgeTipCNRFullBottom                    |        160 |   |
-| steelWedgeTipCNRFullTop                       |        160 |   |
-| steelWedgeTipStairs                           |        160 |   |
-| cntBuriedStashChest                           |        156 |   |
-| cntLootChestHero                              |        156 |   |
-| cntLootChestHeroInsecure                      |        156 |   |
-| cntStoveOldVer1Closed                         |        156 |   |
-| cntStoveOldVer2Open                           |        156 |   |
+| mineAirFilter                                 |        182 | X |
+| industrialLight01                             |        175 | X |
+| satelliteDish                                 |        175 | X |
+| satelliteDishSmall                            |        175 | X |
+| furnaceDrawer                                 |        164 | X |
+| greenDrawer                                   |        164 | X |
+| steelArch                                     |        160 | X |
+| steelArrowSlitHalf                            |        160 | X |
+| steelBlock                                    |        160 | X |
+| steelCNRFull                                  |        160 | X |
+| steelCNRInside                                |        160 | X |
+| steelCNRRamp                                  |        160 | X |
+| steelCNRRampFiller                            |        160 | X |
+| steelCNRRound                                 |        160 | X |
+| steelCNRRoundTop                              |        160 | X |
+| steelCTRPlate                                 |        160 | X |
+| steelCTRpole                                  |        160 | X |
+| steelEighth                                   |        160 | X |
+| steelGableInvertedHalf                        |        160 | X |
+| steelGableInvertedQuarter                     |        160 | X |
+| steelGableInvertedSteep                       |        160 | X |
+| steelGableQuarter                             |        160 | X |
+| steelHalf                                     |        160 | X |
+| steelLogSpike6                                |        160 | X |
+| steelMaster                                   |        160 | X |
+| steelPillar100                                |        160 | X |
+| steelPillar100Cap                             |        160 | X |
+| steelPillar50                                 |        160 | X |
+| steelPlate                                    |        160 | X |
+| steelPlateOffset                              |        160 | X |
+| steelPole                                     |        160 | X |
+| steelPyramid                                  |        160 | X |
+| steelQuarter                                  |        160 | X |
+| steelQuarterCNR                               |        160 | X |
+| steelQuarterCNR3Way                           |        160 | X |
+| steelQuarterSCtr                              |        160 | X |
+| steelQuarterTeeSCtr                           |        160 | X |
+| steelRamp                                     |        160 | X |
+| steelStairs25                                 |        160 | X |
+| steelStairs25CornerCNR                        |        160 | X |
+| steelStairsFilledRailingLeft                  |        160 | X |
+| steelStairsFilledRailingRight                 |        160 | X |
+| steelSupport                                  |        160 | X |
+| steelWedge                                    |        160 | X |
+| steelWedgeCNRInsideBottom                     |        160 | X |
+| steelWedgeCNRInsideSteepBase                  |        160 | X |
+| steelWedgeCNRInsideSteepTop                   |        160 | X |
+| steelWedgeCNRInsideTop                        |        160 | X |
+| steelWedgeCNRSteepBase                        |        160 | X |
+| steelWedgeCNRSteepTop                         |        160 | X |
+| steelWedgeIncline                             |        160 | X |
+| steelWedgeStairs                              |        160 | X |
+| steelWedgeTip                                 |        160 | X |
+| steelWedgeTipCNRFullBottom                    |        160 | X |
+| steelWedgeTipCNRFullTop                       |        160 | X |
+| steelWedgeTipStairs                           |        160 | X |
+| cntBuriedStashChest                           |        156 | X |
+| cntLootChestHero                              |        156 | X |
+| cntLootChestHeroInsecure                      |        156 | X |
+| cntStoveOldVer1Closed                         |        156 | X |
+| cntStoveOldVer2Open                           |        156 | X |
 | drinkYuccaJuiceSmoothie                       |        156 | X |
-| fusebox                                       |        150 |   |
+| fusebox                                       |        150 | X |
 | meleeToolWireTool                             |        150 | X |
-| qstFuseBox                                    |        150 |   |
-| signShopOpen                                  |        150 |   |
+| qstFuseBox                                    |        150 | X |
+| signShopOpen                                  |        150 | X |
 | medicalBloodDrawKit                           |        149 | X |
-| mineHubcap                                    |        146 |   |
+| mineHubcap                                    |        146 | X |
 | resourceAcid                                  |        140 | X |
-| motionsensor                                  |        135 |   |
+| motionsensor                                  |        135 | X |
 | foodHoboStew                                  |        134 | X |
 | foodMeatStew                                  |        134 | X |
-| cntGreenDrawerInsecure                        |        128 |   |
-| cntGreenDrawerSecure                          |        128 |   |
+| cntGreenDrawerInsecure                        |        128 | X |
+| cntGreenDrawerSecure                          |        128 | X |
 | foodShamChowder                               |        126 | X |
-| faucetBrass02                                 |        125 |   |
+| faucetBrass02                                 |        125 | X |
 | resourceConcreteMix                           |        125 | X |
 | foodBlueberryPie                              |        124 | X |
-| pressureplate                                 |        124 |   |
+| pressureplate                                 |        124 | X |
 | drugHerbalAntibiotics                         |        120 | X |
-| mineCookingPot                                |        120 |   |
+| mineCookingPot                                |        120 | X |
 | resourceCandleStick                           |        120 | X |
-| electrictimerrelay                            |        119 |   |
-| rScrapIronPlateMine                           |        115 |   |
+| electrictimerrelay                            |        119 | X |
+| rScrapIronPlateMine                           |        115 | X |
 | foodChiliDog                                  |        106 | X |
 | foodVegetableStew                             |        102 | X |
-| cntFurnaceDrawer                              |        100 |   |
-| cntGreenDrawer                                |        100 |   |
+| cntFurnaceDrawer                              |        100 | X |
+| cntGreenDrawer                                |        100 | X |
 | drinkJarBeer                                  |        100 | X |
 | meleeToolFlashlight02                         |        100 | X |
 | resourceOil                                   |        100 | X |
-| shoppingCartEmpty                             |        100 |   |
-| mineCandyTin                                  |         97 |   |
+| shoppingCartEmpty                             |        100 | X |
+| mineCandyTin                                  |         97 | X |
 | drinkJarCoffee                                |         96 | X |
 | drinkJarSnowberryJuice                        |         92 | X |
 | foodFishTacos                                 |         92 | X |
@@ -477,45 +477,45 @@
 | bucketEmpty                                   |         84 | X |
 | ammoGasCan                                    |         83 | X |
 | ammoCrossbowBoltExploding                     |         80 | X |
-| cntGraniteSink                                |         80 |   |
+| cntGraniteSink                                |         80 | X |
 | drugPainkillers                               |         80 | X |
 | drugVitamins                                  |         80 | X |
-| faucetBrass04                                 |         80 |   |
+| faucetBrass04                                 |         80 | X |
 | foodHoney                                     |         80 | X |
-| ladderSteel                                   |         80 |   |
-| securityGateCTRPlate                          |         80 |   |
-| securityGatePlate                             |         80 |   |
+| ladderSteel                                   |         80 | X |
+| securityGateCTRPlate                          |         80 | X |
+| securityGatePlate                             |         80 | X |
 | wallHungSink                                  |         80 |   |
 | resourceRocketCasing                          |         77 | X |
-| burningBarrel                                 |         76 |   |
-| ceilingFanLight                               |         76 |   |
-| ceilingLight01                                |         76 |   |
-| ceilingLight01_player                         |         76 |   |
-| ceilingLight02                                |         76 |   |
-| ceilingLight02Brass                           |         76 |   |
-| ceilingLight04                                |         76 |   |
-| ceilingLight05                                |         76 |   |
-| ceilingLight05Brass                           |         76 |   |
-| deskLampLight                                 |         76 |   |
-| endTableLamp                                  |         76 |   |
-| flashlightDecor                               |         76 |   |
-| industrialLight02                             |         76 |   |
-| industrialLight02Red                          |         76 |   |
-| lanternDecorLight                             |         76 |   |
-| porchLight01                                  |         76 |   |
-| porchLight04                                  |         76 |   |
-| porchLight04Brass                             |         76 |   |
-| roadBarricadeLight                            |         76 |   |
-| sconce1Light                                  |         76 |   |
-| sconce1LightShadow                            |         76 |   |
-| signExitLight                                 |         76 |   |
-| streetLightClassic                            |         76 |   |
-| tableLampLight                                |         76 |   |
-| tableLampTippedOverLight                      |         76 |   |
-| wallLight01                                   |         76 |   |
-| workLightPOI                                  |         76 |   |
-| xRayDisplayLight1                             |         76 |   |
-| xRayDisplayLight2                             |         76 |   |
+| burningBarrel                                 |         76 | X |
+| ceilingFanLight                               |         76 | X |
+| ceilingLight01                                |         76 | X |
+| ceilingLight01_player                         |         76 | X |
+| ceilingLight02                                |         76 | X |
+| ceilingLight02Brass                           |         76 | X |
+| ceilingLight04                                |         76 | X |
+| ceilingLight05                                |         76 | X |
+| ceilingLight05Brass                           |         76 | X |
+| deskLampLight                                 |         76 | X |
+| endTableLamp                                  |         76 | X |
+| flashlightDecor                               |         76 | X |
+| industrialLight02                             |         76 | X |
+| industrialLight02Red                          |         76 | X |
+| lanternDecorLight                             |         76 | X |
+| porchLight01                                  |         76 | X |
+| porchLight04                                  |         76 | X |
+| porchLight04Brass                             |         76 | X |
+| roadBarricadeLight                            |         76 | X |
+| sconce1Light                                  |         76 | X |
+| sconce1LightShadow                            |         76 | X |
+| signExitLight                                 |         76 | X |
+| streetLightClassic                            |         76 | X |
+| tableLampLight                                |         76 | X |
+| tableLampTippedOverLight                      |         76 | X |
+| wallLight01                                   |         76 | X |
+| workLightPOI                                  |         76 | X |
+| xRayDisplayLight1                             |         76 | X |
+| xRayDisplayLight2                             |         76 | X |
 | armorClothBoots                               |         75 | X |
 | armorClothGloves                              |         75 | X |
 | armorClothHat                                 |         75 | X |
@@ -526,30 +526,30 @@
 | ringOfFireAdmin                               |         75 | X |
 | santaHat                                      |         75 | X |
 | foodBaconAndEggs                              |         72 | X |
-| speaker                                       |         72 |   |
+| speaker                                       |         72 | X |
 | thrownDynamite                                |         71 | X |
 | foodSteakAndPotato                            |         70 | X |
 | drinkJarYuccaJuice                            |         68 | X |
-| officeChair01                                 |         65 |   |
-| electricfencepost                             |         62 |   |
-| barStool                                      |         60 |   |
-| cntCabinetOldSink                             |         60 |   |
-| cntFileCabinetShortClosed                     |         60 |   |
-| cntFileCabinetShortOpen                       |         60 |   |
-| cntFileCabinetTallClosed                      |         60 |   |
-| cntFileCabinetTallOpen                        |         60 |   |
-| cntLockersShortClosed                         |         60 |   |
-| cntLockersShortOpen                           |         60 |   |
-| cntLockersTallClosed                          |         60 |   |
-| cntLockersTallDoubleClosed                    |         60 |   |
-| cntLockersTallDoubleOpen                      |         60 |   |
-| cntLockersTallMixClosed                       |         60 |   |
-| cntLockersTallMixLinkClosed                   |         60 |   |
-| cntLockersTallMixLinkOpen                     |         60 |   |
-| cntLockersTallMixOpen                         |         60 |   |
-| cntLockersTallOpen                            |         60 |   |
-| cntTrashCompactor                             |         60 |   |
-| cntWashingMachine                             |         60 |   |
+| officeChair01                                 |         65 | X |
+| electricfencepost                             |         62 | X |
+| barStool                                      |         60 | X |
+| cntCabinetOldSink                             |         60 | X |
+| cntFileCabinetShortClosed                     |         60 | X |
+| cntFileCabinetShortOpen                       |         60 | X |
+| cntFileCabinetTallClosed                      |         60 | X |
+| cntFileCabinetTallOpen                        |         60 | X |
+| cntLockersShortClosed                         |         60 | X |
+| cntLockersShortOpen                           |         60 | X |
+| cntLockersTallClosed                          |         60 | X |
+| cntLockersTallDoubleClosed                    |         60 | X |
+| cntLockersTallDoubleOpen                      |         60 | X |
+| cntLockersTallMixClosed                       |         60 | X |
+| cntLockersTallMixLinkClosed                   |         60 | X |
+| cntLockersTallMixLinkOpen                     |         60 | X |
+| cntLockersTallMixOpen                         |         60 | X |
+| cntLockersTallOpen                            |         60 | X |
+| cntTrashCompactor                             |         60 | X |
+| cntWashingMachine                             |         60 | X |
 | flannelShirt                                  |         60 | X |
 | flannelShirtRed                               |         60 | X |
 | foodCanBeef                                   |         60 | X |
@@ -561,288 +561,288 @@
 | foodCanPasta                                  |         60 | X |
 | foodCanPears                                  |         60 | X |
 | foodCanSalmon                                 |         60 | X |
-| fountain                                      |         60 |   |
+| fountain                                      |         60 | X |
 | hoodedSweatshirt                              |         60 | X |
-| ironDoor1_v1                                  |         60 |   |
-| ironDoor1_v2                                  |         60 |   |
-| ironDoor1_v3                                  |         60 |   |
-| mattress                                      |         60 |   |
-| mattressFlat                                  |         60 |   |
+| ironDoor1_v1                                  |         60 | X |
+| ironDoor1_v2                                  |         60 | X |
+| ironDoor1_v3                                  |         60 | X |
+| mattress                                      |         60 | X |
+| mattressFlat                                  |         60 | X |
 | sweatshirt                                    |         60 | X |
-| utilitySink                                   |         60 |   |
+| utilitySink                                   |         60 | X |
 | wornBoots                                     |         60 | X |
 | ammoArrowSteelAP                              |         57 | X |
 | ammoCrossbowBoltSteelAP                       |         57 | X |
-| birdBathPlanter                               |         56 |   |
-| cntBathTubEmpty                               |         56 |   |
-| cntBathTubGore                                |         56 |   |
-| cntToilet01                                   |         56 |   |
-| cntToilet02                                   |         56 |   |
-| cntToilet03                                   |         56 |   |
-| woodTable                                     |         55 |   |
+| birdBathPlanter                               |         56 | X |
+| cntBathTubEmpty                               |         56 | X |
+| cntBathTubGore                                |         56 | X |
+| cntToilet01                                   |         56 | X |
+| cntToilet02                                   |         56 | X |
+| cntToilet03                                   |         56 | X |
+| woodTable                                     |         55 | X |
 | foodBoiledMeat                                |         52 | X |
-| arrowSlit                                     |         50 |   |
-| bridgeConcreteBlock                           |         50 |   |
+| arrowSlit                                     |         50 | X |
+| bridgeConcreteBlock                           |         50 | X |
 | cigar                                         |         50 | X |
 | cigarette                                     |         50 | X |
-| concreteArch                                  |         50 |   |
-| concreteArrowSlitHalf                         |         50 |   |
-| concreteBarrier1                              |         50 |   |
-| concreteBarrier2                              |         50 |   |
-| concreteBarrier3                              |         50 |   |
-| concreteBlock                                 |         50 |   |
-| concreteBlockBaseboard1                       |         50 |   |
-| concreteBlockBaseboard4                       |         50 |   |
-| concreteBlockBaseboardChairRail1              |         50 |   |
-| concreteBlockBaseboardChairRail4              |         50 |   |
-| concreteBlockTileBroken01                     |         50 |   |
-| concreteCNRFull                               |         50 |   |
-| concreteCNRInside                             |         50 |   |
-| concreteCNRRamp                               |         50 |   |
-| concreteCNRRampFiller                         |         50 |   |
-| concreteCNRRound                              |         50 |   |
-| concreteCNRRoundTop                           |         50 |   |
-| concreteCornerstone                           |         50 |   |
-| concreteCTRPlate                              |         50 |   |
-| concreteCTRpole                               |         50 |   |
-| concreteCTRQuarter                            |         50 |   |
-| concreteEighth                                |         50 |   |
-| concreteGable1m                               |         50 |   |
-| concreteGableInvertedHalf                     |         50 |   |
-| concreteGableInvertedQuarter                  |         50 |   |
-| concreteGableInvertedSteep                    |         50 |   |
-| concreteGableQuarter                          |         50 |   |
-| concreteHalf                                  |         50 |   |
-| concreteHalfCentered                          |         50 |   |
-| concreteHalfCNRInside2                        |         50 |   |
-| concreteHalfPlate                             |         50 |   |
-| concreteHalfRampStairs50                      |         50 |   |
-| concreteHalfRampStairs50Filler                |         50 |   |
-| concreteMaster                                |         50 |   |
-| concreteNoUpgradeMaster                       |         50 |   |
-| concretePillar100                             |         50 |   |
-| concretePillar100Cap                          |         50 |   |
-| concretePillar50                              |         50 |   |
-| concretePlate                                 |         50 |   |
-| concretePlateOffset                           |         50 |   |
-| concretePole                                  |         50 |   |
-| concretePoleSCTR                              |         50 |   |
-| concretePyramid                               |         50 |   |
-| concretePyramid1m                             |         50 |   |
-| concreteQuarter                               |         50 |   |
-| concreteQuarterCNR                            |         50 |   |
-| concreteQuarterCNR3Way                        |         50 |   |
-| concreteQuarterSCtr                           |         50 |   |
-| concreteQuarterTeeSCtr                        |         50 |   |
-| concreteRamp                                  |         50 |   |
-| concreteStairs25                              |         50 |   |
-| concreteStairs25CornerCNR                     |         50 |   |
-| concreteStairsFilledRailingLeft               |         50 |   |
-| concreteStairsFilledRailingRight              |         50 |   |
-| concreteSupport                               |         50 |   |
-| concreteTubeCenter                            |         50 |   |
-| concreteTubeCorner                            |         50 |   |
-| concreteTunnelCenter                          |         50 |   |
-| concreteTunnelCorner                          |         50 |   |
-| concreteWedge                                 |         50 |   |
-| concreteWedgeCNRInsideBottom                  |         50 |   |
-| concreteWedgeCNRInsideSteepBase               |         50 |   |
-| concreteWedgeCNRInsideSteepTop                |         50 |   |
-| concreteWedgeCNRInsideTop                     |         50 |   |
-| concreteWedgeCNRSteepBase                     |         50 |   |
-| concreteWedgeCNRSteepTop                      |         50 |   |
-| concreteWedgeIncline                          |         50 |   |
-| concreteWedgeStairs                           |         50 |   |
-| concreteWedgeTip                              |         50 |   |
-| concreteWedgeTipCNRFullBottom                 |         50 |   |
-| concreteWedgeTipCNRFullTop                    |         50 |   |
-| concreteWedgeTipStairs                        |         50 |   |
+| concreteArch                                  |         50 | X |
+| concreteArrowSlitHalf                         |         50 | X |
+| concreteBarrier1                              |         50 | X |
+| concreteBarrier2                              |         50 | X |
+| concreteBarrier3                              |         50 | X |
+| concreteBlock                                 |         50 | X |
+| concreteBlockBaseboard1                       |         50 | X |
+| concreteBlockBaseboard4                       |         50 | X |
+| concreteBlockBaseboardChairRail1              |         50 | X |
+| concreteBlockBaseboardChairRail4              |         50 | X |
+| concreteBlockTileBroken01                     |         50 | X |
+| concreteCNRFull                               |         50 | X |
+| concreteCNRInside                             |         50 | X |
+| concreteCNRRamp                               |         50 | X |
+| concreteCNRRampFiller                         |         50 | X |
+| concreteCNRRound                              |         50 | X |
+| concreteCNRRoundTop                           |         50 | X |
+| concreteCornerstone                           |         50 | X |
+| concreteCTRPlate                              |         50 | X |
+| concreteCTRpole                               |         50 | X |
+| concreteCTRQuarter                            |         50 | X |
+| concreteEighth                                |         50 | X |
+| concreteGable1m                               |         50 | X |
+| concreteGableInvertedHalf                     |         50 | X |
+| concreteGableInvertedQuarter                  |         50 | X |
+| concreteGableInvertedSteep                    |         50 | X |
+| concreteGableQuarter                          |         50 | X |
+| concreteHalf                                  |         50 | X |
+| concreteHalfCentered                          |         50 | X |
+| concreteHalfCNRInside2                        |         50 | X |
+| concreteHalfPlate                             |         50 | X |
+| concreteHalfRampStairs50                      |         50 | X |
+| concreteHalfRampStairs50Filler                |         50 | X |
+| concreteMaster                                |         50 | X |
+| concreteNoUpgradeMaster                       |         50 | X |
+| concretePillar100                             |         50 | X |
+| concretePillar100Cap                          |         50 | X |
+| concretePillar50                              |         50 | X |
+| concretePlate                                 |         50 | X |
+| concretePlateOffset                           |         50 | X |
+| concretePole                                  |         50 | X |
+| concretePoleSCTR                              |         50 | X |
+| concretePyramid                               |         50 | X |
+| concretePyramid1m                             |         50 | X |
+| concreteQuarter                               |         50 | X |
+| concreteQuarterCNR                            |         50 | X |
+| concreteQuarterCNR3Way                        |         50 | X |
+| concreteQuarterSCtr                           |         50 | X |
+| concreteQuarterTeeSCtr                        |         50 | X |
+| concreteRamp                                  |         50 | X |
+| concreteStairs25                              |         50 | X |
+| concreteStairs25CornerCNR                     |         50 | X |
+| concreteStairsFilledRailingLeft               |         50 | X |
+| concreteStairsFilledRailingRight              |         50 | X |
+| concreteSupport                               |         50 | X |
+| concreteTubeCenter                            |         50 | X |
+| concreteTubeCorner                            |         50 | X |
+| concreteTunnelCenter                          |         50 | X |
+| concreteTunnelCorner                          |         50 | X |
+| concreteWedge                                 |         50 | X |
+| concreteWedgeCNRInsideBottom                  |         50 | X |
+| concreteWedgeCNRInsideSteepBase               |         50 | X |
+| concreteWedgeCNRInsideSteepTop                |         50 | X |
+| concreteWedgeCNRInsideTop                     |         50 | X |
+| concreteWedgeCNRSteepBase                     |         50 | X |
+| concreteWedgeCNRSteepTop                      |         50 | X |
+| concreteWedgeIncline                          |         50 | X |
+| concreteWedgeStairs                           |         50 | X |
+| concreteWedgeTip                              |         50 | X |
+| concreteWedgeTipCNRFullBottom                 |         50 | X |
+| concreteWedgeTipCNRFullTop                    |         50 | X |
+| concreteWedgeTipStairs                        |         50 | X |
 | facialPiercings                               |         50 | X |
 | medicalSnowberryExtract                       |         50 | X |
-| newTextureBlock01                             |         50 |   |
-| newTextureBlock02                             |         50 |   |
-| newTextureBlock03                             |         50 |   |
-| newTextureBlock04                             |         50 |   |
-| newTextureBlock05                             |         50 |   |
-| newTextureBlock06                             |         50 |   |
-| newTextureBlock07                             |         50 |   |
-| newTextureBlock08                             |         50 |   |
-| newTextureBlock09                             |         50 |   |
-| newTextureBlock10                             |         50 |   |
-| newTextureBlock11                             |         50 |   |
-| newTextureBlock12                             |         50 |   |
-| newTextureBlock13                             |         50 |   |
-| newTextureBlock14                             |         50 |   |
-| newTextureBlock15                             |         50 |   |
-| newTextureBlock16                             |         50 |   |
-| newTextureBlock17                             |         50 |   |
-| newTextureBlock18                             |         50 |   |
-| newTextureBlock19                             |         50 |   |
-| newTextureBlock20                             |         50 |   |
-| newTextureBlock21                             |         50 |   |
-| pouredConcreteArch                            |         50 |   |
-| pouredConcreteArrowSlitHalf                   |         50 |   |
-| pouredConcreteBlock                           |         50 |   |
-| pouredConcreteCNRFull                         |         50 |   |
-| pouredConcreteCNRInside                       |         50 |   |
-| pouredConcreteCNRRamp                         |         50 |   |
-| pouredConcreteCNRRampFiller                   |         50 |   |
-| pouredConcreteCNRRound                        |         50 |   |
-| pouredConcreteCNRRoundTop                     |         50 |   |
-| pouredConcreteCTRPlate                        |         50 |   |
-| pouredConcreteCTRpole                         |         50 |   |
-| pouredConcreteEighth                          |         50 |   |
-| pouredConcreteGableInvertedHalf               |         50 |   |
-| pouredConcreteGableInvertedQuarter            |         50 |   |
-| pouredConcreteGableInvertedSteep              |         50 |   |
-| pouredConcreteGableQuarter                    |         50 |   |
-| pouredConcreteHalf                            |         50 |   |
-| pouredConcreteMaster                          |         50 |   |
-| pouredConcretePillar100                       |         50 |   |
-| pouredConcretePillar100Cap                    |         50 |   |
-| pouredConcretePillar50                        |         50 |   |
-| pouredConcretePlate                           |         50 |   |
-| pouredConcretePlateOffset                     |         50 |   |
-| pouredConcretePole                            |         50 |   |
-| pouredConcretePyramid                         |         50 |   |
-| pouredConcreteQuarter                         |         50 |   |
-| pouredConcreteQuarterCNR                      |         50 |   |
-| pouredConcreteQuarterCNR3Way                  |         50 |   |
-| pouredConcreteQuarterSCtr                     |         50 |   |
-| pouredConcreteQuarterTeeSCtr                  |         50 |   |
-| pouredConcreteRamp                            |         50 |   |
-| pouredConcreteStairs25                        |         50 |   |
-| pouredConcreteStairs25CornerCNR               |         50 |   |
-| pouredConcreteStairs50                        |         50 |   |
-| pouredConcreteStairsFilledRailingLeft         |         50 |   |
-| pouredConcreteStairsFilledRailingRight        |         50 |   |
-| pouredConcreteSupport                         |         50 |   |
-| pouredConcreteWedge                           |         50 |   |
-| pouredConcreteWedgeCNRInsideBottom            |         50 |   |
-| pouredConcreteWedgeCNRInsideSteepBase         |         50 |   |
-| pouredConcreteWedgeCNRInsideSteepTop          |         50 |   |
-| pouredConcreteWedgeCNRInsideTop               |         50 |   |
-| pouredConcreteWedgeCNRSteepBase               |         50 |   |
-| pouredConcreteWedgeCNRSteepTop                |         50 |   |
-| pouredConcreteWedgeIncline                    |         50 |   |
-| pouredConcreteWedgeStairs                     |         50 |   |
-| pouredConcreteWedgeTip                        |         50 |   |
-| pouredConcreteWedgeTipCNRFullBottom           |         50 |   |
-| pouredConcreteWedgeTipCNRFullTop              |         50 |   |
-| pouredConcreteWedgeTipStairs                  |         50 |   |
-| rConcreteCTREighth                            |         50 |   |
+| newTextureBlock01                             |         50 | X |
+| newTextureBlock02                             |         50 | X |
+| newTextureBlock03                             |         50 | X |
+| newTextureBlock04                             |         50 | X |
+| newTextureBlock05                             |         50 | X |
+| newTextureBlock06                             |         50 | X |
+| newTextureBlock07                             |         50 | X |
+| newTextureBlock08                             |         50 | X |
+| newTextureBlock09                             |         50 | X |
+| newTextureBlock10                             |         50 | X |
+| newTextureBlock11                             |         50 | X |
+| newTextureBlock12                             |         50 | X |
+| newTextureBlock13                             |         50 | X |
+| newTextureBlock14                             |         50 | X |
+| newTextureBlock15                             |         50 | X |
+| newTextureBlock16                             |         50 | X |
+| newTextureBlock17                             |         50 | X |
+| newTextureBlock18                             |         50 | X |
+| newTextureBlock19                             |         50 | X |
+| newTextureBlock20                             |         50 | X |
+| newTextureBlock21                             |         50 | X |
+| pouredConcreteArch                            |         50 | X |
+| pouredConcreteArrowSlitHalf                   |         50 | X |
+| pouredConcreteBlock                           |         50 | X |
+| pouredConcreteCNRFull                         |         50 | X |
+| pouredConcreteCNRInside                       |         50 | X |
+| pouredConcreteCNRRamp                         |         50 | X |
+| pouredConcreteCNRRampFiller                   |         50 | X |
+| pouredConcreteCNRRound                        |         50 | X |
+| pouredConcreteCNRRoundTop                     |         50 | X |
+| pouredConcreteCTRPlate                        |         50 | X |
+| pouredConcreteCTRpole                         |         50 | X |
+| pouredConcreteEighth                          |         50 | X |
+| pouredConcreteGableInvertedHalf               |         50 | X |
+| pouredConcreteGableInvertedQuarter            |         50 | X |
+| pouredConcreteGableInvertedSteep              |         50 | X |
+| pouredConcreteGableQuarter                    |         50 | X |
+| pouredConcreteHalf                            |         50 | X |
+| pouredConcreteMaster                          |         50 | X |
+| pouredConcretePillar100                       |         50 | X |
+| pouredConcretePillar100Cap                    |         50 | X |
+| pouredConcretePillar50                        |         50 | X |
+| pouredConcretePlate                           |         50 | X |
+| pouredConcretePlateOffset                     |         50 | X |
+| pouredConcretePole                            |         50 | X |
+| pouredConcretePyramid                         |         50 | X |
+| pouredConcreteQuarter                         |         50 | X |
+| pouredConcreteQuarterCNR                      |         50 | X |
+| pouredConcreteQuarterCNR3Way                  |         50 | X |
+| pouredConcreteQuarterSCtr                     |         50 | X |
+| pouredConcreteQuarterTeeSCtr                  |         50 | X |
+| pouredConcreteRamp                            |         50 | X |
+| pouredConcreteStairs25                        |         50 | X |
+| pouredConcreteStairs25CornerCNR               |         50 | X |
+| pouredConcreteStairs50                        |         50 | X |
+| pouredConcreteStairsFilledRailingLeft         |         50 | X |
+| pouredConcreteStairsFilledRailingRight        |         50 | X |
+| pouredConcreteSupport                         |         50 | X |
+| pouredConcreteWedge                           |         50 | X |
+| pouredConcreteWedgeCNRInsideBottom            |         50 | X |
+| pouredConcreteWedgeCNRInsideSteepBase         |         50 | X |
+| pouredConcreteWedgeCNRInsideSteepTop          |         50 | X |
+| pouredConcreteWedgeCNRInsideTop               |         50 | X |
+| pouredConcreteWedgeCNRSteepBase               |         50 | X |
+| pouredConcreteWedgeCNRSteepTop                |         50 | X |
+| pouredConcreteWedgeIncline                    |         50 | X |
+| pouredConcreteWedgeStairs                     |         50 | X |
+| pouredConcreteWedgeTip                        |         50 | X |
+| pouredConcreteWedgeTipCNRFullBottom           |         50 | X |
+| pouredConcreteWedgeTipCNRFullTop              |         50 | X |
+| pouredConcreteWedgeTipStairs                  |         50 | X |
+| rConcreteCTREighth                            |         50 | X |
 | resourceCrushedSand                           |         50 | X |
 | resourceElectronicParts                       |         50 | X |
 | resourceForgedSteel                           |         50 | X |
 | resourceMilitaryFiber                         |         50 | X |
 | resourceRocketTip                             |         50 | X |
 | resourceRockSmall                             |         50 | X |
-| switch                                        |         50 |   |
+| switch                                        |         50 | X |
 | drinkJarGoldenRodTea                          |         48 | X |
 | drinkJarGrainAlcohol                          |         48 | X |
 | drinkJarGrandpasLearningElixir                |         48 | X |
 | drinkJarRedTea                                |         48 | X |
 | drinkJarYuccaCocktail                         |         48 | X |
-| metalCatwalk                                  |         48 |   |
-| metalCatwalkBent                              |         48 |   |
-| metalCatwalkBentTrap                          |         48 |   |
-| metalCatwalkRailing1                          |         48 |   |
-| metalCatwalkRailing2                          |         48 |   |
-| metalCatwalkRailing2Bent                      |         48 |   |
-| metalCatwalkRailing2BentTrap                  |         48 |   |
-| metalCatwalkRailingCNR                        |         48 |   |
-| metalCatwalkTrap                              |         48 |   |
-| metalCatwalkWedge                             |         48 |   |
-| metalCatwalkWedgeRailing                      |         48 |   |
-| metalStairsBoard                              |         48 |   |
-| metalStairsBoardRailing                       |         48 |   |
+| metalCatwalk                                  |         48 | X |
+| metalCatwalkBent                              |         48 | X |
+| metalCatwalkBentTrap                          |         48 | X |
+| metalCatwalkRailing1                          |         48 | X |
+| metalCatwalkRailing2                          |         48 | X |
+| metalCatwalkRailing2Bent                      |         48 | X |
+| metalCatwalkRailing2BentTrap                  |         48 | X |
+| metalCatwalkRailingCNR                        |         48 | X |
+| metalCatwalkTrap                              |         48 | X |
+| metalCatwalkWedge                             |         48 | X |
+| metalCatwalkWedgeRailing                      |         48 | X |
+| metalStairsBoard                              |         48 | X |
+| metalStairsBoardRailing                       |         48 | X |
 | resourceTrophy2                               |         48 | X |
-| terrAsphalt                                   |         45 |   |
-| terrConcrete                                  |         45 |   |
+| terrAsphalt                                   |         45 | X |
+| terrConcrete                                  |         45 | X |
 | ammoArrowFlaming                              |         44 | X |
-| rustyIronTable                                |         42 |   |
+| rustyIronTable                                |         42 | X |
 | thrownAmmoMolotovCocktail                     |         41 | X |
 | thrownAmmoPipeBomb                            |         41 | X |
 | armyPants                                     |         40 | X |
 | armyShirt                                     |         40 | X |
 | ballCap                                       |         40 | X |
-| cntBin                                        |         40 |   |
-| cntTrash_can01                                |         40 |   |
+| cntBin                                        |         40 | X |
+| cntTrash_can01                                |         40 | X |
 | denimPants                                    |         40 | X |
 | denimShortsPants                              |         40 | X |
 | drinkCanBoiledWater                           |         40 | X |
 | drinkJarBoiledWater                           |         40 | X |
-| faucet02                                      |         40 |   |
+| faucet02                                      |         40 | X |
 | foodCanDogfood                                |         40 | X |
 | foodCanSoup                                   |         40 | X |
 | foodCanStock                                  |         40 | X |
 | foodCropGraceCorn                             |         40 | X |
 | foodEggBoiled                                 |         40 | X |
-| iBeam                                         |         40 |   |
-| iBeam5wayCentered                             |         40 |   |
-| iBeam6wayCentered                             |         40 |   |
-| iBeamBent                                     |         40 |   |
-| iBeamCentered                                 |         40 |   |
-| iBeamCenteredFoundation                       |         40 |   |
-| iBeamCorner                                   |         40 |   |
-| iBeamCornerCentered                           |         40 |   |
-| iBeamFoundation                               |         40 |   |
-| iBeamSmall                                    |         40 |   |
-| iBeamSupport                                  |         40 |   |
-| iBeamTCentered                                |         40 |   |
+| iBeam                                         |         40 | X |
+| iBeam5wayCentered                             |         40 | X |
+| iBeam6wayCentered                             |         40 | X |
+| iBeamBent                                     |         40 | X |
+| iBeamCentered                                 |         40 | X |
+| iBeamCenteredFoundation                       |         40 | X |
+| iBeamCorner                                   |         40 | X |
+| iBeamCornerCentered                           |         40 | X |
+| iBeamFoundation                               |         40 | X |
+| iBeamSmall                                    |         40 | X |
+| iBeamSupport                                  |         40 | X |
+| iBeamTCentered                                |         40 | X |
 | overalls                                      |         40 | X |
 | pressboyCap                                   |         40 | X |
 | resourceArrowHeadSteelAP                      |         40 | X |
 | resourceDoorKnob                              |         40 | X |
 | resourceTrophy1                               |         40 | X |
-| rScrapIronArch                                |         40 |   |
-| rScrapIronArrowSlitHalf                       |         40 |   |
-| rScrapIronBlock                               |         40 |   |
-| rScrapIronCNRFull                             |         40 |   |
-| rScrapIronCNRInside                           |         40 |   |
-| rScrapIronCNRRamp                             |         40 |   |
-| rScrapIronCNRRampFiller                       |         40 |   |
-| rScrapIronCNRRound                            |         40 |   |
-| rScrapIronCNRRoundTop                         |         40 |   |
-| rScrapIronCTRPlate                            |         40 |   |
-| rScrapIronCTRpole                             |         40 |   |
-| rScrapIronGableInvertedHalf                   |         40 |   |
-| rScrapIronGableInvertedQuarter                |         40 |   |
-| rScrapIronGableInvertedSteep                  |         40 |   |
-| rScrapIronGableQuarter                        |         40 |   |
-| rScrapIronHalf                                |         40 |   |
-| rScrapIronMaster                              |         40 |   |
-| rScrapIronPillar100                           |         40 |   |
-| rScrapIronPillar100Cap                        |         40 |   |
-| rScrapIronPillar50                            |         40 |   |
-| rScrapIronPlate                               |         40 |   |
-| rScrapIronPlateOffset                         |         40 |   |
-| rScrapIronPole                                |         40 |   |
-| rScrapIronQuarterCNR                          |         40 |   |
-| rScrapIronQuarterCNR3Way                      |         40 |   |
-| rScrapIronQuarterSCtr                         |         40 |   |
-| rScrapIronQuarterTeeSCtr                      |         40 |   |
-| rScrapIronRamp                                |         40 |   |
-| rScrapIronStairs25                            |         40 |   |
-| rScrapIronStairs25CornerCNR                   |         40 |   |
-| rScrapIronStairsFilledRailingLeft             |         40 |   |
-| rScrapIronStairsFilledRailingRight            |         40 |   |
-| rScrapIronSupport                             |         40 |   |
-| rScrapIronWedge                               |         40 |   |
-| rScrapIronWedgeCNRInsideBottom                |         40 |   |
-| rScrapIronWedgeCNRInsideSteepBase             |         40 |   |
-| rScrapIronWedgeCNRInsideSteepTop              |         40 |   |
-| rScrapIronWedgeCNRInsideTop                   |         40 |   |
-| rScrapIronWedgeCNRSteepBase                   |         40 |   |
-| rScrapIronWedgeCNRSteepTop                    |         40 |   |
-| rScrapIronWedgeIncline                        |         40 |   |
-| rScrapIronWedgeStairs                         |         40 |   |
-| rScrapIronWedgeTip                            |         40 |   |
-| rScrapIronWedgeTipCNRFullBottom               |         40 |   |
-| rScrapIronWedgeTipCNRFullTop                  |         40 |   |
-| rScrapIronWedgeTipStairs                      |         40 |   |
+| rScrapIronArch                                |         40 | X |
+| rScrapIronArrowSlitHalf                       |         40 | X |
+| rScrapIronBlock                               |         40 | X |
+| rScrapIronCNRFull                             |         40 | X |
+| rScrapIronCNRInside                           |         40 | X |
+| rScrapIronCNRRamp                             |         40 | X |
+| rScrapIronCNRRampFiller                       |         40 | X |
+| rScrapIronCNRRound                            |         40 | X |
+| rScrapIronCNRRoundTop                         |         40 | X |
+| rScrapIronCTRPlate                            |         40 | X |
+| rScrapIronCTRpole                             |         40 | X |
+| rScrapIronGableInvertedHalf                   |         40 | X |
+| rScrapIronGableInvertedQuarter                |         40 | X |
+| rScrapIronGableInvertedSteep                  |         40 | X |
+| rScrapIronGableQuarter                        |         40 | X |
+| rScrapIronHalf                                |         40 | X |
+| rScrapIronMaster                              |         40 | X |
+| rScrapIronPillar100                           |         40 | X |
+| rScrapIronPillar100Cap                        |         40 | X |
+| rScrapIronPillar50                            |         40 | X |
+| rScrapIronPlate                               |         40 | X |
+| rScrapIronPlateOffset                         |         40 | X |
+| rScrapIronPole                                |         40 | X |
+| rScrapIronQuarterCNR                          |         40 | X |
+| rScrapIronQuarterCNR3Way                      |         40 | X |
+| rScrapIronQuarterSCtr                         |         40 | X |
+| rScrapIronQuarterTeeSCtr                      |         40 | X |
+| rScrapIronRamp                                |         40 | X |
+| rScrapIronStairs25                            |         40 | X |
+| rScrapIronStairs25CornerCNR                   |         40 | X |
+| rScrapIronStairsFilledRailingLeft             |         40 | X |
+| rScrapIronStairsFilledRailingRight            |         40 | X |
+| rScrapIronSupport                             |         40 | X |
+| rScrapIronWedge                               |         40 | X |
+| rScrapIronWedgeCNRInsideBottom                |         40 | X |
+| rScrapIronWedgeCNRInsideSteepBase             |         40 | X |
+| rScrapIronWedgeCNRInsideSteepTop              |         40 | X |
+| rScrapIronWedgeCNRInsideTop                   |         40 | X |
+| rScrapIronWedgeCNRSteepBase                   |         40 | X |
+| rScrapIronWedgeCNRSteepTop                    |         40 | X |
+| rScrapIronWedgeIncline                        |         40 | X |
+| rScrapIronWedgeStairs                         |         40 | X |
+| rScrapIronWedgeTip                            |         40 | X |
+| rScrapIronWedgeTipCNRFullBottom               |         40 | X |
+| rScrapIronWedgeTipCNRFullTop                  |         40 | X |
+| rScrapIronWedgeTipStairs                      |         40 | X |
 | shirt                                         |         40 | X |
-| showerHead                                    |         40 |   |
+| showerHead                                    |         40 | X |
 | skirt                                         |         40 | X |
 | skullCap                                      |         40 | X |
 | suitPants                                     |         40 | X |
@@ -854,54 +854,54 @@
 | meleeBoneShiv                                 |         34 |   |
 | resourceElectricParts                         |         32 | X |
 | resourceMechanicalParts                       |         32 | X |
-| ladderMetal                                   |         30 |   |
-| metalPipeCap                                  |         30 |   |
-| metalPipeCorner                               |         30 |   |
-| metalPipeFlange                               |         30 |   |
-| metalPipeJoint                                |         30 |   |
-| metalPipeStraight                             |         30 |   |
-| metalPipeValve                                |         30 |   |
+| ladderMetal                                   |         30 | X |
+| metalPipeCap                                  |         30 | X |
+| metalPipeCorner                               |         30 | X |
+| metalPipeFlange                               |         30 | X |
+| metalPipeJoint                                |         30 | X |
+| metalPipeStraight                             |         30 | X |
+| metalPipeValve                                |         30 | X |
 | resourceInsulator                             |         30 |   |
-| trapSpikesIronDmg0                            |         30 |   |
-| trapSpikesIronDmg1                            |         30 |   |
-| trapSpikesIronDmg2                            |         30 |   |
-| trapSpikesScrapIronMaster                     |         30 |   |
-| trapSpikesWoodDmg0                            |         30 |   |
-| trapSpikesWoodDmg1                            |         30 |   |
-| trapSpikesWoodDmg2                            |         30 |   |
-| trapSpikesWoodMaster                          |         30 |   |
-| woodLogSpike1                                 |         30 |   |
-| electricwirerelay                             |         28 |   |
+| trapSpikesIronDmg0                            |         30 | X |
+| trapSpikesIronDmg1                            |         30 | X |
+| trapSpikesIronDmg2                            |         30 | X |
+| trapSpikesScrapIronMaster                     |         30 | X |
+| trapSpikesWoodDmg0                            |         30 | X |
+| trapSpikesWoodDmg1                            |         30 | X |
+| trapSpikesWoodDmg2                            |         30 | X |
+| trapSpikesWoodMaster                          |         30 | X |
+| woodLogSpike1                                 |         30 | X |
+| electricwirerelay                             |         28 | X |
 | toolCookingGrill                              |         26 | X |
 | ammoArrowIron                                 |         25 | X |
 | ammoCrossbowBoltIron                          |         25 | X |
-| awningBlock                                   |         25 |   |
-| awningCNRFull                                 |         25 |   |
-| awningCNRInside                               |         25 |   |
-| awningCNRRound                                |         25 |   |
-| awningCNRRoundTop                             |         25 |   |
-| awningCTRSheet                                |         25 |   |
-| awningGable                                   |         25 |   |
-| awningMaster                                  |         25 |   |
-| awningPyramid                                 |         25 |   |
-| awningRamp                                    |         25 |   |
-| AwningRampInsideCorner                        |         25 |   |
-| awningRampSheet                               |         25 |   |
-| AwningRampSheet                               |         25 |   |
-| AwningRampSheetCap                            |         25 |   |
-| AwningRampSheetCap2                           |         25 |   |
-| awningRampSheetEdgeLeft                       |         25 |   |
-| awningRampSheetEdgeRight                      |         25 |   |
-| awningSheet                                   |         25 |   |
-| clothPillar100                                |         25 |   |
-| clothPillar50                                 |         25 |   |
-| paperPillar100                                |         25 |   |
-| paperPillar50                                 |         25 |   |
-| rebarFrameBlock                               |         25 |   |
-| rebarFrameCNRInside                           |         25 |   |
-| rebarFrameMaster                              |         25 |   |
-| rebarFramePillar100                           |         25 |   |
-| rebarFrameRamp                                |         25 |   |
+| awningBlock                                   |         25 | X |
+| awningCNRFull                                 |         25 | X |
+| awningCNRInside                               |         25 | X |
+| awningCNRRound                                |         25 | X |
+| awningCNRRoundTop                             |         25 | X |
+| awningCTRSheet                                |         25 | X |
+| awningGable                                   |         25 | X |
+| awningMaster                                  |         25 | X |
+| awningPyramid                                 |         25 | X |
+| awningRamp                                    |         25 | X |
+| AwningRampInsideCorner                        |         25 | X |
+| awningRampSheet                               |         25 | X |
+| AwningRampSheet                               |         25 | X |
+| AwningRampSheetCap                            |         25 | X |
+| AwningRampSheetCap2                           |         25 | X |
+| awningRampSheetEdgeLeft                       |         25 | X |
+| awningRampSheetEdgeRight                      |         25 | X |
+| awningSheet                                   |         25 | X |
+| clothPillar100                                |         25 | X |
+| clothPillar50                                 |         25 | X |
+| paperPillar100                                |         25 | X |
+| paperPillar50                                 |         25 | X |
+| rebarFrameBlock                               |         25 | X |
+| rebarFrameCNRInside                           |         25 | X |
+| rebarFrameMaster                              |         25 | X |
+| rebarFramePillar100                           |         25 | X |
+| rebarFrameRamp                                |         25 | X |
 | resourceDuctTape                              |         25 | X |
 | resourceFishingWeight                         |         25 | X |
 | resourceIronFragment                          |         25 |   |
@@ -909,418 +909,418 @@
 | candle                                        |         24 | X |
 | foodGrilledMeat                               |         24 | X |
 | resourceTallow                                |         24 | X |
-| treeMasterGrowing                             |         24 |   |
-| treePlantedMountainPine12m                    |         24 |   |
-| treePlantedMountainPine19m                    |         24 |   |
-| treePlantedMountainPine27m                    |         24 |   |
-| treePlantedOak08m                             |         24 |   |
-| treePlantedOak16m                             |         24 |   |
-| treePlantedOak27m                             |         24 |   |
-| treePlantedWinterPine13m                      |         24 |   |
-| treePlantedWinterPine19m                      |         24 |   |
-| treePlantedWinterPine6m                       |         24 |   |
+| treeMasterGrowing                             |         24 | X |
+| treePlantedMountainPine12m                    |         24 | X |
+| treePlantedMountainPine19m                    |         24 | X |
+| treePlantedMountainPine27m                    |         24 | X |
+| treePlantedOak08m                             |         24 | X |
+| treePlantedOak16m                             |         24 | X |
+| treePlantedOak27m                             |         24 | X |
+| treePlantedWinterPine13m                      |         24 | X |
+| treePlantedWinterPine19m                      |         24 | X |
+| treePlantedWinterPine6m                       |         24 | X |
 | resourceLeather                               |         22 | X |
 | resourceSpring                                |         22 | X |
 | ammoShotgunSlug                               |         20 | X |
-| bridgeMetalRivetBlock                         |         20 |   |
-| commercialBlindsBottom                        |         20 |   |
-| commercialBlindsTop                           |         20 |   |
-| curtain_bottom1Sheet3                         |         20 |   |
-| curtain_top1Sheet3                            |         20 |   |
-| decoMetalSlide                                |         20 |   |
-| decoSwingSet                                  |         20 |   |
+| bridgeMetalRivetBlock                         |         20 | X |
+| commercialBlindsBottom                        |         20 | X |
+| commercialBlindsTop                           |         20 | X |
+| curtain_bottom1Sheet3                         |         20 | X |
+| curtain_top1Sheet3                            |         20 | X |
+| decoMetalSlide                                |         20 | X |
+| decoSwingSet                                  |         20 | X |
 | drinkCanRiverWater                            |         20 |   |
 | drinkJarRiverWater                            |         20 |   |
-| faucet04                                      |         20 |   |
+| faucet04                                      |         20 | X |
 | foodCanCatfood                                |         20 | X |
 | foodCanPeas                                   |         20 | X |
 | foodCanTuna                                   |         20 | X |
 | foodCharredMeat                               |         20 | X |
 | foodCornOnTheCob                              |         20 | X |
 | meleeToolPaintTool                            |         20 | X |
-| metalTrussingBlock                            |         20 |   |
-| metalTrussingBlockBent                        |         20 |   |
-| metalTrussingBlockOld                         |         20 |   |
-| metalTrussingCentered                         |         20 |   |
-| metalTrussingRampOld                          |         20 |   |
-| metalTrussingSCTR                             |         20 |   |
-| metalTrussingSheet                            |         20 |   |
-| miniblindBottomSheet                          |         20 |   |
-| miniblindTopSheet                             |         20 |   |
+| metalTrussingBlock                            |         20 | X |
+| metalTrussingBlockBent                        |         20 | X |
+| metalTrussingBlockOld                         |         20 | X |
+| metalTrussingCentered                         |         20 | X |
+| metalTrussingRampOld                          |         20 | X |
+| metalTrussingSCTR                             |         20 | X |
+| metalTrussingSheet                            |         20 | X |
+| miniblindBottomSheet                          |         20 | X |
+| miniblindTopSheet                             |         20 | X |
 | resourceAnimalFat                             |         20 | X |
 | resourceGlue                                  |         20 | X |
 | resourceScrapBrass                            |         20 | X |
 | resourceScrapLead                             |         20 | X |
-| rScrapIronTable                               |         20 |   |
-| scrapHatch_v1                                 |         20 |   |
-| scrapHatch_v2                                 |         20 |   |
-| scrapHatch_v3                                 |         20 |   |
-| scrapIronArch                                 |         20 |   |
-| scrapIronArrowSlitHalf                        |         20 |   |
-| scrapIronBlock                                |         20 |   |
-| scrapIronCNRFull                              |         20 |   |
-| scrapIronCNRInside                            |         20 |   |
-| scrapIronCNRRamp                              |         20 |   |
-| scrapIronCNRRampFiller                        |         20 |   |
-| scrapIronCNRRound                             |         20 |   |
-| scrapIronCNRRoundTop                          |         20 |   |
-| scrapIronCross                                |         20 |   |
-| scrapIronCTRPlate                             |         20 |   |
-| scrapIronCTRpole                              |         20 |   |
-| scrapIronGableInvertedHalf                    |         20 |   |
-| scrapIronGableInvertedQuarter                 |         20 |   |
-| scrapIronGableInvertedSteep                   |         20 |   |
-| scrapIronGableQuarter                         |         20 |   |
-| scrapIronHalf                                 |         20 |   |
-| scrapIronMaster                               |         20 |   |
-| scrapIronNoUpgradeMaster                      |         20 |   |
-| scrapIronPillar100                            |         20 |   |
-| scrapIronPillar100Cap                         |         20 |   |
-| scrapIronPillar50                             |         20 |   |
-| scrapIronPlate                                |         20 |   |
-| scrapIronPlateOffset                          |         20 |   |
-| scrapIronPole                                 |         20 |   |
-| scrapIronPoleSupport                          |         20 |   |
-| scrapIronPoleSupport2                         |         20 |   |
-| scrapIronQuarterCNR                           |         20 |   |
-| scrapIronQuarterCNR3Way                       |         20 |   |
-| scrapIronQuarterSCtr                          |         20 |   |
-| scrapIronQuarterTeeSCtr                       |         20 |   |
-| scrapIronRamp                                 |         20 |   |
-| scrapIronSheet                                |         20 |   |
-| scrapIronStairs25                             |         20 |   |
-| scrapIronStairs25CornerCNR                    |         20 |   |
-| scrapIronStairsFilledRailingLeft              |         20 |   |
-| scrapIronStairsFilledRailingRight             |         20 |   |
-| scrapIronSupport                              |         20 |   |
-| scrapIronWedge                                |         20 |   |
-| scrapIronWedgeCNRInsideBottom                 |         20 |   |
-| scrapIronWedgeCNRInsideSteepBase              |         20 |   |
-| scrapIronWedgeCNRInsideSteepTop               |         20 |   |
-| scrapIronWedgeCNRInsideTop                    |         20 |   |
-| scrapIronWedgeCNRSteepBase                    |         20 |   |
-| scrapIronWedgeCNRSteepTop                     |         20 |   |
-| scrapIronWedgeIncline                         |         20 |   |
-| scrapIronWedgeStairs                          |         20 |   |
-| scrapIronWedgeTip                             |         20 |   |
-| scrapIronWedgeTipCNRFullBottom                |         20 |   |
-| scrapIronWedgeTipCNRFullTop                   |         20 |   |
-| scrapIronWedgeTipStairs                       |         20 |   |
-| spawnTrader                                   |         20 |   |
-| terrGravel                                    |         20 |   |
-| terrOreGravelPlusCoal                         |         20 |   |
-| terrOreGravelPlusIron                         |         20 |   |
-| terrOreGravelPlusLead                         |         20 |   |
-| terrOreGravelPlusPotassium                    |         20 |   |
-| treeAzalea                                    |         20 |   |
-| window02                                      |         20 |   |
-| woodCatwalk                                   |         20 |   |
-| woodCatwalkRailing1                           |         20 |   |
-| woodCatwalkRailing2                           |         20 |   |
-| woodCatwalkRailingCNR                         |         20 |   |
-| woodCatwalkWedge                              |         20 |   |
-| woodCatwalkWedgeRailing                       |         20 |   |
-| woodStairsBoard                               |         20 |   |
-| woodStairsBoardRailing                        |         20 |   |
+| rScrapIronTable                               |         20 | X |
+| scrapHatch_v1                                 |         20 | X |
+| scrapHatch_v2                                 |         20 | X |
+| scrapHatch_v3                                 |         20 | X |
+| scrapIronArch                                 |         20 | X |
+| scrapIronArrowSlitHalf                        |         20 | X |
+| scrapIronBlock                                |         20 | X |
+| scrapIronCNRFull                              |         20 | X |
+| scrapIronCNRInside                            |         20 | X |
+| scrapIronCNRRamp                              |         20 | X |
+| scrapIronCNRRampFiller                        |         20 | X |
+| scrapIronCNRRound                             |         20 | X |
+| scrapIronCNRRoundTop                          |         20 | X |
+| scrapIronCross                                |         20 | X |
+| scrapIronCTRPlate                             |         20 | X |
+| scrapIronCTRpole                              |         20 | X |
+| scrapIronGableInvertedHalf                    |         20 | X |
+| scrapIronGableInvertedQuarter                 |         20 | X |
+| scrapIronGableInvertedSteep                   |         20 | X |
+| scrapIronGableQuarter                         |         20 | X |
+| scrapIronHalf                                 |         20 | X |
+| scrapIronMaster                               |         20 | X |
+| scrapIronNoUpgradeMaster                      |         20 | X |
+| scrapIronPillar100                            |         20 | X |
+| scrapIronPillar100Cap                         |         20 | X |
+| scrapIronPillar50                             |         20 | X |
+| scrapIronPlate                                |         20 | X |
+| scrapIronPlateOffset                          |         20 | X |
+| scrapIronPole                                 |         20 | X |
+| scrapIronPoleSupport                          |         20 | X |
+| scrapIronPoleSupport2                         |         20 | X |
+| scrapIronQuarterCNR                           |         20 | X |
+| scrapIronQuarterCNR3Way                       |         20 | X |
+| scrapIronQuarterSCtr                          |         20 | X |
+| scrapIronQuarterTeeSCtr                       |         20 | X |
+| scrapIronRamp                                 |         20 | X |
+| scrapIronSheet                                |         20 | X |
+| scrapIronStairs25                             |         20 | X |
+| scrapIronStairs25CornerCNR                    |         20 | X |
+| scrapIronStairsFilledRailingLeft              |         20 | X |
+| scrapIronStairsFilledRailingRight             |         20 | X |
+| scrapIronSupport                              |         20 | X |
+| scrapIronWedge                                |         20 | X |
+| scrapIronWedgeCNRInsideBottom                 |         20 | X |
+| scrapIronWedgeCNRInsideSteepBase              |         20 | X |
+| scrapIronWedgeCNRInsideSteepTop               |         20 | X |
+| scrapIronWedgeCNRInsideTop                    |         20 | X |
+| scrapIronWedgeCNRSteepBase                    |         20 | X |
+| scrapIronWedgeCNRSteepTop                     |         20 | X |
+| scrapIronWedgeIncline                         |         20 | X |
+| scrapIronWedgeStairs                          |         20 | X |
+| scrapIronWedgeTip                             |         20 | X |
+| scrapIronWedgeTipCNRFullBottom                |         20 | X |
+| scrapIronWedgeTipCNRFullTop                   |         20 | X |
+| scrapIronWedgeTipStairs                       |         20 | X |
+| spawnTrader                                   |         20 | X |
+| terrGravel                                    |         20 | X |
+| terrOreGravelPlusCoal                         |         20 | X |
+| terrOreGravelPlusIron                         |         20 | X |
+| terrOreGravelPlusLead                         |         20 | X |
+| terrOreGravelPlusPotassium                    |         20 | X |
+| treeAzalea                                    |         20 | X |
+| window02                                      |         20 | X |
+| woodCatwalk                                   |         20 | X |
+| woodCatwalkRailing1                           |         20 | X |
+| woodCatwalkRailing2                           |         20 | X |
+| woodCatwalkRailingCNR                         |         20 | X |
+| woodCatwalkWedge                              |         20 | X |
+| woodCatwalkWedgeRailing                       |         20 | X |
+| woodStairsBoard                               |         20 | X |
+| woodStairsBoardRailing                        |         20 | X |
 | ammo762mmBulletAP                             |         19 | X |
-| chairCouchSofa01                              |         18 |   |
-| couchSofa01                                   |         18 |   |
-| leatherChairCouchSofa2                        |         18 |   |
-| leatherCouchSofa2                             |         18 |   |
-| sectionalLeatherCouchSofaArm                  |         18 |   |
-| sectionalLeatherCouchSofaCorner               |         18 |   |
-| sectionalLeatherCouchSofaMiddle               |         18 |   |
-| sectionalPlaidCouchSofaArm                    |         18 |   |
-| sectionalPlaidCouchSofaCorner                 |         18 |   |
-| sectionalPlaidCouchSofaMiddle                 |         18 |   |
-| storeShelving01                               |         18 |   |
-| storeShelving01Double                         |         18 |   |
-| storeShelving01Top                            |         18 |   |
-| storeShelving01TopDouble                      |         18 |   |
-| cntCabinetBottom                              |         17 |   |
-| cntCabinetBottomBrokenDoor                    |         17 |   |
-| cntCabinetBottomFiller                        |         17 |   |
-| cntCabinetBottomOpen                          |         17 |   |
-| cntCabinetOldBottom                           |         17 |   |
-| cntCabinetOldBottomOpen                       |         17 |   |
-| cntCupboardCabinetFullOldTopClosed            |         17 |   |
-| cntCupboardCabinetFullRedTopClosed            |         17 |   |
-| cntCupboardCabinetOldTopClosed                |         17 |   |
-| cntCupboardCabinetOldTopOpen                  |         17 |   |
-| cntCupboardCabinetRedTopClosed                |         17 |   |
-| cntCupboardCabinetRedTopOpen                  |         17 |   |
-| cntCupboardCornerCNROld                       |         17 |   |
-| cntCupboardCornerCNRRed                       |         17 |   |
+| chairCouchSofa01                              |         18 | X |
+| couchSofa01                                   |         18 | X |
+| leatherChairCouchSofa2                        |         18 | X |
+| leatherCouchSofa2                             |         18 | X |
+| sectionalLeatherCouchSofaArm                  |         18 | X |
+| sectionalLeatherCouchSofaCorner               |         18 | X |
+| sectionalLeatherCouchSofaMiddle               |         18 | X |
+| sectionalPlaidCouchSofaArm                    |         18 | X |
+| sectionalPlaidCouchSofaCorner                 |         18 | X |
+| sectionalPlaidCouchSofaMiddle                 |         18 | X |
+| storeShelving01                               |         18 | X |
+| storeShelving01Double                         |         18 | X |
+| storeShelving01Top                            |         18 | X |
+| storeShelving01TopDouble                      |         18 | X |
+| cntCabinetBottom                              |         17 | X |
+| cntCabinetBottomBrokenDoor                    |         17 | X |
+| cntCabinetBottomFiller                        |         17 | X |
+| cntCabinetBottomOpen                          |         17 | X |
+| cntCabinetOldBottom                           |         17 | X |
+| cntCabinetOldBottomOpen                       |         17 | X |
+| cntCupboardCabinetFullOldTopClosed            |         17 | X |
+| cntCupboardCabinetFullRedTopClosed            |         17 | X |
+| cntCupboardCabinetOldTopClosed                |         17 | X |
+| cntCupboardCabinetOldTopOpen                  |         17 | X |
+| cntCupboardCabinetRedTopClosed                |         17 | X |
+| cntCupboardCabinetRedTopOpen                  |         17 | X |
+| cntCupboardCornerCNROld                       |         17 | X |
+| cntCupboardCornerCNRRed                       |         17 | X |
 | foodBakedPotato                               |         16 | X |
 | foodCornBread                                 |         16 | X |
 | resourceScrapPolymers                         |         16 | X |
-| tripwirepost                                  |         16 |   |
+| tripwirepost                                  |         16 | X |
 | ammo44MagnumBulletAP                          |         15 | X |
-| barbedWireSheet                               |         15 |   |
-| cntWoodDesk01Closed                           |         15 |   |
-| cntWoodDesk01Open                             |         15 |   |
-| corrugatedMetalBlock                          |         15 |   |
-| corrugatedMetalCNRFull                        |         15 |   |
-| corrugatedMetalCNRInside                      |         15 |   |
-| corrugatedMetalCNRRamp                        |         15 |   |
-| corrugatedMetalCNRRound                       |         15 |   |
-| corrugatedMetalCNRRoundTop                    |         15 |   |
-| corrugatedMetalCTRPlate                       |         15 |   |
-| corrugatedMetalCTRQuarter                     |         15 |   |
-| corrugatedMetalMaster                         |         15 |   |
-| corrugatedMetalPillar100                      |         15 |   |
-| corrugatedMetalPillar50                       |         15 |   |
-| corrugatedMetalPlate                          |         15 |   |
-| corrugatedMetalPlateOffset                    |         15 |   |
-| corrugatedMetalPole                           |         15 |   |
-| corrugatedMetalRamp                           |         15 |   |
-| corrugatedMetalRampSheet                      |         15 |   |
-| corrugatedMetalSheet                          |         15 |   |
-| corrugatedMetalSheetBent1                     |         15 |   |
-| corrugatedMetalSheetBent2                     |         15 |   |
-| corrugatedMetalSheetBent3                     |         15 |   |
-| corrugatedMetalSheetBent4                     |         15 |   |
-| corrugatedMetalStairs25                       |         15 |   |
-| corrugatedMetalTubeCenter                     |         15 |   |
-| corrugatedMetalTubeCorner                     |         15 |   |
-| corrugatedMetalTunnelCenter                   |         15 |   |
-| corrugatedMetalTunnelCorner                   |         15 |   |
-| corrugatedMetalWedge                          |         15 |   |
-| corrugatedMetalWedgeIncline                   |         15 |   |
-| corrugatedMetalWedgeTip                       |         15 |   |
+| barbedWireSheet                               |         15 | X |
+| cntWoodDesk01Closed                           |         15 | X |
+| cntWoodDesk01Open                             |         15 | X |
+| corrugatedMetalBlock                          |         15 | X |
+| corrugatedMetalCNRFull                        |         15 | X |
+| corrugatedMetalCNRInside                      |         15 | X |
+| corrugatedMetalCNRRamp                        |         15 | X |
+| corrugatedMetalCNRRound                       |         15 | X |
+| corrugatedMetalCNRRoundTop                    |         15 | X |
+| corrugatedMetalCTRPlate                       |         15 | X |
+| corrugatedMetalCTRQuarter                     |         15 | X |
+| corrugatedMetalMaster                         |         15 | X |
+| corrugatedMetalPillar100                      |         15 | X |
+| corrugatedMetalPillar50                       |         15 | X |
+| corrugatedMetalPlate                          |         15 | X |
+| corrugatedMetalPlateOffset                    |         15 | X |
+| corrugatedMetalPole                           |         15 | X |
+| corrugatedMetalRamp                           |         15 | X |
+| corrugatedMetalRampSheet                      |         15 | X |
+| corrugatedMetalSheet                          |         15 | X |
+| corrugatedMetalSheetBent1                     |         15 | X |
+| corrugatedMetalSheetBent2                     |         15 | X |
+| corrugatedMetalSheetBent3                     |         15 | X |
+| corrugatedMetalSheetBent4                     |         15 | X |
+| corrugatedMetalStairs25                       |         15 | X |
+| corrugatedMetalTubeCenter                     |         15 | X |
+| corrugatedMetalTubeCorner                     |         15 | X |
+| corrugatedMetalTunnelCenter                   |         15 | X |
+| corrugatedMetalTunnelCorner                   |         15 | X |
+| corrugatedMetalWedge                          |         15 | X |
+| corrugatedMetalWedgeIncline                   |         15 | X |
+| corrugatedMetalWedgeTip                       |         15 | X |
 | medicalFirstAidBandage                        |         15 | X |
-| metalSignLetter_0                             |         15 |   |
-| metalSignLetter_1                             |         15 |   |
-| metalSignLetter_2                             |         15 |   |
-| metalSignLetter_3                             |         15 |   |
-| metalSignLetter_4                             |         15 |   |
-| metalSignLetter_5                             |         15 |   |
-| metalSignLetter_6                             |         15 |   |
-| metalSignLetter_7                             |         15 |   |
-| metalSignLetter_8                             |         15 |   |
-| metalSignLetter_9                             |         15 |   |
-| metalSignLetter_a                             |         15 |   |
-| metalSignLetter_b                             |         15 |   |
-| metalSignLetter_c                             |         15 |   |
-| metalSignLetter_d                             |         15 |   |
-| metalSignLetter_e                             |         15 |   |
-| metalSignLetter_f                             |         15 |   |
-| metalSignLetter_g                             |         15 |   |
-| metalSignLetter_h                             |         15 |   |
-| metalSignLetter_i                             |         15 |   |
-| metalSignLetter_j                             |         15 |   |
-| metalSignLetter_k                             |         15 |   |
-| metalSignLetter_l                             |         15 |   |
-| metalSignLetter_m                             |         15 |   |
-| metalSignLetter_n                             |         15 |   |
-| metalSignLetter_o                             |         15 |   |
-| metalSignLetter_p                             |         15 |   |
-| metalSignLetter_q                             |         15 |   |
-| metalSignLetter_r                             |         15 |   |
-| metalSignLetter_s                             |         15 |   |
-| metalSignLetter_t                             |         15 |   |
-| metalSignLetter_u                             |         15 |   |
-| metalSignLetter_v                             |         15 |   |
-| metalSignLetter_w                             |         15 |   |
-| metalSignLetter_x                             |         15 |   |
-| metalSignLetter_y                             |         15 |   |
-| metalSignLetter_z                             |         15 |   |
-| railingBlackSheet                             |         15 |   |
+| metalSignLetter_0                             |         15 | X |
+| metalSignLetter_1                             |         15 | X |
+| metalSignLetter_2                             |         15 | X |
+| metalSignLetter_3                             |         15 | X |
+| metalSignLetter_4                             |         15 | X |
+| metalSignLetter_5                             |         15 | X |
+| metalSignLetter_6                             |         15 | X |
+| metalSignLetter_7                             |         15 | X |
+| metalSignLetter_8                             |         15 | X |
+| metalSignLetter_9                             |         15 | X |
+| metalSignLetter_a                             |         15 | X |
+| metalSignLetter_b                             |         15 | X |
+| metalSignLetter_c                             |         15 | X |
+| metalSignLetter_d                             |         15 | X |
+| metalSignLetter_e                             |         15 | X |
+| metalSignLetter_f                             |         15 | X |
+| metalSignLetter_g                             |         15 | X |
+| metalSignLetter_h                             |         15 | X |
+| metalSignLetter_i                             |         15 | X |
+| metalSignLetter_j                             |         15 | X |
+| metalSignLetter_k                             |         15 | X |
+| metalSignLetter_l                             |         15 | X |
+| metalSignLetter_m                             |         15 | X |
+| metalSignLetter_n                             |         15 | X |
+| metalSignLetter_o                             |         15 | X |
+| metalSignLetter_p                             |         15 | X |
+| metalSignLetter_q                             |         15 | X |
+| metalSignLetter_r                             |         15 | X |
+| metalSignLetter_s                             |         15 | X |
+| metalSignLetter_t                             |         15 | X |
+| metalSignLetter_u                             |         15 | X |
+| metalSignLetter_v                             |         15 | X |
+| metalSignLetter_w                             |         15 | X |
+| metalSignLetter_x                             |         15 | X |
+| metalSignLetter_y                             |         15 | X |
+| metalSignLetter_z                             |         15 | X |
+| railingBlackSheet                             |         15 | X |
 | resourceAirFilter                             |         15 | X |
 | resourcePaper                                 |         15 | X |
-| scrapIronFrameArch                            |         15 |   |
-| scrapIronFrameBlock                           |         15 |   |
-| scrapIronFrameCNRFull                         |         15 |   |
-| scrapIronFrameCNRInside                       |         15 |   |
-| scrapIronFrameCNRRampFiller                   |         15 |   |
-| scrapIronFrameGableInvertedHalf               |         15 |   |
-| scrapIronFrameGableInvertedQuarter            |         15 |   |
-| scrapIronFrameGableInvertedSteep              |         15 |   |
-| scrapIronFrameGableQuarter                    |         15 |   |
-| scrapIronFrameHalf                            |         15 |   |
-| scrapIronFrameMaster                          |         15 |   |
-| scrapIronFramePillar100Cap                    |         15 |   |
-| scrapIronFramePlateOffset                     |         15 |   |
-| scrapIronFrameQuarterCNR                      |         15 |   |
-| scrapIronFrameQuarterCNR3Way                  |         15 |   |
-| scrapIronFrameQuarterSCtr                     |         15 |   |
-| scrapIronFrameQuarterTeeSCtr                  |         15 |   |
-| scrapIronFrameRamp                            |         15 |   |
-| scrapIronFrameStairs25CornerCNR               |         15 |   |
-| scrapIronFrameWedge                           |         15 |   |
-| scrapIronFrameWedgeCNRInsideBottom            |         15 |   |
-| scrapIronFrameWedgeCNRInsideSteepBase         |         15 |   |
-| scrapIronFrameWedgeCNRInsideSteepTop          |         15 |   |
-| scrapIronFrameWedgeCNRInsideTop               |         15 |   |
-| scrapIronFrameWedgeCNRSteepBase               |         15 |   |
-| scrapIronFrameWedgeCNRSteepTop                |         15 |   |
-| scrapIronFrameWedgeIncline                    |         15 |   |
-| scrapIronFrameWedgeStairs                     |         15 |   |
-| scrapIronFrameWedgeTip                        |         15 |   |
-| scrapIronFrameWedgeTipCNRFullBottom           |         15 |   |
-| scrapIronFrameWedgeTipCNRFullTop              |         15 |   |
-| scrapIronFrameWedgeTipStairs                  |         15 |   |
-| solidScrapIronFrameArch                       |         15 |   |
-| solidScrapIronFrameBlock                      |         15 |   |
-| solidScrapIronFrameCNRFull                    |         15 |   |
-| solidScrapIronFrameCNRInside                  |         15 |   |
-| solidScrapIronFrameCNRRampFiller              |         15 |   |
-| solidScrapIronFrameGableInvertedHalf          |         15 |   |
-| solidScrapIronFrameGableInvertedQuarter       |         15 |   |
-| solidScrapIronFrameGableInvertedSteep         |         15 |   |
-| solidScrapIronFrameGableQuarter               |         15 |   |
-| solidScrapIronFrameHalf                       |         15 |   |
-| solidScrapIronFramePillar100Cap               |         15 |   |
-| solidScrapIronFramePlateOffset                |         15 |   |
-| solidScrapIronFrameQuarterCNR                 |         15 |   |
-| solidScrapIronFrameQuarterCNR3Way             |         15 |   |
-| solidScrapIronFrameQuarterSCtr                |         15 |   |
-| solidScrapIronFrameQuarterTeeSCtr             |         15 |   |
-| solidScrapIronFrameRamp                       |         15 |   |
-| solidScrapIronFrameStairs25CornerCNR          |         15 |   |
-| solidScrapIronFrameWedge                      |         15 |   |
-| solidScrapIronFrameWedgeCNRInsideBottom       |         15 |   |
-| solidScrapIronFrameWedgeCNRInsideSteepBase    |         15 |   |
-| solidScrapIronFrameWedgeCNRInsideSteepTop     |         15 |   |
-| solidScrapIronFrameWedgeCNRInsideTop          |         15 |   |
-| solidScrapIronFrameWedgeCNRSteepBase          |         15 |   |
-| solidScrapIronFrameWedgeCNRSteepTop           |         15 |   |
-| solidScrapIronFrameWedgeIncline               |         15 |   |
-| solidScrapIronFrameWedgeStairs                |         15 |   |
-| solidScrapIronFrameWedgeTip                   |         15 |   |
-| solidScrapIronFrameWedgeTipCNRFullBottom      |         15 |   |
-| solidScrapIronFrameWedgeTipCNRFullTop         |         15 |   |
-| solidScrapIronFrameWedgeTipStairs             |         15 |   |
-| wroughtIronFenceSheet                         |         15 |   |
-| cobblestoneArch                               |         14 |   |
-| cobblestoneArrowSlitHalf                      |         14 |   |
-| cobblestoneBlock                              |         14 |   |
-| cobblestoneCNRFull                            |         14 |   |
-| cobblestoneCNRInside                          |         14 |   |
-| cobblestoneCNRRamp                            |         14 |   |
-| cobblestoneCNRRampFiller                      |         14 |   |
-| cobblestoneCTRpole                            |         14 |   |
-| cobblestoneGableInvertedHalf                  |         14 |   |
-| cobblestoneGableInvertedQuarter               |         14 |   |
-| cobblestoneGableInvertedSteep                 |         14 |   |
-| cobblestoneGableQuarter                       |         14 |   |
-| cobblestoneHalf                               |         14 |   |
-| cobblestoneMaster                             |         14 |   |
-| cobblestonePillar100                          |         14 |   |
-| cobblestonePillar50                           |         14 |   |
-| cobblestonePlate                              |         14 |   |
-| cobblestonePlateOffset                        |         14 |   |
-| cobblestonePole                               |         14 |   |
-| cobblestonePyramid                            |         14 |   |
-| cobblestoneQuarterCNR                         |         14 |   |
-| cobblestoneQuarterCNR3Way                     |         14 |   |
-| cobblestoneQuarterSCtr                        |         14 |   |
-| cobblestoneQuarterTeeSCtr                     |         14 |   |
-| cobblestoneRamp                               |         14 |   |
-| cobblestoneStairs25                           |         14 |   |
-| cobblestoneStairs25CornerCNR                  |         14 |   |
-| cobblestoneWedge                              |         14 |   |
-| cobblestoneWedgeCNRInsideBottom               |         14 |   |
-| cobblestoneWedgeCNRInsideSteepBase            |         14 |   |
-| cobblestoneWedgeCNRInsideSteepTop             |         14 |   |
-| cobblestoneWedgeCNRInsideTop                  |         14 |   |
-| cobblestoneWedgeCNRSteepBase                  |         14 |   |
-| cobblestoneWedgeCNRSteepTop                   |         14 |   |
-| cobblestoneWedgeIncline                       |         14 |   |
-| cobblestoneWedgeStairs                        |         14 |   |
-| cobblestoneWedgeTip                           |         14 |   |
-| cobblestoneWedgeTipCNRFullBottom              |         14 |   |
-| cobblestoneWedgeTipCNRFullTop                 |         14 |   |
-| cobblestoneWedgeTipStairs                     |         14 |   |
-| concreteDestroyed01                           |         14 |   |
-| concreteDestroyed02                           |         14 |   |
-| concreteDestroyed03                           |         14 |   |
-| concreteDestroyed04                           |         14 |   |
-| concreteDestroyed05                           |         14 |   |
-| concreteDestroyed06                           |         14 |   |
-| concreteDestroyed07                           |         14 |   |
+| scrapIronFrameArch                            |         15 | X |
+| scrapIronFrameBlock                           |         15 | X |
+| scrapIronFrameCNRFull                         |         15 | X |
+| scrapIronFrameCNRInside                       |         15 | X |
+| scrapIronFrameCNRRampFiller                   |         15 | X |
+| scrapIronFrameGableInvertedHalf               |         15 | X |
+| scrapIronFrameGableInvertedQuarter            |         15 | X |
+| scrapIronFrameGableInvertedSteep              |         15 | X |
+| scrapIronFrameGableQuarter                    |         15 | X |
+| scrapIronFrameHalf                            |         15 | X |
+| scrapIronFrameMaster                          |         15 | X |
+| scrapIronFramePillar100Cap                    |         15 | X |
+| scrapIronFramePlateOffset                     |         15 | X |
+| scrapIronFrameQuarterCNR                      |         15 | X |
+| scrapIronFrameQuarterCNR3Way                  |         15 | X |
+| scrapIronFrameQuarterSCtr                     |         15 | X |
+| scrapIronFrameQuarterTeeSCtr                  |         15 | X |
+| scrapIronFrameRamp                            |         15 | X |
+| scrapIronFrameStairs25CornerCNR               |         15 | X |
+| scrapIronFrameWedge                           |         15 | X |
+| scrapIronFrameWedgeCNRInsideBottom            |         15 | X |
+| scrapIronFrameWedgeCNRInsideSteepBase         |         15 | X |
+| scrapIronFrameWedgeCNRInsideSteepTop          |         15 | X |
+| scrapIronFrameWedgeCNRInsideTop               |         15 | X |
+| scrapIronFrameWedgeCNRSteepBase               |         15 | X |
+| scrapIronFrameWedgeCNRSteepTop                |         15 | X |
+| scrapIronFrameWedgeIncline                    |         15 | X |
+| scrapIronFrameWedgeStairs                     |         15 | X |
+| scrapIronFrameWedgeTip                        |         15 | X |
+| scrapIronFrameWedgeTipCNRFullBottom           |         15 | X |
+| scrapIronFrameWedgeTipCNRFullTop              |         15 | X |
+| scrapIronFrameWedgeTipStairs                  |         15 | X |
+| solidScrapIronFrameArch                       |         15 | X |
+| solidScrapIronFrameBlock                      |         15 | X |
+| solidScrapIronFrameCNRFull                    |         15 | X |
+| solidScrapIronFrameCNRInside                  |         15 | X |
+| solidScrapIronFrameCNRRampFiller              |         15 | X |
+| solidScrapIronFrameGableInvertedHalf          |         15 | X |
+| solidScrapIronFrameGableInvertedQuarter       |         15 | X |
+| solidScrapIronFrameGableInvertedSteep         |         15 | X |
+| solidScrapIronFrameGableQuarter               |         15 | X |
+| solidScrapIronFrameHalf                       |         15 | X |
+| solidScrapIronFramePillar100Cap               |         15 | X |
+| solidScrapIronFramePlateOffset                |         15 | X |
+| solidScrapIronFrameQuarterCNR                 |         15 | X |
+| solidScrapIronFrameQuarterCNR3Way             |         15 | X |
+| solidScrapIronFrameQuarterSCtr                |         15 | X |
+| solidScrapIronFrameQuarterTeeSCtr             |         15 | X |
+| solidScrapIronFrameRamp                       |         15 | X |
+| solidScrapIronFrameStairs25CornerCNR          |         15 | X |
+| solidScrapIronFrameWedge                      |         15 | X |
+| solidScrapIronFrameWedgeCNRInsideBottom       |         15 | X |
+| solidScrapIronFrameWedgeCNRInsideSteepBase    |         15 | X |
+| solidScrapIronFrameWedgeCNRInsideSteepTop     |         15 | X |
+| solidScrapIronFrameWedgeCNRInsideTop          |         15 | X |
+| solidScrapIronFrameWedgeCNRSteepBase          |         15 | X |
+| solidScrapIronFrameWedgeCNRSteepTop           |         15 | X |
+| solidScrapIronFrameWedgeIncline               |         15 | X |
+| solidScrapIronFrameWedgeStairs                |         15 | X |
+| solidScrapIronFrameWedgeTip                   |         15 | X |
+| solidScrapIronFrameWedgeTipCNRFullBottom      |         15 | X |
+| solidScrapIronFrameWedgeTipCNRFullTop         |         15 | X |
+| solidScrapIronFrameWedgeTipStairs             |         15 | X |
+| wroughtIronFenceSheet                         |         15 | X |
+| cobblestoneArch                               |         14 | X |
+| cobblestoneArrowSlitHalf                      |         14 | X |
+| cobblestoneBlock                              |         14 | X |
+| cobblestoneCNRFull                            |         14 | X |
+| cobblestoneCNRInside                          |         14 | X |
+| cobblestoneCNRRamp                            |         14 | X |
+| cobblestoneCNRRampFiller                      |         14 | X |
+| cobblestoneCTRpole                            |         14 | X |
+| cobblestoneGableInvertedHalf                  |         14 | X |
+| cobblestoneGableInvertedQuarter               |         14 | X |
+| cobblestoneGableInvertedSteep                 |         14 | X |
+| cobblestoneGableQuarter                       |         14 | X |
+| cobblestoneHalf                               |         14 | X |
+| cobblestoneMaster                             |         14 | X |
+| cobblestonePillar100                          |         14 | X |
+| cobblestonePillar50                           |         14 | X |
+| cobblestonePlate                              |         14 | X |
+| cobblestonePlateOffset                        |         14 | X |
+| cobblestonePole                               |         14 | X |
+| cobblestonePyramid                            |         14 | X |
+| cobblestoneQuarterCNR                         |         14 | X |
+| cobblestoneQuarterCNR3Way                     |         14 | X |
+| cobblestoneQuarterSCtr                        |         14 | X |
+| cobblestoneQuarterTeeSCtr                     |         14 | X |
+| cobblestoneRamp                               |         14 | X |
+| cobblestoneStairs25                           |         14 | X |
+| cobblestoneStairs25CornerCNR                  |         14 | X |
+| cobblestoneWedge                              |         14 | X |
+| cobblestoneWedgeCNRInsideBottom               |         14 | X |
+| cobblestoneWedgeCNRInsideSteepBase            |         14 | X |
+| cobblestoneWedgeCNRInsideSteepTop             |         14 | X |
+| cobblestoneWedgeCNRInsideTop                  |         14 | X |
+| cobblestoneWedgeCNRSteepBase                  |         14 | X |
+| cobblestoneWedgeCNRSteepTop                   |         14 | X |
+| cobblestoneWedgeIncline                       |         14 | X |
+| cobblestoneWedgeStairs                        |         14 | X |
+| cobblestoneWedgeTip                           |         14 | X |
+| cobblestoneWedgeTipCNRFullBottom              |         14 | X |
+| cobblestoneWedgeTipCNRFullTop                 |         14 | X |
+| cobblestoneWedgeTipStairs                     |         14 | X |
+| concreteDestroyed01                           |         14 | X |
+| concreteDestroyed02                           |         14 | X |
+| concreteDestroyed03                           |         14 | X |
+| concreteDestroyed04                           |         14 | X |
+| concreteDestroyed05                           |         14 | X |
+| concreteDestroyed06                           |         14 | X |
+| concreteDestroyed07                           |         14 | X |
 | ammoArrowStone                                |         12 | X |
-| burningBarrelPlayer                           |         12 |   |
-| chainLink                                     |         12 |   |
-| chainLinkCornerBottom                         |         12 |   |
-| chainLinkCornerTop                            |         12 |   |
-| chainLinkFenceBottomPole                      |         12 |   |
-| chainLinkFenceTop                             |         12 |   |
-| chainLinkFenceTopPole                         |         12 |   |
-| chainLinkFenceTopPole2                        |         12 |   |
-| chainLinkPole                                 |         12 |   |
-| cntMailbox                                    |         12 |   |
-| cntMailBox01                                  |         12 |   |
-| cntMailBox02                                  |         12 |   |
-| cntMailBox03                                  |         12 |   |
-| conduit01                                     |         12 |   |
-| conduit01Corner                               |         12 |   |
-| conduit01Curve                                |         12 |   |
-| conduit01End                                  |         12 |   |
-| cookingPot                                    |         12 |   |
-| corrugatedMetalCNRIncline                     |         12 |   |
-| corrugatedMetalGable                          |         12 |   |
-| corrugatedMetalGable1m                        |         12 |   |
-| corrugatedMetalNoUpgradeMaster                |         12 |   |
-| corrugatedMetalPillar0.025                    |         12 |   |
-| corrugatedMetalPillar0.025CTR                 |         12 |   |
-| corrugatedMetalPillar0.025SCTR                |         12 |   |
-| corrugatedMetalPillar0.05                     |         12 |   |
-| corrugatedMetalPillar0.05CTR                  |         12 |   |
-| corrugatedMetalPillar0.05SCTR                 |         12 |   |
-| corrugatedMetalPoleSCTR                       |         12 |   |
-| corrugatedRampIncline                         |         12 |   |
-| corrugatedRampInclineFiller                   |         12 |   |
-| cropsGrowingMaster                            |         12 |   |
-| doorFrameMetal1                               |         12 |   |
-| doorFrameMetal2                               |         12 |   |
-| fakeCabinetDoorTrap1x1SheetMetal              |         12 |   |
-| fakeCabinetDoorTrap1x2SheetMetal              |         12 |   |
-| metalRailing                                  |         12 |   |
-| metalRailing3d                                |         12 |   |
-| metalRailing3dBroke                           |         12 |   |
-| metalTablePillar0.025CTR                      |         12 |   |
-| pipeSmall1x1                                  |         12 |   |
-| pipeSmall1x3                                  |         12 |   |
-| pipeSmallBroke                                |         12 |   |
-| pipeSmallCap                                  |         12 |   |
-| pipeSmallCorner                               |         12 |   |
-| pipeSmallJoint                                |         12 |   |
-| pipeSmallValve                                |         12 |   |
-| pipeSmallWall1x1                              |         12 |   |
-| pipeSmallWall1x3                              |         12 |   |
-| pipeSmallWallBroke                            |         12 |   |
-| pipeSmallWallCap                              |         12 |   |
-| pipeSmallWallCenterBridge                     |         12 |   |
-| pipeSmallWallCorner                           |         12 |   |
-| pipeSmallWallJoint                            |         12 |   |
-| pipeSmallWallValve                            |         12 |   |
-| plantedAloe1                                  |         12 |   |
-| plantedAloe2                                  |         12 |   |
-| plantedBlueberry1                             |         12 |   |
-| plantedBlueberry2                             |         12 |   |
-| plantedChrysanthemum1                         |         12 |   |
-| plantedChrysanthemum2                         |         12 |   |
-| plantedCoffee1                                |         12 |   |
-| plantedCoffee2                                |         12 |   |
-| plantedCorn1                                  |         12 |   |
-| plantedCorn2                                  |         12 |   |
-| plantedCotton1                                |         12 |   |
-| plantedCotton2                                |         12 |   |
-| plantedGoldenrod1                             |         12 |   |
-| plantedGoldenrod2                             |         12 |   |
-| plantedGraceCorn1                             |         12 |   |
-| plantedGraceCorn2                             |         12 |   |
-| plantedHop2                                   |         12 |   |
-| plantedMushroom1                              |         12 |   |
-| plantedMushroom2                              |         12 |   |
-| plantedPotato1                                |         12 |   |
-| plantedPotato2                                |         12 |   |
-| plantedSnowberry1                             |         12 |   |
-| plantedSnowberry2                             |         12 |   |
-| plantedYucca1                                 |         12 |   |
-| plantedYucca2                                 |         12 |   |
-| radiatorHouse01                               |         12 |   |
+| burningBarrelPlayer                           |         12 | X |
+| chainLink                                     |         12 | X |
+| chainLinkCornerBottom                         |         12 | X |
+| chainLinkCornerTop                            |         12 | X |
+| chainLinkFenceBottomPole                      |         12 | X |
+| chainLinkFenceTop                             |         12 | X |
+| chainLinkFenceTopPole                         |         12 | X |
+| chainLinkFenceTopPole2                        |         12 | X |
+| chainLinkPole                                 |         12 | X |
+| cntMailbox                                    |         12 | X |
+| cntMailBox01                                  |         12 | X |
+| cntMailBox02                                  |         12 | X |
+| cntMailBox03                                  |         12 | X |
+| conduit01                                     |         12 | X |
+| conduit01Corner                               |         12 | X |
+| conduit01Curve                                |         12 | X |
+| conduit01End                                  |         12 | X |
+| cookingPot                                    |         12 | X |
+| corrugatedMetalCNRIncline                     |         12 | X |
+| corrugatedMetalGable                          |         12 | X |
+| corrugatedMetalGable1m                        |         12 | X |
+| corrugatedMetalNoUpgradeMaster                |         12 | X |
+| corrugatedMetalPillar0.025                    |         12 | X |
+| corrugatedMetalPillar0.025CTR                 |         12 | X |
+| corrugatedMetalPillar0.025SCTR                |         12 | X |
+| corrugatedMetalPillar0.05                     |         12 | X |
+| corrugatedMetalPillar0.05CTR                  |         12 | X |
+| corrugatedMetalPillar0.05SCTR                 |         12 | X |
+| corrugatedMetalPoleSCTR                       |         12 | X |
+| corrugatedRampIncline                         |         12 | X |
+| corrugatedRampInclineFiller                   |         12 | X |
+| cropsGrowingMaster                            |         12 | X |
+| doorFrameMetal1                               |         12 | X |
+| doorFrameMetal2                               |         12 | X |
+| fakeCabinetDoorTrap1x1SheetMetal              |         12 | X |
+| fakeCabinetDoorTrap1x2SheetMetal              |         12 | X |
+| metalRailing                                  |         12 | X |
+| metalRailing3d                                |         12 | X |
+| metalRailing3dBroke                           |         12 | X |
+| metalTablePillar0.025CTR                      |         12 | X |
+| pipeSmall1x1                                  |         12 | X |
+| pipeSmall1x3                                  |         12 | X |
+| pipeSmallBroke                                |         12 | X |
+| pipeSmallCap                                  |         12 | X |
+| pipeSmallCorner                               |         12 | X |
+| pipeSmallJoint                                |         12 | X |
+| pipeSmallValve                                |         12 | X |
+| pipeSmallWall1x1                              |         12 | X |
+| pipeSmallWall1x3                              |         12 | X |
+| pipeSmallWallBroke                            |         12 | X |
+| pipeSmallWallCap                              |         12 | X |
+| pipeSmallWallCenterBridge                     |         12 | X |
+| pipeSmallWallCorner                           |         12 | X |
+| pipeSmallWallJoint                            |         12 | X |
+| pipeSmallWallValve                            |         12 | X |
+| plantedAloe1                                  |         12 | X |
+| plantedAloe2                                  |         12 | X |
+| plantedBlueberry1                             |         12 | X |
+| plantedBlueberry2                             |         12 | X |
+| plantedChrysanthemum1                         |         12 | X |
+| plantedChrysanthemum2                         |         12 | X |
+| plantedCoffee1                                |         12 | X |
+| plantedCoffee2                                |         12 | X |
+| plantedCorn1                                  |         12 | X |
+| plantedCorn2                                  |         12 | X |
+| plantedCotton1                                |         12 | X |
+| plantedCotton2                                |         12 | X |
+| plantedGoldenrod1                             |         12 | X |
+| plantedGoldenrod2                             |         12 | X |
+| plantedGraceCorn1                             |         12 | X |
+| plantedGraceCorn2                             |         12 | X |
+| plantedHop2                                   |         12 | X |
+| plantedMushroom1                              |         12 | X |
+| plantedMushroom2                              |         12 | X |
+| plantedPotato1                                |         12 | X |
+| plantedPotato2                                |         12 | X |
+| plantedSnowberry1                             |         12 | X |
+| plantedSnowberry2                             |         12 | X |
+| plantedYucca1                                 |         12 | X |
+| plantedYucca2                                 |         12 | X |
+| radiatorHouse01                               |         12 | X |
 | resourceArrowHeadIron                         |         12 | X |
 | resourceCropAloeLeaf                          |         12 | X |
 | resourceCropChrysanthemumPlant                |         12 | X |
@@ -1330,61 +1330,61 @@
 | resourceForgedIron                            |         12 | X |
 | resourceMetalPipe                             |         12 | X |
 | resourcePaint                                 |         12 | X |
-| roadRailing                                   |         12 |   |
-| roadRailingEnd                                |         12 |   |
-| roadRailingEnd2                               |         12 |   |
-| roadRailingPole                               |         12 |   |
-| rustyIronCrossCtr                             |         12 |   |
-| rustyIronPoleSupportCtr                       |         12 |   |
-| toolCookingPot                                |         12 |   |
+| roadRailing                                   |         12 | X |
+| roadRailingEnd                                |         12 | X |
+| roadRailingEnd2                               |         12 | X |
+| roadRailingPole                               |         12 | X |
+| rustyIronCrossCtr                             |         12 | X |
+| rustyIronPoleSupportCtr                       |         12 | X |
+| toolCookingPot                                |         12 | X |
 | treePlantedMountainPine1m                     |         12 |   |
 | treePlantedOak1m                              |         12 |   |
 | treePlantedWinterPine1m                       |         12 |   |
 | ammo762mmBulletFMJ                            |         11 | X |
 | ammoCrossbowBoltStone                         |         11 | X |
 | ammoShotgunShell                              |         11 | X |
-| barbedFence                                   |         11 |   |
+| barbedFence                                   |         11 | X |
 | ammo44MagnumBullet                            |         10 | X |
 | ammo762mmBulletFMJSteel                       |         10 | X |
 | ammo9mmBulletJHP                              |         10 | X |
 | bandana                                       |         10 | X |
-| bedroll                                       |         10 |   |
-| bridgeWoodBlock                               |         10 |   |
-| burntWoodBlock1                               |         10 |   |
-| burntWoodBlock2                               |         10 |   |
-| burntWoodBlock3                               |         10 |   |
-| burntWoodBlock4                               |         10 |   |
-| burntWoodBlock5                               |         10 |   |
-| burntWoodBlock6                               |         10 |   |
-| burntWoodRamp7                                |         10 |   |
-| burntWoodWedge7                               |         10 |   |
-| cntSecureStorageChest                         |         10 |   |
-| cubeTileBroken01                              |         10 |   |
-| decoPillarRoundCentered                       |         10 |   |
-| decoPillarSquareCentered                      |         10 |   |
+| bedroll                                       |         10 | X |
+| bridgeWoodBlock                               |         10 | X |
+| burntWoodBlock1                               |         10 | X |
+| burntWoodBlock2                               |         10 | X |
+| burntWoodBlock3                               |         10 | X |
+| burntWoodBlock4                               |         10 | X |
+| burntWoodBlock5                               |         10 | X |
+| burntWoodBlock6                               |         10 | X |
+| burntWoodRamp7                                |         10 | X |
+| burntWoodWedge7                               |         10 | X |
+| cntSecureStorageChest                         |         10 | X |
+| cubeTileBroken01                              |         10 | X |
+| decoPillarRoundCentered                       |         10 | X |
+| decoPillarSquareCentered                      |         10 | X |
 | foodEgg                                       |         10 | X |
 | foodMoldyBread                                |         10 |   |
-| glassBusinessBlock                            |         10 |   |
-| glassBusinessCTRSheet                         |         10 |   |
-| glassBusinessPlate                            |         10 |   |
-| glassBusinessPlateCurved                      |         10 |   |
-| glassBusinessSheet                            |         10 |   |
-| hayBaleBlock                                  |         10 |   |
-| heatVent                                      |         10 |   |
-| heatVentIndustrial                            |         10 |   |
-| ironBars                                      |         10 |   |
-| ironBarsCentered                              |         10 |   |
+| glassBusinessBlock                            |         10 | X |
+| glassBusinessCTRSheet                         |         10 | X |
+| glassBusinessPlate                            |         10 | X |
+| glassBusinessPlateCurved                      |         10 | X |
+| glassBusinessSheet                            |         10 | X |
+| hayBaleBlock                                  |         10 | X |
+| heatVent                                      |         10 | X |
+| heatVentIndustrial                            |         10 | X |
+| ironBars                                      |         10 | X |
+| ironBarsCentered                              |         10 | X |
 | medicalAloeCream                              |         10 | X |
 | medicalPlasterCast                            |         10 | X |
 | medicalSplint                                 |         10 | X |
 | meleeToolTorch                                |         10 | X |
-| opaqueBusinessGlass                           |         10 |   |
-| palletEmptyStack                              |         10 |   |
-| parkBenchA                                    |         10 |   |
-| parkBenchB                                    |         10 |   |
-| playerSignWood1x1                             |         10 |   |
-| playerSignWood1x3                             |         10 |   |
-| playerSignWood2x5                             |         10 |   |
+| opaqueBusinessGlass                           |         10 | X |
+| palletEmptyStack                              |         10 | X |
+| parkBenchA                                    |         10 | X |
+| parkBenchB                                    |         10 | X |
+| playerSignWood1x1                             |         10 | X |
+| playerSignWood1x3                             |         10 | X |
+| playerSignWood2x5                             |         10 | X |
 | resourceBuckshot                              |         10 | X |
 | resourceBulletCasing                          |         10 | X |
 | resourceBulletCasingSteel                     |         10 | X |
@@ -1399,372 +1399,372 @@
 | resourcePotassiumNitratePowder                |         10 | X |
 | resourceScrapIron                             |         10 | X |
 | resourceTestosteroneExtract                   |         10 | X |
-| shutters1Plate                                |         10 |   |
-| signShopTraderJoel1x3Wall                     |         10 |   |
-| signShopTraderJoel2x5Wall                     |         10 |   |
-| stainedGlassCTRPlate                          |         10 |   |
-| stainedGlassPlate                             |         10 |   |
+| shutters1Plate                                |         10 | X |
+| signShopTraderJoel1x3Wall                     |         10 | X |
+| signShopTraderJoel2x5Wall                     |         10 | X |
+| stainedGlassCTRPlate                          |         10 | X |
+| stainedGlassPlate                             |         10 | X |
 | sunblocker                                    |         10 | X |
-| trapGlassBusinessCTRSheet1x1                  |         10 |   |
-| trapGlassBusinessSheet1x1                     |         10 |   |
-| trapSpikesDamage1                             |         10 |   |
-| trapSpikesDamage2                             |         10 |   |
-| trapSpikesDamage3                             |         10 |   |
-| trapSpikesDamage4                             |         10 |   |
-| trapSpikesDamage5                             |         10 |   |
-| trapSpikesNew                                 |         10 |   |
-| whitePicketFenceSheet                         |         10 |   |
-| wineBarrel                                    |         10 |   |
-| wineBarrelPlain                               |         10 |   |
-| wineBarrelSet                                 |         10 |   |
-| woodArch                                      |         10 |   |
-| woodArrowBlock                                |         10 |   |
-| woodArrowSlitHalf                             |         10 |   |
-| woodBarricade2CTRPlate                        |         10 |   |
-| woodBars                                      |         10 |   |
-| woodBarsCentered                              |         10 |   |
-| woodBlock                                     |         10 |   |
-| woodBlockBaseboard1                           |         10 |   |
-| woodBlockBaseboard4                           |         10 |   |
-| woodBlockBaseboardChairRail1                  |         10 |   |
-| woodBlockBaseboardChairRail4                  |         10 |   |
-| woodBlockTileBroken01                         |         10 |   |
-| woodCNRFull                                   |         10 |   |
-| woodCNRIncline                                |         10 |   |
-| woodCNRInside                                 |         10 |   |
-| woodCNRRamp                                   |         10 |   |
-| woodCNRRampFiller                             |         10 |   |
-| woodCNRRound                                  |         10 |   |
-| woodCNRRoundTop                               |         10 |   |
-| woodCross                                     |         10 |   |
-| woodCrossCtr                                  |         10 |   |
-| woodCrossHalf                                 |         10 |   |
-| woodCrown                                     |         10 |   |
-| woodCrownInsideCorner                         |         10 |   |
-| woodCrownMiteredDoNotUse                      |         10 |   |
-| woodCTRPlate                                  |         10 |   |
-| woodCTRpole                                   |         10 |   |
-| woodCTRQuarter                                |         10 |   |
-| woodDebris01                                  |         10 |   |
-| woodDebris02                                  |         10 |   |
-| woodDebris03                                  |         10 |   |
-| woodDestroyed05                               |         10 |   |
-| woodDestroyed06                               |         10 |   |
-| woodDestroyed07                               |         10 |   |
-| woodFenceFarmSheet                            |         10 |   |
-| woodFenceFarmSheetBroken1                     |         10 |   |
-| woodFenceFarmSheetBroken2                     |         10 |   |
-| woodFenceSheet                                |         10 |   |
-| woodFenceSheetBent1                           |         10 |   |
-| woodFenceSheetBent2                           |         10 |   |
-| woodFenceSheetBent3                           |         10 |   |
-| woodFenceSheetBent4                           |         10 |   |
-| woodFloorJoist                                |         10 |   |
-| woodGable                                     |         10 |   |
-| woodGable1m                                   |         10 |   |
-| woodGable3Quarter                             |         10 |   |
-| woodGableInvertedHalf                         |         10 |   |
-| woodGableInvertedQuarter                      |         10 |   |
-| woodGableInvertedSteep                        |         10 |   |
-| woodGablePyramid                              |         10 |   |
-| woodGableQuarter                              |         10 |   |
-| woodHalf                                      |         10 |   |
-| woodHalfCentered                              |         10 |   |
-| woodHalfCNRInside2                            |         10 |   |
-| woodHalfPlate                                 |         10 |   |
-| woodHalfRampStairs50                          |         10 |   |
-| woodHalfRampStairs50Filler                    |         10 |   |
-| woodLogPillar100                              |         10 |   |
-| woodMaster                                    |         10 |   |
-| woodNoUpgradeMaster                           |         10 |   |
-| woodPillar100                                 |         10 |   |
-| woodPillar50                                  |         10 |   |
-| woodPillar50CNR                               |         10 |   |
-| woodPillar50CNRPlate                          |         10 |   |
-| woodPillar50Corner                            |         10 |   |
-| woodPillar50CornerPlate                       |         10 |   |
-| woodPlate                                     |         10 |   |
-| woodPlateOffset                               |         10 |   |
-| woodPole                                      |         10 |   |
-| woodPoleSCTR                                  |         10 |   |
-| woodPoleSupport                               |         10 |   |
-| woodPoleSupport2                              |         10 |   |
-| woodPoleSupportCtr                            |         10 |   |
-| woodPyramid                                   |         10 |   |
-| woodPyramid1m                                 |         10 |   |
-| woodQuarter                                   |         10 |   |
-| woodQuarterCNR                                |         10 |   |
-| woodQuarterCNR3Way                            |         10 |   |
-| woodQuarterSCtr                               |         10 |   |
-| woodQuarterTeeSCtr                            |         10 |   |
-| woodRamp                                      |         10 |   |
-| woodRampIncline                               |         10 |   |
-| woodRampInclineFiller                         |         10 |   |
-| woodSawhorse                                  |         10 |   |
-| woodStairs25                                  |         10 |   |
-| woodStairs25CornerCNR                         |         10 |   |
-| woodStairsFilledRailingLeft                   |         10 |   |
-| woodStairsFilledRailingRight                  |         10 |   |
-| woodSupport                                   |         10 |   |
-| woodTrellisDiamond                            |         10 |   |
-| woodTrellisSquare                             |         10 |   |
-| woodWallStud                                  |         10 |   |
-| woodWallStudBroken                            |         10 |   |
-| woodWedge                                     |         10 |   |
-| woodWedgeCNRInsideBottom                      |         10 |   |
-| woodWedgeCNRInsideSteepBase                   |         10 |   |
-| woodWedgeCNRInsideSteepTop                    |         10 |   |
-| woodWedgeCNRInsideTop                         |         10 |   |
-| woodWedgeCNRSteepBase                         |         10 |   |
-| woodWedgeCNRSteepTop                          |         10 |   |
-| woodWedgeIncline                              |         10 |   |
-| woodWedgeStairs                               |         10 |   |
-| woodWedgeTip                                  |         10 |   |
-| woodWedgeTipCNRFullBottom                     |         10 |   |
-| woodWedgeTipCNRFullTop                        |         10 |   |
-| woodWedgeTipStairs                            |         10 |   |
-| woodWindowTrim                                |         10 |   |
-| woodWindowTrimBottom                          |         10 |   |
-| woodWindowTrimSides                           |         10 |   |
-| woodWindowTrimTop                             |         10 |   |
-| woodWindowTrimTopFancy                        |         10 |   |
+| trapGlassBusinessCTRSheet1x1                  |         10 | X |
+| trapGlassBusinessSheet1x1                     |         10 | X |
+| trapSpikesDamage1                             |         10 | X |
+| trapSpikesDamage2                             |         10 | X |
+| trapSpikesDamage3                             |         10 | X |
+| trapSpikesDamage4                             |         10 | X |
+| trapSpikesDamage5                             |         10 | X |
+| trapSpikesNew                                 |         10 | X |
+| whitePicketFenceSheet                         |         10 | X |
+| wineBarrel                                    |         10 | X |
+| wineBarrelPlain                               |         10 | X |
+| wineBarrelSet                                 |         10 | X |
+| woodArch                                      |         10 | X |
+| woodArrowBlock                                |         10 | X |
+| woodArrowSlitHalf                             |         10 | X |
+| woodBarricade2CTRPlate                        |         10 | X |
+| woodBars                                      |         10 | X |
+| woodBarsCentered                              |         10 | X |
+| woodBlock                                     |         10 | X |
+| woodBlockBaseboard1                           |         10 | X |
+| woodBlockBaseboard4                           |         10 | X |
+| woodBlockBaseboardChairRail1                  |         10 | X |
+| woodBlockBaseboardChairRail4                  |         10 | X |
+| woodBlockTileBroken01                         |         10 | X |
+| woodCNRFull                                   |         10 | X |
+| woodCNRIncline                                |         10 | X |
+| woodCNRInside                                 |         10 | X |
+| woodCNRRamp                                   |         10 | X |
+| woodCNRRampFiller                             |         10 | X |
+| woodCNRRound                                  |         10 | X |
+| woodCNRRoundTop                               |         10 | X |
+| woodCross                                     |         10 | X |
+| woodCrossCtr                                  |         10 | X |
+| woodCrossHalf                                 |         10 | X |
+| woodCrown                                     |         10 | X |
+| woodCrownInsideCorner                         |         10 | X |
+| woodCrownMiteredDoNotUse                      |         10 | X |
+| woodCTRPlate                                  |         10 | X |
+| woodCTRpole                                   |         10 | X |
+| woodCTRQuarter                                |         10 | X |
+| woodDebris01                                  |         10 | X |
+| woodDebris02                                  |         10 | X |
+| woodDebris03                                  |         10 | X |
+| woodDestroyed05                               |         10 | X |
+| woodDestroyed06                               |         10 | X |
+| woodDestroyed07                               |         10 | X |
+| woodFenceFarmSheet                            |         10 | X |
+| woodFenceFarmSheetBroken1                     |         10 | X |
+| woodFenceFarmSheetBroken2                     |         10 | X |
+| woodFenceSheet                                |         10 | X |
+| woodFenceSheetBent1                           |         10 | X |
+| woodFenceSheetBent2                           |         10 | X |
+| woodFenceSheetBent3                           |         10 | X |
+| woodFenceSheetBent4                           |         10 | X |
+| woodFloorJoist                                |         10 | X |
+| woodGable                                     |         10 | X |
+| woodGable1m                                   |         10 | X |
+| woodGable3Quarter                             |         10 | X |
+| woodGableInvertedHalf                         |         10 | X |
+| woodGableInvertedQuarter                      |         10 | X |
+| woodGableInvertedSteep                        |         10 | X |
+| woodGablePyramid                              |         10 | X |
+| woodGableQuarter                              |         10 | X |
+| woodHalf                                      |         10 | X |
+| woodHalfCentered                              |         10 | X |
+| woodHalfCNRInside2                            |         10 | X |
+| woodHalfPlate                                 |         10 | X |
+| woodHalfRampStairs50                          |         10 | X |
+| woodHalfRampStairs50Filler                    |         10 | X |
+| woodLogPillar100                              |         10 | X |
+| woodMaster                                    |         10 | X |
+| woodNoUpgradeMaster                           |         10 | X |
+| woodPillar100                                 |         10 | X |
+| woodPillar50                                  |         10 | X |
+| woodPillar50CNR                               |         10 | X |
+| woodPillar50CNRPlate                          |         10 | X |
+| woodPillar50Corner                            |         10 | X |
+| woodPillar50CornerPlate                       |         10 | X |
+| woodPlate                                     |         10 | X |
+| woodPlateOffset                               |         10 | X |
+| woodPole                                      |         10 | X |
+| woodPoleSCTR                                  |         10 | X |
+| woodPoleSupport                               |         10 | X |
+| woodPoleSupport2                              |         10 | X |
+| woodPoleSupportCtr                            |         10 | X |
+| woodPyramid                                   |         10 | X |
+| woodPyramid1m                                 |         10 | X |
+| woodQuarter                                   |         10 | X |
+| woodQuarterCNR                                |         10 | X |
+| woodQuarterCNR3Way                            |         10 | X |
+| woodQuarterSCtr                               |         10 | X |
+| woodQuarterTeeSCtr                            |         10 | X |
+| woodRamp                                      |         10 | X |
+| woodRampIncline                               |         10 | X |
+| woodRampInclineFiller                         |         10 | X |
+| woodSawhorse                                  |         10 | X |
+| woodStairs25                                  |         10 | X |
+| woodStairs25CornerCNR                         |         10 | X |
+| woodStairsFilledRailingLeft                   |         10 | X |
+| woodStairsFilledRailingRight                  |         10 | X |
+| woodSupport                                   |         10 | X |
+| woodTrellisDiamond                            |         10 | X |
+| woodTrellisSquare                             |         10 | X |
+| woodWallStud                                  |         10 | X |
+| woodWallStudBroken                            |         10 | X |
+| woodWedge                                     |         10 | X |
+| woodWedgeCNRInsideBottom                      |         10 | X |
+| woodWedgeCNRInsideSteepBase                   |         10 | X |
+| woodWedgeCNRInsideSteepTop                    |         10 | X |
+| woodWedgeCNRInsideTop                         |         10 | X |
+| woodWedgeCNRSteepBase                         |         10 | X |
+| woodWedgeCNRSteepTop                          |         10 | X |
+| woodWedgeIncline                              |         10 | X |
+| woodWedgeStairs                               |         10 | X |
+| woodWedgeTip                                  |         10 | X |
+| woodWedgeTipCNRFullBottom                     |         10 | X |
+| woodWedgeTipCNRFullTop                        |         10 | X |
+| woodWedgeTipStairs                            |         10 | X |
+| woodWindowTrim                                |         10 | X |
+| woodWindowTrimBottom                          |         10 | X |
+| woodWindowTrimSides                           |         10 | X |
+| woodWindowTrimTop                             |         10 | X |
+| woodWindowTrimTopFancy                        |         10 | X |
 | ammo44MagnumBulletSteel                       |          9 | X |
 | ammo9mmBullet                                 |          9 | X |
 | ammo9mmBulletSteel                            |          8 | X |
-| archCurveBase-DUPLICATE                       |          8 |   |
-| archCurveFiller-DUPLICATE                     |          8 |   |
-| archCurveMiddle-DUPLICATE                     |          8 |   |
-| archCurveTop-DUPLICATE                        |          8 |   |
-| archCurveTopMiddle-DUPLICATE                  |          8 |   |
-| archCurveTopMiddleTopper-DUPLICATE            |          8 |   |
-| archCurveWall-DUPLICATE                       |          8 |   |
-| archCurveWallCap-DUPLICATE                    |          8 |   |
-| brickArch                                     |          8 |   |
-| brickArchCurveBase                            |          8 |   |
-| brickArchCurveFiller                          |          8 |   |
-| brickArchCurveMiddle                          |          8 |   |
-| brickArchCurveTop                             |          8 |   |
-| brickArchCurveTopMiddle                       |          8 |   |
-| brickArchCurveTopMiddleTopper                 |          8 |   |
-| brickArchCurveWall                            |          8 |   |
-| brickArchCurveWallCap                         |          8 |   |
-| brickBlock                                    |          8 |   |
-| brickBlockBaseboard1                          |          8 |   |
-| brickBlockBaseboard4                          |          8 |   |
-| brickBlockBaseboardChairRail1                 |          8 |   |
-| brickBlockBaseboardChairRail4                 |          8 |   |
-| brickBlockTileBroken01                        |          8 |   |
-| brickCNRFull                                  |          8 |   |
-| brickCNRInside                                |          8 |   |
-| brickCNRRamp                                  |          8 |   |
-| brickCNRRampFiller                            |          8 |   |
-| brickCNRRound                                 |          8 |   |
-| brickCNRRoundTop                              |          8 |   |
-| brickCornerstone                              |          8 |   |
-| brickCTRpole                                  |          8 |   |
-| brickCTRQuarter                               |          8 |   |
-| brickDestroyedBlock01                         |          8 |   |
-| brickDestroyedBlock02                         |          8 |   |
-| brickDestroyedBlock03                         |          8 |   |
-| brickGable                                    |          8 |   |
-| brickGable1m                                  |          8 |   |
-| brickGableInvertedHalf                        |          8 |   |
-| brickGableInvertedQuarter                     |          8 |   |
-| brickGableInvertedSteep                       |          8 |   |
-| brickGableQuarter                             |          8 |   |
-| brickHalf                                     |          8 |   |
-| brickHalfCentered                             |          8 |   |
-| brickHalfCNRInside2                           |          8 |   |
-| brickHalfRampStairs50                         |          8 |   |
-| brickHalfRampStairs50Filler                   |          8 |   |
-| brickMaster                                   |          8 |   |
-| brickNoUpgradeMaster                          |          8 |   |
-| brickPlate                                    |          8 |   |
-| brickPlateOffset                              |          8 |   |
-| brickPoleSCTR                                 |          8 |   |
-| brickPyramid1m                                |          8 |   |
-| brickQuarterCNR                               |          8 |   |
-| brickQuarterCNR3Way                           |          8 |   |
-| brickQuarterSCtr                              |          8 |   |
-| brickQuarterTeeSCtr                           |          8 |   |
-| brickRamp                                     |          8 |   |
-| brickStairs25                                 |          8 |   |
-| brickStairs25CornerCNR                        |          8 |   |
-| brickStairsFilledRailingLeft                  |          8 |   |
-| brickStairsFilledRailingRight                 |          8 |   |
-| brickTubeCenter                               |          8 |   |
-| brickTubeCorner                               |          8 |   |
-| brickTunnelCenter                             |          8 |   |
-| brickTunnelCorner                             |          8 |   |
-| brickWedge                                    |          8 |   |
-| brickWedgeCNRInsideBottom                     |          8 |   |
-| brickWedgeCNRInsideSteepBase                  |          8 |   |
-| brickWedgeCNRInsideSteepTop                   |          8 |   |
-| brickWedgeCNRInsideTop                        |          8 |   |
-| brickWedgeCNRSteepBase                        |          8 |   |
-| brickWedgeCNRSteepTop                         |          8 |   |
-| brickWedgeIncline                             |          8 |   |
-| brickWedgeStairs                              |          8 |   |
-| brickWedgeTip                                 |          8 |   |
-| brickWedgeTipCNRFullBottom                    |          8 |   |
-| brickWedgeTipCNRFullTop                       |          8 |   |
-| brickWedgeTipStairs                           |          8 |   |
-| brickWindowArchTop                            |          8 |   |
-| brickWindowCircle                             |          8 |   |
-| brickWindowCircleCorner                       |          8 |   |
-| flagstoneArch                                 |          8 |   |
-| flagstoneArch3m                               |          8 |   |
-| flagstoneArch3m_center                        |          8 |   |
-| flagstoneArch3m_tip                           |          8 |   |
-| flagstoneArrowSlitHalf                        |          8 |   |
-| flagstoneBlock                                |          8 |   |
-| flagstoneCNRFull                              |          8 |   |
-| flagstoneCNRInside                            |          8 |   |
-| flagstoneCNRRamp                              |          8 |   |
-| flagstoneCNRRampFiller                        |          8 |   |
-| flagstoneCTRpole                              |          8 |   |
-| flagstoneGableInvertedHalf                    |          8 |   |
-| flagstoneGableInvertedQuarter                 |          8 |   |
-| flagstoneGableInvertedSteep                   |          8 |   |
-| flagstoneGableQuarter                         |          8 |   |
-| flagstoneHalf                                 |          8 |   |
-| flagstoneMaster                               |          8 |   |
-| flagstoneNoUpgradeMaster                      |          8 |   |
-| flagstonePillar100                            |          8 |   |
-| flagstonePillar50                             |          8 |   |
-| flagstonePlate                                |          8 |   |
-| flagstonePlateOffset                          |          8 |   |
-| flagstonePole                                 |          8 |   |
-| flagstonePyramid                              |          8 |   |
-| flagstoneQuarterCNR                           |          8 |   |
-| flagstoneQuarterCNR3Way                       |          8 |   |
-| flagstoneQuarterSCtr                          |          8 |   |
-| flagstoneQuarterTeeSCtr                       |          8 |   |
-| flagstoneRamp                                 |          8 |   |
-| flagstoneStairs25                             |          8 |   |
-| flagstoneStairs25CornerCNR                    |          8 |   |
-| flagstoneStairs50                             |          8 |   |
-| flagstoneWedge                                |          8 |   |
-| flagstoneWedgeCNRInsideBottom                 |          8 |   |
-| flagstoneWedgeCNRInsideSteepBase              |          8 |   |
-| flagstoneWedgeCNRInsideSteepTop               |          8 |   |
-| flagstoneWedgeCNRInsideTop                    |          8 |   |
-| flagstoneWedgeCNRSteepBase                    |          8 |   |
-| flagstoneWedgeCNRSteepTop                     |          8 |   |
-| flagstoneWedgeIncline                         |          8 |   |
-| flagstoneWedgeStairs                          |          8 |   |
-| flagstoneWedgeTip                             |          8 |   |
-| flagstoneWedgeTipCNRFullBottom                |          8 |   |
-| flagstoneWedgeTipCNRFullTop                   |          8 |   |
-| flagstoneWedgeTipStairs                       |          8 |   |
-| window03Wood                                  |          8 |   |
-| windowArchTop-DUPLICATE                       |          8 |   |
-| windowCircle-DUPLICATE                        |          8 |   |
-| windowCircleCorner-DUPLICATE                  |          8 |   |
+| archCurveBase-DUPLICATE                       |          8 | X |
+| archCurveFiller-DUPLICATE                     |          8 | X |
+| archCurveMiddle-DUPLICATE                     |          8 | X |
+| archCurveTop-DUPLICATE                        |          8 | X |
+| archCurveTopMiddle-DUPLICATE                  |          8 | X |
+| archCurveTopMiddleTopper-DUPLICATE            |          8 | X |
+| archCurveWall-DUPLICATE                       |          8 | X |
+| archCurveWallCap-DUPLICATE                    |          8 | X |
+| brickArch                                     |          8 | X |
+| brickArchCurveBase                            |          8 | X |
+| brickArchCurveFiller                          |          8 | X |
+| brickArchCurveMiddle                          |          8 | X |
+| brickArchCurveTop                             |          8 | X |
+| brickArchCurveTopMiddle                       |          8 | X |
+| brickArchCurveTopMiddleTopper                 |          8 | X |
+| brickArchCurveWall                            |          8 | X |
+| brickArchCurveWallCap                         |          8 | X |
+| brickBlock                                    |          8 | X |
+| brickBlockBaseboard1                          |          8 | X |
+| brickBlockBaseboard4                          |          8 | X |
+| brickBlockBaseboardChairRail1                 |          8 | X |
+| brickBlockBaseboardChairRail4                 |          8 | X |
+| brickBlockTileBroken01                        |          8 | X |
+| brickCNRFull                                  |          8 | X |
+| brickCNRInside                                |          8 | X |
+| brickCNRRamp                                  |          8 | X |
+| brickCNRRampFiller                            |          8 | X |
+| brickCNRRound                                 |          8 | X |
+| brickCNRRoundTop                              |          8 | X |
+| brickCornerstone                              |          8 | X |
+| brickCTRpole                                  |          8 | X |
+| brickCTRQuarter                               |          8 | X |
+| brickDestroyedBlock01                         |          8 | X |
+| brickDestroyedBlock02                         |          8 | X |
+| brickDestroyedBlock03                         |          8 | X |
+| brickGable                                    |          8 | X |
+| brickGable1m                                  |          8 | X |
+| brickGableInvertedHalf                        |          8 | X |
+| brickGableInvertedQuarter                     |          8 | X |
+| brickGableInvertedSteep                       |          8 | X |
+| brickGableQuarter                             |          8 | X |
+| brickHalf                                     |          8 | X |
+| brickHalfCentered                             |          8 | X |
+| brickHalfCNRInside2                           |          8 | X |
+| brickHalfRampStairs50                         |          8 | X |
+| brickHalfRampStairs50Filler                   |          8 | X |
+| brickMaster                                   |          8 | X |
+| brickNoUpgradeMaster                          |          8 | X |
+| brickPlate                                    |          8 | X |
+| brickPlateOffset                              |          8 | X |
+| brickPoleSCTR                                 |          8 | X |
+| brickPyramid1m                                |          8 | X |
+| brickQuarterCNR                               |          8 | X |
+| brickQuarterCNR3Way                           |          8 | X |
+| brickQuarterSCtr                              |          8 | X |
+| brickQuarterTeeSCtr                           |          8 | X |
+| brickRamp                                     |          8 | X |
+| brickStairs25                                 |          8 | X |
+| brickStairs25CornerCNR                        |          8 | X |
+| brickStairsFilledRailingLeft                  |          8 | X |
+| brickStairsFilledRailingRight                 |          8 | X |
+| brickTubeCenter                               |          8 | X |
+| brickTubeCorner                               |          8 | X |
+| brickTunnelCenter                             |          8 | X |
+| brickTunnelCorner                             |          8 | X |
+| brickWedge                                    |          8 | X |
+| brickWedgeCNRInsideBottom                     |          8 | X |
+| brickWedgeCNRInsideSteepBase                  |          8 | X |
+| brickWedgeCNRInsideSteepTop                   |          8 | X |
+| brickWedgeCNRInsideTop                        |          8 | X |
+| brickWedgeCNRSteepBase                        |          8 | X |
+| brickWedgeCNRSteepTop                         |          8 | X |
+| brickWedgeIncline                             |          8 | X |
+| brickWedgeStairs                              |          8 | X |
+| brickWedgeTip                                 |          8 | X |
+| brickWedgeTipCNRFullBottom                    |          8 | X |
+| brickWedgeTipCNRFullTop                       |          8 | X |
+| brickWedgeTipStairs                           |          8 | X |
+| brickWindowArchTop                            |          8 | X |
+| brickWindowCircle                             |          8 | X |
+| brickWindowCircleCorner                       |          8 | X |
+| flagstoneArch                                 |          8 | X |
+| flagstoneArch3m                               |          8 | X |
+| flagstoneArch3m_center                        |          8 | X |
+| flagstoneArch3m_tip                           |          8 | X |
+| flagstoneArrowSlitHalf                        |          8 | X |
+| flagstoneBlock                                |          8 | X |
+| flagstoneCNRFull                              |          8 | X |
+| flagstoneCNRInside                            |          8 | X |
+| flagstoneCNRRamp                              |          8 | X |
+| flagstoneCNRRampFiller                        |          8 | X |
+| flagstoneCTRpole                              |          8 | X |
+| flagstoneGableInvertedHalf                    |          8 | X |
+| flagstoneGableInvertedQuarter                 |          8 | X |
+| flagstoneGableInvertedSteep                   |          8 | X |
+| flagstoneGableQuarter                         |          8 | X |
+| flagstoneHalf                                 |          8 | X |
+| flagstoneMaster                               |          8 | X |
+| flagstoneNoUpgradeMaster                      |          8 | X |
+| flagstonePillar100                            |          8 | X |
+| flagstonePillar50                             |          8 | X |
+| flagstonePlate                                |          8 | X |
+| flagstonePlateOffset                          |          8 | X |
+| flagstonePole                                 |          8 | X |
+| flagstonePyramid                              |          8 | X |
+| flagstoneQuarterCNR                           |          8 | X |
+| flagstoneQuarterCNR3Way                       |          8 | X |
+| flagstoneQuarterSCtr                          |          8 | X |
+| flagstoneQuarterTeeSCtr                       |          8 | X |
+| flagstoneRamp                                 |          8 | X |
+| flagstoneStairs25                             |          8 | X |
+| flagstoneStairs25CornerCNR                    |          8 | X |
+| flagstoneStairs50                             |          8 | X |
+| flagstoneWedge                                |          8 | X |
+| flagstoneWedgeCNRInsideBottom                 |          8 | X |
+| flagstoneWedgeCNRInsideSteepBase              |          8 | X |
+| flagstoneWedgeCNRInsideSteepTop               |          8 | X |
+| flagstoneWedgeCNRInsideTop                    |          8 | X |
+| flagstoneWedgeCNRSteepBase                    |          8 | X |
+| flagstoneWedgeCNRSteepTop                     |          8 | X |
+| flagstoneWedgeIncline                         |          8 | X |
+| flagstoneWedgeStairs                          |          8 | X |
+| flagstoneWedgeTip                             |          8 | X |
+| flagstoneWedgeTipCNRFullBottom                |          8 | X |
+| flagstoneWedgeTipCNRFullTop                   |          8 | X |
+| flagstoneWedgeTipStairs                       |          8 | X |
+| window03Wood                                  |          8 | X |
+| windowArchTop-DUPLICATE                       |          8 | X |
+| windowCircle-DUPLICATE                        |          8 | X |
+| windowCircleCorner-DUPLICATE                  |          8 | X |
 | oldCash                                       |          7 | X |
-| rConcreteArch                                 |          7 |   |
-| rConcreteArrowSlitHalf                        |          7 |   |
-| rConcreteBlock                                |          7 |   |
-| rConcreteCNRFull                              |          7 |   |
-| rConcreteCNRInside                            |          7 |   |
-| rConcreteCNRRamp                              |          7 |   |
-| rConcreteCNRRampFiller                        |          7 |   |
-| rConcreteCNRRound                             |          7 |   |
-| rConcreteCNRRoundTop                          |          7 |   |
-| rConcreteCTRPlate                             |          7 |   |
-| rConcreteCTRpole                              |          7 |   |
-| rConcreteEighth                               |          7 |   |
-| rConcreteGableInvertedHalf                    |          7 |   |
-| rConcreteGableInvertedQuarter                 |          7 |   |
-| rConcreteGableInvertedSteep                   |          7 |   |
-| rConcreteGableQuarter                         |          7 |   |
-| rConcreteHalf                                 |          7 |   |
-| rConcreteMaster                               |          7 |   |
-| rConcretePillar100                            |          7 |   |
-| rConcretePillar100Cap                         |          7 |   |
-| rConcretePillar50                             |          7 |   |
-| rConcretePlate                                |          7 |   |
-| rConcretePlateOffset                          |          7 |   |
-| rConcretePole                                 |          7 |   |
-| rConcretePyramid                              |          7 |   |
-| rConcreteQuarter                              |          7 |   |
-| rConcreteQuarterCNR                           |          7 |   |
-| rConcreteQuarterCNR3Way                       |          7 |   |
-| rConcreteQuarterSCtr                          |          7 |   |
-| rConcreteQuarterTeeSCtr                       |          7 |   |
-| rConcreteRamp                                 |          7 |   |
-| rConcreteStairs25                             |          7 |   |
-| rConcreteStairs25CornerCNR                    |          7 |   |
-| rConcreteStairsFilledRailingLeft              |          7 |   |
-| rConcreteStairsFilledRailingRight             |          7 |   |
-| rConcreteSupport                              |          7 |   |
-| rConcreteWedge                                |          7 |   |
-| rConcreteWedgeCNRInsideBottom                 |          7 |   |
-| rConcreteWedgeCNRInsideSteepBase              |          7 |   |
-| rConcreteWedgeCNRInsideSteepTop               |          7 |   |
-| rConcreteWedgeCNRInsideTop                    |          7 |   |
-| rConcreteWedgeCNRSteepBase                    |          7 |   |
-| rConcreteWedgeCNRSteepTop                     |          7 |   |
-| rConcreteWedgeIncline                         |          7 |   |
-| rConcreteWedgeStairs                          |          7 |   |
-| rConcreteWedgeTip                             |          7 |   |
-| rConcreteWedgeTipCNRFullBottom                |          7 |   |
-| rConcreteWedgeTipCNRFullTop                   |          7 |   |
-| rConcreteWedgeTipStairs                       |          7 |   |
-| cntNightstandClosed                           |          6 |   |
-| cntNightstandOpen                             |          6 |   |
-| cntPillCaseClosed                             |          6 |   |
-| cntPillCaseEmpty                              |          6 |   |
-| cntStorageGeneric                             |          6 |   |
+| rConcreteArch                                 |          7 | X |
+| rConcreteArrowSlitHalf                        |          7 | X |
+| rConcreteBlock                                |          7 | X |
+| rConcreteCNRFull                              |          7 | X |
+| rConcreteCNRInside                            |          7 | X |
+| rConcreteCNRRamp                              |          7 | X |
+| rConcreteCNRRampFiller                        |          7 | X |
+| rConcreteCNRRound                             |          7 | X |
+| rConcreteCNRRoundTop                          |          7 | X |
+| rConcreteCTRPlate                             |          7 | X |
+| rConcreteCTRpole                              |          7 | X |
+| rConcreteEighth                               |          7 | X |
+| rConcreteGableInvertedHalf                    |          7 | X |
+| rConcreteGableInvertedQuarter                 |          7 | X |
+| rConcreteGableInvertedSteep                   |          7 | X |
+| rConcreteGableQuarter                         |          7 | X |
+| rConcreteHalf                                 |          7 | X |
+| rConcreteMaster                               |          7 | X |
+| rConcretePillar100                            |          7 | X |
+| rConcretePillar100Cap                         |          7 | X |
+| rConcretePillar50                             |          7 | X |
+| rConcretePlate                                |          7 | X |
+| rConcretePlateOffset                          |          7 | X |
+| rConcretePole                                 |          7 | X |
+| rConcretePyramid                              |          7 | X |
+| rConcreteQuarter                              |          7 | X |
+| rConcreteQuarterCNR                           |          7 | X |
+| rConcreteQuarterCNR3Way                       |          7 | X |
+| rConcreteQuarterSCtr                          |          7 | X |
+| rConcreteQuarterTeeSCtr                       |          7 | X |
+| rConcreteRamp                                 |          7 | X |
+| rConcreteStairs25                             |          7 | X |
+| rConcreteStairs25CornerCNR                    |          7 | X |
+| rConcreteStairsFilledRailingLeft              |          7 | X |
+| rConcreteStairsFilledRailingRight             |          7 | X |
+| rConcreteSupport                              |          7 | X |
+| rConcreteWedge                                |          7 | X |
+| rConcreteWedgeCNRInsideBottom                 |          7 | X |
+| rConcreteWedgeCNRInsideSteepBase              |          7 | X |
+| rConcreteWedgeCNRInsideSteepTop               |          7 | X |
+| rConcreteWedgeCNRInsideTop                    |          7 | X |
+| rConcreteWedgeCNRSteepBase                    |          7 | X |
+| rConcreteWedgeCNRSteepTop                     |          7 | X |
+| rConcreteWedgeIncline                         |          7 | X |
+| rConcreteWedgeStairs                          |          7 | X |
+| rConcreteWedgeTip                             |          7 | X |
+| rConcreteWedgeTipCNRFullBottom                |          7 | X |
+| rConcreteWedgeTipCNRFullTop                   |          7 | X |
+| rConcreteWedgeTipStairs                       |          7 | X |
+| cntNightstandClosed                           |          6 | X |
+| cntNightstandOpen                             |          6 | X |
+| cntPillCaseClosed                             |          6 | X |
+| cntPillCaseEmpty                              |          6 | X |
+| cntStorageGeneric                             |          6 | X |
 | drinkJarEmpty                                 |          6 | X |
 | foodCropYuccaFruit                            |          6 |   |
-| glassCTRSheet                                 |          6 |   |
-| glassIndustrial02Broken01CTRPlate             |          6 |   |
-| glassIndustrial02Broken01Plate                |          6 |   |
-| glassIndustrial02Broken02CTRPlate             |          6 |   |
-| glassIndustrial02Broken02Plate                |          6 |   |
-| glassIndustrial02CTRPlate                     |          6 |   |
-| glassIndustrial02Plate                        |          6 |   |
-| glassIndustrialCTRPlate                       |          6 |   |
-| glassIndustrialPlate                          |          6 |   |
-| ladderWood                                    |          6 |   |
+| glassCTRSheet                                 |          6 | X |
+| glassIndustrial02Broken01CTRPlate             |          6 | X |
+| glassIndustrial02Broken01Plate                |          6 | X |
+| glassIndustrial02Broken02CTRPlate             |          6 | X |
+| glassIndustrial02Broken02Plate                |          6 | X |
+| glassIndustrial02CTRPlate                     |          6 | X |
+| glassIndustrial02Plate                        |          6 | X |
+| glassIndustrialCTRPlate                       |          6 | X |
+| glassIndustrialPlate                          |          6 | X |
+| ladderWood                                    |          6 | X |
 | resourceClayLump                              |          6 | X |
-| treePlant02                                   |          6 |   |
+| treePlant02                                   |          6 | X |
 | ammoBlunderbuss                               |          5 | X |
 | campfire                                      |          5 |   |
 | casinoCoin                                    |          5 |   |
 | chemistryStation                              |          5 |   |
-| cntCabinetOldCNRRoundFiller                   |          5 |   |
-| coffeeTable                                   |          5 |   |
-| doorFrameMetalBoarded1                        |          5 |   |
-| doorFrameMetalBoarded2                        |          5 |   |
-| doorFrameWhite1                               |          5 |   |
-| doorFrameWhite2                               |          5 |   |
-| doorFrameWhiteBoarded1                        |          5 |   |
-| doorFrameWhiteBoarded2                        |          5 |   |
-| doorTrim2m                                    |          5 |   |
-| doorTrimTop                                   |          5 |   |
+| cntCabinetOldCNRRoundFiller                   |          5 | X |
+| coffeeTable                                   |          5 | X |
+| doorFrameMetalBoarded1                        |          5 | X |
+| doorFrameMetalBoarded2                        |          5 | X |
+| doorFrameWhite1                               |          5 | X |
+| doorFrameWhite2                               |          5 | X |
+| doorFrameWhiteBoarded1                        |          5 | X |
+| doorFrameWhiteBoarded2                        |          5 | X |
+| doorTrim2m                                    |          5 | X |
+| doorTrimTop                                   |          5 | X |
 | drinkCanEmpty                                 |          5 | X |
-| endTable                                      |          5 |   |
-| fakeCabinetDoorTrap1x1Sheet                   |          5 |   |
-| fakeCabinetDoorTrap1x2Sheet                   |          5 |   |
+| endTable                                      |          5 | X |
+| fakeCabinetDoorTrap1x1Sheet                   |          5 | X |
+| fakeCabinetDoorTrap1x2Sheet                   |          5 | X |
 | foodRottingFlesh                              |          5 |   |
 | foodShamSandwich                              |          5 |   |
 | foolsCapAdmin                                 |          5 | X |
 | gunWoodenBow                                  |          5 |   |
-| looseBoardsTrapBlock1x1                       |          5 |   |
-| looseBoardsTrapBlock3x3                       |          5 |   |
-| looseBoardsTrapBlock3x3Destroyed              |          5 |   |
-| looseBoardsTrapPlate1x1                       |          5 |   |
+| looseBoardsTrapBlock1x1                       |          5 | X |
+| looseBoardsTrapBlock3x3                       |          5 | X |
+| looseBoardsTrapBlock3x3Destroyed              |          5 | X |
+| looseBoardsTrapPlate1x1                       |          5 | X |
 | medicalBandage                                |          5 | X |
 | medicalBloodBag                               |          5 |   |
 | meleeClubWood                                 |          5 |   |
 | meleeToolShovelStone                          |          5 |   |
 | meleeToolStoneAxe                             |          5 |   |
-| oldChair1                                     |          5 |   |
-| palletEmpty                                   |          5 |   |
-| pictureFrame                                  |          5 |   |
-| pictureFrameFilled                            |          5 |   |
+| oldChair1                                     |          5 | X |
+| palletEmpty                                   |          5 | X |
+| pictureFrame                                  |          5 | X |
+| pictureFrameFilled                            |          5 | X |
 | plantFiberClothingMaster                      |          5 |   |
 | plantFiberGloves                              |          5 |   |
 | plantFiberHat                                 |          5 |   |
@@ -1780,39 +1780,39 @@
 | resourceSnowBall                              |          5 |   |
 | resourceTrophy3                               |          5 | X |
 | resourceYuccaFibers                           |          5 |   |
-| secureDoorWooden                              |          5 |   |
+| secureDoorWooden                              |          5 | X |
 | sidewalkCNRCurb                               |          5 |   |
 | sidewalkCurb                                  |          5 |   |
-| signShopColdBeer                              |          5 |   |
-| solidWoodFrameArch                            |          5 |   |
-| solidWoodFrameBlock                           |          5 |   |
-| solidWoodFrameCNRFull                         |          5 |   |
-| solidWoodFrameCNRInside                       |          5 |   |
-| solidWoodFrameCNRRampFiller                   |          5 |   |
-| solidWoodFrameGableInvertedHalf               |          5 |   |
-| solidWoodFrameGableInvertedQuarter            |          5 |   |
-| solidWoodFrameGableInvertedSteep              |          5 |   |
-| solidWoodFrameGableQuarter                    |          5 |   |
-| solidWoodFrameHalf                            |          5 |   |
-| solidWoodFramePlateOffset                     |          5 |   |
-| solidWoodFrameQuarterCNR                      |          5 |   |
-| solidWoodFrameQuarterCNR3Way                  |          5 |   |
-| solidWoodFrameQuarterSCtr                     |          5 |   |
-| solidWoodFrameQuarterTeeSCtr                  |          5 |   |
-| solidWoodFrameRamp                            |          5 |   |
-| solidWoodFrameStairs25CornerCNR               |          5 |   |
-| solidWoodFrameWedge                           |          5 |   |
-| solidWoodFrameWedgeCNRInsideBottom            |          5 |   |
-| solidWoodFrameWedgeCNRInsideSteepBase         |          5 |   |
-| solidWoodFrameWedgeCNRInsideSteepTop          |          5 |   |
-| solidWoodFrameWedgeCNRInsideTop               |          5 |   |
-| solidWoodFrameWedgeCNRSteepBase               |          5 |   |
-| solidWoodFrameWedgeCNRSteepTop                |          5 |   |
-| solidWoodFrameWedgeIncline                    |          5 |   |
-| solidWoodFrameWedgeStairs                     |          5 |   |
-| solidWoodFrameWedgeTipCNRFullBottom           |          5 |   |
-| solidWoodFrameWedgeTipCNRFullTop              |          5 |   |
-| solidWoodFrameWedgeTipStairs                  |          5 |   |
+| signShopColdBeer                              |          5 | X |
+| solidWoodFrameArch                            |          5 | X |
+| solidWoodFrameBlock                           |          5 | X |
+| solidWoodFrameCNRFull                         |          5 | X |
+| solidWoodFrameCNRInside                       |          5 | X |
+| solidWoodFrameCNRRampFiller                   |          5 | X |
+| solidWoodFrameGableInvertedHalf               |          5 | X |
+| solidWoodFrameGableInvertedQuarter            |          5 | X |
+| solidWoodFrameGableInvertedSteep              |          5 | X |
+| solidWoodFrameGableQuarter                    |          5 | X |
+| solidWoodFrameHalf                            |          5 | X |
+| solidWoodFramePlateOffset                     |          5 | X |
+| solidWoodFrameQuarterCNR                      |          5 | X |
+| solidWoodFrameQuarterCNR3Way                  |          5 | X |
+| solidWoodFrameQuarterSCtr                     |          5 | X |
+| solidWoodFrameQuarterTeeSCtr                  |          5 | X |
+| solidWoodFrameRamp                            |          5 | X |
+| solidWoodFrameStairs25CornerCNR               |          5 | X |
+| solidWoodFrameWedge                           |          5 | X |
+| solidWoodFrameWedgeCNRInsideBottom            |          5 | X |
+| solidWoodFrameWedgeCNRInsideSteepBase         |          5 | X |
+| solidWoodFrameWedgeCNRInsideSteepTop          |          5 | X |
+| solidWoodFrameWedgeCNRInsideTop               |          5 | X |
+| solidWoodFrameWedgeCNRSteepBase               |          5 | X |
+| solidWoodFrameWedgeCNRSteepTop                |          5 | X |
+| solidWoodFrameWedgeIncline                    |          5 | X |
+| solidWoodFrameWedgeStairs                     |          5 | X |
+| solidWoodFrameWedgeTipCNRFullBottom           |          5 | X |
+| solidWoodFrameWedgeTipCNRFullTop              |          5 | X |
+| solidWoodFrameWedgeTipStairs                  |          5 | X |
 | stainlessSteelArch                            |          5 |   |
 | stainlessSteelArrowSlitHalf                   |          5 |   |
 | stainlessSteelBlock                           |          5 |   |
@@ -1864,7 +1864,7 @@
 | stainlessSteelWedgeTipCNRFullTop              |          5 |   |
 | stainlessSteelWedgeTipStairs                  |          5 |   |
 | stoneNoUpgradeMaster                          |          5 |   |
-| tableDynamic                                  |          5 |   |
+| tableDynamic                                  |          5 | X |
 | terrBurntForestFromDirt                       |          5 |   |
 | terrBurntForestGround                         |          5 |   |
 | terrBurntForestWGrass1                        |          5 |   |
@@ -1890,44 +1890,44 @@
 | terrSnow                                      |          5 |   |
 | terrStone                                     |          5 |   |
 | thrownAmmoFlare                               |          5 |   |
-| woodChair1                                    |          5 |   |
-| woodFrameArch                                 |          5 |   |
-| woodFrameBlock                                |          5 |   |
-| woodFrameCNRFull                              |          5 |   |
-| woodFrameCNRInside                            |          5 |   |
-| woodFrameCNRRampFiller                        |          5 |   |
-| woodFrameGableInvertedHalf                    |          5 |   |
-| woodFrameGableInvertedQuarter                 |          5 |   |
-| woodFrameGableInvertedSteep                   |          5 |   |
-| woodFrameGableQuarter                         |          5 |   |
-| woodFrameHalf                                 |          5 |   |
-| woodFrameMaster                               |          5 |   |
-| woodFramePlateOffset                          |          5 |   |
-| woodFrameQuarterCNR                           |          5 |   |
-| woodFrameQuarterCNR3Way                       |          5 |   |
-| woodFrameQuarterSCtr                          |          5 |   |
-| woodFrameQuarterTeeSCtr                       |          5 |   |
-| woodFrameRamp                                 |          5 |   |
-| woodFrameStairs25CornerCNR                    |          5 |   |
-| woodFrameWedge                                |          5 |   |
-| woodFrameWedgeCNRInsideBottom                 |          5 |   |
-| woodFrameWedgeCNRInsideSteepBase              |          5 |   |
-| woodFrameWedgeCNRInsideSteepTop               |          5 |   |
-| woodFrameWedgeCNRInsideTop                    |          5 |   |
-| woodFrameWedgeCNRSteepBase                    |          5 |   |
-| woodFrameWedgeCNRSteepTop                     |          5 |   |
-| woodFrameWedgeIncline                         |          5 |   |
-| woodFrameWedgeStairs                          |          5 |   |
-| woodFrameWedgeTipCNRFullBottom                |          5 |   |
-| woodFrameWedgeTipCNRFullTop                   |          5 |   |
-| woodFrameWedgeTipStairs                       |          5 |   |
-| woodHatch1_v1                                 |          5 |   |
-| woodHatch1_v2                                 |          5 |   |
-| woodHatch1_v3                                 |          5 |   |
-| woodRailing                                   |          5 |   |
-| woodRailing3d                                 |          5 |   |
-| woodRailing3dBroke                            |          5 |   |
-| woodWeakNoUpgradeMaster                       |          5 |   |
+| woodChair1                                    |          5 | X |
+| woodFrameArch                                 |          5 | X |
+| woodFrameBlock                                |          5 | X |
+| woodFrameCNRFull                              |          5 | X |
+| woodFrameCNRInside                            |          5 | X |
+| woodFrameCNRRampFiller                        |          5 | X |
+| woodFrameGableInvertedHalf                    |          5 | X |
+| woodFrameGableInvertedQuarter                 |          5 | X |
+| woodFrameGableInvertedSteep                   |          5 | X |
+| woodFrameGableQuarter                         |          5 | X |
+| woodFrameHalf                                 |          5 | X |
+| woodFrameMaster                               |          5 | X |
+| woodFramePlateOffset                          |          5 | X |
+| woodFrameQuarterCNR                           |          5 | X |
+| woodFrameQuarterCNR3Way                       |          5 | X |
+| woodFrameQuarterSCtr                          |          5 | X |
+| woodFrameQuarterTeeSCtr                       |          5 | X |
+| woodFrameRamp                                 |          5 | X |
+| woodFrameStairs25CornerCNR                    |          5 | X |
+| woodFrameWedge                                |          5 | X |
+| woodFrameWedgeCNRInsideBottom                 |          5 | X |
+| woodFrameWedgeCNRInsideSteepBase              |          5 | X |
+| woodFrameWedgeCNRInsideSteepTop               |          5 | X |
+| woodFrameWedgeCNRInsideTop                    |          5 | X |
+| woodFrameWedgeCNRSteepBase                    |          5 | X |
+| woodFrameWedgeCNRSteepTop                     |          5 | X |
+| woodFrameWedgeIncline                         |          5 | X |
+| woodFrameWedgeStairs                          |          5 | X |
+| woodFrameWedgeTipCNRFullBottom                |          5 | X |
+| woodFrameWedgeTipCNRFullTop                   |          5 | X |
+| woodFrameWedgeTipStairs                       |          5 | X |
+| woodHatch1_v1                                 |          5 | X |
+| woodHatch1_v2                                 |          5 | X |
+| woodHatch1_v3                                 |          5 | X |
+| woodRailing                                   |          5 | X |
+| woodRailing3d                                 |          5 | X |
+| woodRailing3dBroke                            |          5 | X |
+| woodWeakNoUpgradeMaster                       |          5 | X |
 | foodCornMeal                                  |          4 | X |
 | foodCropCorn                                  |          4 | X |
 | foodCropMushrooms                             |          4 | X |
@@ -1936,7 +1936,7 @@
 | foodRawMeat                                   |          2 | X |
 | resourceCropSnowberryPlant                    |          2 | X |
 | keystoneBlock                                 |          1 |   |
-| rScrapIronLogSpike5                           |          0 |   |
-| rWoodLogSpike2                                |          0 |   |
-| rWoodMetalLogSpike3                           |          0 |   |
-| scrapIronLogSpike4                            |          0 |   |
+| rScrapIronLogSpike5                           |          0 | X |
+| rWoodLogSpike2                                |          0 | X |
+| rWoodMetalLogSpike3                           |          0 | X |
+| scrapIronLogSpike4                            |          0 | X |
