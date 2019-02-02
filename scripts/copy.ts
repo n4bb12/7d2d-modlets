@@ -1,15 +1,19 @@
-import { copySync } from "fs-extra"
+import { copySync, ensureDirSync, readdirSync, removeSync } from "fs-extra"
 import notifier from "node-notifier"
 
 const paths = {
-  game: "D:/Spiele/SteamLibrary/steamapps/common/7 Days To Die",
-  mods: "",
+  mods: "D:/Spiele/SteamLibrary/steamapps/common/7 Days To Die/Mods",
 }
 
 try {
-  paths.mods = paths.game + "/Mods"
+  ensureDirSync(paths.mods)
 
-  copySync("dist", paths.mods)
+  readdirSync(paths.mods)
+    .filter(name => name.startsWith("n4bb12_"))
+    .map(name => paths.mods + "/" + name)
+    .forEach(path => removeSync(path))
+
+  copySync("enabled", paths.mods)
 
   notifier.notify({
     title: "7D2D Mods",

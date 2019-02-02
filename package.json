@@ -16,14 +16,13 @@
   "author": "Abraham Schilling",
   "scripts": {
     "build": "ts-node scripts/build",
-    "clean": "ts-node scripts/clean",
     "copy": "ts-node scripts/copy",
     "items": "ts-node scripts/items",
     "json": "ts-node scripts/json",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "trader": "ts-node scripts/trader",
     "update": "yarn build && yarn copy",
-    "watch": "yarn clean && nodemon --watch src/**/* --ext xml,md --exec yarn update",
+    "watch": "nodemon --watch src/**/* --watch scripts/**/* --ext xml,md,ts --exec yarn update",
     "zombies": "ts-node scripts/zombies"
   },
   "devDependencies": {
@@ -37,7 +36,7 @@
     "lodash": "^4.17.11",
     "node-notifier": "^5.3.0",
     "nodemon": "^1.18.9",
-    "ts-node": "^7.0.1",
+    "ts-node": "^8.0.2",
     "tslint": "^5.12.1",
     "typescript": "^3.2.2"
   },
