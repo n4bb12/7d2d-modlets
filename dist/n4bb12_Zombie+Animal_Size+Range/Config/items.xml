@@ -43,18 +43,18 @@
     <property name="Range" value="1"/>
   </append>
   <!-- configure range -->
-  <set xpath='/items/item[@name="meleeHandAnimalBear"           ]/property[@class="Action0"]/property[@name="Range"]/@value'>2.2</set>
+  <set xpath='/items/item[@name="meleeHandAnimalBear"           ]/property[@class="Action0"]/property[@name="Range"]/@value'>2.6</set>
   <set xpath='/items/item[@name="meleeHandAnimalBoar"           ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.6</set>
-  <set xpath='/items/item[@name="meleeHandAnimalDireWolf"       ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.6</set>
+  <set xpath='/items/item[@name="meleeHandAnimalDireWolf"       ]/property[@class="Action0"]/property[@name="Range"]/@value'>2.2</set>
   <set xpath='/items/item[@name="meleeHandAnimalSnake"          ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.4</set>
-  <set xpath='/items/item[@name="meleeHandAnimalWolf"           ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.5</set>
-  <set xpath='/items/item[@name="meleeHandAnimalZombieBear"     ]/property[@class="Action0"]/property[@name="Range"]/@value'>2.4</set>
-  <set xpath='/items/item[@name="meleeHandAnimalZombieBearFeral"]/property[@class="Action0"]/property[@name="Range"]/@value'>2.4</set>
+  <set xpath='/items/item[@name="meleeHandAnimalWolf"           ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.4</set>
+  <set xpath='/items/item[@name="meleeHandAnimalZombieBear"     ]/property[@class="Action0"]/property[@name="Range"]/@value'>3.0</set>
+  <set xpath='/items/item[@name="meleeHandAnimalZombieBearFeral"]/property[@class="Action0"]/property[@name="Range"]/@value'>3.0</set>
   <set xpath='/items/item[@name="meleeHandAnimalZombieDog"      ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.6</set>
   <set xpath='/items/item[@name="meleeHandAnimalZombieDogFeral" ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.8</set>
   <set xpath='/items/item[@name="meleeHandAnimalZombieVulture"  ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.4</set>
-  <set xpath='/items/item[@name="meleeHandFatHawaiian"          ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.4</set>
-  <set xpath='/items/item[@name="meleeHandFemaleFat"            ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.4</set>
+  <set xpath='/items/item[@name="meleeHandFatHawaiian"          ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.6</set>
+  <set xpath='/items/item[@name="meleeHandFemaleFat"            ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.6</set>
   <set xpath='/items/item[@name="meleeHandMaster"               ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.4</set>
   <set xpath='/items/item[@name="meleeHandPlayer"               ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.4</set>
   <set xpath='/items/item[@name="meleeHandZombieCop"            ]/property[@class="Action0"]/property[@name="Range"]/@value'>1.8</set>

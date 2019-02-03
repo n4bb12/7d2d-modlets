@@ -1,4 +1,28 @@
 <config>
+  <!-- Stag -->
+  <append xpath='/entity_classes/entity_class[@name="animalStag"]'>
+    <property name="SizeScale" value="1.25"/>
+  </append>
+  <!-- Doe -->
+  <append xpath='/entity_classes/entity_class[@name="animalDoe"]'>
+    <property name="SizeScale" value="1"/>
+  </append>
+  <!-- Wolf -->
+  <append xpath='/entity_classes/entity_class[@name="animalWolf"]'>
+    <property name="SizeScale" value="1"/>
+  </append>
+  <!-- Dire Wolf -->
+  <append xpath='/entity_classes/entity_class[@name="animalDireWolf"]'>
+    <property name="SizeScale" value="1"/>
+  </append>
+  <!-- Zombie Bear -->
+  <append xpath='/entity_classes/entity_class[@name="animalZombieBear"]'>
+    <property name="SizeScale" value="0.8"/>
+  </append>
+  <!-- Bear -->
+  <append xpath='/entity_classes/entity_class[@name="animalBear"]'>
+    <property name="SizeScale" value="0.7"/>
+  </append>
   <!-- additional hands to allow range customization -->
   <set xpath='/entity_classes/entity_class[@name="animalBoar"         ]/property[@name="HandItem"]/@value'>meleeHandAnimalBoar</set>
   <set xpath='/entity_classes/entity_class[@name="animalDireWolf"     ]/property[@name="HandItem"]/@value'>meleeHandAnimalDireWolf</set>
@@ -7,7 +31,7 @@
   <set xpath='/entity_classes/entity_class[@name="animalZombieBear"   ]/property[@name="HandItem"]/@value'>meleeHandAnimalZombieBear</set>
   <set xpath='/entity_classes/entity_class[@name="animalZombieDog"    ]/property[@name="HandItem"]/@value'>meleeHandAnimalZombieDog</set>
   <set xpath='/entity_classes/entity_class[@name="animalZombieVulture"]/property[@name="HandItem"]/@value'>meleeHandAnimalZombieVulture</set>
-  <set xpath='/entity_classes/entity_class[@name="zombieFatCop"       ]/property[@name="HandItem"]/@value'>meleeHandFatHawaiian</set>
-  <set xpath='/entity_classes/entity_class[@name="zombieFatHawaiian"  ]/property[@name="HandItem"]/@value'>meleeHandZombieCop</set>
+  <set xpath='/entity_classes/entity_class[@name="zombieFatCop"       ]/property[@name="HandItem"]/@value'>meleeHandZombieCop</set>
+  <set xpath='/entity_classes/entity_class[@name="zombieFatHawaiian"  ]/property[@name="HandItem"]/@value'>meleeHandFatHawaiian</set>
   <set xpath='/entity_classes/entity_class[@name="zombieFemaleFat"    ]/property[@name="HandItem"]/@value'>meleeHandFemaleFat</set>
 </config>

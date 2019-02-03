@@ -1,2 +1,0 @@
-- Reduces zombie and animal range a bit to accomodate for potential server lag
-- Further adapts zombie and animal range for visualy equal range
