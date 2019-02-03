@@ -1,11 +1,11 @@
 <config>
   <append xpath='/styles/global'>
-    <style_entry name="n4bb12_stealth" value="241, 196, 15"/>
-    <style_entry name="n4bb12_food"    value="16,  137, 62"/>
-    <style_entry name="n4bb12_water"   value="0,   153, 188"/>
-    <style_entry name="n4bb12_stamina" value="33,  36,  177"/>
-    <style_entry name="n4bb12_health"  value="177, 36,  33"/>
-    <style_entry name="n4bb12_temp"    value="230, 126, 34"/>
-    <style_entry name="n4bb12_level"   value="72,  84,  151"/>
+    <style_entry name="n4bb12_stealth" value="247, 206, 47"/>
+    <style_entry name="n4bb12_food"    value="40, 127, 44"/>
+    <style_entry name="n4bb12_water"   value="72, 127, 226"/>
+    <style_entry name="n4bb12_stamina" value="40, 53, 147"/>
+    <style_entry name="n4bb12_health"  value="198, 40, 40"/>
+    <style_entry name="n4bb12_temp"    value="237, 130, 25"/>
+    <style_entry name="n4bb12_level"   value="102, 99, 189"/>
   </append>
 </config>
