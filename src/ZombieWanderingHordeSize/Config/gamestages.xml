@@ -30,7 +30,6 @@
 <set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="35"]/spawn[@group="wanderingHordeStageGS58"      and @num="09"]/@num'>45</set>
 <set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="36"]/spawn[@group="wanderingHordeStageGS70"      and @num="08"]/@num'>40</set>
 <set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="37"]/spawn[@group="FwanderingHordeStageGS40"     and @num="10"]/@num'>50</set>
-<set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="38"]/spawn[@group="ZombieAnimalsGroup"           and @num="05"]/@num'>25</set>
 <set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="39"]/spawn[@group="FwanderingHordeStageGS44"     and @num="05"]/@num'>25</set>
 <set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="40"]/spawn[@group="FwanderingHordeStageGS49"     and @num="09"]/@num'>45</set>
 <set xpath='/gamestages/spawner[@name="WanderingHorde"]/gamestage[@stage="42"]/spawn[@group="wanderingHordeStageGS64"      and @num="11"]/@num'>55</set>

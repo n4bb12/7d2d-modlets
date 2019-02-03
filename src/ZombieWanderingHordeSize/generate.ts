@@ -16,7 +16,7 @@ json.gamestages.spawner.find(s => s._name === "WanderingHorde").gamestage.forEac
   array(gs.spawn).forEach(s => {
     const group = s._group
 
-    if (!group.includes("Bear") && !group.includes("Dog") && !group.includes("Vulture") && !group.includes("Wolf")) {
+    if (!group.includes("Animal") && !group.includes("Bear") && !group.includes("Dog") && !group.includes("Vulture") && !group.includes("Wolf")) {
       gamestages.push({
         stage: gs._stage,
         group,
