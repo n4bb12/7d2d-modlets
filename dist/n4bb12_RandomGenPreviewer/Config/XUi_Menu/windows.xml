@@ -11,6 +11,4 @@
   <set xpath='/windows/window[@name="worldGeneration"]/rect/rect/rect/grid/rect/sprite[@color="255,228,119"]/@color'>255,192,128</set>
   <!-- water -->
   <set xpath='/windows/window[@name="worldGeneration"]/rect/rect/rect/grid/rect/sprite[@color="0,99,255"]/@color'>0,128,255</set>
-  <!-- size -->
-  <set xpath='/windows/window[@name="worldGeneration"]/rect/rect/rect/grid/rect/combobox/@values'>2048,4096,8192,16384</set>
 </config>
