@@ -11,3 +11,6 @@ xuiSnow,RandomGenPreviewer,XUi,New,Snow,,,,,
 xuiWasteland,RandomGenPreviewer,XUi,New,Wasteland,,,,,
 xuiWorldSeed,RandomGenPreviewer,XUi,New,Seed,,,,,
 xuiWorldSize,RandomGenPreviewer,XUi,New,World Size,,,,,
+
+perkDeadEyeRank4Desc,progression,Perk,New,40% Faster aiming with rifles. Reload 25% faster. Reduce aiming stamina use by 20%. Kill streak. Successive kills with one shot increases damage bonus by 20%, 30% to a
+maximum of 40%.,,,,,

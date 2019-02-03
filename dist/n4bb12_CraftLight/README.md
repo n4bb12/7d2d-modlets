@@ -1,6 +1,6 @@
 Mining Helmet:
 - Craftable also with the red version of the football helmet
-- Requires a headlight instead of a torch
+- Requires a headlight instead of a flashlight
 - Decreases the duct tape from 5 to 2
 - Decreases the electrical parts from 8 to 2
 - No longer needs scrap plastic
@@ -9,7 +9,7 @@ Flashlight:
 - Requires a short iron pipe instead of forged iron
 - Decreases the electrical parts from 10 to 8
 - Decreases the duct tape from 4 to 2
-- Added 2 glue
+- Now needs 2 glue
 
 Helmet Light:
 - Requires a torch instead of a headlight

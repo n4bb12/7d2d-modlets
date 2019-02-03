@@ -1,1 +1,1 @@
-- Decreases death sickness duration by 50% to now 15 minutes
+- Decreases death sickness duration from 30 to 15 minutes

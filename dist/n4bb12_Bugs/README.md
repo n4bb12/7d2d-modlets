@@ -1,3 +1,4 @@
-- Fixes obvious errors in XML files
+- Fixes typos in XML files
 - Adds missing texts for MegaCrush
 - Adds missing texts for RandomGenPreviewer
+- Fix Dead Eye rank 4 text, it should be 20/30/40%

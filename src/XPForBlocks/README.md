@@ -1,1 +1,1 @@
-- Decreases XP for harvesting trees, rock and other blocks by 25%
+- Decreases XP for harvesting trees, rock and other blocks by 25% (= A17.0)

@@ -1,6 +1,5 @@
 - Decreases the cost of empty bucket from 7 to 4 forged iron
 - Increases the cost of burning barrel from 3 to 8 forged iron
-- Increases the cost of flashlight from 1 to 4 forged iron
 - Increases the cost of battery bank from 10 to 30 forged iron
 - Increases the cost of generator bank from 10 to 30 forged iron
 - Increases the cost of bycicle chassis from 5 to 15 forged iron
