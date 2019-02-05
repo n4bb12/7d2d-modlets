@@ -133,8 +133,8 @@
   <set xpath='/items/item[@name="resourceSnowBall"                 ]/property[@name="Stacknumber" and @value="6000"    ]/@value'>1000</set>
   <set xpath='/items/item[@name="resourceWood"                     ]/property[@name="Stacknumber" and @value="6000"    ]/@value'>1000</set>
   <set xpath='/items/item[@name="resourceYuccaFibers"              ]/property[@name="Stacknumber" and @value="6000"    ]/@value'>1000</set>
-  <set xpath='/items/item[@name="casinoCoin"                       ]/property[@name="Stacknumber" and @value="20000"   ]/@value'>5000</set>
-  <set xpath='/items/item[@name="oldCash"                          ]/property[@name="Stacknumber" and @value="10000"   ]/@value'>5000</set>
+  <set xpath='/items/item[@name="casinoCoin"                       ]/property[@name="Stacknumber" and @value="20000"   ]/@value'>50000</set>
+  <set xpath='/items/item[@name="oldCash"                          ]/property[@name="Stacknumber" and @value="10000"   ]/@value'>50000</set>
   <set xpath='/items/item[@name="unit_iron"                        ]/property[@name="Stacknumber" and @value="30000"   ]/@value'>50000</set>
   <append xpath='/items/item[@name="resourceInsulator"                ]'><property name="Stacknumber" value="250"/></append>
 </config>

@@ -20,7 +20,7 @@
     "items": "ts-node scripts/items",
     "json": "ts-node scripts/json",
     "lint": "tslint -p tsconfig.json -c tslint.json",
-    "trader": "ts-node scripts/trader",
+    "trader": "ts-node scripts/economic-value",
     "update": "yarn build && yarn copy",
     "watch": "nodemon --watch src/**/* --watch scripts/**/* --ext xml,md,ts --exec yarn update",
     "zombies": "ts-node scripts/zombies"

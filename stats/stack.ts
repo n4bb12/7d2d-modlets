@@ -14,7 +14,7 @@ export const MATERIAL_COMPACT   = 100   // can be scrapped for large amounts
 export const MATERIAL           = 250   // regular crafting materials
 export const MATERIAL_ELEMENTAL = 1000  // natural materials that cannot be scrapped
 export const MATERIAL_MELTED    = 50000 // materials that were melted in the forge
-export const CURRENCY           = 5000  // used for trading
+export const CURRENCY           = 50000 // used for trading
 
 export type ItemType =
  | typeof GEAR
