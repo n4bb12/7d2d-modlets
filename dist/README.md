@@ -174,6 +174,10 @@ Spotlight:
 
 - Adds a tiny chance to harvest nuggets and diamonds from rock, boulders, ore and oil shale
 
+#### HarvestPaletts
+
+- Pallete bags benefit from the Mother Lode perk
+
 #### HarvestRock
 
 - Increases stone, iron, coal, nitrate powder, lead, silver, gold, diamond harvested from boulders, rocks, ore

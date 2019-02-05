@@ -1,0 +1,1 @@
+- Pallete bags benefit from the Mother Lode perk
