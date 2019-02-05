@@ -1,0 +1,5 @@
+<config>
+  <set xpath='/item_modifiers/item_modifier[@name="modArmorStoragePocket"      ]/@installable_tags'>chest,legs</set>
+  <set xpath='/item_modifiers/item_modifier[@name="modArmorDoubleStoragePocket"]/@installable_tags'>chest,legs</set>
+  <set xpath='/item_modifiers/item_modifier[@name="modArmorTripleStoragePocket"]/@installable_tags'>chest,legs</set>
+</config>
