@@ -1,0 +1,4 @@
+<config>
+  <set xpath='/blocks/block[@name="chemistryStation"        ]/property[@name="SellableToTrader"]/@value'>true</set>
+  <set xpath='/blocks/block[@name="plantedHop1"             ]/property[@name="SellableToTrader"]/@value'>true</set>
+</config>
