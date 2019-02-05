@@ -1,7 +1,7 @@
 <config>
   <append xpath='/styles/global'>
     <style_entry name="n4bb12_stealth" value="247, 206, 47"/>
-    <style_entry name="n4bb12_food"    value="40, 127, 44"/>
+    <style_entry name="n4bb12_food"    value="104, 188, 107"/>
     <style_entry name="n4bb12_water"   value="72, 127, 226"/>
     <style_entry name="n4bb12_stamina" value="40, 53, 147"/>
     <style_entry name="n4bb12_health"  value="198, 40, 40"/>
