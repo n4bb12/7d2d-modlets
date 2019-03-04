@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_TradeVehiclesAndMore"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Makes the following items sellable to the trader: | chemistry station | filled drink can | filled drink jar | blood bag | hop seed | insulator | iron fragment | solar cell | 4x4 truck | bicycle | gyrocopter | minibike | motorcycle"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_ToolPowerSwingSound"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Removes the annoying sound from power swings"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

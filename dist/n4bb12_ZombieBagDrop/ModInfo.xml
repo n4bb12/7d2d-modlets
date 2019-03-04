@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_ZombieBagDrop"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Increases chance to drop a loot bag from 2%/3%/3% (normal/feral/radiated zombies) to 5%/10%/25%"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

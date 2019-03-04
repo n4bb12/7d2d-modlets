@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_HarvestChemistryStation"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Adds a chance to loot burning barrel, beaker and cooking pot when harvesting a chemistry station"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

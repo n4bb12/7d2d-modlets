@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_RandomGen"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="A better random map generator |  | ![](screenshot.png)"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

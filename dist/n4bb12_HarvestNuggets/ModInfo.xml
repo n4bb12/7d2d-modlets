@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_HarvestNuggets"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Adds a tiny chance to harvest nuggets and diamonds from rock, boulders, ore and oil shale"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

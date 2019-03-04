@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_Zombie+Animal_Size+Range"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Stags are supposted to be bigger than does, increases stag size by 25% | Bears can be big but these bears are huge, decreases bear size by 30% | Decreases zombie bear size by 20% | Adapts zombie and animal range for visual equality"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

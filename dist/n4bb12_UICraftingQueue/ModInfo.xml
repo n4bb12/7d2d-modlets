@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_UICraftingQueue"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Adds an additional crafting slot to fill up UI space | Properly aligns the crafting queue with other windows"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

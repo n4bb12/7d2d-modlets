@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_CorpseLifetime"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Increases the duration of corpses and dropped loot bags from 5 to 15 minutes"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

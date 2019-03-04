@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_XPForQuests"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Increases quest XP to 500% the normal value"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

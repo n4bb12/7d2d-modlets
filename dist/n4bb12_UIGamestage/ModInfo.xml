@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_UIGamestage"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Adds player kills, deaths and gamestage to the upper-left corner"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

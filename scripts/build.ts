@@ -2,6 +2,7 @@ import {
   copySync,
   ensureDirSync,
   readdirSync,
+  readFileSync,
   removeSync,
   statSync,
   writeFileSync,
@@ -41,7 +42,12 @@ try {
       ensureDirSync(distDir)
       copySync(srcDir, distDir)
 
-      const modInfo = buildModInfo(name)
+      const description = readFileSync(srcDir + "/README.md", "utf8")
+        .trim()
+        .split("\n")
+        .map(line => line.replace(/- /g, "").trim())
+        .join(" | ")
+      const modInfo = buildModInfo(name, description)
       writeFileSync(distDir + "/ModInfo.xml", modInfo, "utf8")
 
       const unwantedFiles = glob.sync(distDir + "/**/*.{ts,js,json}")

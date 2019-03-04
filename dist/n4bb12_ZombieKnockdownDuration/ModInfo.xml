@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_ZombieKnockdownDuration"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Increases potential knockdown duration to between 0.5 and 5 seconds makes the behaviour more random"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

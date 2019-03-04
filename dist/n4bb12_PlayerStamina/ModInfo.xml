@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_PlayerStamina"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Decreases stamina loss from running, jumping and swimming by 20%"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

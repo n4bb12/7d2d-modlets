@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_ToolUpgrade+Repair"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Changed upgrade/repair times to | Stone Axe: upgrade: 2s, repair: 250/s | ClawHammer: upgrade: 1s, repair: 500/s | Wrench: upgrade: 1s, repair: 1000/s | Nailgun: upgrade: 0.4s, repair: 5000/s"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

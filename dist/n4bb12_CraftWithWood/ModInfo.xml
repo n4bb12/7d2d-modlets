@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_CraftWithWood"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Increases the cost for a wine barrel from 6 to 15 wood and from 5 to 60 nails | Increases the cost for a wine barrel set from 12 to 45 wood and from 10 to 180 nails"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_LootGuns"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Decreases drop chance for Pistol in favour of moreMagnum 44s | Increases drop chance for Crossbow and Machete which were previously extremely rare | Decreases drop chance for Compound Bow which drops found way to frequently | Decreases drop chance for Hunting Rifle and Shotgun as they drop to frequently for such strong weapons | Firearms are found less frequently in general"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

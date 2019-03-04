@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_ContainerSize"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Updates all container sizes to 6x2, 6x4, 6x6, 8x6 or 8x8 | Tweaks some container sizes to make them more balanced"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

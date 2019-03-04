@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_CraftJarFromBucket"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Allows you to craft 45 filled jars directly from 1 filled bucket of water"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

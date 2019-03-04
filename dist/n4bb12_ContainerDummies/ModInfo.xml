@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_ContainerDummies"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Decreases the chance for non-lootable containers from 33% to 10%"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

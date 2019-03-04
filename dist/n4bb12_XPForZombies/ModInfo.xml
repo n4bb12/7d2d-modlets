@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_XPForZombies"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Sets consistent XP rates for feral (2x base zombie) and radiated (5x base zombie) zombies"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>

@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="n4bb12_TradePricing"/>
-    <Description value="See a full list of changes in the README"/>
+    <Description value="Increases the reward for selling items to 25% of the normal price | Decreases the price for buying items to 150% of the normal price"/>
     <Author value="n4bb12"/>
     <Version value="17.1.b9"/>
   </ModInfo>
