@@ -1,4 +1,0 @@
-- Stags are supposted to be bigger than does, increases stag size by 25%
-- Bears can be big but these bears are huge, decreases bear size by 30%
-- Decreases zombie bear size by 20%
-- Adapts zombie and animal range for visual equality
