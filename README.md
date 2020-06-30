@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/6136865/29045114-9ae8e510-7bc2-11e7-8487-19552001aafd.png" height="48">
-  7 Days to Die – Balance Modlets
+  7 Days to Die – Balance Modlets (A17)
 </h1>
 
 <p align="center">
