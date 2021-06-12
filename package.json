@@ -27,18 +27,18 @@
   },
   "devDependencies": {
     "@n4bb12/config-tslint": "^1.4.1",
-    "@types/fs-extra": "^5.0.5",
-    "@types/lodash": "^4.14.121",
-    "@types/node": "^11.9.5",
-    "fast-xml-parser": "^3.12.13",
-    "fs-extra": "^7.0.1",
-    "glob": "^7.1.3",
-    "lodash": "^4.17.11",
-    "node-notifier": "^5.4.0",
-    "nodemon": "^1.18.10",
-    "ts-node": "^8.0.2",
-    "tslint": "^5.13.0",
-    "typescript": "^3.3.3333"
+    "@types/fs-extra": "^9.0.11",
+    "@types/lodash": "^4.14.170",
+    "@types/node": "^15.12.2",
+    "fast-xml-parser": "^3.19.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "lodash": "^4.17.21",
+    "node-notifier": "^10.0.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.2"
   },
   "$schema": "http://json.schemastore.org/package"
 }
