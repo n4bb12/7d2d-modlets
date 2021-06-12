@@ -10,5 +10,5 @@ export const Shared = [
   "resourceCloth",
   "resourceFemur",
   "resourceNail",
-  ...items.map(item => item._name).filter(name => name.startsWith("mod")),
+  ...items.map((item) => item._name).filter((name) => name.startsWith("mod")),
 ]

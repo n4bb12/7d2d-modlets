@@ -8,13 +8,13 @@ const allBlocks = readJsonSync("json/blocks.json").blocks.block
 const allRecipes = readJsonSync("json/recipes.json").recipes.recipe
 
 function getValue(allEntities, entity, prop) {
-  const ecoProp = array(entity.property).find(p => p._name === prop)
+  const ecoProp = array(entity.property).find((p) => p._name === prop)
   if (ecoProp) {
     return ecoProp._value
   }
-  const extProp = array(entity.property).find(p => p._name === "Extends")
+  const extProp = array(entity.property).find((p) => p._name === "Extends")
   if (extProp) {
-    const parent = allEntities.find(i => i._name === extProp._value)
+    const parent = allEntities.find((i) => i._name === extProp._value)
     return getValue(allEntities, parent, prop)
   }
 }
@@ -24,12 +24,12 @@ function getFuelValue(allEntities, entity) {
 }
 
 function isCraftable(item) {
-  return allRecipes.find(r => r._name === item._name)
+  return allRecipes.find((r) => r._name === item._name)
 }
 
 const items = allItems
-  .filter(item => item.property)
-  .map(item => {
+  .filter((item) => item.property)
+  .map((item) => {
     const name = item._name
     const value = getFuelValue(allItems, item)
     const craftable = isCraftable(item)
@@ -40,8 +40,8 @@ const items = allItems
   .filter(identity)
 
 const blocks = allBlocks
-  .filter(block => block.property)
-  .map(block => {
+  .filter((block) => block.property)
+  .map((block) => {
     const name = block._name
     const value = getFuelValue(allBlocks, block)
     const craftable = isCraftable(block)
@@ -52,7 +52,7 @@ const blocks = allBlocks
   .filter(identity)
 
 const all = uniqBy([...items, ...blocks], "name")
-  .filter(item => {
+  .filter((item) => {
     return !item.name.includes("Helper")
   })
   .sort((a, b) => {
@@ -64,8 +64,10 @@ const all = uniqBy([...items, ...blocks], "name")
 
 function saveTable(entries, filename) {
   const table = entries
-    .map(item => {
-      return `| ${item.name.padEnd(45)} | ${item.value.padStart(10)} | ${item.craftable ? "X" : " "} |`
+    .map((item) => {
+      return `| ${item.name.padEnd(45)} | ${item.value.padStart(10)} | ${
+        item.craftable ? "X" : " "
+      } |`
     })
     .join("\n")
 

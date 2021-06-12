@@ -1,5 +1,10 @@
 import parser from "fast-xml-parser"
-import { ensureDirSync, readdirSync, readFileSync, writeFileSync } from "fs-extra"
+import {
+  ensureDirSync,
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+} from "fs-extra"
 
 const paths = {
   config: "D:/Spiele/SteamLibrary/steamapps/common/7 Days To Die/Data/Config",
@@ -7,8 +12,8 @@ const paths = {
 
 ensureDirSync("config")
 readdirSync(paths.config)
-  .filter(name => name.endsWith(".xml"))
-  .forEach(name => {
+  .filter((name) => name.endsWith(".xml"))
+  .forEach((name) => {
     const xmlFile = paths.config + "/" + name
     const xml = readFileSync(xmlFile, "utf8")
     const json = parser.parse(xml, {

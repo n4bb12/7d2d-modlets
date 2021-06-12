@@ -4,12 +4,10 @@ import { array } from "../../scripts/util"
 
 const json = readJsonSync("json/blocks.json")
 
-const changes = json
-  .blocks
-  .block
-  .filter(block => block._name.startsWith("tree") && block.drop)
-  .map(tree => {
-    const wood = array(tree.drop).find(d => d._name === "resourceWood")
+const changes = json.blocks.block
+  .filter((block) => block._name.startsWith("tree") && block.drop)
+  .map((tree) => {
+    const wood = array(tree.drop).find((d) => d._name === "resourceWood")
 
     if (wood && +wood._count > 0) {
       return {
@@ -19,7 +17,7 @@ const changes = json
     }
   })
   .filter(Boolean)
-  .map(tree => {
+  .map((tree) => {
     const chance = Math.round(tree.wood / 30)
     const numEggs = `${chance * 1},${chance * 2}`
     const numFeathers = `${chance * 2},${chance * 4}`

@@ -1,5 +1,4 @@
-*.json
 *.log
-node_modules
-NOTES.md
 enabled
+node_modules/
+NOTES.md

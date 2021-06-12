@@ -14,18 +14,22 @@ const json = readJsonSync("json/items.json")
 const items: Item[] = []
 
 export function getOldStackSize(name: string) {
-  const item = json.items.item.find(entry => entry._name === name)
-  const propStacknumber = array(item.property).find(p => p._name === "Stacknumber")
+  const item = json.items.item.find((entry) => entry._name === name)
+  const propStacknumber = array(item.property).find(
+    (p) => p._name === "Stacknumber",
+  )
   if (propStacknumber) {
     return +propStacknumber._value
   }
-  const propExtends = array(item.property).find(p => p._name === "Extends")
+  const propExtends = array(item.property).find((p) => p._name === "Extends")
   if (propExtends) {
-    return getStackSize(json.items.item.find(parent => parent._name === propExtends._value))
+    return getStackSize(
+      json.items.item.find((parent) => parent._name === propExtends._value),
+    )
   }
 }
 
-json.items.item.forEach(item => {
+json.items.item.forEach((item) => {
   const name = item._name
   const oldStack = getOldStackSize(name)
   const newStack = stack[name] || oldStack
@@ -34,7 +38,7 @@ json.items.item.forEach(item => {
 })
 
 const stackChanges = items
-  .filter(item => item.oldStack !== item.newStack)
+  .filter((item) => item.oldStack !== item.newStack)
   .sort((a, b) => {
     if (!!a.oldStack !== !!b.oldStack) {
       return a.oldStack ? -1 : 1
@@ -44,9 +48,9 @@ const stackChanges = items
     }
     return a.name.localeCompare(b.name)
   })
-  .map(item => {
-    const name = ("\"" + item.name + "\"").padEnd(35, " ")
-    const oldStack = ("\"" + item.oldStack + "\"").padEnd(10, " ")
+  .map((item) => {
+    const name = ('"' + item.name + '"').padEnd(35, " ")
+    const oldStack = ('"' + item.oldStack + '"').padEnd(10, " ")
     if (!item.oldStack) {
       return `  <append xpath='/items/item[@name=${name}]'><property name="Stacknumber" value="${item.newStack}"/></append>`
     }

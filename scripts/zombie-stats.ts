@@ -3,17 +3,25 @@ import { readJsonSync, writeFileSync } from "fs-extra"
 import { array } from "./util"
 
 const zombies = readJsonSync("json/entityclasses.json")
-  .entity_classes
-  .entity_class
-  .filter(zombie => !zombie._name.includes("Admin"))
-  .filter(zombie => array(zombie.effect_group).find(group => group._name === "Base Effects" || !group._name))
+  .entity_classes.entity_class.filter(
+    (zombie) => !zombie._name.includes("Admin"),
+  )
+  .filter((zombie) =>
+    array(zombie.effect_group).find(
+      (group) => group._name === "Base Effects" || !group._name,
+    ),
+  )
 
 function table(prop, decimals, filteredZombies) {
   const entries = filteredZombies
-    .map(zombie => {
+    .map((zombie) => {
       const name = zombie._name
-      const baseEffects = array(zombie.effect_group).find(group => group._name === "Base Effects" || !group._name)
-      const valueNode = array(baseEffects.passive_effect).find(effect => effect._name === prop)
+      const baseEffects = array(zombie.effect_group).find(
+        (group) => group._name === "Base Effects" || !group._name,
+      )
+      const valueNode = array(baseEffects.passive_effect).find(
+        (effect) => effect._name === prop,
+      )
       if (valueNode) {
         const str = valueNode._value
         const value = Number.isNaN(+str) ? str : +str
@@ -27,8 +35,11 @@ function table(prop, decimals, filteredZombies) {
       }
       return a.name.localeCompare(b.name)
     })
-    .map(pair => {
-      const value = typeof pair.value === "string" ? pair.value : pair.value.toFixed(decimals)
+    .map((pair) => {
+      const value =
+        typeof pair.value === "string"
+          ? pair.value
+          : pair.value.toFixed(decimals)
       return `| ${pair.name.padEnd(30)} | ${value.padStart(10)} |`
     })
     .join("\n")
@@ -40,11 +51,15 @@ function table(prop, decimals, filteredZombies) {
 ${entries}`
 }
 
-writeFileSync("stats/zombies.md", `## Base Effects
+writeFileSync(
+  "stats/zombies.md",
+  `## Base Effects
 
 - [HealthMax](#HealthMax)
 - [PhysicalDamageResist](#PhysicalDamageResist)
 
-${table("HealthMax",             0, zombies)}
-${table("PhysicalDamageResist",  0, zombies)}
-`, "utf8")
+${table("HealthMax", 0, zombies)}
+${table("PhysicalDamageResist", 0, zombies)}
+`,
+  "utf8",
+)

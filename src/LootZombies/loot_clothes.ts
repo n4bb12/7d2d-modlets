@@ -1,10 +1,7 @@
 export const clothes: {
-  [name: string]: string[],
+  [name: string]: string[]
 } = {
-  Arlene: [
-    "skirt",
-    "tankTop",
-  ],
+  Arlene: ["skirt", "tankTop"],
   Biker: [
     "armorLeatherGloves",
     "armorSwatHelmet",
@@ -13,56 +10,15 @@ export const clothes: {
     "gothicPants",
     "tankTop",
   ],
-  Boe: [
-    "denimPants",
-    "dressShoes",
-    "tshirt",
-    "nerdGlasses",
-  ],
-  Burnt: [
-    "denimPants",
-    "tshirt",
-  ],
-  BusinessMan: [
-    "cigar",
-    "dressShoes",
-    "shades",
-    "suitJacket",
-    "suitPants",
-  ],
-  Cheerleader: [
-    "hpRunningShoes",
-    "runningShoes",
-    "skirt",
-    "tankTop",
-  ],
-  Darlene: [
-    "dressShoes",
-    "shirt",
-    "suitPants",
-  ],
-  Farmer: [
-    "cowboyBoots",
-    "overalls",
-    "sweatshirt",
-  ],
-  FatCop: [
-    "dressShoes",
-    "suitJacket",
-    "suitPants",
-    "tshirt",
-  ],
-  FatHawaiian: [
-    "cigar",
-    "dressShoes",
-    "flannelShirt",
-    "shades",
-    "suitPants",
-  ],
-  FemaleFat: [
-    "skirt",
-    "sweatshirt",
-  ],
+  Boe: ["denimPants", "dressShoes", "tshirt", "nerdGlasses"],
+  Burnt: ["denimPants", "tshirt"],
+  BusinessMan: ["cigar", "dressShoes", "shades", "suitJacket", "suitPants"],
+  Cheerleader: ["hpRunningShoes", "runningShoes", "skirt", "tankTop"],
+  Darlene: ["dressShoes", "shirt", "suitPants"],
+  Farmer: ["cowboyBoots", "overalls", "sweatshirt"],
+  FatCop: ["dressShoes", "suitJacket", "suitPants", "tshirt"],
+  FatHawaiian: ["cigar", "dressShoes", "flannelShirt", "shades", "suitPants"],
+  FemaleFat: ["skirt", "sweatshirt"],
   FootballPlayer: [
     "armorClothGloves",
     "armorClothPants",
@@ -71,18 +27,8 @@ export const clothes: {
     "jacketLetter",
     "runningShoes",
   ],
-  Joe: [
-    "shirt",
-    "denimShortsPants",
-    "tshirt",
-    "wornBoots",
-    "nerdGlasses",
-  ],
-  Lab: [
-    "denimPants",
-    "runningShoes",
-    "shirt",
-  ],
+  Joe: ["shirt", "denimShortsPants", "tshirt", "wornBoots", "nerdGlasses"],
+  Lab: ["denimPants", "runningShoes", "shirt"],
   MaleHazmat: [
     "hazmatBoots",
     "hazmatGloves",
@@ -90,22 +36,9 @@ export const clothes: {
     "hazmatPants",
     "hazmatShirt",
   ],
-  Marlene: [
-    "denimPants",
-    "runningShoes",
-    "tankTop",
-  ],
-  Moe: [
-    "runningShoes",
-    "denimShortsPants",
-    "tankTop",
-    "nerdGlasses",
-  ],
-  Nurse: [
-    "dressShoes",
-    "skirt",
-    "tankTop",
-  ],
+  Marlene: ["denimPants", "runningShoes", "tankTop"],
+  Moe: ["runningShoes", "denimShortsPants", "tankTop", "nerdGlasses"],
+  Nurse: ["dressShoes", "skirt", "tankTop"],
   OldTimer: [
     "cowboyBoots",
     "cowboyHat",
@@ -113,15 +46,8 @@ export const clothes: {
     "leatherPoncho",
     "sweatshirt",
   ],
-  Screamer: [
-    "skirt",
-    "sweatshirt",
-  ],
-  Skateboarder: [
-    "denimPants",
-    "hoodedSweatshirt",
-    "wornBoots",
-  ],
+  Screamer: ["skirt", "sweatshirt"],
+  Skateboarder: ["denimPants", "hoodedSweatshirt", "wornBoots"],
   Snow: [
     "denimPants",
     "flannelShirtRed",
@@ -138,18 +64,9 @@ export const clothes: {
     "armyPants",
     "armyShirt",
   ],
-  Spider: [
-    "tshirt",
-    "denimPants",
-  ],
-  Steve: [
-    "denimPants",
-  ],
-  Stripper: [
-    "facialPiercings",
-    "gothBootsBlack",
-    "oldCash",
-  ],
+  Spider: ["tshirt", "denimPants"],
+  Steve: ["denimPants"],
+  Stripper: ["facialPiercings", "gothBootsBlack", "oldCash"],
   UtilityWorker: [
     "armorClothJacket",
     "armorMiningHelmet",
@@ -158,11 +75,7 @@ export const clothes: {
     "wornBoots",
   ],
   Wight: [],
-  Yo: [
-    "cowboyBoots",
-    "denimPants",
-    "shirt",
-  ],
+  Yo: ["cowboyBoots", "denimPants", "shirt"],
 }
 
 clothes.SteveCrawler = clothes.Steve

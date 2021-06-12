@@ -101,11 +101,7 @@ export const items: { [name: string]: string[] } = {
     "treePlantedMountainPine1m",
     "treePlantedWinterPine1m",
   ],
-  FatCop: [
-    "ammoShotgunShell",
-    "drinkCanMegaCrush",
-    "gunPumpShotgun",
-  ],
+  FatCop: ["ammoShotgunShell", "drinkCanMegaCrush", "gunPumpShotgun"],
   FatHawaiian: [
     "drinkJarGoldenRodTea",
     "drinkJarRedTea",
@@ -125,14 +121,8 @@ export const items: { [name: string]: string[] } = {
     "foodHoboStew",
     "foodShamChowder",
   ],
-  FootballPlayer: [
-    "resourceScrapIron",
-  ],
-  Joe: [
-    "ammo9mmBullet",
-    "gunPistol",
-    "gunSMG5",
-  ],
+  FootballPlayer: ["resourceScrapIron"],
+  Joe: ["ammo9mmBullet", "gunPistol", "gunSMG5"],
   Lab: [
     "drinkJarGrainAlcohol",
     "drugAntibiotics",
@@ -221,15 +211,8 @@ export const items: { [name: string]: string[] } = {
     "nightvisionGoggles",
     "thrownAmmoPipeBomb",
   ],
-  Spider: [
-    "resourceAcid",
-    "resourceGlue",
-  ],
-  Steve: [
-    "medicalPlasterCast",
-    "medicalSplint",
-    "meleeToolAuger",
-  ],
+  Spider: ["resourceAcid", "resourceGlue"],
+  Steve: ["medicalPlasterCast", "medicalSplint", "meleeToolAuger"],
   SteveCrawler: [
     "meleeToolAuger",
     "plantedAloe1",
@@ -245,9 +228,7 @@ export const items: { [name: string]: string[] } = {
     "treePlantedMountainPine1m",
     "treePlantedWinterPine1m",
   ],
-  Stripper: [
-    "oldCash",
-  ],
+  Stripper: ["oldCash"],
   UtilityWorker: [
     "gunToolNailgun",
     "meleeToolClawHammer",
@@ -271,7 +252,7 @@ export const items: { [name: string]: string[] } = {
 }
 
 items.Darlene = items.Arlene
-items.Joe     = items.Boe
+items.Joe = items.Boe
 items.Marlene = items.Arlene
-items.Moe     = items.Boe
-items.Yo      = items.OldTimer
+items.Moe = items.Boe
+items.Yo = items.OldTimer

@@ -4,13 +4,13 @@ import { identity, uniqBy } from "lodash"
 import { array } from "./util"
 
 function getValue(allEntities, entity, prop) {
-  const ecoProp = array(entity.property).find(p => p._name === prop)
+  const ecoProp = array(entity.property).find((p) => p._name === prop)
   if (ecoProp) {
     return ecoProp._value
   }
-  const extProp = array(entity.property).find(p => p._name === "Extends")
+  const extProp = array(entity.property).find((p) => p._name === "Extends")
   if (extProp) {
-    const parent = allEntities.find(i => i._name === extProp._value)
+    const parent = allEntities.find((i) => i._name === extProp._value)
     return getValue(allEntities, parent, prop)
   }
 }
@@ -27,8 +27,8 @@ const allItems = readJsonSync("json/items.json").items.item
 const allBlocks = readJsonSync("json/blocks.json").blocks.block
 
 const items = allItems
-  .filter(item => item.property)
-  .map(item => {
+  .filter((item) => item.property)
+  .map((item) => {
     const name = item._name
     const value = getEconomicValue(allItems, item)
     const sellable = isSellable(allItems, item)
@@ -39,8 +39,8 @@ const items = allItems
   .filter(identity)
 
 const blocks = allBlocks
-  .filter(block => block.property)
-  .map(block => {
+  .filter((block) => block.property)
+  .map((block) => {
     const name = block._name
     const value = getEconomicValue(allBlocks, block)
     const sellable = isSellable(allBlocks, block)
@@ -51,7 +51,7 @@ const blocks = allBlocks
   .filter(identity)
 
 const all = uniqBy([...items, ...blocks], "name")
-  .filter(item => {
+  .filter((item) => {
     return !item.name.includes("Helper")
   })
   .sort((a, b) => {
@@ -62,13 +62,15 @@ const all = uniqBy([...items, ...blocks], "name")
   })
 
 const onlySellable = all
-  .filter(object => object.sellable)
-  .filter(object => object.item)
+  .filter((object) => object.sellable)
+  .filter((object) => object.item)
 
 function saveTable(entries, filename) {
   const table = entries
-    .map(item => {
-      return `| ${item.name.padEnd(45)} | ${item.value.padStart(10)} | ${item.sellable ? "X" : " "} |`
+    .map((item) => {
+      return `| ${item.name.padEnd(45)} | ${item.value.padStart(10)} | ${
+        item.sellable ? "X" : " "
+      } |`
     })
     .join("\n")
 

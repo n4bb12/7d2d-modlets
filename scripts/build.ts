@@ -21,7 +21,7 @@ try {
   const mods = readdirSync("src")
 
   mods
-    .filter(name => {
+    .filter((name) => {
       const dir = "src/" + name
       const isDirectory = statSync(dir).isDirectory()
       if (!isDirectory) {
@@ -34,7 +34,7 @@ try {
       }
       return true
     })
-    .forEach(name => {
+    .forEach((name) => {
       const srcDir = "src/" + name
       const distDir = "dist/n4bb12_" + name
       const enabledDir = "enabled/n4bb12_" + name
@@ -45,13 +45,13 @@ try {
       const description = readFileSync(srcDir + "/README.md", "utf8")
         .trim()
         .split("\n")
-        .map(line => line.replace(/- /g, "").trim())
+        .map((line) => line.replace(/- /g, "").trim())
         .join(" | ")
       const modInfo = buildModInfo(name, description)
       writeFileSync(distDir + "/ModInfo.xml", modInfo, "utf8")
 
       const unwantedFiles = glob.sync(distDir + "/**/*.{ts,js,json}")
-      unwantedFiles.forEach(file => removeSync(file))
+      unwantedFiles.forEach((file) => removeSync(file))
 
       if (!disabledMods.includes(name)) {
         ensureDirSync(enabledDir)
@@ -59,7 +59,7 @@ try {
       }
     })
 
-  disabledMods.forEach(name => {
+  disabledMods.forEach((name) => {
     if (!mods.includes(name)) {
       console.log("WARN: No such mod: " + name)
     }

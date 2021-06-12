@@ -29,21 +29,20 @@ Copy individual folders to your 7 Days to Die \`Mods\` folder.
 export function buildCombinedReadme(rootDir: string) {
   const descriptions = [readmeHeader]
 
-  readdirSync(rootDir)
-    .forEach(dir => {
-      const srcDir = rootDir + "/" + dir
-      const srcReadme = srcDir + "/README.md"
+  readdirSync(rootDir).forEach((dir) => {
+    const srcDir = rootDir + "/" + dir
+    const srcReadme = srcDir + "/README.md"
 
-      if (existsSync(srcReadme)) {
-        const name = dir.replace(/^n4bb12_/, "")
-        const changes = readFileSync(srcDir + "/README.md", "utf8").trim()
+    if (existsSync(srcReadme)) {
+      const name = dir.replace(/^n4bb12_/, "")
+      const changes = readFileSync(srcDir + "/README.md", "utf8").trim()
 
-        descriptions.push("#### " + name)
-        descriptions.push("")
-        descriptions.push(changes)
-        descriptions.push("")
-      }
-    })
+      descriptions.push("#### " + name)
+      descriptions.push("")
+      descriptions.push(changes)
+      descriptions.push("")
+    }
+  })
 
   const combinedReadme = descriptions.join("\n")
   writeFileSync(rootDir + "/README.md", combinedReadme, "utf8")

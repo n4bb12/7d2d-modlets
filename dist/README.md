@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/6136865/29045114-9ae8e510-7bc2-11e7-8487-19552001aafd.png" height="48">
   7 Days to Die – Balance Modlets
@@ -67,23 +66,10 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 - Allows you to craft 45 filled jars directly from 1 filled bucket of water
 
-#### CraftKitchenElectronics
-
-Allows you to craft kitchen tool storages
-- oven
-- microwave
-- fridge
-- sink
-- washing machine
-- trash compactor
-- beer cooler
-
-These storages are only containers as crafting them would not be believeable.
-They can be harvested for forged iron and repaired with forged iron.
-
 #### CraftLight
 
 Mining Helmet:
+
 - Craftable also with the red version of the football helmet
 - Requires a headlight instead of a flashlight
 - Decreases the duct tape from 5 to 2
@@ -91,23 +77,27 @@ Mining Helmet:
 - No longer needs scrap plastic
 
 Flashlight:
+
 - Requires a short iron pipe instead of forged iron
 - Decreases the electrical parts from 10 to 8
 - Decreases the duct tape from 4 to 2
 - Now needs 2 glue
 
 Helmet Light:
+
 - Requires a torch instead of a headlight
 - No longer needs forged steel
 - No longer needs scrap plastic
 
 Weapon Flashlight:
+
 - Requires a torch instead of a headlight
 - Added 2 duct tape instead of 2 glue
 - No longer needs electrical parts
 - No longer needs scrap plastic
 
 Spotlight:
+
 - Requires 20 forged iron instead of 50 scrap iron
 - Requires 4 Glue instead of 2 duct tape
 
@@ -182,15 +172,15 @@ Spotlight:
 
 - Increases stone, iron, coal, nitrate powder, lead, silver, gold, diamond harvested from boulders, rocks, ore
 - Each aforementioned resource consumes a certain amount of slots, each block adds up to the same amount of 150 slots:
-  - small stone:     1 points
-  - iron fragment:   1.5 points
-  - coal:            3 points
-  - nitrate powder:  3 points
-  - lead:            3 points
-  - oil shale:       3 points
-  - silver:          7.5 points
-  - gold:            15 points
-  - diamond:         30 points
+  - small stone: 1 points
+  - iron fragment: 1.5 points
+  - coal: 3 points
+  - nitrate powder: 3 points
+  - lead: 3 points
+  - oil shale: 3 points
+  - silver: 7.5 points
+  - gold: 15 points
+  - diamond: 30 points
 
 #### HarvestTrees
 
@@ -248,6 +238,7 @@ Spotlight:
 #### PickStuffUp
 
 Allows you to pick up and scrap
+
 - paintings
 - curtains
 - blinds
@@ -296,11 +287,12 @@ Allows you to pick up and scrap
 #### StrongerSecureStorages
 
 Adjusts the hit points of safes and metal storages:
-- Lockers            300 -->  750
-- Green Drawer      2500 --> 1500
-- Desk Safe         2400 --> 3000
-- Wall Safe         2400 --> 3000
-- Gun Safe          2400 --> 6000
+
+- Lockers 300 --> 750
+- Green Drawer 2500 --> 1500
+- Desk Safe 2400 --> 3000
+- Wall Safe 2400 --> 3000
+- Gun Safe 2400 --> 6000
 
 #### ToolEntityDamage
 
@@ -326,6 +318,7 @@ Adjusts the hit points of safes and metal storages:
 #### TradeVehiclesAndMore
 
 Makes the following items sellable to the trader:
+
 - chemistry station
 - filled drink can
 - filled drink jar

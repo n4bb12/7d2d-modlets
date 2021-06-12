@@ -4,10 +4,14 @@ const nodes = readJsonSync("json/sounds.json").Sounds.SoundDataNode
 const factor = 1 / 3
 
 const result = nodes
-  .map(suppressed => {
+  .map((suppressed) => {
     if (suppressed._name.endsWith("_s_fire")) {
       const name = suppressed._name
-      const normal = nodes.find(node => node._name.toLowerCase() === suppressed._name.toLowerCase().replace(/_s_/, "_"))
+      const normal = nodes.find(
+        (node) =>
+          node._name.toLowerCase() ===
+          suppressed._name.toLowerCase().replace(/_s_/, "_"),
+      )
       const id = normal.Noise._ID
       const range = Math.round(+normal.Noise._range * factor)
       const volume = Math.round(+normal.Noise._volume * factor)

@@ -9,9 +9,9 @@ try {
   ensureDirSync(paths.mods)
 
   readdirSync(paths.mods)
-    .filter(name => name.startsWith("n4bb12_"))
-    .map(name => paths.mods + "/" + name)
-    .forEach(path => removeSync(path))
+    .filter((name) => name.startsWith("n4bb12_"))
+    .map((name) => paths.mods + "/" + name)
+    .forEach((path) => removeSync(path))
 
   copySync("enabled", paths.mods)
 
@@ -19,7 +19,6 @@ try {
     title: "7D2D Mods",
     message: "Copy complete!",
   })
-
 } catch (error) {
   notifier.notify({
     title: "7D2D Mods",
