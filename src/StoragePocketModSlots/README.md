@@ -1,1 +1,0 @@
-- Allows installing storage pockets in all chest and leg slots, but not in the feet, hand and head slots

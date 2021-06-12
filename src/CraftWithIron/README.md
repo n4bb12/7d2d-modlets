@@ -1,1 +1,0 @@
-- Reduces the price for crafting iron bars by 50%

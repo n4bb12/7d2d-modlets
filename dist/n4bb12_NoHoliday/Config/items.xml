@@ -1,5 +1,0 @@
-<config>
-  <remove xpath='/items/item[@name="santaHat"]'/>
-  <remove xpath='/items/item[@name="meleeCandyCaneShiv"]'/>
-  <remove xpath='/items/item[@name="meleeCandyCaneClub"]'/>
-</config>

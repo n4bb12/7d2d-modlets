@@ -1,1 +1,0 @@
-- Allows you to craft 45 filled jars directly from 1 filled bucket of water

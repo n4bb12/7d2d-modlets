@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_StoragePocketModSlots"/>
-    <Description value="Allows installing storage pockets in all chest and leg slots, but not in the feet, hand and head slots"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

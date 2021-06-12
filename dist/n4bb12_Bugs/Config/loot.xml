@@ -1,3 +1,0 @@
-<config>
-  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="modAllT3" and @loot_prob_template="vehicleParts"]'/>
-</config>

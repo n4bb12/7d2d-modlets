@@ -1,1 +1,0 @@
-- Gain 5 instead of 4 skill points for completing the basic survival quest

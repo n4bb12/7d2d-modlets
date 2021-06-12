@@ -1,7 +1,0 @@
-<config>
-  <append xpath='/styles/global'>
-    <style_entry name="n4bb12_kills"  value="40,44,52"/>
-    <style_entry name="n4bb12_stage"  value="40,44,52"/>
-    <style_entry name="n4bb12_deaths" value="40,44,52"/>
-  </append>
-</config>

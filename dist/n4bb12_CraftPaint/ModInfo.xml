@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_CraftPaint"/>
-    <Description value="Changes the paint ingredients to require 10 flowers each instead of 1 and a bucket of water instead of a jar"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

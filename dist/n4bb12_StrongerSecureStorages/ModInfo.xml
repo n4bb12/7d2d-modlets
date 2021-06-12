@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_StrongerSecureStorages"/>
-    <Description value="Adjusts the hit points of safes and metal storages: |  | Lockers 300 --> 750 | Green Drawer 2500 --> 1500 | Desk Safe 2400 --> 3000 | Wall Safe 2400 --> 3000 | Gun Safe 2400 --> 6000"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

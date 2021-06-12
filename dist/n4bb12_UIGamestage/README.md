@@ -1,1 +1,0 @@
-- Adds player kills, deaths and gamestage to the upper-left corner

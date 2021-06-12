@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_HarvestBirdNestsInTrees"/>
-    <Description value="Adds a chance to loot feathers and eggs from trees, depending on the size of the tree"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

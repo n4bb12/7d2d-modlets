@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_CraftWithForgedIron"/>
-    <Description value="Decreases the cost of empty bucket from 7 to 4 forged iron | Increases the cost of burning barrel from 3 to 8 forged iron | Increases the cost of battery bank from 10 to 30 forged iron | Increases the cost of generator bank from 10 to 30 forged iron | Increases the cost of bycicle chassis from 5 to 15 forged iron | Increases the cost of minibike chassis from 10 to 40 forged iron"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

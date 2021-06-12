@@ -1,1 +1,0 @@
-- Get broken glass from destroying paintings

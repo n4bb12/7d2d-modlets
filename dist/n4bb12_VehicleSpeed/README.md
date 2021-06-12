@@ -1,5 +1,0 @@
-- Changed bicycle speed from 5-10 to 6-8< m/s
-- Changed minibike speed from 7-10 to 8-12 m/s
-- Changed motorcycle speed from 9-14 to 12-18 m/s
-- Changed 4x4 truck speed from 9-13 to 12-18 m/s
-- Changed gyrocopter speed from 7-10 to 8-12 m/s

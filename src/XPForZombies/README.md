@@ -1,1 +1,0 @@
-- Sets consistent XP rates for feral (2x base zombie) and radiated (5x base zombie) zombies

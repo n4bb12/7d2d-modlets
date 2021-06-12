@@ -1,4 +1,0 @@
-<config>
-  <set xpath='/blocks/block[@name="houseFrontDoor1_v1"]/drop[@event="Destroy" and @count="0"]/@count'>1</set>
-  <setattribute xpath='/blocks/block[@name="houseFrontDoor1_v1"]/drop[@event="Destroy"]' name='name'>resourceDoorKnob</setattribute>
-</config>

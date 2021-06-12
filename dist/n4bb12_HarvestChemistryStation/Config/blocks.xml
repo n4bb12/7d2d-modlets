@@ -1,7 +1,0 @@
-<config>
-  <append xpath='/blocks/block[@name="chemistryStation"]'>
-    <drop event="Harvest" name="burningBarrelPlayer" count="1" prob="0.25" tag="salvageHarvest"/>
-    <drop event="Harvest" name="toolBeaker" count="2" prob="0.25" tag="salvageHarvest"/>
-    <drop event="Harvest" name="toolCookingPot" count="3" prob="0.25" tag="salvageHarvest"/>
-  </append>
-</config>

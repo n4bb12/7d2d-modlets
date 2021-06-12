@@ -1,1 +1,0 @@
-- Increases the number of ingredients and their amounts for crafting metal storages to make them more challenging

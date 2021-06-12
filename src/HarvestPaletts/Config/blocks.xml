@@ -1,3 +1,0 @@
-<config>
-  <set xpath='/blocks/block[starts-with(@name, "pallet")]/drop[@event="Harvest" and @tag="allHarvest"]/@tag'>oreWoodHarvest</set>
-</config>

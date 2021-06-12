@@ -1,1 +1,0 @@
-- Increases chance to drop a loot bag from 2%/3%/3% (normal/feral/radiated zombies) to 5%/10%/25%

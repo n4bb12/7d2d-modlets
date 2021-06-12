@@ -1,3 +1,0 @@
-<config>
-  <set xpath='/buffs/buff[@name="buffEncumberedInv"]/effect_group/triggered_effect[@trigger="onSelfBuffUpdate"][@operation="multiply" and @value="0.026"]/@value'>0.02</set>
-</config>

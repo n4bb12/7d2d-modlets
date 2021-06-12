@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_Bugs"/>
-    <Description value="Fixes typos in XML files | Adds missing texts for MegaCrush | Adds missing texts for RandomGenPreviewer | Fix Dead Eye rank 4 text, it should be 20/30/40%"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

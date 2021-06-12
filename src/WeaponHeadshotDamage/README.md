@@ -1,1 +1,0 @@
-- Increases headshot damage with bullets, arrows and bolts by 100%

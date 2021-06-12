@@ -1,1 +1,0 @@
-- Removes holiday items

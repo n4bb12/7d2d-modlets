@@ -1,8 +1,0 @@
-<config>
-  <append xpath='/recipes'>
-    <recipe name="drinkJarRiverWater" count="45">
-      <ingredient name="bucketRiverWater" count="1"/>
-      <ingredient name="drinkJarEmpty" count="45"/>
-    </recipe>
-  </append>
-</config>

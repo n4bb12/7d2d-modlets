@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_Zombie+AnimalSpawning"/>
-    <Description value="Increases the amount of animals spawned | Rebalanced the amount of zombies spawned | Decreases the number of vultures | Removes vultures from the snow biome | Animals are more active at night | Zombies are more active at day"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

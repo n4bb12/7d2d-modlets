@@ -1,2 +1,0 @@
-- Increases the reward for selling items to 25% of the normal price
-- Decreases the price for buying items to 150% of the normal price

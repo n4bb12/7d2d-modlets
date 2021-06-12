@@ -1,1 +1,0 @@
-- Increases quest XP to 500% the normal value

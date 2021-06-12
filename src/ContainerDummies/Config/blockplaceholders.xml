@@ -1,4 +1,0 @@
-<config>
-  <set xpath='/blockplaceholders/placeholder/block[@prob=".66"]/@prob'>0.9</set>
-  <set xpath='/blockplaceholders/placeholder/block[@prob=".33"]/@prob'>0.1</set>
-</config>

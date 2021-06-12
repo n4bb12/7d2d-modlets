@@ -1,2 +1,0 @@
-- Updates all container sizes to 6x2, 6x4, 6x6, 8x6 or 8x8
-- Tweaks some container sizes to make them more balanced

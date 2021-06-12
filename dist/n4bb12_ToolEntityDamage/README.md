@@ -1,1 +1,0 @@
-- Auger and Chainsaw entity damage Increases by 400%

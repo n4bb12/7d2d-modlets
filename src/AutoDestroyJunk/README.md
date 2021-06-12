@@ -1,1 +1,0 @@
-- Junk bags get destroyed when looted

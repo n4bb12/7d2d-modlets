@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_ZombieWanderingHordeSize"/>
-    <Description value="Increases the size of wandering hordes to 5x the normal size | Animal horde sizes remain unchanged"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

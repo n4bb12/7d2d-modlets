@@ -1,1 +1,0 @@
-- Destroying doors with a knob yields a brass doorknob

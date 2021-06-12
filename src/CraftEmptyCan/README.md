@@ -1,1 +1,0 @@
-- Allows you to craft empty cans in the forge

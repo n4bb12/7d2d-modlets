@@ -1,7 +1,0 @@
-<config>
-  <append xpath='/recipes'>
-    <recipe name="drinkCanEmpty" count="1" craft_area="forge" material_based="true">
-      <ingredient name="unit_iron" count="10"/>
-    </recipe>
-  </append>
-</config>

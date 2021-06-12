@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="n4bb12_HarvestRock"/>
-    <Description value="Increases stone, iron, coal, nitrate powder, lead, silver, gold, diamond harvested from boulders, rocks, ore | Each aforementioned resource consumes a certain amount of slots, each block adds up to the same amount of 150 slots: | small stone: 1 points | iron fragment: 1.5 points | coal: 3 points | nitrate powder: 3 points | lead: 3 points | oil shale: 3 points | silver: 7.5 points | gold: 15 points | diamond: 30 points"/>
-    <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
-  </ModInfo>
-</xml>

@@ -1,8 +1,0 @@
-<config>
-  <set xpath='/recipes/recipe[@name="bucketEmpty"           ]/ingredient[@name="resourceForgedIron" and @count="7" ]/@count'>4</set>
-  <set xpath='/recipes/recipe[@name="burningBarrelPlayer"   ]/ingredient[@name="resourceForgedIron" and @count="3" ]/@count'>8</set>
-  <set xpath='/recipes/recipe[@name="batterybank"           ]/ingredient[@name="resourceForgedIron" and @count="10"]/@count'>30</set>
-  <set xpath='/recipes/recipe[@name="generatorbank"         ]/ingredient[@name="resourceForgedIron" and @count="10"]/@count'>30</set>
-  <set xpath='/recipes/recipe[@name="vehicleBicycleChassis" ]/ingredient[@name="resourceForgedIron" and @count="5" ]/@count'>15</set>
-  <set xpath='/recipes/recipe[@name="vehicleMinibikeChassis"]/ingredient[@name="resourceForgedIron" and @count="10"]/@count'>40</set>
-</config>
