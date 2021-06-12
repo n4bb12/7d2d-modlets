@@ -1,1 +1,1 @@
-- Decreases the increase of required XP per level by 33%
+- Decreases the increase of required XP per level by 80% but removes the XP clamp at level 60

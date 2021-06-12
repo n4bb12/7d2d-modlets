@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/6136865/29045114-9ae8e510-7bc2-11e7-8487-19552001aafd.png" height="48">
   7 Days to Die – Balance Modlets
@@ -25,4 +24,4 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 #### XPPlayerProgression
 
-- Decreases the increase of required XP per level by 33%
+- Decreases the increase of required XP per level by 80% but removes the XP clamp at level 60
