@@ -50,7 +50,7 @@ try {
       const modInfo = buildModInfo(name, description)
       writeFileSync(distDir + "/ModInfo.xml", modInfo, "utf8")
 
-      const unwantedFiles = glob.sync(distDir + "/**/*.{ts,js,json}")
+      const unwantedFiles = glob.sync(distDir + "/**/*.{ts,js,json,xlsx}")
       unwantedFiles.forEach((file) => removeSync(file))
 
       if (!disabledMods.includes(name)) {
