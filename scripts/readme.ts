@@ -11,10 +11,10 @@ const readmeHeader = `
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/n4bb12/7d2d-balance/master/LICENSE">
-    <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/7d2d-balance?icon=github">
+  <a href="https://raw.githubusercontent.com/n4bb12/7d2d-modlets/master/LICENSE">
+    <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/7d2d-modlets?icon=github">
   </a>
-  <a href="https://github.com/n4bb12/7d2d-balance/issues/new">
+  <a href="https://github.com/n4bb12/7d2d-modlets/issues/new">
     <img alt="Issues" src="https://flat.badgen.net/badge/github/create issue/pink?icon=github">
   </a>
 </p>
