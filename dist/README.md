@@ -23,6 +23,10 @@ Copy individual folders to your 7 Days to Die `Mods` folder.
 
 ## Modlets
 
+#### AutoDestroyBirdsNest
+
+- Birds nests get destroyed when looted
+
 #### XPPlayerProgression
 
 - Decreases the increase of required XP per level by 80% but removes the XP clamp at level 60
