@@ -11,7 +11,6 @@ import glob from "glob"
 import notifier from "node-notifier"
 
 import { distributedMods } from "./distributedMods"
-import { enabledMods } from "./enabledMods"
 import { buildModInfo } from "./modinfo"
 import { buildCombinedReadme } from "./readme"
 
@@ -39,7 +38,6 @@ try {
     .forEach((name) => {
       const srcDir = "src/" + name
       const buildDir = "build/n4bb12_" + name
-      const enabledDir = "enabled/n4bb12_" + name
       const distDir = "dist/n4bb12_" + name
 
       ensureDirSync(buildDir)
@@ -56,18 +54,13 @@ try {
       const unwantedFiles = glob.sync(buildDir + "/**/*.{ts,js,json,xlsx}")
       unwantedFiles.forEach((file) => removeSync(file))
 
-      if (enabledMods.includes(name)) {
-        ensureDirSync(enabledDir)
-        copySync(buildDir, enabledDir)
-      }
-
       if (distributedMods.includes(name)) {
         ensureDirSync(distDir)
         copySync(buildDir, distDir)
       }
     })
 
-  enabledMods.forEach((name) => {
+  distributedMods.forEach((name) => {
     if (!mods.includes(name)) {
       console.log("WARN: No such mod: " + name)
     }
