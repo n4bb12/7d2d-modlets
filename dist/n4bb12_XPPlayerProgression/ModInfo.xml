@@ -4,6 +4,6 @@
     <Name value="n4bb12_XPPlayerProgression"/>
     <Description value="Decreases the increase of required XP per level by 80% but removes the XP clamp at level 60"/>
     <Author value="n4bb12"/>
-    <Version value="17.1.b9"/>
+    <Version value="19.5.b60"/>
   </ModInfo>
 </xml>

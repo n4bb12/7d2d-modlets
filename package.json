@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/package",
   "name": "@n4bb12/7d2d-modlets",
-  "version": "17.1.b9",
+  "version": "19.5.b60",
   "private": true,
   "description": "Balance changes for 7 Days to Die",
   "keywords": [
