@@ -39,16 +39,17 @@ const entityclasses = Object.keys(loot)
     const containerName = `zombie${zombieName}LootBag`
     const lootlist = BAG_ID_OFFSET + index
     const assignments = ["", "Feral", "Radiated"]
-      .map(suffix => zombieName + suffix)
-      .filter(zombieId => validZombies[zombieId])
-      .map(zombieId => renderEntityAssignment(zombieId, containerName))
+      .map((suffix) => zombieName + suffix)
+      .filter((zombieId) => validZombies[zombieId])
+      .map((zombieId) => renderEntityAssignment(zombieId, containerName))
       .join("\n")
 
     return [
       renderEntityClass(zombieName, containerName, lootlist),
       assignments,
     ].join("\n\n")
-  }).join("\n")
+  })
+  .join("\n")
 
 const entityXml = `<config>
   <append xpath='/entity_classes'>

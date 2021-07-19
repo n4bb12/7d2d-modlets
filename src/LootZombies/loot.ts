@@ -3,6 +3,6 @@ import { items } from "./loot_items"
 
 export const loot = {}
 
-Object.keys(clothes).forEach(key => {
+Object.keys(clothes).forEach((key) => {
   loot[key] = [...clothes[key], ...items[key]]
 })
