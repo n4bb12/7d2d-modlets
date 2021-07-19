@@ -30,19 +30,19 @@
     "zombies": "ts-node --project tsconfig.json scripts/zombies"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.11",
-    "@types/glob": "^7.1.3",
-    "@types/lodash": "^4.14.170",
-    "@types/node": "^15.12.2",
-    "@types/node-notifier": "^8.0.0",
+    "@types/fs-extra": "^9.0.12",
+    "@types/glob": "^7.1.4",
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^16.3.3",
+    "@types/node-notifier": "^8.0.1",
     "fast-xml-parser": "^3.19.0",
     "fs-extra": "^10.0.0",
     "glob": "^7.1.7",
     "lodash": "^4.17.21",
     "node-notifier": "^10.0.0",
-    "nodemon": "^2.0.7",
-    "prettier": "^2.3.1",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.2"
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
   }
 }
