@@ -1,0 +1,5 @@
+- Caps forge stacks at 50000
+- Caps all natural base resources at 1000
+- Caps regular material stacks at 250
+- Caps dense materials at 125 or 50, based on their scrap value
+- Caps consumables at 25

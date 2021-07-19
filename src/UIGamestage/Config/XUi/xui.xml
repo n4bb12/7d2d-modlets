@@ -1,0 +1,5 @@
+<config>
+  <append xpath='/xui/ruleset[@name="default"]/window_group[@name="toolbelt"]'>
+    <window name="n4bb12_TopLeftStatBars" anchor="LeftTop" />
+  </append>
+</config>

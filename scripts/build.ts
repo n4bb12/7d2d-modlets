@@ -10,13 +10,15 @@ import {
 import glob from "glob"
 import notifier from "node-notifier"
 
-import { disabledMods } from "./disabled"
+import { distributedMods } from "./distributedMods"
+import { enabledMods } from "./enabledMods"
 import { buildModInfo } from "./modinfo"
 import { buildCombinedReadme } from "./readme"
 
 try {
-  removeSync("dist")
+  removeSync("build")
   removeSync("enabled")
+  removeSync("dist")
 
   const mods = readdirSync("src")
 
@@ -36,11 +38,12 @@ try {
     })
     .forEach((name) => {
       const srcDir = "src/" + name
-      const distDir = "dist/n4bb12_" + name
+      const buildDir = "build/n4bb12_" + name
       const enabledDir = "enabled/n4bb12_" + name
+      const distDir = "dist/n4bb12_" + name
 
-      ensureDirSync(distDir)
-      copySync(srcDir, distDir)
+      ensureDirSync(buildDir)
+      copySync(srcDir, buildDir)
 
       const description = readFileSync(srcDir + "/README.md", "utf8")
         .trim()
@@ -48,25 +51,31 @@ try {
         .map((line) => line.replace(/- /g, "").trim())
         .join(" | ")
       const modInfo = buildModInfo(name, description)
-      writeFileSync(distDir + "/ModInfo.xml", modInfo, "utf8")
+      writeFileSync(buildDir + "/ModInfo.xml", modInfo, "utf8")
 
-      const unwantedFiles = glob.sync(distDir + "/**/*.{ts,js,json,xlsx}")
+      const unwantedFiles = glob.sync(buildDir + "/**/*.{ts,js,json,xlsx}")
       unwantedFiles.forEach((file) => removeSync(file))
 
-      if (!disabledMods.includes(name)) {
+      if (enabledMods.includes(name)) {
         ensureDirSync(enabledDir)
-        copySync(distDir, enabledDir)
+        copySync(buildDir, enabledDir)
+      }
+
+      if (distributedMods.includes(name)) {
+        ensureDirSync(distDir)
+        copySync(buildDir, distDir)
       }
     })
 
-  disabledMods.forEach((name) => {
+  enabledMods.forEach((name) => {
     if (!mods.includes(name)) {
       console.log("WARN: No such mod: " + name)
     }
   })
 
-  buildCombinedReadme("dist")
+  buildCombinedReadme("build")
   buildCombinedReadme("enabled")
+  buildCombinedReadme("dist")
 } catch (error) {
   notifier.notify({
     title: "7D2D Modlets",

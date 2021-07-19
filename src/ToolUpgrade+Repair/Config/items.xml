@@ -1,0 +1,22 @@
+<config>
+  <!-- Stone Axe -->
+  <!-- Upgrade: 2s, Repair: 500/s -->
+  <set xpath='/items/item[@name="meleeToolStoneAxe"]/property[@class="Action1"]/property[@name="Upgrade_hit_offset" and @value="0"]/@value'>0</set>
+  <set xpath='/items/item[@name="meleeToolStoneAxe"]/property[@class="Action1"]/property[@name="Delay" and @value=".64"]/@value'>0.50</set>
+  <set xpath='/items/item[@name="meleeToolStoneAxe"]/property[@class="Action1"]/property[@name="Repair_amount" and @value="100"]/@value'>125</set>
+  <!-- ClawHammer -->
+  <!-- Upgrade: 1s, Repair: 1000/s -->
+  <set xpath='/items/item[@name="meleeToolClawHammer"]/property[@class="Action1"]/property[@name="Upgrade_hit_offset" and @value="-3"]/@value'>-2</set>
+  <set xpath='/items/item[@name="meleeToolClawHammer"]/property[@class="Action1"]/property[@name="Delay" and @value=".64"]/@value'>0.50</set>
+  <set xpath='/items/item[@name="meleeToolClawHammer"]/property[@class="Action1"]/property[@name="Repair_amount" and @value="250"]/@value'>250</set>
+  <!-- Wrench -->
+  <!-- Upgrade: 1s, Repair: 1500/s -->
+  <set xpath='/items/item[@name="meleeToolWrench"]/property[@class="Action1"]/property[@name="Upgrade_hit_offset" and @value="-2"]/@value'>-3</set>
+  <set xpath='/items/item[@name="meleeToolWrench"]/property[@class="Action1"]/property[@name="Delay" and @value="1"]/@value'>1</set>
+  <set xpath='/items/item[@name="meleeToolWrench"]/property[@class="Action1"]/property[@name="Repair_amount" and @value="350"]/@value'>1000</set>
+  <!-- Nailgun -->
+  <!-- Upgrade: 0.5s, Repair: 4000/s -->
+  <set xpath='/items/item[@name="gunToolNailgun"]/property[@class="Action1"]/property[@name="Upgrade_hit_offset" and @value="-5"]/@value'>-1</set>
+  <set xpath='/items/item[@name="gunToolNailgun"]/property[@class="Action1"]/property[@name="Delay" and @value="0.73"]/@value'>0.1</set>
+  <set xpath='/items/item[@name="gunToolNailgun"]/property[@class="Action1"]/property[@name="Repair_amount" and @value="250"]/@value'>500</set>
+</config>

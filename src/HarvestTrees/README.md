@@ -1,0 +1,1 @@
+- Increases wood harvested from trees by 50%

@@ -1,0 +1,1 @@
+- Decreases the chance for non-lootable containers from 33% to 10%

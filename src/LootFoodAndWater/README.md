@@ -1,0 +1,4 @@
+- Reduces the amount of bottled water and canned food found in zombies and unrelated containers
+- Adds the amount of canned food found in the kitchen
+- Adds canned food to cardboard boxes
+- Adds rotten food to the refridgerator

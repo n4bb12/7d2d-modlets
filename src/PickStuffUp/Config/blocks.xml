@@ -1,0 +1,43 @@
+<config>
+  <append xpath='/blocks/block[@name="commercialBlindsTop"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="2"/>
+    <property name="Material" value="MresourceScrapPolymers"/>
+  </append>
+  <append xpath='/blocks/block[@name="curtain_top1Sheet3"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="10"/>
+  </append>
+  <append xpath='/blocks/block[@name="miniblindTopSheet"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="2"/>
+    <property name="Material" value="MresourceScrapPolymers"/>
+  </append>
+  <append xpath='/blocks/block[@name="paintingBen"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="10"/>
+  </append>
+  <append xpath='/blocks/block[@name="paintingDerek"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="10"/>
+  </append>
+  <append xpath='/blocks/block[@name="paintingDuke"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="10"/>
+  </append>
+  <append xpath='/blocks/block[@name="paintingKen"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="10"/>
+  </append>
+  <append xpath='/blocks/block[@name="paintingLorien"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="10"/>
+  </append>
+  <append xpath='/blocks/block[@name="paintingNoah"]' >
+    <property name="CanPickup" value="true"/>
+    <property name="Weight" value="10"/>
+  </append>
+  <append xpath='/blocks/block[@name="tire"]' >
+    <property name="CanPickup" value="true"/>
+  </append>
+</config>

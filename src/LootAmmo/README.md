@@ -1,0 +1,1 @@
+- Removes ammo from kitchen sinks, cupboards, cars, garage stuff, tools

@@ -1,0 +1,86 @@
+<config>
+  <append xpath='/recipes'>
+    <recipe name="modDyeBlack" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceCoal" count="24"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBlack" craft_area="chemistryStation" count="1">
+      <ingredient name="vehicleWheels" count="1"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBlue" craft_area="chemistryStation" count="1">
+      <ingredient name="foodCropBlueberries" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBrown" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceClayLump" count="24"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBrown" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceCropCoffeeBeans" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeBrown" craft_area="chemistryStation" count="2">
+      <ingredient name="modDyeRed" count="1"/>
+      <ingredient name="modDyeGreen" count="1"/>
+    </recipe>
+    <recipe name="modDyeGreen" craft_area="chemistryStation" count="1">
+      <ingredient name="foodCropYuccaFruit" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeGreen" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceYuccaFibers" count="24"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeOrange" craft_area="chemistryStation" count="2">
+      <ingredient name="modDyeRed" count="1"/>
+      <ingredient name="modDyeYellow" count="1"/>
+    </recipe>
+    <recipe name="modDyePink" craft_area="chemistryStation" count="2">
+      <ingredient name="modDyeRed" count="1"/>
+      <ingredient name="medicalAloeCream" count="4"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyePurple" craft_area="chemistryStation" count="2">
+      <ingredient name="modDyeRed" count="1"/>
+      <ingredient name="modDyeBlue" count="1"/>
+    </recipe>
+    <recipe name="modDyePurple" craft_area="chemistryStation" count="1">
+      <ingredient name="medicalSnowberryExtract" count="4"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeRed" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceCropChrysanthemumPlant" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeRed" craft_area="chemistryStation" count="1">
+      <ingredient name="medicalBloodBag" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeWhite" craft_area="chemistryStation" count="1">
+      <ingredient name="medicalAloeCream" count="4"/>
+      <ingredient name="drinkJarGrainAlcohol" count="2"/>
+    </recipe>
+    <recipe name="modDyeWhite" craft_area="chemistryStation" count="1">
+      <ingredient name="resourcePotassiumNitratePowder" count="8"/>
+      <ingredient name="drinkJarGrainAlcohol" count="2"/>
+    </recipe>
+    <recipe name="modDyeYellow" craft_area="chemistryStation" count="1">
+      <ingredient name="resourceCropGoldenrodPlant" count="8"/>
+      <ingredient name="foodEgg" count="1"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+    <recipe name="modDyeYellow" craft_area="chemistryStation" count="1">
+      <ingredient name="foodEgg" count="5"/>
+      <ingredient name="drinkJarRiverWater" count="1"/>
+    </recipe>
+  </append>
+</config>

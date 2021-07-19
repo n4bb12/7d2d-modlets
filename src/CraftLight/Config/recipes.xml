@@ -1,0 +1,44 @@
+<config>
+  <remove xpath='/recipes/recipe[@name="armorMiningHelmet"]'/>
+  <remove xpath='/recipes/recipe[@name="meleeToolFlashlight02"]'/>
+  <remove xpath='/recipes/recipe[@name="modArmorHelmetLight"]'/>
+  <remove xpath='/recipes/recipe[@name="modGunFlashlight"]'/>
+  <remove xpath='/recipes/recipe[@name="spotlightPlayer"]'/>
+  <append xpath='/recipes'>
+    <recipe name="armorMiningHelmet" count="1" craft_area="workbench" tags="learnable">
+      <ingredient name="armorFootballHelmet"                count="1"/>
+      <ingredient name="resourceHeadlight"                  count="1"/>
+      <ingredient name="resourceElectricParts"              count="2"/>
+      <ingredient name="resourceDuctTape"                   count="2"/>
+    </recipe>
+    <recipe name="armorMiningHelmet" count="1" craft_area="workbench" tags="learnable">
+      <ingredient name="armorFootballHelmetZU"              count="1"/>
+      <ingredient name="resourceHeadlight"                  count="1"/>
+      <ingredient name="resourceElectricParts"              count="2"/>
+      <ingredient name="resourceDuctTape"                   count="2"/>
+    </recipe>
+    <recipe name="meleeToolFlashlight02" count="1" craft_area="workbench">
+      <ingredient name="resourceMetalPipe"                  count="1"/>
+      <ingredient name="resourceElectricParts"              count="8"/>
+      <ingredient name="resourceGlue"                       count="2"/>
+      <ingredient name="resourceScrapPolymers"              count="4"/>
+      <ingredient name="resourceDuctTape"                   count="2"/>
+    </recipe>
+    <recipe name="modArmorHelmetLight" count="1" craft_area="workbench" tags="learnable">
+      <ingredient name="modArmorHelmetLightSchematic"       count="1"/>
+      <ingredient name="meleeToolFlashlight02"              count="1"/>
+      <ingredient name="resourceDuctTape"                   count="2"/>
+    </recipe>
+    <recipe name="modGunFlashlight" count="1" craft_area="workbench" tags="learnable">
+      <ingredient name="modGunFlashlightSchematic"          count="1"/>
+      <ingredient name="meleeToolFlashlight02"              count="1"/>
+      <ingredient name="resourceDuctTape"                   count="2"/>
+    </recipe>
+    <recipe name="spotlightPlayer" count="1" craft_area="workbench" tags="learnable">
+      <ingredient name="resourceForgedIron"                 count="20"/>
+      <ingredient name="resourceHeadlight"                  count="1"/>
+      <ingredient name="resourceElectricParts"              count="8"/>
+      <ingredient name="resourceGlue"                       count="4"/>
+    </recipe>
+  </append>
+</config>

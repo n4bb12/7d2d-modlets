@@ -1,0 +1,1 @@
+- Removes the annoying sound from power swings

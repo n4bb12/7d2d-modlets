@@ -1,0 +1,33 @@
+<config>
+  <remove xpath='/lootcontainers/lootgroup[@name="junk"]' />
+  <insertBefore xpath='/lootcontainers/lootgroup[@name="garbage"]'>
+    <lootgroup name="junk">
+      <item group="books"/>
+      <item group="cannedfood"/>
+      <item group="clothes"/>
+      <item group="questChallenge" prob="0.1"/>
+      <item group="rottenFood"/>
+      <item group="treasureMaps" prob="0.1"/>
+      <item group="warmClothes" prob="0.1"/>
+      <item name="drinkCanEmpty" count="1,2"/>
+      <item name="drinkJarEmpty" count="1,2"/>
+      <item name="drugPainkillers" count="1,2"/>
+      <item name="glassCTRSheet" count="1,2"/>
+      <item name="medicalBandage" count="1,2"/>
+      <item name="meleeToolPaintTool"/>
+      <item name="resourceCandyTin" count="1,2"/>
+      <item name="resourceCloth" count="4,8"/>
+      <item name="resourceDuctTape" count="1,2"/>
+      <item name="resourceElectricParts" count="1,2" prob="0.1"/>
+      <item name="resourceGlue" count="1,2"/>
+      <item name="resourceMechanicalParts" count="1,2" prob="0.1"/>
+      <item name="resourceNail" count="4,8"/>
+      <item name="resourceScrapBrass" count="4,8"/>
+      <item name="resourceScrapIron" count="4,8"/>
+      <item name="resourceScrapLead" count="4,8"/>
+      <item name="resourceScrapPolymers" count="4,8"/>
+      <item name="resourceSpring" count="1,2"/>
+      <item name="resourceWood" count="4,8"/>
+    </lootgroup>
+  </insertBefore>
+</config>

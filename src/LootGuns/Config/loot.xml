@@ -1,0 +1,103 @@
+<config>
+  <!-- loot groups -->
+  <remove xpath='/lootcontainers/lootgroup[@name="toiletLoot"]'/>
+  <remove xpath='/lootcontainers/lootgroup[@name="backpacks"]'/>
+  <insertBefore xpath='/lootcontainers/lootgroup[@name="weaponTestLoot"]'>
+    <lootgroup name="weaponsCompoundBow+ammo" count="all">
+      <item name="gunCrossbow" count="1"/>
+      <item name="ammoArrowIron" count="10,30"/>
+    </lootgroup>
+    <lootgroup name="weaponsBlunderbuss+ammo" count="all">
+      <item name="ammoBlunderbuss" count="1,10"/>
+      <item name="gunBlunderbuss" count="1"/>
+    </lootgroup>
+    <lootgroup name="weaponsBasicSmall+ammo" count="1">
+      <item name="meleeToolHuntingKnife" prob="0.8"/>
+      <item group="weaponsMagnum+ammo" prob="0.6"/>
+      <item group="weaponsPistol+ammo" prob="0.2"/>
+    </lootgroup>
+    <lootgroup name="weaponsBasicLarge+ammo" count="1">
+      <item name="meleeClubIron"/>
+      <item group="weaponsBlunderbuss+ammo" prob="0.8"/>
+      <item group="weaponsMagnum+ammo" prob="0.6"/>
+      <item group="weaponsCrossbow+ammo" prob="0.4"/>
+      <item group="weaponsHuntingRifle+ammo" prob="0.4"/>
+      <item group="weaponsShotgun+ammo" prob="0.4"/>
+      <item group="weaponsCompoundBow+ammo" prob="0.2"/>
+      <item group="weaponsPistol+ammo" prob="0.2"/>
+      <item name="meleeToolMachete" prob="0.2"/>
+      <item name="meleeToolSledgehammer" prob="0.2"/>
+    </lootgroup>
+    <lootgroup name="toiletLoot">
+      <item group="weaponsBasicSmall+ammo" prob="0.05"/>
+      <item name="drinkJarRiverWater" count="1,2" prob="1"/>
+    </lootgroup>
+    <lootgroup name="backpacks">
+      <item group="cupboard"/>
+      <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+      <item group="Armor" prob="0.5"/>
+      <item name="meleeToolFlashlight02" prob="1"/>
+    </lootgroup>
+  </insertBefore>
+  <!-- night stand, dressers, wooden desk -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="6"]/item[@group="weaponsPistol+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="6"]'>
+    <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+  </append>
+<!-- safes, weapon caches rare good loot -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="11"]/item[@group="weaponsBasicGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="11"]'>
+    <item group="weaponsBasicSmall+ammo" prob="1.5"/>
+  </append>
+  <!-- metal desk -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="24"]/item[@group="weaponsPistol+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="24"]'>
+    <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+  </append>
+  <!-- tree stump -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="35"]/item[@group="weaponsBasicGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="35"]'>
+    <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+  </append>
+  <!-- lockers -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="43"]/item[@group="weaponsShotgun+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="43"]'>
+    <item group="weaponsBasicLarge+ammo" prob="0.5"/>
+  </append>
+  <!-- purse -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="48"]/item[@group="weaponsPistol+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="48"]'>
+    <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+  </append>
+  <!-- regular zombies -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsPistol+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsShotgun+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsHuntingRifle+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsMagnum+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsMilitaryGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="70"]'>
+    <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+    <item group="weaponsBasicLarge+ammo" prob="0.5"/>
+    <item group="weaponsMilitaryGuns+ammo" loot_prob_template="probTemplate0.5"/>
+  </append>
+  <!-- strong zombies -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsPistol+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsShotgun+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsHuntingRifle+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="71"]/item[@group="weaponsMagnum+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="70"]/item[@group="weaponsMilitaryGuns+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="71"]'>
+    <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+    <item group="weaponsBasicLarge+ammo" prob="0.5"/>
+    <item group="weaponsMilitaryGuns+ammo" loot_prob_template="probTemplate1.0"/>
+  </append>
+  <!-- bandit -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="74"]/item[@group="weaponsPistol+ammo"]'/>
+  <!-- small weapons bag -->
+  <remove xpath='/lootcontainers/lootcontainer[@id="100"]/item[@group="weaponsPistol+ammo"]'/>
+  <remove xpath='/lootcontainers/lootcontainer[@id="100"]/item[@group="weaponsMagnum+ammo"]'/>
+  <append xpath='/lootcontainers/lootcontainer[@id="100"]'>
+    <item group="weaponsBasicSmall+ammo" prob="0.5"/>
+    <item group="weaponsBasicLarge+ammo" prob="0.5"/>
+  </append>
+</config>

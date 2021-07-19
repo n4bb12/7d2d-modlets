@@ -1,0 +1,9 @@
+<config>
+  <set xpath='/items/item[@name="drinkCanRiverWater"        ]/property[@name="SellableToTrader"]/@value'>true</set>
+  <set xpath='/items/item[@name="drinkJarRiverWater"        ]/property[@name="SellableToTrader"]/@value'>true</set>
+  <set xpath='/items/item[@name="medicalBloodBag"           ]/property[@name="SellableToTrader"]/@value'>true</set>
+  <set xpath='/items/item[@name="resourceInsulator"         ]/property[@name="SellableToTrader"]/@value'>true</set>
+  <set xpath='/items/item[@name="resourceIronFragment"      ]/property[@name="SellableToTrader"]/@value'>true</set>
+  <set xpath='/items/item[@name="solarCell"                 ]/property[@name="SellableToTrader"]/@value'>true</set>
+  <set xpath='/items/item[@name="vehicleMinibikePlaceable"  ]/property[@name="SellableToTrader"]/@value'>true</set>
+</config>

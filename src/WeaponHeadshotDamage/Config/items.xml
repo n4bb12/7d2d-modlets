@@ -1,0 +1,34 @@
+<config>
+  <append xpath='/items/item[starts-with(@name, "ammo9mmBullet")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+  <append xpath='/items/item[starts-with(@name, "ammo44MagnumBullet")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+  <append xpath='/items/item[starts-with(@name, "ammo762mmBullet")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+  <append xpath='/items/item[starts-with(@name, "ammoShotgun")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+  <append xpath='/items/item[starts-with(@name, "ammoBlunderbuss")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+  <append xpath='/items/item[starts-with(@name, "ammoRocket")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+  <append xpath='/items/item[starts-with(@name, "ammoArrow")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2.2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+  <append xpath='/items/item[starts-with(@name, "ammoCrossbowBolt")]/effect_group[@name="Base Effects"]'>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2.2" tags="EntityDamage"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="2" tags="head"/>
+  </append>
+</config>

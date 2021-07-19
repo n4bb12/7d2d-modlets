@@ -1,0 +1,2 @@
+- Reduces the amount of feathers found in bird nests by 50%
+- Increases the amount of eggs found in bird nests by 50%

@@ -1,0 +1,1 @@
+- Changes the paint ingredients to require 10 flowers each instead of 1 and a bucket of water instead of a jar

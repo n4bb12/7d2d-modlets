@@ -1,0 +1,6 @@
+<config>
+  <remove xpath='/lootcontainers/lootgroup[@name="skullCapAll"]/item[@name="santaHat"]'/>
+  <remove xpath='/lootcontainers/lootgroup[@name="weaponsMelee"]/item[@name="meleeCandyCaneShiv"]'/>
+  <remove xpath='/lootcontainers/lootgroup[@name="weaponsMelee"]/item[@name="meleeCandyCaneClub"]'/>
+</config>
+

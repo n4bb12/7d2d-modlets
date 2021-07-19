@@ -1,0 +1,35 @@
+<config>
+  <set xpath='/blocks/block[@name="cntLootChestHero"      ]/property[@name="MaxDamage" and @value="1000"]'>1500</set>
+  <set xpath='/blocks/block[@name="cntGreenDrawerInsecure"]/property[@name="MaxDamage" and @value="1500"]'>1500</set>
+
+  <append xpath='/blocks/block[@name="cntStorageGeneric"]'>
+    <property name="MaxDamage" value="250"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntStorageGenericInsecure"]'>
+    <property name="MaxDamage" value="250"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntStorageChest"]'>
+    <property name="MaxDamage" value="250"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntSecureStorageChest"]'>
+    <property name="MaxDamage" value="250"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntLockersShortClosed"]'>
+    <property name="MaxDamage" value="750"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntDeskSafe"]'>
+    <property name="MaxDamage" value="3000"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntWallSafe"]'>
+    <property name="MaxDamage" value="3000"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntHardenedChestSecure"]'>
+    <property name="MaxDamage" value="5000"/>
+  </append>
+  <append xpath='/blocks/block[@name="cntGunSafe"]'>
+    <property name="MaxDamage" value="6000"/>
+  </append>
+</config>
+
+
+

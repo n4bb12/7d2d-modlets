@@ -1,0 +1,16 @@
+buffMegaCrushDesc,buffs,Buff,New,You will run faster and get less exhausted from it.\nIt's got electrolytes!,,,,,
+buffMegaCrushName,buffs,Buff,New,Mega Crush!,,,,,
+buffMegaCrushTooltip,buffs,Buff,New,You feel like crushing your enemies!,,,,,
+
+btnGenerateWorld,RandomGenPreviewer,XUi,New,Generate,,,,,
+xuiBurntForest,RandomGenPreviewer,XUi,New,Burnt Forest,,,,,
+xuiDesert,RandomGenPreviewer,XUi,New,Desert,,,,,
+xuiGenerateWorld,RandomGenPreviewer,XUi,New,Generate World,,,,,
+xuiPineForest,RandomGenPreviewer,XUi,New,Pine Forest,,,,,
+xuiSnow,RandomGenPreviewer,XUi,New,Snow,,,,,
+xuiWasteland,RandomGenPreviewer,XUi,New,Wasteland,,,,,
+xuiWorldSeed,RandomGenPreviewer,XUi,New,Seed,,,,,
+xuiWorldSize,RandomGenPreviewer,XUi,New,World Size,,,,,
+
+perkDeadEyeRank4Desc,progression,Perk,New,40% Faster aiming with rifles. Reload 25% faster. Reduce aiming stamina use by 20%. Kill streak. Successive kills with one shot increases damage bonus by 20%, 30% to a
+maximum of 40%.,,,,,

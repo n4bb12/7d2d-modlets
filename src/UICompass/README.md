@@ -1,0 +1,1 @@
+- Adds map temperature, elevation and wind to the compass

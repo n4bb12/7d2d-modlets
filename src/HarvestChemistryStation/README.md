@@ -1,0 +1,1 @@
+- Adds a chance to loot burning barrel, beaker and cooking pot when harvesting a chemistry station

@@ -1,0 +1,725 @@
+<config>
+  <append xpath='/entity_classes'>
+
+  <!-- Arlene -->
+  <entity_class name="zombieArleneLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="200"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieArlene"]'>
+    <property name="LootDropEntityClass" value="zombieArleneLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieArleneFeral"]'>
+    <property name="LootDropEntityClass" value="zombieArleneLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieArleneRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieArleneLootBag"/>
+  </append>
+
+  <!-- Biker -->
+  <entity_class name="zombieBikerLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="201"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBiker"]'>
+    <property name="LootDropEntityClass" value="zombieBikerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBikerFeral"]'>
+    <property name="LootDropEntityClass" value="zombieBikerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBikerRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieBikerLootBag"/>
+  </append>
+
+  <!-- Boe -->
+  <entity_class name="zombieBoeLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="202"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBoe"]'>
+    <property name="LootDropEntityClass" value="zombieBoeLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBoeFeral"]'>
+    <property name="LootDropEntityClass" value="zombieBoeLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBoeRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieBoeLootBag"/>
+  </append>
+
+  <!-- Burnt -->
+  <entity_class name="zombieBurntLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="203"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBurnt"]'>
+    <property name="LootDropEntityClass" value="zombieBurntLootBag"/>
+  </append>
+
+  <!-- BusinessMan -->
+  <entity_class name="zombieBusinessManLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="204"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBusinessMan"]'>
+    <property name="LootDropEntityClass" value="zombieBusinessManLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieBusinessManFeral"]'>
+    <property name="LootDropEntityClass" value="zombieBusinessManLootBag"/>
+  </append>
+
+  <!-- Cheerleader -->
+  <entity_class name="zombieCheerleaderLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="205"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieCheerleader"]'>
+    <property name="LootDropEntityClass" value="zombieCheerleaderLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieCheerleaderFeral"]'>
+    <property name="LootDropEntityClass" value="zombieCheerleaderLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieCheerleaderRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieCheerleaderLootBag"/>
+  </append>
+
+  <!-- Darlene -->
+  <entity_class name="zombieDarleneLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="206"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieDarlene"]'>
+    <property name="LootDropEntityClass" value="zombieDarleneLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieDarleneFeral"]'>
+    <property name="LootDropEntityClass" value="zombieDarleneLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieDarleneRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieDarleneLootBag"/>
+  </append>
+
+  <!-- Farmer -->
+  <entity_class name="zombieFarmerLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="207"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFarmer"]'>
+    <property name="LootDropEntityClass" value="zombieFarmerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFarmerFeral"]'>
+    <property name="LootDropEntityClass" value="zombieFarmerLootBag"/>
+  </append>
+
+  <!-- FatCop -->
+  <entity_class name="zombieFatCopLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="208"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFatCop"]'>
+    <property name="LootDropEntityClass" value="zombieFatCopLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFatCopFeral"]'>
+    <property name="LootDropEntityClass" value="zombieFatCopLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFatCopRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieFatCopLootBag"/>
+  </append>
+
+  <!-- FatHawaiian -->
+  <entity_class name="zombieFatHawaiianLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="209"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFatHawaiian"]'>
+    <property name="LootDropEntityClass" value="zombieFatHawaiianLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFatHawaiianFeral"]'>
+    <property name="LootDropEntityClass" value="zombieFatHawaiianLootBag"/>
+  </append>
+
+  <!-- FemaleFat -->
+  <entity_class name="zombieFemaleFatLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="210"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFemaleFat"]'>
+    <property name="LootDropEntityClass" value="zombieFemaleFatLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFemaleFatFeral"]'>
+    <property name="LootDropEntityClass" value="zombieFemaleFatLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFemaleFatRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieFemaleFatLootBag"/>
+  </append>
+
+  <!-- FootballPlayer -->
+  <entity_class name="zombieFootballPlayerLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="211"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieFootballPlayer"]'>
+    <property name="LootDropEntityClass" value="zombieFootballPlayerLootBag"/>
+  </append>
+
+  <!-- Joe -->
+  <entity_class name="zombieJoeLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="212"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieJoe"]'>
+    <property name="LootDropEntityClass" value="zombieJoeLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieJoeFeral"]'>
+    <property name="LootDropEntityClass" value="zombieJoeLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieJoeRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieJoeLootBag"/>
+  </append>
+
+  <!-- Lab -->
+  <entity_class name="zombieLabLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="213"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieLab"]'>
+    <property name="LootDropEntityClass" value="zombieLabLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieLabFeral"]'>
+    <property name="LootDropEntityClass" value="zombieLabLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieLabRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieLabLootBag"/>
+  </append>
+
+  <!-- MaleHazmat -->
+  <entity_class name="zombieMaleHazmatLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="214"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieMaleHazmat"]'>
+    <property name="LootDropEntityClass" value="zombieMaleHazmatLootBag"/>
+  </append>
+
+  <!-- Marlene -->
+  <entity_class name="zombieMarleneLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="215"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieMarlene"]'>
+    <property name="LootDropEntityClass" value="zombieMarleneLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieMarleneFeral"]'>
+    <property name="LootDropEntityClass" value="zombieMarleneLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieMarleneRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieMarleneLootBag"/>
+  </append>
+
+  <!-- Moe -->
+  <entity_class name="zombieMoeLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="216"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieMoe"]'>
+    <property name="LootDropEntityClass" value="zombieMoeLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieMoeFeral"]'>
+    <property name="LootDropEntityClass" value="zombieMoeLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieMoeRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieMoeLootBag"/>
+  </append>
+
+  <!-- Nurse -->
+  <entity_class name="zombieNurseLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="217"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieNurse"]'>
+    <property name="LootDropEntityClass" value="zombieNurseLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieNurseFeral"]'>
+    <property name="LootDropEntityClass" value="zombieNurseLootBag"/>
+  </append>
+
+  <!-- OldTimer -->
+  <entity_class name="zombieOldTimerLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="218"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieOldTimer"]'>
+    <property name="LootDropEntityClass" value="zombieOldTimerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieOldTimerFeral"]'>
+    <property name="LootDropEntityClass" value="zombieOldTimerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieOldTimerRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieOldTimerLootBag"/>
+  </append>
+
+  <!-- Screamer -->
+  <entity_class name="zombieScreamerLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="219"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieScreamer"]'>
+    <property name="LootDropEntityClass" value="zombieScreamerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieScreamerFeral"]'>
+    <property name="LootDropEntityClass" value="zombieScreamerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieScreamerRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieScreamerLootBag"/>
+  </append>
+
+  <!-- Skateboarder -->
+  <entity_class name="zombieSkateboarderLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="220"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSkateboarder"]'>
+    <property name="LootDropEntityClass" value="zombieSkateboarderLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSkateboarderFeral"]'>
+    <property name="LootDropEntityClass" value="zombieSkateboarderLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSkateboarderRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieSkateboarderLootBag"/>
+  </append>
+
+  <!-- Snow -->
+  <entity_class name="zombieSnowLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="221"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSnow"]'>
+    <property name="LootDropEntityClass" value="zombieSnowLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSnowFeral"]'>
+    <property name="LootDropEntityClass" value="zombieSnowLootBag"/>
+  </append>
+
+  <!-- Soldier -->
+  <entity_class name="zombieSoldierLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="222"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSoldier"]'>
+    <property name="LootDropEntityClass" value="zombieSoldierLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSoldierFeral"]'>
+    <property name="LootDropEntityClass" value="zombieSoldierLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSoldierRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieSoldierLootBag"/>
+  </append>
+
+  <!-- Spider -->
+  <entity_class name="zombieSpiderLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="223"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSpider"]'>
+    <property name="LootDropEntityClass" value="zombieSpiderLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSpiderFeral"]'>
+    <property name="LootDropEntityClass" value="zombieSpiderLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSpiderRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieSpiderLootBag"/>
+  </append>
+
+  <!-- Steve -->
+  <entity_class name="zombieSteveLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="224"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSteve"]'>
+    <property name="LootDropEntityClass" value="zombieSteveLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSteveFeral"]'>
+    <property name="LootDropEntityClass" value="zombieSteveLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSteveRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieSteveLootBag"/>
+  </append>
+
+  <!-- Stripper -->
+  <entity_class name="zombieStripperLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="225"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieStripper"]'>
+    <property name="LootDropEntityClass" value="zombieStripperLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieStripperFeral"]'>
+    <property name="LootDropEntityClass" value="zombieStripperLootBag"/>
+  </append>
+
+  <!-- UtilityWorker -->
+  <entity_class name="zombieUtilityWorkerLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="226"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieUtilityWorker"]'>
+    <property name="LootDropEntityClass" value="zombieUtilityWorkerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieUtilityWorkerFeral"]'>
+    <property name="LootDropEntityClass" value="zombieUtilityWorkerLootBag"/>
+  </append>
+
+  <!-- Wight -->
+  <entity_class name="zombieWightLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="227"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieWightFeral"]'>
+    <property name="LootDropEntityClass" value="zombieWightLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieWightRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieWightLootBag"/>
+  </append>
+
+  <!-- Yo -->
+  <entity_class name="zombieYoLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="228"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieYo"]'>
+    <property name="LootDropEntityClass" value="zombieYoLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieYoFeral"]'>
+    <property name="LootDropEntityClass" value="zombieYoLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieYoRadiated"]'>
+    <property name="LootDropEntityClass" value="zombieYoLootBag"/>
+  </append>
+
+  <!-- SteveCrawler -->
+  <entity_class name="zombieSteveCrawlerLootBag">
+    <property name="Class" value="EntityLootContainer"/>
+    <property name="Faction" value="none"/>
+    <property name="IsEnemyEntity" value="false"/>
+    <property name="LootListOnDeath" value="229"/>
+    <property name="Mesh" value="LootContainers/zpackPrefab"/>
+    <property name="ModelType" value="Custom"/>
+    <property name="Parent" value="Backpack"/>
+    <property name="Prefab" value="Backpack"/>
+    <property name="TimeStayAfterDeath" value="900"/>
+  </entity_class>
+
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSteveCrawler"]'>
+    <property name="LootDropEntityClass" value="zombieSteveCrawlerLootBag"/>
+  </append>
+
+  <append xpath='/entity_classes/entity_class[@name="zombieSteveCrawlerFeral"]'>
+    <property name="LootDropEntityClass" value="zombieSteveCrawlerLootBag"/>
+  </append>
+
+  </append>
+</config>

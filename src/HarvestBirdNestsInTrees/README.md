@@ -1,0 +1,1 @@
+- Adds a chance to loot feathers and eggs from trees, depending on the size of the tree

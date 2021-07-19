@@ -1,0 +1,2 @@
+- Increases the size of wandering hordes to 5x the normal size
+- Animal horde sizes remain unchanged

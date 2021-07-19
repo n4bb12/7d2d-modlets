@@ -1,0 +1,1 @@
+- Removes cooking tools from sporting goods

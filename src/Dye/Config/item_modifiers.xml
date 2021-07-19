@@ -1,0 +1,310 @@
+<config>
+  <remove xpath='/item_modifiers/item_modifier[@name="modDyeBlack"]'/>
+  <remove xpath='/item_modifiers/item_modifier[@name="modDyeBlue"]'/>
+  <remove xpath='/item_modifiers/item_modifier[@name="modDyeBrown"]'/>
+  <remove xpath='/item_modifiers/item_modifier[@name="modDyeGreen"]'/>
+  <remove xpath='/item_modifiers/item_modifier[@name="modDyePink"]'/>
+  <remove xpath='/item_modifiers/item_modifier[@name="modDyeRed"]'/>
+  <append xpath='/item_modifiers'>
+
+    <!-- black -->
+    <item_modifier name="modDyeBlack" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="64,64,64"/>
+        <property name="CustomIconTint" value="64,64,64"/>
+        <property name="UMA.Overlay0Tint" value="64,64,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="64,64,64"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,64,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,64,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,64,64"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- blue -->
+    <item_modifier name="modDyeBlue" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="64,128,255"/>
+        <property name="CustomIconTint" value="64,128,255"/>
+        <property name="UMA.Overlay0Tint" value="64,128,255"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="64,128,255"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,128,255"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,128,255"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,128,255"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- brown -->
+    <item_modifier name="modDyeBrown" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="128,96,64"/>
+        <property name="CustomIconTint" value="128,96,64"/>
+        <property name="UMA.Overlay0Tint" value="128,96,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="128,96,64"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="128,96,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="128,96,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="128,96,64"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- green -->
+    <item_modifier name="modDyeGreen" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="64,128,64"/>
+        <property name="CustomIconTint" value="64,128,64"/>
+        <property name="UMA.Overlay0Tint" value="64,128,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="64,128,64"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,128,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,128,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="64,128,64"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- pink -->
+    <item_modifier name="modDyePink" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="255,192,192"/>
+        <property name="CustomIconTint" value="255,192,192"/>
+        <property name="UMA.Overlay0Tint" value="255,192,192"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="255,192,192"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,192,192"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,192,192"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,192,192"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- red -->
+    <item_modifier name="modDyeRed" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="192,64,64"/>
+        <property name="CustomIconTint" value="192,64,64"/>
+        <property name="UMA.Overlay0Tint" value="192,64,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="192,64,64"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="192,64,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="192,64,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="192,64,64"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- orange -->
+    <item_modifier name="modDyeOrange" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="255,128,64"/>
+        <property name="CustomIconTint" value="255,128,64"/>
+        <property name="UMA.Overlay0Tint" value="255,128,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="255,128,64"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,128,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,128,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,128,64"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- purple -->
+    <item_modifier name="modDyePurple" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="96,64,128"/>
+        <property name="CustomIconTint" value="96,64,128"/>
+        <property name="UMA.Overlay0Tint" value="96,64,128"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="96,64,128"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="96,64,128"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="96,64,128"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="96,64,128"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- white -->
+    <item_modifier name="modDyeWhite" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="255,255,255"/>
+        <property name="CustomIconTint" value="255,255,255"/>
+        <property name="UMA.Overlay0Tint" value="255,255,255"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="255,255,255"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,255,255"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,255,255"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,255,255"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+
+    <!-- yellow -->
+    <item_modifier name="modDyeYellow" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2">
+      <property name="DescriptionKey" value="modDyeGroupDesc"/>
+      <property name="Stacknumber" value="1"/>
+
+      <item_property_overrides name="*">
+        <property name="TintColor" value="255,255,64"/>
+        <property name="CustomIconTint" value="255,255,64"/>
+        <property name="UMA.Overlay0Tint" value="255,255,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tankTop">
+        <property name="CustomIconTint" value="255,255,64"/>
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,255,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="tshirt">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,255,64"/>
+      </item_property_overrides>
+
+      <item_property_overrides name="denimShortsPants">
+        <property name="UMA.Overlay0Tint" value="skin"/>
+        <property name="UMA.Overlay1Tint" value="255,255,64"/>
+      </item_property_overrides>
+
+      <property name="PickupJournalEntry" value="augmentGunsTip"/>
+    </item_modifier>
+  </append>
+</config>
