@@ -67,9 +67,9 @@ try {
   })
 
   buildCombinedReadme("build")
-  buildCombinedReadme("enabled")
   buildCombinedReadme("dist")
 } catch (error) {
+  console.log(error)
   notifier.notify({
     title: "7D2D Modlets",
     message: "Build failed! " + error.message,

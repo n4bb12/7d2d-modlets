@@ -13,13 +13,14 @@ try {
     .map((name) => paths.mods + "/" + name)
     .forEach((path) => removeSync(path))
 
-  copySync("enabled", paths.mods)
+  copySync("dist", paths.mods)
 
   notifier.notify({
     title: "7D2D Mods",
     message: "Copy complete!",
   })
 } catch (error) {
+  console.log(error)
   notifier.notify({
     title: "7D2D Mods",
     message: "Copy failed! " + error.message,
