@@ -1,10 +1,10 @@
 import { writeFileSync } from "fs-extra"
 import { range } from "lodash"
 
-const maxLevel = 280
-const expToLevel = 10_000
-const experienceMultiplier = 1.01
-const skillPointsPerLevel = 1
+const maxLevel = 70
+const expToLevel = 20_000
+const experienceMultiplier = 1.03
+const skillPointsPerLevel = 4
 const clampExpCostAtLevel = maxLevel
 
 const xml = `<config>
