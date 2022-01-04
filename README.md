@@ -1,10 +1,10 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/6136865/29045114-9ae8e510-7bc2-11e7-8487-19552001aafd.png" height="48">
-  7 Days to Die – Balance Modlets (A19)
+  7 Days to Die Modlets (A20)
 </h1>
 
 <p align="center">
-  Re-balancing the game to make it more fun
+  Tweaks to make the game more fun
 </p>
 
 <p align="center">
