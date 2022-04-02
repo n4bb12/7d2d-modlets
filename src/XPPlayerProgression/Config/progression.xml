@@ -1,7 +1,7 @@
 <config>
-  <set xpath='/progression/level/@max_level'>70</set>
-  <set xpath='/progression/level/@exp_to_level'>20000</set>
-  <set xpath='/progression/level/@experience_multiplier'>1.03</set>
-  <set xpath='/progression/level/@skill_points_per_level'>4</set>
-  <set xpath='/progression/level/@clamp_exp_cost_at_level'>70</set>
+  <set xpath='/progression/level/@max_level'>140</set>
+  <set xpath='/progression/level/@exp_to_level'>10000</set>
+  <set xpath='/progression/level/@experience_multiplier'>1.02</set>
+  <set xpath='/progression/level/@skill_points_per_level'>2</set>
+  <set xpath='/progression/level/@clamp_exp_cost_at_level'>140</set>
 </config>
