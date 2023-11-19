@@ -7,7 +7,7 @@ import {
   statSync,
   writeFileSync,
 } from "fs-extra"
-import glob from "glob"
+import { globSync } from "glob"
 import notifier from "node-notifier"
 
 import { distributedMods } from "./distributedMods"
@@ -58,7 +58,7 @@ try {
       const modInfo = buildModInfo(name, description)
       writeFileSync(buildDir + "/ModInfo.xml", modInfo, "utf8")
 
-      const unwantedFiles = glob.sync(buildDir + "/**/*.{ts,js,json,xlsx}")
+      const unwantedFiles = globSync(buildDir + "/**/*.{ts,js,json,xlsx}")
       unwantedFiles.forEach((file) => removeSync(file))
 
       ensureDirSync(distDir)

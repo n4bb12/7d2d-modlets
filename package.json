@@ -16,33 +16,33 @@
   "license": "ISC",
   "author": "Abraham Schilling",
   "scripts": {
-    "build": "ts-node --project tsconfig.json scripts/build",
-    "copy": "ts-node --project tsconfig.json scripts/copy",
-    "items": "ts-node --project tsconfig.json scripts/items",
+    "build": "tsx scripts/build",
+    "copy": "tsx scripts/copy",
+    "items": "tsx scripts/items",
     "typecheck": "tsc --noEmit",
     "fix": "yarn format && yarn typecheck",
     "format": "prettier --write .",
     "lint": "prettier --check .",
-    "json": "ts-node --project tsconfig.json scripts/json",
-    "trader": "ts-node --project tsconfig.json scripts/economic-value",
+    "json": "tsx scripts/json",
+    "trader": "tsx scripts/economic-value",
     "update": "yarn build && yarn copy",
     "watch": "nodemon --watch src/**/* --watch scripts/**/* --ext xml,md,ts --exec yarn update",
-    "zombies": "ts-node --project tsconfig.json scripts/zombies"
+    "zombies": "tsx scripts/zombies"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
-    "@types/glob": "^7.2.0",
-    "@types/lodash": "^4.14.178",
-    "@types/node": "^17.0.7",
-    "@types/node-notifier": "^8.0.2",
-    "fast-xml-parser": "^4.0.0-beta.8",
-    "fs-extra": "^10.0.0",
-    "glob": "^7.2.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/lodash": "^4.14.201",
+    "@types/node": "^20.9.2",
+    "@types/node-notifier": "^8.0.5",
+    "fast-xml-parser": "^4.3.2",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10",
     "lodash": "^4.17.21",
-    "node-notifier": "^10.0.0",
-    "nodemon": "^2.0.15",
-    "prettier": "^2.5.1",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.4"
-  }
+    "node-notifier": "^10.0.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0",
+    "tsx": "^4.1.4",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "yarn@4.0.2"
 }
