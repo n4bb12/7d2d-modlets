@@ -16,7 +16,6 @@ import { buildCombinedReadme } from "./readme"
 
 try {
   removeSync("build")
-  removeSync("enabled")
   removeSync("dist")
 
   const mods = readdirSync("src")
@@ -24,15 +23,23 @@ try {
   mods
     .filter((name) => {
       const dir = "src/" + name
+
       const isDirectory = statSync(dir).isDirectory()
       if (!isDirectory) {
         return false
       }
+
       const numFiles = readdirSync(dir).length
       if (!numFiles) {
         removeSync(dir)
         return false
       }
+
+      const isDistributed = distributedMods.includes(name)
+      if (!isDistributed) {
+        return false
+      }
+
       return true
     })
     .forEach((name) => {
@@ -54,10 +61,8 @@ try {
       const unwantedFiles = glob.sync(buildDir + "/**/*.{ts,js,json,xlsx}")
       unwantedFiles.forEach((file) => removeSync(file))
 
-      if (distributedMods.includes(name)) {
-        ensureDirSync(distDir)
-        copySync(buildDir, distDir)
-      }
+      ensureDirSync(distDir)
+      copySync(buildDir, distDir)
     })
 
   distributedMods.forEach((name) => {

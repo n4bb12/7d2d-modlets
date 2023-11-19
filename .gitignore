@@ -1,5 +1,4 @@
 *.log
 build/
-enabled/
 node_modules/
 NOTES.md
