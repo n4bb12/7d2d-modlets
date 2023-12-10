@@ -5,7 +5,7 @@
  * - other reasons I might not want to build and publish it
  */
 export const distributedMods: string[] = [
-  "AutoDestroyBirdsNest",
+  // "AutoDestroyBirdsNest",
   // "AutoDestroyJunk",
   // "Bugs",
   // "ContainerDummies",
