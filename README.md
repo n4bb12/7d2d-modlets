@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/6136865/29045114-9ae8e510-7bc2-11e7-8487-19552001aafd.png" height="48">
-  7 Days to Die Modlets (A21)
+  7 Days to Die Modlets (2.4)
 </h1>
 
 <p align="center">
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/n4bb12/7d2d-modlets/master/LICENSE">
+  <a href="https://raw.githubusercontent.com/n4bb12/7d2d-modlets/refs/heads/2.4/LICENSE">
     <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/7d2d-modlets?icon=github">
   </a>
   <a href="https://github.com/n4bb12/7d2d-modlets/issues/new">
