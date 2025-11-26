@@ -2,7 +2,7 @@ import { copySync, ensureDirSync, readdirSync, removeSync } from "fs-extra"
 import notifier from "node-notifier"
 
 const paths = {
-  mods: "D:/Spiele/SteamLibrary/steamapps/common/7 Days To Die/Mods",
+  mods: "/mnt/f/Steam/steamapps/common/7 Days To Die/Mods",
 }
 
 try {
