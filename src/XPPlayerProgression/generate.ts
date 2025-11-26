@@ -1,11 +1,14 @@
 import { writeFileSync } from "fs-extra"
 import { range } from "lodash"
 
-const maxLevel = 300
-const expToLevel = 10_000
-const experienceMultiplier = 1.04
-const skillPointsPerLevel = 2
-const clampExpCostAtLevel = 60
+const maxLevel = 500 // default 300
+const expToLevel = 10000 // default 10000
+const experienceMultiplier = Math.pow(10, 1 / 80) // default 1.05
+const skillPointsPerLevel = 4 // default 1
+// You can spend 320 skill points. You start at level 1 with 0 skill points. You
+// get 4 skill points from the starter quest. Then skillPointsPerLevel per
+// level.
+const clampExpCostAtLevel = 1 + Math.ceil((320 - 4) / skillPointsPerLevel) // default 60
 
 const xml = `<config>
   <set xpath='/progression/level/@max_level'>${maxLevel}</set>
