@@ -1,15 +1,15 @@
 import {
   copySync,
   ensureDirSync,
-  readdirSync,
   readFileSync,
+  readdirSync,
   removeSync,
   statSync,
   writeFileSync,
 } from "fs-extra"
-import { globSync } from "glob"
 import notifier from "node-notifier"
 
+import { globSync } from "node:fs"
 import { distributedMods } from "./distributedMods"
 import { buildModInfo } from "./modinfo"
 import { buildCombinedReadme } from "./readme"

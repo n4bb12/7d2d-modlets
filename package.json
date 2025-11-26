@@ -17,32 +17,30 @@
   "author": "Abraham Schilling",
   "scripts": {
     "build": "tsx scripts/build",
+    "build-copy": "bun run build && bun copy",
     "copy": "tsx scripts/copy",
-    "items": "tsx scripts/items",
-    "typecheck": "tsc --noEmit",
-    "fix": "yarn format && yarn typecheck",
+    "fix": "bun format && bun typecheck",
     "format": "prettier --write .",
-    "lint": "prettier --check .",
+    "items": "tsx scripts/items",
     "json": "tsx scripts/json",
+    "lint": "prettier --check .",
     "trader": "tsx scripts/economic-value",
-    "update": "yarn build && yarn copy",
-    "watch": "nodemon --watch src/**/* --watch scripts/**/* --ext xml,md,ts --exec yarn update",
+    "typecheck": "tsc --noEmit",
+    "watch": "nodemon --watch src --watch scripts --ext xml,md,ts --exec bun build-copy",
     "zombies": "tsx scripts/zombies"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
-    "@types/lodash": "^4.14.201",
-    "@types/node": "^20.9.2",
+    "@types/lodash": "^4.17.21",
+    "@types/node": "^24.10.1",
     "@types/node-notifier": "^8.0.5",
-    "fast-xml-parser": "^4.3.2",
-    "fs-extra": "^11.1.1",
-    "glob": "^10.3.10",
+    "fast-xml-parser": "^5.3.2",
+    "fs-extra": "^11.3.2",
     "lodash": "^4.17.21",
     "node-notifier": "^10.0.1",
-    "nodemon": "^3.0.1",
-    "prettier": "^3.1.0",
-    "tsx": "^4.1.4",
-    "typescript": "^5.2.2"
-  },
-  "packageManager": "yarn@4.0.2"
+    "nodemon": "^3.1.11",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
 }
