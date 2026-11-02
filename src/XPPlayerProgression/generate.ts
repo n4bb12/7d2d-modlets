@@ -37,8 +37,7 @@ rows.forEach((row) => {
   row.percentage = Math.round((10_000 * row.xp) / xpTotal)
 })
 
-const table = `
-| Level |      XP |   Total XP | 1/10000 |
+const table = `| Level |      XP |   Total XP | 1/10000 |
 | :---- | ------: | ---------: | ------: |
 ${rows
   .map((row) => {
